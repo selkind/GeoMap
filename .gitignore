@@ -1,3 +1,4 @@
 .vscode/**
 data/**
 metadata/**
+.ipynb_checkpoints/**
