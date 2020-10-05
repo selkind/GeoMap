@@ -51,6 +51,7 @@ def main():
 
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
 
+    mdfile.new_table_of_contents("Table of Contents", depth=3)
     mdfile.create_md_file()
 
 
