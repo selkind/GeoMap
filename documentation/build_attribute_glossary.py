@@ -65,7 +65,7 @@ def main():
         for j in output:
             output[j] = format_output(j, output[j], i)
             mdfile.new_header(2, f"{j}:")
-            mdfile.new_header(3, output[j])
+            mdfile.new_paragraph(text=output[j])
 
         mdfile.new_header(2, "Descriptive Statistics:")
 

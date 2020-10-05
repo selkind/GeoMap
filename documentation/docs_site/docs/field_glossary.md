@@ -2,70 +2,28 @@
 Field Glossary
 ==============
 
-Table of contents
-=================
-
-* [SOURCECODE](#sourcecode)
-* [MAPSYMBOL](#mapsymbol)
-* [PLOTSYMBOL](#plotsymbol)
-* [NAME](#name)
-* [DESCR](#descr)
-* [POLYGTYPE](#polygtype)
-* [MBREQUIV](#mbrequiv)
-* [FMNEQUIV](#fmnequiv)
-* [SBGRPEQUIV](#sbgrpequiv)
-* [GRPEQUIV](#grpequiv)
-* [SPGRPEQUIV](#spgrpequiv)
-* [TERREQUIV](#terrequiv)
-* [STRATRANK](#stratrank)
-* [TYPENAME](#typename)
-* [TYPE_URI](#type_uri)
-* [GEOLHIST](#geolhist)
-* [REPAGE_URI](#repage_uri)
-* [YNGAGE_URI](#yngage_uri)
-* [OLDAGE_URI](#oldage_uri)
-* [ABSMIN_MA](#absmin_ma)
-* [ABSMAX_MA](#absmax_ma)
-* [AGECODE](#agecode)
-* [LITHCODE](#lithcode)
-* [LITHOLOGY](#lithology)
-* [REPLITH_URI](#replith_uri)
-* [OBSMETHOD](#obsmethod)
-* [CONFIDENCE](#confidence)
-* [POSACC_M](#posacc_m)
-* [SOURCE](#source)
-* [METADATA](#metadata)
-* [RESSCALE](#resscale)
-* [CAPTSCALE](#captscale)
-* [CAPTDATE](#captdate)
-* [MODDATE](#moddate)
-* [FEATUREID](#featureid)
-* [SPEC_URI](#spec_uri)
-* [DATASET](#dataset)
-* [REGION](#region)
-
 # SOURCECODE
 
 ## Source of Values:
 
-### Copied from publication listed in SOURCE
 
+Copied from publication listed in SOURCE
 ## Value Format:
 
-### Determined by publication authors
 
+Determined by publication authors
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/SOURCECODE_values.md)
 
+[List of Values](field_values/SOURCECODE_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 801
@@ -76,24 +34,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value based on interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip
 
+Value based on interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip
 ## Value Format:
 
-### The first one or two characters represent the geological time period. The last character is a code corresponding to the type of geologic unit as defined in the legend. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = Eos; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn 
 
+The first one or two characters represent the geological time period. The last character is a code corresponding to the type of geologic unit as defined in the legend. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = Eos; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn 
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/MAPSYMBOL_values.md)
 
+[List of Values](field_values/MAPSYMBOL_values.md)
 ## Field Value Restrictions:
 
-### See legend
 
+See legend
 ## Descriptive Statistics:
 
 - Unique Values: 173
@@ -104,24 +62,24 @@ Table of contents
 
 ## Source of Values:
 
-### Copied from publication listed in SOURCE
 
+Copied from publication listed in SOURCE
 ## Value Format:
 
-### Determined by publication authors
 
+Determined by publication authors
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/PLOTSYMBOL_values.md)
 
+[List of Values](field_values/PLOTSYMBOL_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 183
@@ -132,24 +90,24 @@ Table of contents
 
 ## Source of Values:
 
-### Copied from publication listed in SOURCE
 
+Copied from publication listed in SOURCE
 ## Value Format:
 
-### Determined by publication authors
 
+Determined by publication authors
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/NAME_values.md)
 
+[List of Values](field_values/NAME_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 666
@@ -160,24 +118,24 @@ Table of contents
 
 ## Source of Values:
 
-### Copied from publication listed in SOURCE
 
+Copied from publication listed in SOURCE
 ## Value Format:
 
-### Determined by publication authors
 
+Determined by publication authors
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/DESCR_values.md)
 
+[List of Values](field_values/DESCR_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 757
@@ -188,24 +146,24 @@ Table of contents
 
 ## Source of Values:
 
-### Based on PLOTSYMBOL
 
+Based on PLOTSYMBOL
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/POLYGTYPE_values.md)
 
+[List of Values](field_values/POLYGTYPE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 3
@@ -216,24 +174,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/MBREQUIV_values.md)
 
+[List of Values](field_values/MBREQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 19
@@ -244,24 +202,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/FMNEQUIV_values.md)
 
+[List of Values](field_values/FMNEQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 246
@@ -272,24 +230,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/SBGRPEQUIV_values.md)
 
+[List of Values](field_values/SBGRPEQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 1
@@ -300,24 +258,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/GRPEQUIV_values.md)
 
+[List of Values](field_values/GRPEQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 59
@@ -328,24 +286,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/SPGRPEQUIV_values.md)
 
+[List of Values](field_values/SPGRPEQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 14
@@ -356,24 +314,24 @@ Table of contents
 
 ## Source of Values:
 
-### Interpretation based upon multiple sources
 
+Interpretation based upon multiple sources
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/TERREQUIV_values.md)
 
+[List of Values](field_values/TERREQUIV_values.md)
 ## Field Value Restrictions:
 
-### Unrestricted
 
+Unrestricted
 ## Descriptive Statistics:
 
 - Unique Values: 11
@@ -384,24 +342,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/](http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/](http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/)
 ## Field Values:
 
-### [List of Values](field_values/STRATRANK_values.md)
 
+[List of Values](field_values/STRATRANK_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank)
 ## Descriptive Statistics:
 
 - Unique Values: 12
@@ -412,24 +370,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)
 ## Field Values:
 
-### [List of Values](field_values/TYPENAME_values.md)
 
+[List of Values](field_values/TYPENAME_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)
 ## Descriptive Statistics:
 
 - Unique Values: 6
@@ -440,24 +398,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)
 ## Field Values:
 
-### [List of Values](field_values/TYPE_URI_values.md)
 
+[List of Values](field_values/TYPE_URI_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)
 ## Descriptive Statistics:
 
 - Unique Values: 5
@@ -468,24 +426,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 ## Field Values:
 
-### [List of Values](field_values/GEOLHIST_values.md)
 
+[List of Values](field_values/GEOLHIST_values.md)
 ## Field Value Restrictions:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 ## Descriptive Statistics:
 
 - Unique Values: 113
@@ -496,24 +454,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 ## Field Values:
 
-### [List of Values](field_values/REPAGE_URI_values.md)
 
+[List of Values](field_values/REPAGE_URI_values.md)
 ## Field Value Restrictions:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 ## Descriptive Statistics:
 
 - Unique Values: 41
@@ -524,24 +482,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 ## Field Values:
 
-### [List of Values](field_values/YNGAGE_URI_values.md)
 
+[List of Values](field_values/YNGAGE_URI_values.md)
 ## Field Value Restrictions:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 ## Descriptive Statistics:
 
 - Unique Values: 51
@@ -552,24 +510,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)
 ## Field Values:
 
-### [List of Values](field_values/OLDAGE_URI_values.md)
 
+[List of Values](field_values/OLDAGE_URI_values.md)
 ## Field Value Restrictions:
 
-### [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 
+[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)
 ## Descriptive Statistics:
 
 - Unique Values: 52
@@ -580,24 +538,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### Float
 
+Float
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/ABSMIN_MA_values.md)
 
+[List of Values](field_values/ABSMIN_MA_values.md)
 ## Field Value Restrictions:
 
-### Positive Integer
 
+Positive Integer
 ## Descriptive Statistics:
 
 - Unique Values: 121
@@ -608,24 +566,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### Float
 
+Float
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/ABSMAX_MA_values.md)
 
+[List of Values](field_values/ABSMAX_MA_values.md)
 ## Field Value Restrictions:
 
-### Positive Integer
 
+Positive Integer
 ## Descriptive Statistics:
 
 - Unique Values: 130
@@ -636,24 +594,24 @@ Table of contents
 
 ## Source of Values:
 
-### QMAP
 
+QMAP
 ## Value Format:
 
-### 2-3 Characters
 
+2-3 Characters
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)
 ## Field Values:
 
-### [List of Values](field_values/AGECODE_values.md)
 
+[List of Values](field_values/AGECODE_values.md)
 ## Field Value Restrictions:
 
-### [https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)
 ## Descriptive Statistics:
 
 - Unique Values: 46
@@ -664,24 +622,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 ## Field Values:
 
-### [List of Values](field_values/LITHCODE_values.md)
 
+[List of Values](field_values/LITHCODE_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 ## Descriptive Statistics:
 
 - Unique Values: 25
@@ -692,24 +650,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 ## Field Values:
 
-### [List of Values](field_values/LITHOLOGY_values.md)
 
+[List of Values](field_values/LITHOLOGY_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 ## Descriptive Statistics:
 
 - Unique Values: 410
@@ -720,24 +678,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)
 ## Field Values:
 
-### [List of Values](field_values/REPLITH_URI_values.md)
 
+[List of Values](field_values/REPLITH_URI_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 
+[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)
 ## Descriptive Statistics:
 
 - Unique Values: 80
@@ -748,24 +706,24 @@ Table of contents
 
 ## Source of Values:
 
-### GeoSciML
 
+GeoSciML
 ## Value Format:
 
-### see GeoSciML link
 
+see GeoSciML link
 ## Metadata Link:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)
 ## Field Values:
 
-### [List of Values](field_values/OBSMETHOD_values.md)
 
+[List of Values](field_values/OBSMETHOD_values.md)
 ## Field Value Restrictions:
 
-### [http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)
 
+[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)
 ## Descriptive Statistics:
 
 - Unique Values: 5
@@ -776,24 +734,24 @@ Table of contents
 
 ## Source of Values:
 
-### QMAP
 
+QMAP
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### [https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 
+[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)
 ## Field Values:
 
-### [List of Values](field_values/CONFIDENCE_values.md)
 
+[List of Values](field_values/CONFIDENCE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 162
@@ -804,24 +762,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### blank
 
+blank
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/POSACC_M_values.md)
 
+[List of Values](field_values/POSACC_M_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 1
@@ -832,24 +790,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/SOURCE_values.md)
 
+[List of Values](field_values/SOURCE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 158
@@ -860,24 +818,24 @@ Table of contents
 
 ## Source of Values:
 
-### https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
 
+https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
 ## Value Format:
 
-### Link
 
+Link
 ## Metadata Link:
 
-### [https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7)
 
+[https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7)
 ## Field Values:
 
-### [List of Values](field_values/METADATA_values.md)
 
+[List of Values](field_values/METADATA_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 1
@@ -888,24 +846,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### blank
 
+blank
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/RESSCALE_values.md)
 
+[List of Values](field_values/RESSCALE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 3
@@ -916,24 +874,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### Date
 
+Date
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/CAPTSCALE_values.md)
 
+[List of Values](field_values/CAPTSCALE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 1
@@ -944,24 +902,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### Datetime: YYYY-MM-DDThh:mm:ss
 
+Datetime: YYYY-MM-DDThh:mm:ss
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/CAPTDATE_values.md)
 
+[List of Values](field_values/CAPTDATE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 14
@@ -972,24 +930,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### Datetime: YYYY-MM-DDThh:mm:ss
 
+Datetime: YYYY-MM-DDThh:mm:ss
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/MODDATE_values.md)
 
+[List of Values](field_values/MODDATE_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 15
@@ -1000,52 +958,52 @@ Table of contents
 
 ## Source of Values:
 
-### Geomap naming scheme
 
+Geomap naming scheme
 ## Value Format:
 
-### Geomap naming scheme
 
+Geomap naming scheme
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/FEATUREID_values.md)
 
+[List of Values](field_values/FEATUREID_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_037824
+- Most frequently occurring value: ATA_geological_units_028328
 - Number of values with a single occurrence: 95161
 
 # SPEC_URI
 
 ## Source of Values:
 
-### http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html
 
+http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html
 ## Value Format:
 
-### Link
 
+Link
 ## Metadata Link:
 
-### [http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)
 
+[http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)
 ## Field Values:
 
-### [List of Values](field_values/SPEC_URI_values.md)
 
+[List of Values](field_values/SPEC_URI_values.md)
 ## Field Value Restrictions:
 
-### [http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)
 
+[http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)
 ## Descriptive Statistics:
 
 - Unique Values: 1
@@ -1056,24 +1014,24 @@ Table of contents
 
 ## Source of Values:
 
-### Geomap naming scheme
 
+Geomap naming scheme
 ## Value Format:
 
-### Geomap naming scheme
 
+Geomap naming scheme
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/DATASET_values.md)
 
+[List of Values](field_values/DATASET_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 9
@@ -1084,24 +1042,24 @@ Table of contents
 
 ## Source of Values:
 
-### Value from GeoMap contributers
 
+Value from GeoMap contributers
 ## Value Format:
 
-### String
 
+String
 ## Metadata Link:
 
-### blank
 
+blank
 ## Field Values:
 
-### [List of Values](field_values/REGION_values.md)
 
+[List of Values](field_values/REGION_values.md)
 ## Field Value Restrictions:
 
-### blank
 
+blank
 ## Descriptive Statistics:
 
 - Unique Values: 2
