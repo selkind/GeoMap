@@ -1,6 +1,7 @@
 import os
 import geopandas as gpd
 import file_paths as fp
+import fields
 
 import mdutils
 
@@ -9,7 +10,7 @@ def main():
     geomap = gpd.read_file(fp.GEOL_PATH)
 
     for i in geomap.columns:
-        if i in ["Shape_Length", "Shape_Area", "geometry", "SYMBOL"]:
+        if i in fields.OMITTED_FIELDS:
             continue
         test = geomap[i].value_counts()
         values = test.index.tolist()
