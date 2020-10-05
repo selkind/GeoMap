@@ -1,0 +1,8 @@
+site_name: SCAR GeoMAP Documentation
+nav:
+    - Home: 'index.md'
+    - Geology Glossary: 'field_glossary.md'
+theme: 
+    name: readthedocs
+    navigation_depth: 1
+    
