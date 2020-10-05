@@ -4,7 +4,7 @@ nav:
     - Geology Glossary: 'field_glossary.md'
 theme: 
     name: readthedocs
-    navigation_depth: 3
+    navigation_depth: 4
 markdown_extensions:
     - toc: 
         permalink: true

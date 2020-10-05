@@ -72,7 +72,6 @@ def main():
         stats = create_stats(value_counts)
 
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
-
     mdfile.create_md_file()
 
 
