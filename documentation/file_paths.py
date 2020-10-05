@@ -1,6 +1,7 @@
 import os
 
 DOC_DIR = os.path.dirname(os.path.realpath(__file__))
+SITE_DIR = os.path.join(DOC_DIR, "docs_site", "docs")
 
 BASE_DIR = os.path.dirname(DOC_DIR)
 
@@ -10,9 +11,9 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
 CULTURE_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_culture.gdb")
 
-FIELD_VALS_DIR = os.path.join(DOC_DIR, "field_values")
+FIELD_VALS_DIR = os.path.join(SITE_DIR, "field_values")
 
-GLOSSARY_PATH = os.path.join(DOC_DIR, "field_glossary.md")
+GLOSSARY_PATH = os.path.join(SITE_DIR, "field_glossary.md")
 
 for i in [FIELD_DESCR_PATH, GEOL_PATH, CULTURE_PATH]:
     if not os.path.exists(i) and not os.path.isfile(i):
