@@ -14,12 +14,12 @@ Unique values of MBREQUIV
 |Dromedary Mafic Complex diorite|7|
 |Straumsvola syenite (mesocratic)|4|
 |Tvora syenite (outer layer)|3|
-|Stephens Anorthosite Member|3|
 |Dromedary Mafic Complex gabbro|3|
+|Stephens Anorthosite Member|3|
 |Pivot Member|3|
 |Straumsvola syenite (central layer)|2|
 |Odin Arkose Member|1|
 |Spear Anorthosite Member|1|
+|Upper inclusion Member|1|
 |Tvora syenite (inner layer)|1|
 |Lower Anothosite Member|1|
-|Upper inclusion Member|1|

@@ -76,8 +76,8 @@ Unique values of SOURCE
 |Denton et al. 1989|58|
 |Mayewski & Goldthwait 1985|56|
 |Gunn & Warren 1962|55|
-|LeMasurier & Thomson 1990 (Fig A.6.1)|54|
 |Orombelli et al. 1990|54|
+|LeMasurier & Thomson 1990 (Fig A.6.1)|54|
 |LeMasurier 2013 (Fig.4B)|51|
 |LeMasurier & Thomson 1990 (Fig C.9.1)|50|
 |Wörner et al. 1989 Fig1|50|
@@ -87,78 +87,78 @@ Unique values of SOURCE
 |Prestvik et al. 1990|44|
 |LeMasurier 2013 (Fig.3)|43|
 |Metcalfe et al. 1978|42|
-|Yakymchuk et al. 2015|38|
 |Mirsky 1969|38|
 |Wade et al. 1977b|38|
+|Yakymchuk et al. 2015|38|
 |LeMasurier & Thomson 1990 (Fig A.3.1)|36|
 |Richard et al. 1994|36|
 |LeMasurier 2013 (Fig.8B)|35|
 |Storey & Macdonald 1987|34|
 |Kipf et al. 2012|33|
-|Schmidt & Ford 1969|33|
 |Barber 2003|33|
+|Schmidt & Ford 1969|33|
 |LeMasurier & Thomson 1990 (Fig B.14.2)|29|
 |LeMasurier 2013 (Fig.3B)|29|
 |Bockheim et al. 1989|28|
 |Bromley et al. 2012|26|
 |Elliot et al.1974|24|
-|LeMasurier & Thomson 1990 (Fig A.1.1)|23|
-|LeMasurier & Thomson 1990 (Fig A.2.1)|23|
 |LeMasurier 2013 (Fig.7B)|23|
+|LeMasurier & Thomson 1990 (Fig A.1.1)|23|
 |Haskell et al. 1965b|23|
+|LeMasurier & Thomson 1990 (Fig A.2.1)|23|
 |Brook 1972|20|
-|LeMasurier & Thomson 1990 (Fig A.4.1)|19|
 |Nardini et al. 2003|19|
-|LeMasurier 2013 (Fig.6B)|17|
-|Wade et al. 1977c|17|
+|LeMasurier & Thomson 1990 (Fig A.4.1)|19|
 |Brand 1979|17|
+|Wade et al. 1977c|17|
+|LeMasurier 2013 (Fig.6B)|17|
 |Kyle 1982|15|
 |Baroni & Ombrelli 1994|15|
 |Grindley et al. 1980|15|
 |Ishikawa et al. 2000. Geological map of Mount Riiser-Larsen|15|
-|Johnson et al. 1982|14|
 |GeoMAP 2018|14|
-|Borg et al. 1990|13|
+|Johnson et al. 1982|14|
 |Simpson 2002|13|
+|Borg et al. 1990|13|
 |Cottle 2002|12|
 |Edgerton 1987|11|
 |Skinner et al. 1976|10|
 |LeMasurier & Thomson 1990 (Fig B.16D.1)|10|
 |LeMasurier 1984|9|
-|Richardson 2002|9|
 |Mayewski et al. 1979b|9|
+|Richardson 2002|9|
 |Meneghel et al. 1999|8|
 |Joy et al. 2014|8|
-|Haskell et al. 1969b|7|
 |Curtis 2001|7|
+|Haskell et al. 1969b|7|
 |Lee et al. 2012|7|
 |Wade 1969|6|
-|Bromley et al. 2010|5|
-|Ackert et al. 1999|5|
-|Goodge et al. 1991|5|
 |Craddock 1972|5|
-|Storey & Moore 1987|5|
+|Goodge et al. 1991|5|
 |Storey et al. 2010|5|
-|Lopatin & Orlenko 1972|4|
-|Wörner & Viereck 1989 Fig14|4|
+|Ackert et al. 1999|5|
+|Bromley et al. 2010|5|
+|Storey & Moore 1987|5|
 |ADD moraine|4|
-|LeMasurier & Thomson 1990 (Fig B.16B.3)|3|
+|Wörner & Viereck 1989 Fig14|4|
+|Lopatin & Orlenko 1972|4|
 |Ellerman & Kyle 1990|3|
 |LeMasurier & Thomson 1990 (Fig B.16.B)|3|
-|Millar & Pankhurst 1987|3|
-|LeMasurier & Thomson 1990 (Fig B.16D.1)_Inset|3|
 |Hambrey et al. 2003|3|
 |Ford et al. 1984|3|
+|LeMasurier & Thomson 1990 (Fig B.16B.3)|3|
+|Millar & Pankhurst 1987|3|
+|LeMasurier & Thomson 1990 (Fig B.16D.1)_Inset|3|
 |LeMasurier & Thomson 1990 (Fig B.16.1a)|3|
-|Hornig & Wörner, 2003|2|
-|Korhonen et al. 2010|2|
-|Mayewski et al. 1979a|2|
 |geoMAP|2|
+|Mayewski et al. 1979a|2|
+|Korhonen et al. 2010|2|
+|Hornig & Wörner, 2003|2|
 |Wade et al. 1978|1|
 |Kipf et al. 2014|1|
-|GeoMap|1|
-|Hamilton, 1972 (C-14)|1|
 |geomap|1|
+|Hamilton, 1972 (C-14)|1|
+|GeoMap|1|
 |Pankhurst et al. 1998; Smith 1996|1|
 |Barrett & Elliott 1973|1|
 |Riley et al. 2016|1|

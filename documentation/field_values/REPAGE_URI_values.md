@@ -36,10 +36,10 @@ Unique values of REPAGE_URI
 |http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic|195|
 |http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian|185|
 |http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian|72|
-|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |
 
 http://resource.geosciml.org/classifier/ics/ischart/Permian|49|
+|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |http://resource.geosciml.org/classifier/ics/ischart/Pliocene|44|
 |http://resource.geosciml.org/classifier/ics/ischart/Carboniferous|22|
 |http://resource.geosciml.org/classifier/ics/ischart/Silurian|21|
