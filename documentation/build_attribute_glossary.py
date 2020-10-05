@@ -20,15 +20,17 @@ def create_output(record, field_name):
             "Field Value Restrictions": restrictions}
 
 
-def format_output(descr_header, value):
+def format_output(descr_header, value, field_name):
     # this is a sloppy handling of blanks because Pandas reads "None" as nan. There's probably a way to change this
     if value == "blank":
         value == "None"
 
     elif descr_header in ["Metadata Link", "Field Value Restrictions"] and "http" in value:
-        value = mdutils.MdUtils.new_inline_link(value, value)
+        value = mdutils.tools.Link.Inline.new_link(value, value)
     elif descr_header == "Field Values":
-        value = mdutils.MdUtils.new_inline_link(value, "List of Values")
+        value = mdutils.tools.Link.Inline.new_link(
+                                                link=os.path.join("field_values", f"{field_name}_values.md"),
+                                                text="List of Values")
     return value
 
 
@@ -61,7 +63,7 @@ def main():
 
         mdfile.new_header(1, i)
         for j in output:
-            output[j] = format_output(j, output[j])
+            output[j] = format_output(j, output[j], i)
             mdfile.new_header(2, f"{j}:")
             mdfile.new_header(3, output[j])
 
@@ -71,7 +73,6 @@ def main():
 
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
 
-    mdfile.new_table_of_contents()
     mdfile.create_md_file()
 
 

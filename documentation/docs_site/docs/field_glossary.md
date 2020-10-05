@@ -2,6 +2,48 @@
 Field Glossary
 ==============
 
+Table of contents
+=================
+
+* [SOURCECODE](#sourcecode)
+* [MAPSYMBOL](#mapsymbol)
+* [PLOTSYMBOL](#plotsymbol)
+* [NAME](#name)
+* [DESCR](#descr)
+* [POLYGTYPE](#polygtype)
+* [MBREQUIV](#mbrequiv)
+* [FMNEQUIV](#fmnequiv)
+* [SBGRPEQUIV](#sbgrpequiv)
+* [GRPEQUIV](#grpequiv)
+* [SPGRPEQUIV](#spgrpequiv)
+* [TERREQUIV](#terrequiv)
+* [STRATRANK](#stratrank)
+* [TYPENAME](#typename)
+* [TYPE_URI](#type_uri)
+* [GEOLHIST](#geolhist)
+* [REPAGE_URI](#repage_uri)
+* [YNGAGE_URI](#yngage_uri)
+* [OLDAGE_URI](#oldage_uri)
+* [ABSMIN_MA](#absmin_ma)
+* [ABSMAX_MA](#absmax_ma)
+* [AGECODE](#agecode)
+* [LITHCODE](#lithcode)
+* [LITHOLOGY](#lithology)
+* [REPLITH_URI](#replith_uri)
+* [OBSMETHOD](#obsmethod)
+* [CONFIDENCE](#confidence)
+* [POSACC_M](#posacc_m)
+* [SOURCE](#source)
+* [METADATA](#metadata)
+* [RESSCALE](#resscale)
+* [CAPTSCALE](#captscale)
+* [CAPTDATE](#captdate)
+* [MODDATE](#moddate)
+* [FEATUREID](#featureid)
+* [SPEC_URI](#spec_uri)
+* [DATASET](#dataset)
+* [REGION](#region)
+
 # SOURCECODE
 
 ## Source of Values:
@@ -18,7 +60,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/SOURCECODE_values.md)
 
 ## Field Value Restrictions:
 
@@ -46,7 +88,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/MAPSYMBOL_values.md)
 
 ## Field Value Restrictions:
 
@@ -74,7 +116,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/PLOTSYMBOL_values.md)
 
 ## Field Value Restrictions:
 
@@ -102,7 +144,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/NAME_values.md)
 
 ## Field Value Restrictions:
 
@@ -130,7 +172,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/DESCR_values.md)
 
 ## Field Value Restrictions:
 
@@ -158,7 +200,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/POLYGTYPE_values.md)
 
 ## Field Value Restrictions:
 
@@ -186,7 +228,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/MBREQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -214,7 +256,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/FMNEQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -242,7 +284,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/SBGRPEQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -270,7 +312,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/GRPEQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -298,7 +340,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/SPGRPEQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -326,7 +368,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/TERREQUIV_values.md)
 
 ## Field Value Restrictions:
 
@@ -354,7 +396,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/STRATRANK_values.md)
 
 ## Field Value Restrictions:
 
@@ -382,7 +424,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/TYPENAME_values.md)
 
 ## Field Value Restrictions:
 
@@ -410,7 +452,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/TYPE_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -438,7 +480,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/GEOLHIST_values.md)
 
 ## Field Value Restrictions:
 
@@ -466,7 +508,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/REPAGE_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -494,7 +536,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/YNGAGE_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -522,7 +564,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/OLDAGE_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -550,7 +592,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/ABSMIN_MA_values.md)
 
 ## Field Value Restrictions:
 
@@ -578,7 +620,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/ABSMAX_MA_values.md)
 
 ## Field Value Restrictions:
 
@@ -606,7 +648,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/AGECODE_values.md)
 
 ## Field Value Restrictions:
 
@@ -634,7 +676,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/LITHCODE_values.md)
 
 ## Field Value Restrictions:
 
@@ -662,7 +704,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/LITHOLOGY_values.md)
 
 ## Field Value Restrictions:
 
@@ -690,7 +732,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/REPLITH_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -718,7 +760,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/OBSMETHOD_values.md)
 
 ## Field Value Restrictions:
 
@@ -746,7 +788,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/CONFIDENCE_values.md)
 
 ## Field Value Restrictions:
 
@@ -774,7 +816,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/POSACC_M_values.md)
 
 ## Field Value Restrictions:
 
@@ -802,7 +844,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/SOURCE_values.md)
 
 ## Field Value Restrictions:
 
@@ -830,7 +872,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/METADATA_values.md)
 
 ## Field Value Restrictions:
 
@@ -858,7 +900,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/RESSCALE_values.md)
 
 ## Field Value Restrictions:
 
@@ -886,7 +928,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/CAPTSCALE_values.md)
 
 ## Field Value Restrictions:
 
@@ -914,7 +956,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/CAPTDATE_values.md)
 
 ## Field Value Restrictions:
 
@@ -942,7 +984,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/MODDATE_values.md)
 
 ## Field Value Restrictions:
 
@@ -970,7 +1012,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/FEATUREID_values.md)
 
 ## Field Value Restrictions:
 
@@ -979,7 +1021,7 @@ Field Glossary
 ## Descriptive Statistics:
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_082216
+- Most frequently occurring value: ATA_geological_units_037824
 - Number of values with a single occurrence: 95161
 
 # SPEC_URI
@@ -998,7 +1040,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/SPEC_URI_values.md)
 
 ## Field Value Restrictions:
 
@@ -1026,7 +1068,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/DATASET_values.md)
 
 ## Field Value Restrictions:
 
@@ -1054,7 +1096,7 @@ Field Glossary
 
 ## Field Values:
 
-### [List of Values](List of Values)
+### [List of Values](field_values/REGION_values.md)
 
 ## Field Value Restrictions:
 
