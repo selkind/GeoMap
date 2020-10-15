@@ -3,8 +3,16 @@ nav:
     - Home: 'index.md'
     - Geology Glossary: 'field_glossary.md'
     - Culture Glossary: 'culture_glossary.md'
+    - Chronostratigraphic Legend: 'legend.md'
+    - SourceCode Notebook: 'notebooks/sourcecode_investigation.md'
 theme: 
     name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - python
+        - python3
+        - Python
+        - Python3
     navigation_depth: 4
     features:
         - navigation.tabs
@@ -12,4 +20,4 @@ markdown_extensions:
     - toc: 
         permalink: true
         toc_depth: 3
-    
+    - fenced_code

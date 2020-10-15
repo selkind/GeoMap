@@ -1,5 +1,5 @@
-# Home
-# The Unofficial documentation for the [SCAR GeoMAP project](https://www.scar.org/science/geomap/home/)
+# The [SCAR GeoMAP project](https://www.scar.org/science/geomap/home/)
+## Unofficial Documentation
 ## Cox S.C., Smith Lyttle B. and the GeoMAP team (2019). Lower Hutt, New Zealand. GNS Science. Release v.201907.
 ### Documentation created by Sam Elkind
 # Links to GeoMAP resources
