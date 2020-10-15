@@ -64,14 +64,16 @@ def main():
         mdfile.new_header(1, i)
         for j in output:
             output[j] = format_output(j, output[j], i)
-            mdfile.new_header(2, f"{j}:")
-            mdfile.new_paragraph(text=output[j])
+            mdfile.new_line(f"{j}:", bold_italics_code='b')
+            mdfile.new_line(text=output[j])
+            mdfile.new_line("")
 
-        mdfile.new_header(2, "Descriptive Statistics:")
+        mdfile.new_line("Descriptive Statistics:", bold_italics_code='b')
 
         stats = create_stats(value_counts)
-
+        mdfile.new_paragraph("")
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
+
     mdfile.new_table_of_contents()
     mdfile.create_md_file()
 
