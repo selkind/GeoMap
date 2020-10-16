@@ -8,12 +8,14 @@ import mdutils
 
 
 def create_output(record, field_name):
+    descr = record['field_description'].iloc[0]
     source = record['source_of_vals'].iloc[0]
     formatting = record['value_formatting'].iloc[0]
     metadata_link = record['field_metadata_link'].iloc[0]
     # field_vals = record['Field Values'].iloc[0]
     restrictions = record['Field value restrictions'].iloc[0]
-    return {"Source of Values": source,
+    return {"Description": descr,
+            "Source of Values": source,
             "Value Format": formatting,
             "Metadata Link": metadata_link,
             "Field Values": f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md",

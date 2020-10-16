@@ -6,6 +6,9 @@
 
 ## SOURCECODE
   
+**Description:**  
+A value indicating the geologic identity of the polygon. This is pulled directly from the SOURCE publication and follows whatever convention is used by the author. Values can follow conventional geological labels (1-2 characters indicating age followed by 1-2 characters indicating lithology) or they can be a number or character-number combination like a sample Identifier. Question marks in the symbol indicate uncertainty in the original author’s identification.  
+  
 **Source of Values:**  
 Copied from publication listed in SOURCE  
   
@@ -29,6 +32,9 @@ Unrestricted
 - Number of values with a single occurrence: 54
 
 ## MAPSYMBOL
+  
+**Description:**  
+A value indicating the chronostratigraphic identity of the polygon. These values are restricted by the formatting convention defined by the GeoMAP legend.  
   
 **Source of Values:**  
 Value based on interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
@@ -54,6 +60,9 @@ See legend
 
 ## PLOTSYMBOL
   
+**Description:**  
+A value that is always the same as MAPSYMBOL except in the cases of MAPSYMBOLS Hs, Qs, Jd. The Holocene and Quaternary sediments are differentiated here.  
+  
 **Source of Values:**  
 Copied from publication listed in SOURCE  
   
@@ -77,6 +86,9 @@ Unrestricted
 - Number of values with a single occurrence: 3
 
 ## NAME
+  
+**Description:**  
+The name of the rock type or sample. This is pulled directly from the SOURCE publication and follows whatever convention is established by the authors.  
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -102,6 +114,9 @@ Unrestricted
 
 ## DESCR
   
+**Description:**  
+A textual description of the rock or sample that the polygon is identified as. This often contains information about the lithological, lithogenetic, or geomorphological identity of the outcrop  
+  
 **Source of Values:**  
 Copied from publication listed in SOURCE  
   
@@ -125,6 +140,9 @@ Unrestricted
 - Number of values with a single occurrence: 41
 
 ## POLYGTYPE
+  
+**Description:**  
+A restricted value. One of either rock, moraine, or ice. Pretty self-explanatory  
   
 **Source of Values:**  
 Based on PLOTSYMBOL  
@@ -150,6 +168,9 @@ blank
 
 ## MBREQUIV
   
+**Description:**  
+When the STRATRANK of the polygon is “member”, this is the lithologic member associated with the SOURCECODE. Otherwise value will be “None”  
+  
 **Source of Values:**  
 Interpretation based upon multiple sources  
   
@@ -173,6 +194,9 @@ Unrestricted
 - Number of values with a single occurrence: 5
 
 ## FMNEQUIV
+  
+**Description:**  
+When the STRATRANK of the polygon is “formation” or narrower, this is the lithologic formation associated with the SOURCECODE. Otherwise value will be “None”  
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -198,6 +222,9 @@ Unrestricted
 
 ## SBGRPEQUIV
   
+**Description:**  
+When the STRATRANK of the polygon is “subgroup” or narrower, this is the lithologic subgroup associated with the SOURCECODE. Otherwise value will be “None”. Currently, the only named subgroup is “Ross Sea Drift” which has a strat rank of “rank not specified”  
+  
 **Source of Values:**  
 Interpretation based upon multiple sources  
   
@@ -221,6 +248,9 @@ Unrestricted
 - Number of values with a single occurrence: 0
 
 ## GRPEQUIV
+  
+**Description:**  
+When the STRATRANK of the polygon is “group” or narrower, this is the lithologic group associated with the SOURCECODE.  
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -246,6 +276,9 @@ Unrestricted
 
 ## SPGRPEQUIV
   
+**Description:**  
+When the STRATRANK of the polygon is “supergroup” or narrower, this is the lithologic supergroup associated with the SOURCECODE. Otherwise value will be “None”. Currently most supergroups   
+  
 **Source of Values:**  
 Interpretation based upon multiple sources  
   
@@ -269,6 +302,9 @@ Unrestricted
 - Number of values with a single occurrence: 0
 
 ## TERREQUIV
+  
+**Description:**  
+When the STRATRANK of the polygon is “terrane”, this is the lithologic terrane associated with the SOURCECODE. Otherwise value will be “None”  
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -294,6 +330,9 @@ Unrestricted
 
 ## STRATRANK
   
+**Description:**  
+The level of lithologic classification associated with the SOURCECODE  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -317,6 +356,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 0
 
 ## TYPENAME
+  
+**Description:**  
+The geologic unit type as defined by GeoSciML  
   
 **Source of Values:**  
 GeoSciML  
@@ -342,6 +384,9 @@ see GeoSciML link
 
 ## TYPE_URI
   
+**Description:**  
+The link to the geologic unit type.  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -365,6 +410,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 0
 
 ## GEOLHIST
+  
+**Description:**  
+A textual representation of the range of time associated with the genesis of the SOURCECODE’s geology.  
   
 **Source of Values:**  
 GeoSciML  
@@ -390,6 +438,9 @@ see GeoSciML link
 
 ## REPAGE_URI
   
+**Description:**  
+The link to the geologic period or era that is representative of the SOURCECODE’s geology.  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -413,6 +464,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 0
 
 ## YNGAGE_URI
+  
+**Description:**  
+The link to the youngest geologic period or era that is associated with the genesis of the SOURCECODE’s geology  
   
 **Source of Values:**  
 GeoSciML  
@@ -438,6 +492,9 @@ see GeoSciML link
 
 ## OLDAGE_URI
   
+**Description:**  
+The link to the oldest geologic period or era that is associated with the genesis of the SOURCECODE’s geology  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -461,6 +518,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 0
 
 ## ABSMIN_MA
+  
+**Description:**  
+A floating point value associated with the age in million years when the young-age geologic period or era ended.  
   
 **Source of Values:**  
 GeoSciML  
@@ -486,6 +546,9 @@ Positive Integer
 
 ## ABSMAX_MA
   
+**Description:**  
+A floating point value associated with the age in million years when the old-age geologic period or era began.  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -509,6 +572,9 @@ Positive Integer
 - Number of values with a single occurrence: 2
 
 ## AGECODE
+  
+**Description:**  
+A one to three character symbol for the representative age geologic period or era  
   
 **Source of Values:**  
 QMAP  
@@ -534,6 +600,9 @@ QMAP
 
 ## LITHCODE
   
+**Description:**  
+A one character symbol for the representative lithology of the SOURCECODE’s geology. Defined and restricted by the values in the legend  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -557,6 +626,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 0
 
 ## LITHOLOGY
+  
+**Description:**  
+A textual description of the lithology restricted to values appearing on GeoSciML’s Simple Lithology list.  
   
 **Source of Values:**  
 GeoSciML  
@@ -582,6 +654,9 @@ see GeoSciML link
 
 ## REPLITH_URI
   
+**Description:**  
+The link to the GeoSciML Simple Lithology associated with the SOURCECODE’s geology.  
+  
 **Source of Values:**  
 GeoSciML  
   
@@ -605,6 +680,9 @@ see GeoSciML link
 - Number of values with a single occurrence: 3
 
 ## OBSMETHOD
+  
+**Description:**  
+The manner in which the polygon’s attributes were assigned. Values are loosely guided by GeoSciML’s list of Geologic Feature Observation Methods  
   
 **Source of Values:**  
 GeoSciML  
@@ -630,6 +708,9 @@ see GeoSciML link
 
 ## CONFIDENCE
   
+**Description:**  
+An explanation of the manner by which the age of the geology was determined. This field is defined in QMAP’s data schema.  
+  
 **Source of Values:**  
 QMAP  
   
@@ -653,6 +734,9 @@ blank
 - Number of values with a single occurrence: 12
 
 ## POSACC_M
+  
+**Description:**  
+The estimated positional accuracy of the polygon. Units: meters  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -678,6 +762,9 @@ blank
 
 ## SOURCE
   
+**Description:**  
+The primary published or unpublished source referenced to assign attributes to the polygon  
+  
 **Source of Values:**  
 Value from GeoMap contributers  
   
@@ -701,6 +788,9 @@ blank
 - Number of values with a single occurrence: 8
 
 ## METADATA
+  
+**Description:**  
+The link to the metadata for this dataset  
   
 **Source of Values:**  
 https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7  
@@ -726,6 +816,9 @@ blank
 
 ## RESSCALE
   
+**Description:**  
+The scale at which the polygon was designed to be viewed at  
+  
 **Source of Values:**  
 Value from GeoMap contributers  
   
@@ -749,6 +842,9 @@ blank
 - Number of values with a single occurrence: 0
 
 ## CAPTSCALE
+  
+**Description:**  
+The scale at which the polygon was digitized  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -774,6 +870,9 @@ blank
 
 ## CAPTDATE
   
+**Description:**  
+The date the polygon was originally digitized  
+  
 **Source of Values:**  
 Value from GeoMap contributers  
   
@@ -797,6 +896,9 @@ blank
 - Number of values with a single occurrence: 0
 
 ## MODDATE
+  
+**Description:**  
+The most recent date when the polygon was modified.  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -822,6 +924,9 @@ blank
 
 ## FEATUREID
   
+**Description:**  
+The unique identifier of the polygon  
+  
 **Source of Values:**  
 Geomap naming scheme  
   
@@ -841,10 +946,13 @@ blank
 
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_089089
+- Most frequently occurring value: ATA_geological_units_063677
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
+  
+**Description:**  
+Not really sure what this is  
   
 **Source of Values:**  
 http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html  
@@ -870,6 +978,9 @@ Link
 
 ## DATASET
   
+**Description:**  
+The dataset from which the polygon came from. Alludes to the region of Antarctica where the polygon is located (Peninsula, North Victoria Land, etc).  
+  
 **Source of Values:**  
 Geomap naming scheme  
   
@@ -893,6 +1004,9 @@ blank
 - Number of values with a single occurrence: 0
 
 ## REGION
+  
+**Description:**  
+The region in which the polygon is located {East Antarctica, West Antarctica}  
   
 **Source of Values:**  
 Value from GeoMap contributers  
