@@ -47,8 +47,9 @@ def main():
     geomap = gpd.read_file(fp.GEOL_PATH)
     field_descr = pd.read_csv(fp.FIELD_DESCR_PATH)
 
-    mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, title="Field Glossary", author="SCAR GeoMAP Project")
+    mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="SCAR GeoMAP Project")
 
+    mdfile.new_header(1, title="Fields")
     for i in geomap.columns:
         if i in fields.OMITTED_FIELDS:
             continue
@@ -61,7 +62,7 @@ def main():
         record = field_descr.loc[condition]
         output = create_output(record, i)
 
-        mdfile.new_header(1, i)
+        mdfile.new_header(2, i)
         for j in output:
             output[j] = format_output(j, output[j], i)
             mdfile.new_line(f"{j}:", bold_italics_code='b')
@@ -74,7 +75,6 @@ def main():
         mdfile.new_paragraph("")
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
 
-    mdfile.new_table_of_contents()
     mdfile.create_md_file()
 
 

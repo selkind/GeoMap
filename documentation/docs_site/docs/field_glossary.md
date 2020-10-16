@@ -1,50 +1,10 @@
 
-Field Glossary
-==============
 
-Table of contents
-=================
 
-* [SOURCECODE](#sourcecode)
-* [MAPSYMBOL](#mapsymbol)
-* [PLOTSYMBOL](#plotsymbol)
-* [NAME](#name)
-* [DESCR](#descr)
-* [POLYGTYPE](#polygtype)
-* [MBREQUIV](#mbrequiv)
-* [FMNEQUIV](#fmnequiv)
-* [SBGRPEQUIV](#sbgrpequiv)
-* [GRPEQUIV](#grpequiv)
-* [SPGRPEQUIV](#spgrpequiv)
-* [TERREQUIV](#terrequiv)
-* [STRATRANK](#stratrank)
-* [TYPENAME](#typename)
-* [TYPE_URI](#type_uri)
-* [GEOLHIST](#geolhist)
-* [REPAGE_URI](#repage_uri)
-* [YNGAGE_URI](#yngage_uri)
-* [OLDAGE_URI](#oldage_uri)
-* [ABSMIN_MA](#absmin_ma)
-* [ABSMAX_MA](#absmax_ma)
-* [AGECODE](#agecode)
-* [LITHCODE](#lithcode)
-* [LITHOLOGY](#lithology)
-* [REPLITH_URI](#replith_uri)
-* [OBSMETHOD](#obsmethod)
-* [CONFIDENCE](#confidence)
-* [POSACC_M](#posacc_m)
-* [SOURCE](#source)
-* [METADATA](#metadata)
-* [RESSCALE](#resscale)
-* [CAPTSCALE](#captscale)
-* [CAPTDATE](#captdate)
-* [MODDATE](#moddate)
-* [FEATUREID](#featureid)
-* [SPEC_URI](#spec_uri)
-* [DATASET](#dataset)
-* [REGION](#region)
 
-# SOURCECODE
+# Fields
+
+## SOURCECODE
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -68,7 +28,7 @@ Unrestricted
 - Most frequently occurring value: C-Tr
 - Number of values with a single occurrence: 54
 
-# MAPSYMBOL
+## MAPSYMBOL
   
 **Source of Values:**  
 Value based on interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
@@ -92,7 +52,7 @@ See legend
 - Most frequently occurring value: JKg
 - Number of values with a single occurrence: 3
 
-# PLOTSYMBOL
+## PLOTSYMBOL
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -116,7 +76,7 @@ Unrestricted
 - Most frequently occurring value: JKg
 - Number of values with a single occurrence: 3
 
-# NAME
+## NAME
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -140,7 +100,7 @@ Unrestricted
 - Most frequently occurring value: marine sedimentary and metasedimentary rocks (Carboniferous to Triassic)
 - Number of values with a single occurrence: 36
 
-# DESCR
+## DESCR
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -164,7 +124,7 @@ Unrestricted
 - Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas
 - Number of values with a single occurrence: 41
 
-# POLYGTYPE
+## POLYGTYPE
   
 **Source of Values:**  
 Based on PLOTSYMBOL  
@@ -188,7 +148,7 @@ blank
 - Most frequently occurring value: rock
 - Number of values with a single occurrence: 0
 
-# MBREQUIV
+## MBREQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -212,7 +172,7 @@ Unrestricted
 - Most frequently occurring value:  
 - Number of values with a single occurrence: 5
 
-# FMNEQUIV
+## FMNEQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -236,7 +196,7 @@ Unrestricted
 - Most frequently occurring value: LeMay Formation; Trinity Penninsula Formation
 - Number of values with a single occurrence: 15
 
-# SBGRPEQUIV
+## SBGRPEQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -260,7 +220,7 @@ Unrestricted
 - Most frequently occurring value: Ross Sea Drift
 - Number of values with a single occurrence: 0
 
-# GRPEQUIV
+## GRPEQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -284,7 +244,7 @@ Unrestricted
 - Most frequently occurring value:  
 - Number of values with a single occurrence: 0
 
-# SPGRPEQUIV
+## SPGRPEQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -308,7 +268,7 @@ Unrestricted
 - Most frequently occurring value:  
 - Number of values with a single occurrence: 0
 
-# TERREQUIV
+## TERREQUIV
   
 **Source of Values:**  
 Interpretation based upon multiple sources  
@@ -332,7 +292,7 @@ Unrestricted
 - Most frequently occurring value: Wilson Terrane
 - Number of values with a single occurrence: 0
 
-# STRATRANK
+## STRATRANK
   
 **Source of Values:**  
 GeoSciML  
@@ -356,7 +316,7 @@ see GeoSciML link
 - Most frequently occurring value: rank not specified
 - Number of values with a single occurrence: 0
 
-# TYPENAME
+## TYPENAME
   
 **Source of Values:**  
 GeoSciML  
@@ -380,7 +340,7 @@ see GeoSciML link
 - Most frequently occurring value: lithostratigraphic unit
 - Number of values with a single occurrence: 0
 
-# TYPE_URI
+## TYPE_URI
   
 **Source of Values:**  
 GeoSciML  
@@ -404,7 +364,7 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit
 - Number of values with a single occurrence: 0
 
-# GEOLHIST
+## GEOLHIST
   
 **Source of Values:**  
 GeoSciML  
@@ -428,7 +388,7 @@ see GeoSciML link
 - Most frequently occurring value: early Jurassic to early Cretaceous
 - Number of values with a single occurrence: 2
 
-# REPAGE_URI
+## REPAGE_URI
   
 **Source of Values:**  
 GeoSciML  
@@ -452,7 +412,7 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Paleozoic
 - Number of values with a single occurrence: 0
 
-# YNGAGE_URI
+## YNGAGE_URI
   
 **Source of Values:**  
 GeoSciML  
@@ -476,7 +436,7 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Albian
 - Number of values with a single occurrence: 0
 
-# OLDAGE_URI
+## OLDAGE_URI
   
 **Source of Values:**  
 GeoSciML  
@@ -500,7 +460,7 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Cambrian
 - Number of values with a single occurrence: 0
 
-# ABSMIN_MA
+## ABSMIN_MA
   
 **Source of Values:**  
 GeoSciML  
@@ -524,7 +484,7 @@ Positive Integer
 - Most frequently occurring value: 100.5
 - Number of values with a single occurrence: 2
 
-# ABSMAX_MA
+## ABSMAX_MA
   
 **Source of Values:**  
 GeoSciML  
@@ -548,7 +508,7 @@ Positive Integer
 - Most frequently occurring value: 541.0
 - Number of values with a single occurrence: 2
 
-# AGECODE
+## AGECODE
   
 **Source of Values:**  
 QMAP  
@@ -572,7 +532,7 @@ QMAP
 - Most frequently occurring value: JK
 - Number of values with a single occurrence: 0
 
-# LITHCODE
+## LITHCODE
   
 **Source of Values:**  
 GeoSciML  
@@ -596,7 +556,7 @@ see GeoSciML link
 - Most frequently occurring value: s
 - Number of values with a single occurrence: 0
 
-# LITHOLOGY
+## LITHOLOGY
   
 **Source of Values:**  
 GeoSciML  
@@ -620,7 +580,7 @@ see GeoSciML link
 - Most frequently occurring value: unknown
 - Number of values with a single occurrence: 11
 
-# REPLITH_URI
+## REPLITH_URI
   
 **Source of Values:**  
 GeoSciML  
@@ -644,7 +604,7 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
 - Number of values with a single occurrence: 3
 
-# OBSMETHOD
+## OBSMETHOD
   
 **Source of Values:**  
 GeoSciML  
@@ -668,7 +628,7 @@ see GeoSciML link
 - Most frequently occurring value: synthesis from multiple sources
 - Number of values with a single occurrence: 0
 
-# CONFIDENCE
+## CONFIDENCE
   
 **Source of Values:**  
 QMAP  
@@ -692,7 +652,7 @@ blank
 - Most frequently occurring value: GEOLHIST uncertain
 - Number of values with a single occurrence: 12
 
-# POSACC_M
+## POSACC_M
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -716,7 +676,7 @@ blank
 - Most frequently occurring value: 250.0
 - Number of values with a single occurrence: 0
 
-# SOURCE
+## SOURCE
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -740,7 +700,7 @@ blank
 - Most frequently occurring value: Burton-Johnson & Riley 2015
 - Number of values with a single occurrence: 8
 
-# METADATA
+## METADATA
   
 **Source of Values:**  
 https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7  
@@ -764,7 +724,7 @@ blank
 - Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
 - Number of values with a single occurrence: 0
 
-# RESSCALE
+## RESSCALE
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -788,7 +748,7 @@ blank
 - Most frequently occurring value: 250000
 - Number of values with a single occurrence: 0
 
-# CAPTSCALE
+## CAPTSCALE
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -812,7 +772,7 @@ blank
 - Most frequently occurring value: 50000
 - Number of values with a single occurrence: 0
 
-# CAPTDATE
+## CAPTDATE
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -836,7 +796,7 @@ blank
 - Most frequently occurring value: 2017-07-26T00:00:00
 - Number of values with a single occurrence: 0
 
-# MODDATE
+## MODDATE
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -860,7 +820,7 @@ blank
 - Most frequently occurring value: 2018-06-06T00:00:00
 - Number of values with a single occurrence: 0
 
-# FEATUREID
+## FEATUREID
   
 **Source of Values:**  
 Geomap naming scheme  
@@ -881,10 +841,10 @@ blank
 
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_071053
+- Most frequently occurring value: ATA_geological_units_026699
 - Number of values with a single occurrence: 95161
 
-# SPEC_URI
+## SPEC_URI
   
 **Source of Values:**  
 http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html  
@@ -908,7 +868,7 @@ Link
 - Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
 - Number of values with a single occurrence: 0
 
-# DATASET
+## DATASET
   
 **Source of Values:**  
 Geomap naming scheme  
@@ -932,7 +892,7 @@ blank
 - Most frequently occurring value: ATA_PEN_geological_units
 - Number of values with a single occurrence: 0
 
-# REGION
+## REGION
   
 **Source of Values:**  
 Value from GeoMap contributers  
