@@ -13,11 +13,13 @@ theme:
         - python3
         - Python
         - Python3
-    navigation_depth: 4
+    navigation_depth: 6
     features:
         - navigation.tabs
 markdown_extensions:
     - toc: 
         permalink: true
-        toc_depth: 3
+        toc_depth: 6
     - fenced_code
+plugins:
+    - search
