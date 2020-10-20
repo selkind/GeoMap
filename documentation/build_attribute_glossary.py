@@ -38,6 +38,8 @@ def format_output(descr_header, value, field_name):
     @param String field_name: The name of the field to be used in the Field Values link
 
     @returns String: the formatted value
+
+    Creates inline links for particular metadata fields
     """
     # this is a sloppy handling of blanks because Pandas reads "None" as nan. There's probably a way to change this
     if value == "blank":
@@ -53,6 +55,11 @@ def format_output(descr_header, value, field_name):
 
 
 def create_stats(value_counts):
+    """
+    @param pd.Series value_counts: the value counts of the field in question
+
+    @returns dict: the statistics to be output in markdown
+    """
     stats = {}
     stats["Unique Values"] = len(value_counts)
     if len(value_counts) > 0:
