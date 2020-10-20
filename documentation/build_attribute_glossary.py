@@ -1,13 +1,22 @@
-import os
 import geopandas as gpd
 import pandas as pd
+# Globals
 import file_paths as fp
 import fields
 
+import os
 import mdutils
 
 
 def create_output(record, field_name):
+    """
+    @param DataFrame Row record: Single row from a pandas DataFrame corresponding to the metadata category
+    @param String field_name: the name of the field. Used in generating field values links
+
+    @returns dict: a set of key, value pairs that can be iterated over to output on the markdown page.
+
+    extract fields from each field metadata record and format special cases (e.g. field values links)
+    """
     descr = record['field_description'].iloc[0]
     source = record['source_of_vals'].iloc[0]
     formatting = record['value_formatting'].iloc[0]
@@ -23,6 +32,13 @@ def create_output(record, field_name):
 
 
 def format_output(descr_header, value, field_name):
+    """
+    @param String descr_header: the header of the metadata field to be formatted
+    @param String value: the metadata to be formatted for outputting
+    @param String field_name: The name of the field to be used in the Field Values link
+
+    @returns String: the formatted value
+    """
     # this is a sloppy handling of blanks because Pandas reads "None" as nan. There's probably a way to change this
     if value == "blank":
         value == "None"
@@ -31,7 +47,7 @@ def format_output(descr_header, value, field_name):
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif descr_header == "Field Values":
         value = mdutils.tools.Link.Inline.new_link(
-                                                link=os.path.join("field_values", f"{field_name}_values.md"),
+                                                link=value,
                                                 text="List of Values")
     return value
 
