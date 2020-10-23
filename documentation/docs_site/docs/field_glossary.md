@@ -7,16 +7,16 @@
 ## SOURCECODE
   
 **Description:**  
-A value indicating the geologic identity of the polygon. This is pulled directly from the SOURCE publication and follows whatever convention is used by the author. Values can follow conventional geological labels (1-2 characters indicating age followed by 1-2 characters indicating lithology) or they can be a number or character-number combination like a sample Identifier. Question marks in the symbol indicate uncertainty in the original author’s identification.  
+A value indicating the geologic identity of the polygon. This is the code or classification initially assigned by a map author (source) pulled directly from the SOURCE publication, following whatever convention was used by the author in their original publication. Values generally follow conventional geological labels (1-2 characters indicating age followed by 1-2 characters indicating lithology) or they can be a number or character-number combination like a sample Identifier. Question marks in the symbol indicate uncertainty in the original author’s identification.    
   
 **Source of Values:**  
-Copied from publication listed in SOURCE  
+Derived from publication listed in SOURCE    
   
 **Value Format:**  
-Determined by publication authors  
+Determined by original publication authors    
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/SOURCECODE_values.md)  
@@ -34,16 +34,16 @@ Unrestricted
 ## MAPSYMBOL
   
 **Description:**  
-A value indicating the chronostratigraphic identity of the polygon. These values are restricted by the formatting convention defined by the GeoMAP legend.  
+A value indicating the principal geological identity of the polygon. Values are restricted by the formatting convention defined by the GeoMAP legend, using CAPITAL letters representing AGE (Chronostratigraphic subdivision) and small letters representing lithology (rock-type as a lithostratigraphic classification). MAPSYMBOL is used to unify original SOURCECODE and classify polygons consistently across the entire GeoMAP dataset.  
   
 **Source of Values:**  
-Value based on interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
+Value based on the compiler's interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
   
 **Value Format:**  
-The first one or two characters represent the geological time period. The last character is a code corresponding to the type of geologic unit as defined in the legend. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = Eos; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn   
+The first one or two UPPERCASE characters represent the geological time period. The last lowercase character is a code corresponding to the type of geologic unit as defined in the legend. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = EOs; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn     
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/MAPSYMBOL_values.md)  
@@ -61,16 +61,16 @@ See legend
 ## PLOTSYMBOL
   
 **Description:**  
-A value that is always the same as MAPSYMBOL except in the cases of MAPSYMBOLS Hs, Qs, Jd. The Holocene and Quaternary sediments are differentiated here.  
+A value that is generally the same as MAPSYMBOL.  PLOTSYMBOL is used for cartographic purposes to generate colour, or symbols on hard-copy maps. Enables greater user-control. Hs, Qs, Jd are examples where Holocene and Quaternary sediments, or Jurassic dolerites, are differentiated with different PLOTSYMBOL from MAPSYMBOL.   
   
 **Source of Values:**  
-Copied from publication listed in SOURCE  
+Value based on the compiler's interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
   
 **Value Format:**  
-Determined by publication authors  
+Determined by GeoMAP dataset compilers  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/PLOTSYMBOL_values.md)  
@@ -88,13 +88,13 @@ Unrestricted
 ## NAME
   
 **Description:**  
-The name of the rock type or sample. This is pulled directly from the SOURCE publication and follows whatever convention is established by the authors.  
+A textual name of the rock unit or simplified type of rock. Where possible the formally defined and published stratigraphic name is adopted, however many units have been named informally or only classified by lithology.  NAME is generally pulled from the SOURCE publication and follows whatever convention is established by the authors.    
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
   
 **Value Format:**  
-Determined by publication authors  
+Determined by original publication authors    
   
 **Metadata Link:**  
 blank  
@@ -115,16 +115,16 @@ Unrestricted
 ## DESCR
   
 **Description:**  
-A textual description of the rock or sample that the polygon is identified as. This often contains information about the lithological, lithogenetic, or geomorphological identity of the outcrop  
+A description of the geological mapping unit that the polygon is identified as. Geological maps can be based on lithostratigraphy, biostratigraphy, age, and rock types, or combinations of these. A lithostratigraphic approach has generally been adopted for GeoMAP. Mapping units are based on age and/or rock type. DESCR provides a text description of the range and/or most common rock-types encountered, typically taken from an entry on a geological map legend.    
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
   
 **Value Format:**  
-Determined by publication authors  
+Determined by dataset compilers, summarized from SOURCE author descriptions  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/DESCR_values.md)  
@@ -142,10 +142,10 @@ Unrestricted
 ## POLYGTYPE
   
 **Description:**  
-A restricted value. One of either rock, moraine, or ice. Pretty self-explanatory  
+A restricted value. One of either rock, moraine, or ice. A simplistic description of dominant material within the polygon.  
   
 **Source of Values:**  
-Based on PLOTSYMBOL  
+Based on an interpretation of SOURCECODE or MAPSYMBOL  
   
 **Value Format:**  
 String  
@@ -259,7 +259,7 @@ Interpretation based upon multiple sources
 String  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/GRPEQUIV_values.md)  
@@ -313,7 +313,7 @@ Interpretation based upon multiple sources
 String  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/TERREQUIV_values.md)  
@@ -340,7 +340,7 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/](http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank/)  
+[http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank](http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank)  
   
 **Field Values:**  
 [List of Values](field_values/STRATRANK_values.md)  
@@ -358,7 +358,7 @@ see GeoSciML link
 ## TYPENAME
   
 **Description:**  
-The geologic unit type as defined by GeoSciML  
+The geologic unit type as defined by GeoSciML following the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Unit types are differentiated based on their defining lithological, stratigraphic, or other physical properties.  
   
 **Source of Values:**  
 GeoSciML  
@@ -367,7 +367,7 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)  
+[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype)  
   
 **Field Values:**  
 [List of Values](field_values/TYPENAME_values.md)  
@@ -394,7 +394,7 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype/)  
+[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype)  
   
 **Field Values:**  
 [List of Values](field_values/TYPE_URI_values.md)  
@@ -439,7 +439,7 @@ see GeoSciML link
 ## REPAGE_URI
   
 **Description:**  
-The link to the geologic period or era that is representative of the SOURCECODE’s geology.  
+The link to the geologic period or era that is representative of the formation of the SOURCECODE’s geological unit.  
   
 **Source of Values:**  
 GeoSciML  
@@ -529,7 +529,7 @@ GeoSciML
 Float  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/ABSMIN_MA_values.md)  
@@ -556,7 +556,7 @@ GeoSciML
 Float  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/ABSMAX_MA_values.md)  
@@ -574,22 +574,22 @@ Positive Integer
 ## AGECODE
   
 **Description:**  
-A one to three character symbol for the representative age geologic period or era  
+A one to three character symbol for the representative age geologic period or era used in the MAPSYMBOL value.  
   
 **Source of Values:**  
-QMAP  
+Defined for GeoMAP (following convention used for digital geological map of Australia)  
   
 **Value Format:**  
 2-3 Characters  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/AGECODE_values.md)  
   
 **Field Value Restrictions:**  
-[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)  
+blank  
   
 **Descriptive Statistics:**
 
@@ -601,22 +601,22 @@ QMAP
 ## LITHCODE
   
 **Description:**  
-A one character symbol for the representative lithology of the SOURCECODE’s geology. Defined and restricted by the values in the legend  
+A one character symbol for the representative lithology of the MAPSYMBOL rock-type letter. Defined and restricted by the values in the legend.  
   
 **Source of Values:**  
-GeoSciML  
+blank  
   
 **Value Format:**  
-see GeoSciML link  
+blank  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/LITHCODE_values.md)  
   
 **Field Value Restrictions:**  
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
+blank  
   
 **Descriptive Statistics:**
 
@@ -637,7 +637,7 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)  
+[http://cgi.vocabs.ga.gov.au/vocab/simplelithology](http://cgi.vocabs.ga.gov.au/vocab/simplelithology)  
   
 **Field Values:**  
 [List of Values](field_values/LITHOLOGY_values.md)  
@@ -655,7 +655,7 @@ see GeoSciML link
 ## REPLITH_URI
   
 **Description:**  
-The link to the GeoSciML Simple Lithology associated with the SOURCECODE’s geology.  
+Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  
   
 **Source of Values:**  
 GeoSciML  
@@ -664,7 +664,7 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/simplelithology/](http://cgi.vocabs.ga.gov.au/vocab/simplelithology/)  
+[http://cgi.vocabs.ga.gov.au/vocab/simplelithology](http://cgi.vocabs.ga.gov.au/vocab/simplelithology)  
   
 **Field Values:**  
 [List of Values](field_values/REPLITH_URI_values.md)  
@@ -691,13 +691,13 @@ GeoSciML
 see GeoSciML link  
   
 **Metadata Link:**  
-[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)  
+[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
   
 **Field Values:**  
 [List of Values](field_values/OBSMETHOD_values.md)  
   
 **Field Value Restrictions:**  
-[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod/)  
+[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
   
 **Descriptive Statistics:**
 
@@ -709,16 +709,16 @@ see GeoSciML link
 ## CONFIDENCE
   
 **Description:**  
-An explanation of the manner by which the age of the geology was determined. This field is defined in QMAP’s data schema.  
+An explanation of the manner by which the age of the geology was determined. Free text that provides a statement concerning the accuracy of the data provided in associated fields.  
   
 **Source of Values:**  
-QMAP  
+Value from GeoMap contributers based on SOURCE publication  
   
 **Value Format:**  
 String  
   
 **Metadata Link:**  
-[https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm](https://www.gns.cri.nz/static/datadict/htm/geol_units_pat.htm)  
+blank  
   
 **Field Values:**  
 [List of Values](field_values/CONFIDENCE_values.md)  
@@ -736,7 +736,7 @@ blank
 ## POSACC_M
   
 **Description:**  
-The estimated positional accuracy of the polygon. Units: meters  
+The estimated positional accuracy of the polygon margins. Units: meters  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -763,7 +763,7 @@ blank
 ## SOURCE
   
 **Description:**  
-The primary published or unpublished source referenced to assign attributes to the polygon  
+The primary published or unpublished source referenced to assign attributes to the polygon.  A unique identifier that links to the GeoMAP spatial bibliography of geological maps and the geodatabase polygon feature class (or shapefile) ATA_sources_poly.  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -817,7 +817,7 @@ blank
 ## RESSCALE
   
 **Description:**  
-The scale at which the polygon was designed to be viewed at  
+The resolution scale at which the polygon was designed to be used or viewed at.  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -871,7 +871,7 @@ blank
 ## CAPTDATE
   
 **Description:**  
-The date the polygon was originally digitized  
+The date the polygon was added to the dataset  
   
 **Source of Values:**  
 Value from GeoMap contributers  
@@ -946,7 +946,7 @@ blank
 
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_074095
+- Most frequently occurring value: ATA_geological_units_078364
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
