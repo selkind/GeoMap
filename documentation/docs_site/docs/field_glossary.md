@@ -15,17 +15,13 @@ Derived from publication listed in SOURCE
 **Value Format:**  
 Determined by original publication authors    
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/SOURCECODE_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 801
 - Most frequently occurring value: C-Tr
@@ -34,25 +30,21 @@ Unrestricted
 ## MAPSYMBOL
   
 **Description:**  
-A value indicating the principal geological identity of the polygon. Values are restricted by the formatting convention defined by the GeoMAP legend, using CAPITAL letters representing AGE (Chronostratigraphic subdivision) and small letters representing lithology (rock-type as a lithostratigraphic classification). MAPSYMBOL is used to unify original SOURCECODE and classify polygons consistently across the entire GeoMAP dataset.  
+A value indicating the principal geological identity of the polygon. Values are restricted by the formatting convention defined by the GeoMAP [legend](legend.md), using CAPITAL letters representing AGE (Chronostratigraphic subdivision) and small letters representing lithology (rock-type as a lithostratigraphic classification). MAPSYMBOL is used to unify original SOURCECODE and classify polygons consistently across the entire GeoMAP dataset.  
   
 **Source of Values:**  
 Value based on the compiler's interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
   
 **Value Format:**  
-The first one or two UPPERCASE characters represent the geological time period. The last lowercase character is a code corresponding to the type of geologic unit as defined in the legend. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = EOs; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn     
-  
-**Metadata Link:**  
-blank  
+The first one or two UPPERCASE characters represent the geological time period. The last lowercase character is a code corresponding to the type of geologic unit as defined in the [legend](legend.md). NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = EOs; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn     
   
 **Field Values:**  
 [List of Values](field_values/MAPSYMBOL_values.md)  
   
 **Field Value Restrictions:**  
-See legend  
+See [legend](legend.md)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 173
 - Most frequently occurring value: JKg
@@ -69,17 +61,13 @@ Value based on the compiler's interpretation of publication listed in SOURCE tha
 **Value Format:**  
 Determined by GeoMAP dataset compilers  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/PLOTSYMBOL_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 183
 - Most frequently occurring value: JKg
@@ -96,17 +84,13 @@ Copied from publication listed in SOURCE
 **Value Format:**  
 Determined by original publication authors    
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/NAME_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 666
 - Most frequently occurring value: marine sedimentary and metasedimentary rocks (Carboniferous to Triassic)
@@ -115,7 +99,7 @@ Unrestricted
 ## DESCR
   
 **Description:**  
-A description of the geological mapping unit that the polygon is identified as. Geological maps can be based on lithostratigraphy, biostratigraphy, age, and rock types, or combinations of these. A lithostratigraphic approach has generally been adopted for GeoMAP. Mapping units are based on age and/or rock type. DESCR provides a text description of the range and/or most common rock-types encountered, typically taken from an entry on a geological map legend.    
+A description of the geological mapping unit that the polygon is identified as. Geological maps can be based on lithostratigraphy, biostratigraphy, age, and rock types, or combinations of these. A lithostratigraphic approach has generally been adopted for GeoMAP. Mapping units are based on age and/or rock type. DESCR provides a text description of the range and/or most common rock-types encountered, typically taken from an entry on a geological map [legend](legend.md).    
   
 **Source of Values:**  
 Copied from publication listed in SOURCE  
@@ -123,17 +107,13 @@ Copied from publication listed in SOURCE
 **Value Format:**  
 Determined by dataset compilers, summarized from SOURCE author descriptions  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/DESCR_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 757
 - Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas
@@ -150,17 +130,10 @@ Based on an interpretation of SOURCECODE or MAPSYMBOL
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/POLYGTYPE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 3
 - Most frequently occurring value: rock
@@ -177,17 +150,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/MBREQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 19
 - Most frequently occurring value:  
@@ -204,17 +173,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/FMNEQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 246
 - Most frequently occurring value: LeMay Formation; Trinity Penninsula Formation
@@ -231,17 +196,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/SBGRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 1
 - Most frequently occurring value: Ross Sea Drift
@@ -258,17 +219,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/GRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 59
 - Most frequently occurring value:  
@@ -285,17 +242,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/SPGRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 14
 - Most frequently occurring value:  
@@ -312,17 +265,13 @@ Interpretation based upon multiple sources
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/TERREQUIV_values.md)  
   
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 11
 - Most frequently occurring value: Wilson Terrane
@@ -348,8 +297,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 12
 - Most frequently occurring value: rank not specified
@@ -375,8 +323,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 6
 - Most frequently occurring value: lithostratigraphic unit
@@ -402,8 +349,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 5
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit
@@ -429,8 +375,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 113
 - Most frequently occurring value: early Jurassic to early Cretaceous
@@ -456,8 +401,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 41
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Paleozoic
@@ -483,8 +427,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 51
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Albian
@@ -510,8 +453,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 52
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Cambrian
@@ -528,17 +470,13 @@ GeoSciML
 **Value Format:**  
 Float  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/ABSMIN_MA_values.md)  
   
 **Field Value Restrictions:**  
 Positive Integer  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 121
 - Most frequently occurring value: 100.5
@@ -555,17 +493,13 @@ GeoSciML
 **Value Format:**  
 Float  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/ABSMAX_MA_values.md)  
   
 **Field Value Restrictions:**  
 Positive Integer  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 130
 - Most frequently occurring value: 541.0
@@ -582,17 +516,10 @@ Defined for GeoMAP (following convention used for digital geological map of Aust
 **Value Format:**  
 2-3 Characters  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/AGECODE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 46
 - Most frequently occurring value: JK
@@ -601,25 +528,12 @@ blank
 ## LITHCODE
   
 **Description:**  
-A one character symbol for the representative lithology of the MAPSYMBOL rock-type letter. Defined and restricted by the values in the legend.  
-  
-**Source of Values:**  
-blank  
-  
-**Value Format:**  
-blank  
-  
-**Metadata Link:**  
-blank  
+A one character symbol for the representative lithology of the MAPSYMBOL rock-type letter. Defined and restricted by the values in the [legend](legend.md).  
   
 **Field Values:**  
 [List of Values](field_values/LITHCODE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 25
 - Most frequently occurring value: s
@@ -645,8 +559,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 410
 - Most frequently occurring value: unknown
@@ -672,8 +585,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 80
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
@@ -699,8 +611,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 5
 - Most frequently occurring value: synthesis from multiple sources
@@ -717,17 +628,10 @@ Value from GeoMap contributers based on SOURCE publication
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/CONFIDENCE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 162
 - Most frequently occurring value: GEOLHIST uncertain
@@ -741,20 +645,10 @@ The estimated positional accuracy of the polygon margins. Units: meters
 **Source of Values:**  
 Value from GeoMap contributers  
   
-**Value Format:**  
-blank  
-  
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/POSACC_M_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 1
 - Most frequently occurring value: 250.0
@@ -771,17 +665,10 @@ Value from GeoMap contributers
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/SOURCE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 158
 - Most frequently occurring value: Burton-Johnson & Riley 2015
@@ -804,11 +691,7 @@ Link
 **Field Values:**  
 [List of Values](field_values/METADATA_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 1
 - Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
@@ -822,20 +705,10 @@ The resolution scale at which the polygon was designed to be used or viewed at.
 **Source of Values:**  
 Value from GeoMap contributers  
   
-**Value Format:**  
-blank  
-  
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/RESSCALE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 3
 - Most frequently occurring value: 250000
@@ -852,17 +725,10 @@ Value from GeoMap contributers
 **Value Format:**  
 Date  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/CAPTSCALE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 1
 - Most frequently occurring value: 50000
@@ -879,17 +745,10 @@ Value from GeoMap contributers
 **Value Format:**  
 Datetime: YYYY-MM-DDThh:mm:ss  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/CAPTDATE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 14
 - Most frequently occurring value: 2017-07-26T00:00:00
@@ -906,17 +765,10 @@ Value from GeoMap contributers
 **Value Format:**  
 Datetime: YYYY-MM-DDThh:mm:ss  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/MODDATE_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 15
 - Most frequently occurring value: 2018-06-06T00:00:00
@@ -933,20 +785,13 @@ Geomap naming scheme
 **Value Format:**  
 Geomap naming scheme  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/FEATUREID_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_078364
+- Most frequently occurring value: ATA_geological_units_013276
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
@@ -969,8 +814,7 @@ Link
 **Field Value Restrictions:**  
 [http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)  
   
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 1
 - Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
@@ -987,17 +831,10 @@ Geomap naming scheme
 **Value Format:**  
 Geomap naming scheme  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/DATASET_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 9
 - Most frequently occurring value: ATA_PEN_geological_units
@@ -1014,17 +851,10 @@ Value from GeoMap contributers
 **Value Format:**  
 String  
   
-**Metadata Link:**  
-blank  
-  
 **Field Values:**  
 [List of Values](field_values/REGION_values.md)  
   
-**Field Value Restrictions:**  
-blank  
-  
-**Descriptive Statistics:**
-
+**Descriptive Statistics:**  
 
 - Unique Values: 2
 - Most frequently occurring value: East Antarctica

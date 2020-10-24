@@ -21,7 +21,6 @@ def create_output(record, field_name):
     source = record['source_of_vals'].iloc[0]
     formatting = record['value_formatting'].iloc[0]
     metadata_link = record['field_metadata_link'].iloc[0]
-    # field_vals = record['Field Values'].iloc[0]
     restrictions = record['Field value restrictions'].iloc[0]
     return {"Description": descr,
             "Source of Values": source,
@@ -41,10 +40,12 @@ def format_output(descr_header, value, field_name):
 
     Creates inline links for particular metadata fields
     """
-    # this is a sloppy handling of blanks because Pandas reads "None" as nan. There's probably a way to change this
-    if value == "blank":
-        value == "None"
-
+    replace_string = "legend"
+    legend_link = mdutils.tools.Link.Inline.new_link(link="legend.md", text=replace_string)
+    if replace_string in value:
+        start = value.index(replace_string)
+        end = start + len(replace_string)
+        value = value[:start] + legend_link + value[end:]
     elif descr_header in ["Metadata Link", "Field Value Restrictions"] and "http" in value:
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif descr_header == "Field Values":
@@ -70,7 +71,7 @@ def create_stats(value_counts):
 
 def main():
     geomap = gpd.read_file(fp.GEOL_PATH)
-    field_descr = pd.read_csv(fp.FIELD_DESCR_PATH)
+    field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
 
     mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="SCAR GeoMAP Project")
 
@@ -89,15 +90,17 @@ def main():
 
         mdfile.new_header(2, i)
         for j in output:
+            if not output[j]:
+                continue
             output[j] = format_output(j, output[j], i)
             mdfile.new_line(f"{j}:", bold_italics_code='b')
             mdfile.new_line(text=output[j])
             mdfile.new_line("")
 
         mdfile.new_line("Descriptive Statistics:", bold_italics_code='b')
+        mdfile.new_line()
 
         stats = create_stats(value_counts)
-        mdfile.new_paragraph("")
         mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
 
     mdfile.create_md_file()
