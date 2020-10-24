@@ -508,7 +508,7 @@ Positive Integer
 ## AGECODE
   
 **Description:**  
-A one to three character symbol for the representative age geologic period or era used in the MAPSYMBOL value.  
+A one to three character symbol for the representative age geologic period or era used in the MAPSYMBOL value. These values are defined in the [legend](legend.md).  
   
 **Source of Values:**  
 Defined for GeoMAP (following convention used for digital geological map of Australia)  
@@ -791,7 +791,7 @@ Geomap naming scheme
 **Descriptive Statistics:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_013276
+- Most frequently occurring value: ATA_geological_units_055438
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
