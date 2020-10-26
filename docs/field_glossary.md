@@ -21,7 +21,7 @@ Determined by original publication authors
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 801
 - Most frequently occurring value: C-Tr
@@ -44,7 +44,7 @@ The first one or two UPPERCASE characters represent the geological time period. 
 **Field Value Restrictions:**  
 See [legend](legend.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 173
 - Most frequently occurring value: JKg
@@ -67,7 +67,7 @@ Determined by GeoMAP dataset compilers
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 183
 - Most frequently occurring value: JKg
@@ -90,7 +90,7 @@ Determined by original publication authors
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 666
 - Most frequently occurring value: marine sedimentary and metasedimentary rocks (Carboniferous to Triassic)
@@ -113,7 +113,7 @@ Determined by dataset compilers, summarized from SOURCE author descriptions
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 757
 - Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas
@@ -133,7 +133,7 @@ String
 **Field Values:**  
 [List of Values](field_values/POLYGTYPE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 3
 - Most frequently occurring value: rock
@@ -156,7 +156,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 19
 - Most frequently occurring value:  
@@ -179,7 +179,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 246
 - Most frequently occurring value: LeMay Formation; Trinity Penninsula Formation
@@ -202,7 +202,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 1
 - Most frequently occurring value: Ross Sea Drift
@@ -225,7 +225,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 59
 - Most frequently occurring value:  
@@ -248,7 +248,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 14
 - Most frequently occurring value:  
@@ -271,7 +271,7 @@ String
 **Field Value Restrictions:**  
 Unrestricted  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 11
 - Most frequently occurring value: Wilson Terrane
@@ -297,7 +297,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 12
 - Most frequently occurring value: rank not specified
@@ -323,7 +323,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 6
 - Most frequently occurring value: lithostratigraphic unit
@@ -349,7 +349,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 5
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit
@@ -375,7 +375,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 113
 - Most frequently occurring value: early Jurassic to early Cretaceous
@@ -401,7 +401,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 41
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Paleozoic
@@ -427,7 +427,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 51
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Albian
@@ -453,7 +453,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 52
 - Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Cambrian
@@ -476,7 +476,7 @@ Float
 **Field Value Restrictions:**  
 Positive Integer  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 121
 - Most frequently occurring value: 100.5
@@ -499,7 +499,7 @@ Float
 **Field Value Restrictions:**  
 Positive Integer  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 130
 - Most frequently occurring value: 541.0
@@ -519,7 +519,7 @@ Defined for GeoMAP (following convention used for digital geological map of Aust
 **Field Values:**  
 [List of Values](field_values/AGECODE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 46
 - Most frequently occurring value: JK
@@ -533,7 +533,7 @@ A one character symbol for the representative lithology of the MAPSYMBOL rock-ty
 **Field Values:**  
 [List of Values](field_values/LITHCODE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 25
 - Most frequently occurring value: s
@@ -559,7 +559,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 410
 - Most frequently occurring value: unknown
@@ -585,7 +585,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 80
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
@@ -611,7 +611,7 @@ see GeoSciML link
 **Field Value Restrictions:**  
 [http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 5
 - Most frequently occurring value: synthesis from multiple sources
@@ -631,7 +631,7 @@ String
 **Field Values:**  
 [List of Values](field_values/CONFIDENCE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 162
 - Most frequently occurring value: GEOLHIST uncertain
@@ -648,7 +648,7 @@ Value from GeoMap contributers
 **Field Values:**  
 [List of Values](field_values/POSACC_M_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 1
 - Most frequently occurring value: 250.0
@@ -668,7 +668,7 @@ String
 **Field Values:**  
 [List of Values](field_values/SOURCE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 158
 - Most frequently occurring value: Burton-Johnson & Riley 2015
@@ -691,7 +691,7 @@ Link
 **Field Values:**  
 [List of Values](field_values/METADATA_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 1
 - Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
@@ -708,7 +708,7 @@ Value from GeoMap contributers
 **Field Values:**  
 [List of Values](field_values/RESSCALE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 3
 - Most frequently occurring value: 250000
@@ -728,7 +728,7 @@ Date
 **Field Values:**  
 [List of Values](field_values/CAPTSCALE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 1
 - Most frequently occurring value: 50000
@@ -748,7 +748,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
 **Field Values:**  
 [List of Values](field_values/CAPTDATE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 14
 - Most frequently occurring value: 2017-07-26T00:00:00
@@ -768,7 +768,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
 **Field Values:**  
 [List of Values](field_values/MODDATE_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 15
 - Most frequently occurring value: 2018-06-06T00:00:00
@@ -788,10 +788,10 @@ Geomap naming scheme
 **Field Values:**  
 [List of Values](field_values/FEATUREID_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_034950
+- Most frequently occurring value: ATA_geological_units_080361
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
@@ -814,7 +814,7 @@ Link
 **Field Value Restrictions:**  
 [http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html](http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&_format=html)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 1
 - Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
@@ -834,7 +834,7 @@ Geomap naming scheme
 **Field Values:**  
 [List of Values](field_values/DATASET_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 9
 - Most frequently occurring value: ATA_PEN_geological_units
@@ -854,7 +854,7 @@ String
 **Field Values:**  
 [List of Values](field_values/REGION_values.md)  
   
-**Descriptive Statistics:**  
+**More Information:**  
 
 - Unique Values: 2
 - Most frequently occurring value: East Antarctica

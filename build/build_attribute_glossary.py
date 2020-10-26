@@ -97,7 +97,7 @@ def main():
             mdfile.new_line(text=output[j])
             mdfile.new_line("")
 
-        mdfile.new_line("Descriptive Statistics:", bold_italics_code='b')
+        mdfile.new_line("More Information:", bold_italics_code='b')
         mdfile.new_line()
 
         stats = create_stats(value_counts)
