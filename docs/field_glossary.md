@@ -519,6 +519,9 @@ Defined for GeoMAP (following convention used for digital geological map of Aust
 **Field Values:**  
 [List of Values](field_values/AGECODE_values.md)  
   
+**Field Value Restrictions:**  
+See [legend](legend.md)  
+  
 **More Information:**  
 
 - Unique Values: 46
@@ -532,6 +535,9 @@ A one character symbol for the representative lithology of the MAPSYMBOL rock-ty
   
 **Field Values:**  
 [List of Values](field_values/LITHCODE_values.md)  
+  
+**Field Value Restrictions:**  
+See [legend](legend.md)  
   
 **More Information:**  
 
@@ -791,7 +797,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_080361
+- Most frequently occurring value: ATA_geological_units_024438
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI
