@@ -14,7 +14,7 @@
 
 - **[Download the Data Here](https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/Download.html)**
 
-- **[GeoMAP Metadata](https://data.gns.cri.nz/metadata/srv/eng/catalog.search;jsessionid=1B49B5BC1994791F3BE4D1E54ED6DC3C#/metadata/8F618105-672A-4B89-A505-F6B195EB1858)**
+- **[GeoMAP Metadata](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/8F618105-672A-4B89-A505-F6B195EB1858)**
 
 - **[GeoSciML](http://geosciml.org/)**
 - **[QMAP GIS Specifications](https://www.gns.cri.nz/static/datadict/)**
