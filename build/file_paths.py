@@ -1,11 +1,11 @@
 import os
 
-DOC_DIR = os.path.dirname(os.path.realpath(__file__))
-SITE_DIR = os.path.join(DOC_DIR, "docs_site", "docs")
+BUILD_DIR = os.path.dirname(os.path.realpath(__file__))
 
-BASE_DIR = os.path.dirname(DOC_DIR)
+BASE_DIR = os.path.dirname(BUILD_DIR)
+SITE_DIR = os.path.join(BASE_DIR, "docs")
 
-FIELD_DESCR_PATH = os.path.join(DOC_DIR, "field_descr_data.csv")
+FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "field_descr_data.csv")
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
