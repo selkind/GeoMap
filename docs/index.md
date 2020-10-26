@@ -27,4 +27,4 @@
 
 ## Source Code
 - These pages open source. You can find the content source and build scripts [in this Github repository](https://github.com/selkind/GeoMap)
-- To report a problem with the documentation or contact Sam, please [open up an issue on github](https://github.com/selkind/GeoMap/issues)
+- To report a problem with the documentation or contact Sam, please [open up an issue on github](https://github.com/selkind/GeoMap/issues) or send an email to samuel.elkind@gmail.com
