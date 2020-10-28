@@ -70,7 +70,7 @@ def create_stats(value_counts):
 
 
 def main():
-    geomap = gpd.read_file(fp.GEOL_PATH)
+    geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units")
     field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
 
     mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="SCAR GeoMAP Project")
