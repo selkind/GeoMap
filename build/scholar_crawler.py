@@ -1,15 +1,13 @@
 import scrapy
 
 
-class MenuSpider(scrapy.Spider):
-    name = "Menu Spider"
+class ScholarSpider(scrapy.Spider):
+    name = "scholarspider"
 
     def start_requests(self):
-        yield scrapy.Request(url="https://www.sweetcowicecream.com/platt/", callback=self.parse)
+        for i in self.urls:
+            yield scrapy.Request(url=i, callback=self.parse_search_results)
 
-    def parse(self, response):
-        flavors = []
-        for flavor in response.xpath("//div[@class='flavor-wrap']//h3[@class='vertalign']/text()").getall():
-            flavors.append(flavor.strip().lower())
-        print(flavors)
-        return flavors
+    def parse_search_results(self, response):
+        citation_link = response.xpath("//div[@class='gs_r gs_or gs_scl']/@data-cid").get()
+        return citation_link
