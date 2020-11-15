@@ -1,7 +1,4 @@
-from twisted.internet import reactor
 import scrapy
-from scrapy.crawler import CrawlerRunner
-from scrapy.utils.log import configure_logging
 
 
 class MenuSpider(scrapy.Spider):
@@ -16,12 +13,3 @@ class MenuSpider(scrapy.Spider):
             flavors.append(flavor.strip().lower())
         print(flavors)
         return flavors
-
-
-def run():
-    configure_logging({'LOG_FORMAT': '%(Levelname)s: %(Message)s'})
-    runner = CrawlerRunner()
-
-    d = runner.crawl(MenuSpider)
-    d.addBoth(lambda _: reactor.stop())
-    reactor.run()

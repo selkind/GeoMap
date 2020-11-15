@@ -1,8 +1,12 @@
-import os
+# import os
 import geopandas as gpd
-import mdutils
+# import mdutils
 from file_paths import GEOL_PATH, SITE_DIR, BIB_PATH
 import urllib
+
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.log import configure_logging
+from scrapy.utils.project import get_project_settings
 
 
 def main():
@@ -13,6 +17,12 @@ def main():
         components = ("https", "scholar.google.com", "/scholar", "", f"q={query}", "")
         url = urllib.parse.urlunparse(components)
         print(url, geomap["PUBTYPE"].iloc[i])
+
+    configure_logging({'LOG_FORMAT': '%(Levelname)s: %(Message)s'})
+    process = CrawlerProcess(get_project_settings())
+
+    process.crawl('spidername')
+    process.start()
 
 
 if __name__ == "__main__":
