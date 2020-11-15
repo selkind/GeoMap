@@ -9,13 +9,10 @@ def main():
     geomap = gpd.read_file(GEOL_PATH, layer="ATA_sources_poly")
 
     for i in range(10):
-        query = f"{geomap['TITLE'].iloc[i]} {geomap['AUTHORS'].iloc[i]} {geomap['YEAR'].iloc[i]}"
+        query = f"{geomap['TITLE'].iloc[i]} {geomap['AUTHORS'].iloc[i]} {int(geomap['YEAR'].iloc[i])}"
         components = ("https", "scholar.google.com", "/scholar", "", f"q={query}", "")
         url = urllib.parse.urlunparse(components)
         print(url, geomap["PUBTYPE"].iloc[i])
-
-
-
 
 
 if __name__ == "__main__":
