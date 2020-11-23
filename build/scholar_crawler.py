@@ -12,15 +12,14 @@ class ScholarSpider(scrapy.Spider):
         cite_id = response.xpath("//div[@class='gs_r gs_or gs_scl']/@data-cid").get()
         citation_url = f"https://scholar.google.com/scholar?q=info:{cite_id}"\
                        ":scholar.google.com/&output=cite&scirp=0&hl=en"
-        return scrapy.Request(url=citation_url, callback=self.parse_citation_results)
+        yield scrapy.Request(url=citation_url, callback=self.parse_citation_results)
 
     def parse_citation_results(self, response):
         plain_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/text()").getall()
         italics_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/i/text()").get()
         mla = Citation(form="MLA", plain_text=plain_mla, italics=italics_mla)
         bibtex = response.xpath("//div/a[text()='BibTeX']/@href").get()
-        print(bibtex)
-        return CitationSet(mla=mla, bibtex=bibtex)
+        yield CitationSet(mla=mla, bibtex=bibtex)
 
 
 class Citation(scrapy.Item):
