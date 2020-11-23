@@ -17,10 +17,18 @@ class ScholarSpider(scrapy.Spider):
     def parse_citation_results(self, response):
         plain_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/text()").getall()
         italics_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/i/text()").get()
-        return Citation(form="MLA", plain_text=plain_mla, italics=italics_mla)
+        mla = Citation(form="MLA", plain_text=plain_mla, italics=italics_mla)
+        bibtex = response.xpath("//div/a[text()='BibTeX']/@href").get()
+        print(bibtex)
+        return CitationSet(mla=mla, bibtex=bibtex)
 
 
 class Citation(scrapy.Item):
     form = scrapy.Field()
     plain_text = scrapy.Field()
     italics = scrapy.Field()
+
+
+class CitationSet(scrapy.Item):
+    mla = scrapy.Field()
+    bibtex = scrapy.Field()
