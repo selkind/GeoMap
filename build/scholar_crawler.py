@@ -9,5 +9,18 @@ class ScholarSpider(scrapy.Spider):
             yield scrapy.Request(url=i, callback=self.parse_search_results)
 
     def parse_search_results(self, response):
-        citation_link = response.xpath("//div[@class='gs_r gs_or gs_scl']/@data-cid").get()
-        return citation_link
+        cite_id = response.xpath("//div[@class='gs_r gs_or gs_scl']/@data-cid").get()
+        citation_url = f"https://scholar.google.com/scholar?q=info:{cite_id}"\
+                       ":scholar.google.com/&output=cite&scirp=0&hl=en"
+        return scrapy.Request(url=citation_url, callback=self.parse_citation_results)
+
+    def parse_citation_results(self, response):
+        plain_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/text()").getall()
+        italics_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/i/text()").get()
+        return Citation(form="MLA", plain_text=plain_mla, italics=italics_mla)
+
+
+class Citation(scrapy.Item):
+    form = scrapy.Field()
+    plain_text = scrapy.Field()
+    italics = scrapy.Field()
