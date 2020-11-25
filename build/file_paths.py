@@ -16,6 +16,8 @@ FIELD_VALS_DIR = os.path.join(SITE_DIR, "field_values")
 GLOSSARY_PATH = os.path.join(SITE_DIR, "field_glossary.md")
 BIB_PATH = os.path.join(SITE_DIR, "bibliography.md")
 
+SCRAPE_OUTPUT_PATH = os.path.join(BUILD_DIR, "output.json")
+
 for i in [FIELD_DESCR_PATH, GEOL_PATH, CULTURE_PATH]:
     if not os.path.exists(i) and not os.path.isfile(i):
         raise FileNotFoundError(f"{i} does not exist")
