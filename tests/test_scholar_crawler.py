@@ -6,7 +6,7 @@ import scrapy
 from build.scholar_crawler import ScholarSpider, Citation, CitationSet
 from tests.mock_response import fake_response_from_file
 
-SCHOLAR_SEARCH_RESULTS_PATH = "../scholar_test_data/scholar_search_results.html"
+SCHOLAR_SEARCH_RESULTS_PATH = "../scholar_test_data/scholar_search_results2.html"
 SCHOLAR_CITE_PATH = "../scholar_test_data/citation.html"
 
 
@@ -14,7 +14,7 @@ class TestScholarCrawler:
 
     @pytest.fixture
     def spider(self):
-        return ScholarSpider()
+        return ScholarSpider(urls=[])
 
     @pytest.fixture
     def results_page(self):
@@ -31,8 +31,9 @@ class TestScholarCrawler:
             "&output=cite&scirp=0&hl=en"
 
     def test_parse_citation_results(self, spider, cite_page):
-        return_value = spider.parse_citation_results(cite_page)
+        return_value = spider.parse_citation_results(cite_page, "")
         assert type(return_value) == CitationSet
+        assert return_value["url"] is not None
         assert type(return_value["mla"] == Citation)
         assert return_value["mla"]["plain_text"] == ['Isaac, M. J., et al. '
                                                      '"Geology of the Olympus Range Area, Southern Victoria Land.\" ',

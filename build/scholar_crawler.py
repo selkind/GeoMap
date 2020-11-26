@@ -17,7 +17,7 @@ class ScholarSpider(scrapy.Spider):
             print(f"scraping {response.url} failed")
         citation_url = f"https://scholar.google.com/scholar?q=info:{cite_id}"\
                        ":scholar.google.com/&output=cite&scirp=0&hl=en"
-        yield scrapy.Request(url=citation_url, callback=self.parse_citation_results, cb_kwargs={"url": response.url})
+        return scrapy.Request(url=citation_url, callback=self.parse_citation_results, cb_kwargs={"url": response.url})
 
     def parse_citation_results(self, response, url):
         plain_mla = response.xpath("//div/table/tr/th[text()='MLA']/parent::tr/td/div/text()").getall()
@@ -25,7 +25,7 @@ class ScholarSpider(scrapy.Spider):
         mla = Citation(form="MLA", plain_text=plain_mla, italics=italics_mla)
         bibtex = response.xpath("//div/a[text()='BibTeX']/@href").get()
         
-        yield CitationSet(url=url, mla=mla, bibtex=bibtex)
+        return CitationSet(url=url, mla=mla, bibtex=bibtex)
 
 
 class Citation(scrapy.Item):

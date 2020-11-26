@@ -1,11 +1,10 @@
 import requests
 
-scholar_query = "https://scholar.google.com/scholar?q=Geology of the Olympus Range area,"\
-    "southern Victoria Land, Antarctica. Isaac M.J., Chinn T.J., Edbrooke S.W.,Forsyth P.J. 1996"
+scholar_query = "https://scholar.google.com/scholar?q=Geology of the Bull Pass - St Johns area, southern Victoria Land, Antarctica. Turnbull I.M., Allibone A.H., Forsyth P.J., Heron D.W. 1994"
 
 r = requests.get(url=scholar_query)
 
-with open("./scholar_test_data/scholar_search_results.html", 'w') as f:
+with open("./scholar_test_data/scholar_search_results2.html", 'w') as f:
     f.write(r.text)
 
 cite_query = "https://scholar.google.com/scholar?q=info:4qAC3XBmStsJ:scholar.google.com/&output=cite&scirp=0&hl=en"
