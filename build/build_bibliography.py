@@ -72,13 +72,20 @@ def split_authors(authors):
         if i in authors:
             delimiter = i
             break
+    etal = " et al."
+    in_string = " in "
     if delimiter is None:
+        if in_string in authors:
+            single_work = authors[:authors.find(in_string)]
+            if etal in single_work:
+                single_work = single_work[:single_work.find(etal)]
+                return [single_work, "et al."]
+            return [single_work]
         return [authors]
     else:
         individual_authors = authors.split(delimiter)
         for i in range(len(individual_authors)):
             author = individual_authors[i]
-            etal = "et al."
             if etal in author:
                 author = author.replace(etal, "")
                 individual_authors.append("et al.")
