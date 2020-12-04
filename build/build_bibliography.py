@@ -1,6 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 # import mdutils
-from file_paths import GEOL_PATH
+from build.file_paths import GEOL_PATH
 
 
 def make_citations():
@@ -16,31 +19,48 @@ def make_citations():
 
 
 def make_mla_markdown_citation(record):
-    authors = format_authors(record['AUTHORS'])
+    separated_authors = split_authors(record['AUTHORS'])
+    authors = format_mla_authors(separated_authors)
+    return authors
 
-    return f"{authors}."
 
-
-def format_authors(authors):
-    individual_authors = authors.split(", ")
-    author_count = len(individual_authors)
-    if author_count > 2:
-        formatted = f'{individual_authors[0].split(" ")[0]} et al.'
-    elif author_count == 2:
-        formatted = f'{individual_authors[0].split(" ")[0]} and {individual_authors[1].split(" ")[0]}'
+def split_authors(authors):
+    # list is ordered so that entries with multiple delimiters will have the more likely delimiter chosen. ',' can be a delimiter for 
+    # first and last name, whereas ampersand and semi-colon will not be and thus have higher 'priority'
+    delimiters = ("&", ";", ",")
+    delimiter = None
+    for i in delimiters:
+        if i in authors:
+            delimiter = i
+            break
+    if delimiter is None:
+        return [authors]
     else:
-        ampersand_split = authors.split("; ")
-        if len(ampersand_split) == 2:
-            formatted = f'{ampersand_split[0].split(" ")[0]} and {ampersand_split[1].split(" ")[0]}'
-        else:
-            formatted = authors
-    return formatted
+        individual_authors = authors.split(delimiter)
+        for i in range(len(individual_authors)):
+            author = individual_authors[i]
+            etal = "et al."
+            if etal in author:
+                author = author.replace(etal, "")
+                individual_authors.append("et al.")
+            author = author.replace(",", ".")
+            individual_authors[i] = author.strip()
+        return individual_authors
+
+
+def format_mla_authors(split_authors):
+    author_count = len(split_authors)
+    if author_count > 2:
+        return f'{split_authors[0].split(" ")[0]} et al.'
+    elif author_count == 2:
+        return f'{split_authors[0].split(" ")[0]} and {split_authors[1].split(" ")[0]}'
+        print("meow")
+    else:
+        return split_authors
 
 
 def main():
     test = make_citations()
-    for i in test:
-        print(i, test[i])
 
 
 if __name__ == "__main__":
