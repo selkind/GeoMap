@@ -1,0 +1,820 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Field Glossary &mdash; GeoMAP  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="The SCAR GeoMAP project" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> GeoMAP
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Field Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sourcecode">SOURCECODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mapsymbol">MAPSYMBOL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plotsymbol">PLOTSYMBOL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#name">NAME</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descr">DESCR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#polygtype">POLYGTYPE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mbrequiv">MBREQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fmnequiv">FMNEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sbgrpequiv">SBGRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#grpequiv">GRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spgrpequiv">SPGRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terrequiv">TERREQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stratrank">STRATRANK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#typename">TYPENAME</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#type-uri">TYPE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#geolhist">GEOLHIST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repage-uri">REPAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#yngage-uri">YNGAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#oldage-uri">OLDAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#absmin-ma">ABSMIN_MA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#absmax-ma">ABSMAX_MA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#agecode">AGECODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lithcode">LITHCODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lithology">LITHOLOGY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#replith-uri">REPLITH_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#obsmethod">OBSMETHOD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#confidence">CONFIDENCE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#posacc-m">POSACC_M</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#source">SOURCE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#metadata">METADATA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resscale">RESSCALE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#captscale">CAPTSCALE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#captdate">CAPTDATE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#moddate">MODDATE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#featureid">FEATUREID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spec-uri">SPEC_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dataset">DATASET</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#region">REGION</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">The SCAR GeoMAP project</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Field Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sourcecode">SOURCECODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mapsymbol">MAPSYMBOL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plotsymbol">PLOTSYMBOL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#name">NAME</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descr">DESCR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#polygtype">POLYGTYPE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mbrequiv">MBREQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fmnequiv">FMNEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sbgrpequiv">SBGRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#grpequiv">GRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spgrpequiv">SPGRPEQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terrequiv">TERREQUIV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stratrank">STRATRANK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#typename">TYPENAME</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#type-uri">TYPE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#geolhist">GEOLHIST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repage-uri">REPAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#yngage-uri">YNGAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#oldage-uri">OLDAGE_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#absmin-ma">ABSMIN_MA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#absmax-ma">ABSMAX_MA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#agecode">AGECODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lithcode">LITHCODE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lithology">LITHOLOGY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#replith-uri">REPLITH_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#obsmethod">OBSMETHOD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#confidence">CONFIDENCE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#posacc-m">POSACC_M</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#source">SOURCE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#metadata">METADATA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resscale">RESSCALE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#captscale">CAPTSCALE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#captdate">CAPTDATE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#moddate">MODDATE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#featureid">FEATUREID</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spec-uri">SPEC_URI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dataset">DATASET</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#region">REGION</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GeoMAP</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Field Glossary</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/field_glossary.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="field-glossary">
+<h1>Field Glossary<a class="headerlink" href="#field-glossary" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sourcecode">
+<h2>SOURCECODE<a class="headerlink" href="#sourcecode" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A value indicating the geologic identity of the polygon. This is the code or classification initially assigned by a map author (source) pulled directly from the SOURCE publication, following whatever convention was used by the author in their original publication. Values generally follow conventional geological labels (1-2 characters indicating age followed by 1-2 characters indicating lithology) or they can be a number or character-number combination like a sample Identifier. Question marks in the symbol indicate uncertainty in the original author’s identification.</p>
+<p><strong>Source of Values:</strong><br />Derived from publication listed in SOURCE</p>
+<p><strong>Value Format:</strong><br />Determined by original publication authors</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/SOURCECODE_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 801</p></li>
+<li><p>Most frequently occurring value: C-Tr</p></li>
+<li><p>Number of values with a single occurrence: 54</p></li>
+</ul>
+</div>
+<div class="section" id="mapsymbol">
+<h2>MAPSYMBOL<a class="headerlink" href="#mapsymbol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A value indicating the principal geological identity of the polygon. Values are restricted by the formatting convention defined by the GeoMAP <a class="reference external" href="legend">legend</a>, using CAPITAL letters representing AGE (Chronostratigraphic subdivision) and small letters representing lithology (rock-type as a lithostratigraphic classification). MAPSYMBOL is used to unify original SOURCECODE and classify polygons consistently across the entire GeoMAP dataset.</p>
+<p><strong>Source of Values:</strong><br />Value based on the compiler’s interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip</p>
+<p><strong>Value Format:</strong><br />The first one or two UPPERCASE characters represent the geological time period. The last lowercase character is a code corresponding to the type of geologic unit as defined in the <a class="reference external" href="legend">legend</a>. NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = EOs; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/MAPSYMBOL_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />See <a class="reference external" href="legend">legend</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 173</p></li>
+<li><p>Most frequently occurring value: JKg</p></li>
+<li><p>Number of values with a single occurrence: 3</p></li>
+</ul>
+</div>
+<div class="section" id="plotsymbol">
+<h2>PLOTSYMBOL<a class="headerlink" href="#plotsymbol" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A value that is generally the same as MAPSYMBOL.  PLOTSYMBOL is used for cartographic purposes to generate colour, or symbols on hard-copy maps. Enables greater user-control. Hs, Qs, Jd are examples where Holocene and Quaternary sediments, or Jurassic dolerites, are differentiated with different PLOTSYMBOL from MAPSYMBOL.</p>
+<p><strong>Source of Values:</strong><br />Value based on the compiler’s interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip</p>
+<p><strong>Value Format:</strong><br />Determined by GeoMAP dataset compilers</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/PLOTSYMBOL_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 183</p></li>
+<li><p>Most frequently occurring value: JKg</p></li>
+<li><p>Number of values with a single occurrence: 3</p></li>
+</ul>
+</div>
+<div class="section" id="name">
+<h2>NAME<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A textual name of the rock unit or simplified type of rock. Where possible the formally defined and published stratigraphic name is adopted, however many units have been named informally or only classified by lithology.  NAME is generally pulled from the SOURCE publication and follows whatever convention is established by the authors.</p>
+<p><strong>Source of Values:</strong><br />Copied from publication listed in SOURCE</p>
+<p><strong>Value Format:</strong><br />Determined by original publication authors</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/NAME_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 666</p></li>
+<li><p>Most frequently occurring value: marine sedimentary and metasedimentary rocks (Carboniferous to Triassic)</p></li>
+<li><p>Number of values with a single occurrence: 36</p></li>
+</ul>
+</div>
+<div class="section" id="descr">
+<h2>DESCR<a class="headerlink" href="#descr" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A description of the geological mapping unit that the polygon is identified as. Geological maps can be based on lithostratigraphy, biostratigraphy, age, and rock types, or combinations of these. A lithostratigraphic approach has generally been adopted for GeoMAP. Mapping units are based on age and/or rock type. DESCR provides a text description of the range and/or most common rock-types encountered, typically taken from an entry on a geological map <a class="reference external" href="legend">legend</a>.</p>
+<p><strong>Source of Values:</strong><br />Copied from publication listed in SOURCE</p>
+<p><strong>Value Format:</strong><br />Determined by dataset compilers, summarized from SOURCE author descriptions</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/DESCR_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 757</p></li>
+<li><p>Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas</p></li>
+<li><p>Number of values with a single occurrence: 41</p></li>
+</ul>
+</div>
+<div class="section" id="polygtype">
+<h2>POLYGTYPE<a class="headerlink" href="#polygtype" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A restricted value. One of either rock, moraine, or ice. A simplistic description of dominant material within the polygon.</p>
+<p><strong>Source of Values:</strong><br />Based on an interpretation of SOURCECODE or MAPSYMBOL</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/POLYGTYPE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 3</p></li>
+<li><p>Most frequently occurring value: rock</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="mbrequiv">
+<h2>MBREQUIV<a class="headerlink" href="#mbrequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “member”, this is the lithologic member associated with the SOURCECODE. Otherwise value will be “None”</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/MBREQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 19</p></li>
+<li><p>Most frequently occurring value:</p></li>
+<li><p>Number of values with a single occurrence: 5</p></li>
+</ul>
+</div>
+<div class="section" id="fmnequiv">
+<h2>FMNEQUIV<a class="headerlink" href="#fmnequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “formation” or narrower, this is the lithologic formation associated with the SOURCECODE. Otherwise value will be “None”</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/FMNEQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 246</p></li>
+<li><p>Most frequently occurring value: LeMay Formation; Trinity Penninsula Formation</p></li>
+<li><p>Number of values with a single occurrence: 15</p></li>
+</ul>
+</div>
+<div class="section" id="sbgrpequiv">
+<h2>SBGRPEQUIV<a class="headerlink" href="#sbgrpequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “subgroup” or narrower, this is the lithologic subgroup associated with the SOURCECODE. Otherwise value will be “None”. Currently, the only named subgroup is “Ross Sea Drift” which has a strat rank of “rank not specified”</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/SBGRPEQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 1</p></li>
+<li><p>Most frequently occurring value: Ross Sea Drift</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="grpequiv">
+<h2>GRPEQUIV<a class="headerlink" href="#grpequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “group” or narrower, this is the lithologic group associated with the SOURCECODE.</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/GRPEQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 59</p></li>
+<li><p>Most frequently occurring value:</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="spgrpequiv">
+<h2>SPGRPEQUIV<a class="headerlink" href="#spgrpequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “supergroup” or narrower, this is the lithologic supergroup associated with the SOURCECODE. Otherwise value will be “None”. Currently most supergroups</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/SPGRPEQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 14</p></li>
+<li><p>Most frequently occurring value:</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="terrequiv">
+<h2>TERREQUIV<a class="headerlink" href="#terrequiv" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />When the STRATRANK of the polygon is “terrane”, this is the lithologic terrane associated with the SOURCECODE. Otherwise value will be “None”</p>
+<p><strong>Source of Values:</strong><br />Interpretation based upon multiple sources</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/TERREQUIV_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Unrestricted</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 11</p></li>
+<li><p>Most frequently occurring value: Wilson Terrane</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="stratrank">
+<h2>STRATRANK<a class="headerlink" href="#stratrank" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The level of lithologic classification associated with the SOURCECODE</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank">http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/STRATRANK_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank">http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 12</p></li>
+<li><p>Most frequently occurring value: rank not specified</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="typename">
+<h2>TYPENAME<a class="headerlink" href="#typename" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The geologic unit type as defined by GeoSciML following the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Unit types are differentiated based on their defining lithological, stratigraphic, or other physical properties.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/geologicunittype">http://cgi.vocabs.ga.gov.au/vocab/geologicunittype</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/TYPENAME_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype">http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 6</p></li>
+<li><p>Most frequently occurring value: lithostratigraphic unit</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="type-uri">
+<h2>TYPE_URI<a class="headerlink" href="#type-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The link to the geologic unit type.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/geologicunittype">http://cgi.vocabs.ga.gov.au/vocab/geologicunittype</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/TYPE_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype">http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 5</p></li>
+<li><p>Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="geolhist">
+<h2>GEOLHIST<a class="headerlink" href="#geolhist" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A textual representation of the range of time associated with the genesis of the SOURCECODE’s geology.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/GEOLHIST_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 113</p></li>
+<li><p>Most frequently occurring value: early Jurassic to early Cretaceous</p></li>
+<li><p>Number of values with a single occurrence: 2</p></li>
+</ul>
+</div>
+<div class="section" id="repage-uri">
+<h2>REPAGE_URI<a class="headerlink" href="#repage-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The link to the geologic period or era that is representative of the formation of the SOURCECODE’s geological unit.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/REPAGE_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 41</p></li>
+<li><p>Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Paleozoic</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="yngage-uri">
+<h2>YNGAGE_URI<a class="headerlink" href="#yngage-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The link to the youngest geologic period or era that is associated with the genesis of the SOURCECODE’s geology</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/YNGAGE_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 51</p></li>
+<li><p>Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Albian</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="oldage-uri">
+<h2>OLDAGE_URI<a class="headerlink" href="#oldage-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The link to the oldest geologic period or era that is associated with the genesis of the SOURCECODE’s geology</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/OLDAGE_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection">https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 52</p></li>
+<li><p>Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Cambrian</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="absmin-ma">
+<h2>ABSMIN_MA<a class="headerlink" href="#absmin-ma" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A floating point value associated with the age in million years when the young-age geologic period or era ended.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />Float</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/ABSMIN_MA_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Positive Integer</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 121</p></li>
+<li><p>Most frequently occurring value: 100.5</p></li>
+<li><p>Number of values with a single occurrence: 2</p></li>
+</ul>
+</div>
+<div class="section" id="absmax-ma">
+<h2>ABSMAX_MA<a class="headerlink" href="#absmax-ma" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A floating point value associated with the age in million years when the old-age geologic period or era began.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />Float</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/ABSMAX_MA_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />Positive Integer</p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 130</p></li>
+<li><p>Most frequently occurring value: 541.0</p></li>
+<li><p>Number of values with a single occurrence: 2</p></li>
+</ul>
+</div>
+<div class="section" id="agecode">
+<h2>AGECODE<a class="headerlink" href="#agecode" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A one to three character symbol for the representative age geologic period or era used in the MAPSYMBOL value. These values are defined in the <a class="reference external" href="legend">legend</a>.</p>
+<p><strong>Source of Values:</strong><br />Defined for GeoMAP (following convention used for digital geological map of Australia)</p>
+<p><strong>Value Format:</strong><br />2-3 Characters</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/AGECODE_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />See <a class="reference external" href="legend">legend</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 46</p></li>
+<li><p>Most frequently occurring value: JK</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="lithcode">
+<h2>LITHCODE<a class="headerlink" href="#lithcode" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A one character symbol for the representative lithology of the MAPSYMBOL rock-type letter. Defined and restricted by the values in the <a class="reference external" href="legend">legend</a>.</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/LITHCODE_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br />See <a class="reference external" href="legend">legend</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 25</p></li>
+<li><p>Most frequently occurring value: s</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="lithology">
+<h2>LITHOLOGY<a class="headerlink" href="#lithology" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />A textual description of the lithology restricted to values appearing on GeoSciML’s Simple Lithology list.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/simplelithology">http://cgi.vocabs.ga.gov.au/vocab/simplelithology</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/LITHOLOGY_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology">http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 410</p></li>
+<li><p>Most frequently occurring value: unknown</p></li>
+<li><p>Number of values with a single occurrence: 11</p></li>
+</ul>
+</div>
+<div class="section" id="replith-uri">
+<h2>REPLITH_URI<a class="headerlink" href="#replith-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/simplelithology">http://cgi.vocabs.ga.gov.au/vocab/simplelithology</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/REPLITH_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology">http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 80</p></li>
+<li><p>Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock</p></li>
+<li><p>Number of values with a single occurrence: 3</p></li>
+</ul>
+</div>
+<div class="section" id="obsmethod">
+<h2>OBSMETHOD<a class="headerlink" href="#obsmethod" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The manner in which the polygon’s attributes were assigned. Values are loosely guided by GeoSciML’s list of Geologic Feature Observation Methods</p>
+<p><strong>Source of Values:</strong><br />GeoSciML</p>
+<p><strong>Value Format:</strong><br />see GeoSciML link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod">http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/OBSMETHOD_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod">http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 5</p></li>
+<li><p>Most frequently occurring value: synthesis from multiple sources</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="confidence">
+<h2>CONFIDENCE<a class="headerlink" href="#confidence" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />An explanation of the manner by which the age of the geology was determined. Free text that provides a statement concerning the accuracy of the data provided in associated fields.</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers based on SOURCE publication</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/CONFIDENCE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 162</p></li>
+<li><p>Most frequently occurring value: GEOLHIST uncertain</p></li>
+<li><p>Number of values with a single occurrence: 12</p></li>
+</ul>
+</div>
+<div class="section" id="posacc-m">
+<h2>POSACC_M<a class="headerlink" href="#posacc-m" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The estimated positional accuracy of the polygon margins. Units: meters</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/POSACC_M_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 1</p></li>
+<li><p>Most frequently occurring value: 250.0</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="source">
+<h2>SOURCE<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The primary published or unpublished source referenced to assign attributes to the polygon.  A unique identifier that links to the GeoMAP spatial bibliography of geological maps and the geodatabase polygon feature class (or shapefile) ATA_sources_poly.</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/SOURCE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 158</p></li>
+<li><p>Most frequently occurring value: Burton-Johnson &amp; Riley 2015</p></li>
+<li><p>Number of values with a single occurrence: 8</p></li>
+</ul>
+</div>
+<div class="section" id="metadata">
+<h2>METADATA<a class="headerlink" href="#metadata" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The link to the metadata for this dataset</p>
+<p><strong>Source of Values:</strong><br />https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7</p>
+<p><strong>Value Format:</strong><br />Link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7">https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/METADATA_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 1</p></li>
+<li><p>Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="resscale">
+<h2>RESSCALE<a class="headerlink" href="#resscale" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The resolution scale at which the polygon was designed to be used or viewed at.</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/RESSCALE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 3</p></li>
+<li><p>Most frequently occurring value: 250000</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="captscale">
+<h2>CAPTSCALE<a class="headerlink" href="#captscale" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The scale at which the polygon was digitized</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Value Format:</strong><br />Date</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/CAPTSCALE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 1</p></li>
+<li><p>Most frequently occurring value: 50000</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="captdate">
+<h2>CAPTDATE<a class="headerlink" href="#captdate" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The date the polygon was added to the dataset</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Value Format:</strong><br />Datetime: YYYY-MM-DDThh:mm:ss</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/CAPTDATE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 14</p></li>
+<li><p>Most frequently occurring value: 2017-07-26T00:00:00</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="moddate">
+<h2>MODDATE<a class="headerlink" href="#moddate" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The most recent date when the polygon was modified.</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Value Format:</strong><br />Datetime: YYYY-MM-DDThh:mm:ss</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/MODDATE_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 15</p></li>
+<li><p>Most frequently occurring value: 2018-06-06T00:00:00</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="featureid">
+<h2>FEATUREID<a class="headerlink" href="#featureid" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The unique identifier of the polygon</p>
+<p><strong>Source of Values:</strong><br />Geomap naming scheme</p>
+<p><strong>Value Format:</strong><br />Geomap naming scheme</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/FEATUREID_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 95161</p></li>
+<li><p>Most frequently occurring value: ATA_geological_units_024438</p></li>
+<li><p>Number of values with a single occurrence: 95161</p></li>
+</ul>
+</div>
+<div class="section" id="spec-uri">
+<h2>SPEC_URI<a class="headerlink" href="#spec-uri" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />Not really sure what this is</p>
+<p><strong>Source of Values:</strong><br />http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&amp;_format=html</p>
+<p><strong>Value Format:</strong><br />Link</p>
+<p><strong>Metadata Link:</strong><br /><a class="reference external" href="http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&amp;_format=html">http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&amp;_format=html</a></p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/SPEC_URI_values">List of Values</a></p>
+<p><strong>Field Value Restrictions:</strong><br /><a class="reference external" href="http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&amp;_format=html">http://defs.opengis.net/elda-common/ogc-def/resource?uri=http://www.opengis.net/def/nil/OGC/0/missing&amp;_format=html</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 1</p></li>
+<li><p>Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="dataset">
+<h2>DATASET<a class="headerlink" href="#dataset" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The dataset from which the polygon came from. Alludes to the region of Antarctica where the polygon is located (Peninsula, North Victoria Land, etc).</p>
+<p><strong>Source of Values:</strong><br />Geomap naming scheme</p>
+<p><strong>Value Format:</strong><br />Geomap naming scheme</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/DATASET_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 9</p></li>
+<li><p>Most frequently occurring value: ATA_PEN_geological_units</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+<div class="section" id="region">
+<h2>REGION<a class="headerlink" href="#region" title="Permalink to this headline">¶</a></h2>
+<p><strong>Description:</strong><br />The region in which the polygon is located {East Antarctica, West Antarctica}</p>
+<p><strong>Source of Values:</strong><br />Value from GeoMap contributers</p>
+<p><strong>Value Format:</strong><br />String</p>
+<p><strong>Field Values:</strong><br /><a class="reference external" href="field_values/REGION_values">List of Values</a></p>
+<p><strong>More Information:</strong></p>
+<ul class="simple">
+<li><p>Unique Values: 2</p></li>
+<li><p>Most frequently occurring value: East Antarctica</p></li>
+<li><p>Number of values with a single occurrence: 0</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="The SCAR GeoMAP project" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Samuel Elkind
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
