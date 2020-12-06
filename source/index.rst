@@ -4,7 +4,6 @@
    contain the root `toctree` directive.
 
 
-
 The `SCAR GeoMAP project <https://www.scar.org/science/geomap/home/>`_
 ====================================================================================================
 
@@ -17,6 +16,13 @@ Unofficial Documentation
    :align: center
    :alt: Image could not load
 
+.. toctree::
+   :maxdepth: 2
+   :name: main
+   :caption: Table of Contents:
+   :hidden:
+   
+   index
 
 Cox S.C., Smith Lyttle B. and the GeoMAP team (2019). Lower Hutt, New Zealand. GNS Science. Release v.201907.
 **************************************************************************************************************
@@ -44,20 +50,16 @@ Documentation Pages
 * ATA_faults: **Coming soon**
 * ATA_GeoMAP_qualityinformation: **Coming soon**
 
-Source Code
-#############################
-* These pages open source. You can find the content source and build scripts `in this Github repository <https://github.com/selkind/GeoMap>`_
-* To report a problem with the documentation or contact Sam, please `open up an issue on github <https://github.com/selkind/GeoMap/issues>`_ or send an email to samuel.elkind@gmail.com
-
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents:
-   :hidden:
-
-.. toctree::
-   :maxdepth: 3
+   :name: geol
    :caption: ATA_geological_units:
    :hidden:
 
    field_glossary
    legend
+
+Source Code
+#############################
+* These pages open source. You can find the content source and build scripts `in this Github repository <https://github.com/selkind/GeoMap>`_
+* To report a problem with the documentation or contact Sam, please `open up an issue on github <https://github.com/selkind/GeoMap/issues>`_ or send an email to samuel.elkind@gmail.com

@@ -32,11 +32,27 @@ extensions = [
     'sphinx_markdown_tables',
 ]
 
+
+# add AutoStructify functionality
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    '.md': CommonMarkParser
+}
+
+import recommonmark
+from recommonmark.transform import AutoStructify
+github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Table of Contents',
+    }, True)
+    app.add_transform(AutoStructify)
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -57,11 +73,11 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': True,
-    'collapse_navigation': True,
     'sticky_navigation': True,
-    'navigation_depth': 3,
+    'navigation_depth': 2,
     'includehidden': True,
     'titles_only': False,
+    'collapse_navigation': True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
