@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.12.5)  5 DEC 2020 15:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.12.5)  5 DEC 2020 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,8 +1061,7 @@ LaTeX Info: Redefining \ttfamily on input line 1215.
  [21]
 File: legend_201907.png Graphic file (type bmp)
 <legend_201907.png>
-
-No file geomap.ind.
+ (./geomap.ind)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1101,7 +1100,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1263.
 LaTeX Info: Redefining \rmfamily on input line 1263.
 LaTeX Info: Redefining \sffamily on input line 1263.
 LaTeX Info: Redefining \ttfamily on input line 1263.
-[22]
+ [22]
 LaTeX Info: Redefining \rmfamily on input line 1263.
 LaTeX Info: Redefining \sffamily on input line 1263.
 LaTeX Info: Redefining \ttfamily on input line 1263.
@@ -1117,15 +1116,11 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1263.
 
 Package rerunfilecheck Info: File `geomap.out' has not changed.
 (rerunfilecheck)             Checksum: 2EDADB0BE2DC81CD5437F4385F7075A9;1912.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 16431 strings out of 479819
- 303595 string characters out of 5895846
- 642235 words of memory out of 5000000
+ 16433 strings out of 479819
+ 303617 string characters out of 5895846
+ 642237 words of memory out of 5000000
  33232 multiletter control sequences out of 15000+600000
  537800 words of font info for 84 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
