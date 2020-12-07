@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 # import mdutils
-from build.file_paths import GEOL_PATH
+from src.file_paths import GEOL_PATH
 
 REMOVED_CHARS = " .,;"
 
@@ -72,14 +72,20 @@ def split_authors(authors):
         if i in authors:
             delimiter = i
             break
+
+    # Nothing can be done about the entries with a list of authors and et al. until better data is added to the 
+    # authors field.
+    # Same goes for references of references that are characterized by 'identifier in other identifier' format
     etal = " et al."
     in_string = " in "
     if delimiter is None:
         if in_string in authors:
             single_work = authors[:authors.find(in_string)]
+            # should maybe recursively call split_authors on single work here.
             if etal in single_work:
-                single_work = single_work[:single_work.find(etal)]
-                return [single_work, "et al."]
+                single_work = split_authors(single_work[:single_work.find(etal)])
+                single_work.append('et al.')
+                return single_work
             return [single_work]
         return [authors]
     else:

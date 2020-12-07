@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 print(sys.path)
 import pytest
-from build.build_bibliography import split_authors, split_name
+from src.build_bibliography import split_authors, split_name
 
 
 @pytest.mark.parametrize("test_input,expected", [
@@ -21,6 +21,9 @@ from build.build_bibliography import split_authors, split_name
     ("Capponi G., Casnedi R., Castelli D., Flotmann T. et al.", ['Capponi G.', 'Casnedi R.', 'Castelli D.',
      'Flotmann T.', 'et al.']),
     ("McGregor V.R.; Wade F.A.", ['McGregor V.R.', 'Wade F.A.']),
+    ('foo & bar in cooper et al.', ['foo', 'bar']),
+    ('foo G. & bar K. in cooper et al.', ['foo G.', 'bar K.']),
+    ('foo G. in cooper et al.', ['foo G.']),
 ])
 def test_split_authors(test_input, expected):
     assert split_authors(test_input) == expected
