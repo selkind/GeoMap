@@ -14,7 +14,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-#arbitrary comment
+# arbitrary comment
 # -- Project information -----------------------------------------------------
 
 project = 'GeoMAP'
@@ -39,15 +39,17 @@ source_parsers = {
     '.md': CommonMarkParser
 }
 
-import recommonmark
 from recommonmark.transform import AutoStructify
 github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
         'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Table of Contents',
     }, True)
     app.add_transform(AutoStructify)
+
 
 source_suffix = {
     '.rst': 'restructuredtext',
