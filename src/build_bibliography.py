@@ -53,7 +53,7 @@ def build_bibtex(record):
 
     identifier = split_name(author_list[0])[0]
     identifier += str(int(record['YEAR']))
-    identifier += record['TITLE'].split(" ")[0]
+    identifier += (record['TITLE'][:7] + record['TITLE'][7:].split(" ")[0]).replace(" ", "")
 
     return f"@article{{{identifier},\n" \
            f"  title={{{record['TITLE']}}},\n"\

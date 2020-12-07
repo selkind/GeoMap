@@ -126,7 +126,7 @@
 **Bibtex citation**
 
 ```
-@article{Atkins2002Cold,
+@article{Atkins2002Coldglaciers,
   title={Cold glaciers erode and deposit: Evidence from Allan Hills, Antarctica},
   authors={Atkins, CB and Barrett, PJ and Hicock, SR},
   journal={Geology 30(7): 659-662},
@@ -152,7 +152,7 @@
 **Bibtex citation**
 
 ```
-@article{Ballance1977The,
+@article{Ballance1977TheBeacon,
   title={The Beacon Supergroup in the Allan Hills, central Victoria Land, Antarctica},
   authors={Ballance, PF},
   journal={NZJGG 20(6): 1003-1016},
@@ -165,7 +165,7 @@
 **Bibtex citation**
 
 ```
-@article{Ballance1971Mawson,
+@article{Ballance1971Mawsondiamictite,
   title={Mawson diamictite and the Carapace sandstone, formations of the Ferrar Group at Allan Hills and Carapace Nunatak, Victoria Land},
   authors={Ballance, PF and Watters, WA},
   journal={NZJGG 14:512-527},
@@ -191,7 +191,7 @@
 **Bibtex citation**
 
 ```
-@article{Baroni2004A,
+@article{Baroni2004AnewHolocene,
   title={A new Holocene relative sea-level curve for Terra Nova Bay, Victoria Land, Antarctica},
   authors={Baroni, C and Hall, B},
   journal={Journal of Quaternary Science 19(4): 377-396},
@@ -217,7 +217,7 @@
 **Bibtex citation**
 
 ```
-@article{Baroni2008The,
+@article{Baroni2008TheRicker,
   title={The Ricker Hills Tillite provides evidence of Oligocene warm-based glaciation in Victoria Land, Antarctica},
   authors={Baroni, C and Fasano, F and Giorgetti, G and Salvatore, MC and Ribeccai, C},
   journal={Global and Planetary Change 60:457-470},
@@ -347,7 +347,7 @@
 **Bibtex citation**
 
 ```
-@article{Bingham2012Inland,
+@article{Bingham2012Inlandthinning,
   title={Inland thinning of West Antarctic Ice Sheet steered along subglacial rifts},
   authors={Bingham, RGFerraccioliFKingECLarterRDPritchardHDSmithAM and Vaughan, DG},
   journal={Nature, 487: 468-471, Fig 1D},
@@ -373,7 +373,7 @@
 **Bibtex citation**
 
 ```
-@article{Bockheim1989Late,
+@article{Bockheim1989LateQuaternary,
   title={Late Quaternary Ice Surface Fluctuations of Hatherton Glacier, Transantarctic Mountains},
   authors={Bockheim, JG and Wilson, SC and Denton, GH and Andersen, BG and Stuiver, M},
   journal={Quaternary Research 31:229-254 Fig. 4},
@@ -438,7 +438,7 @@
 **Bibtex citation**
 
 ```
-@article{Bromley2010Late,
+@article{Bromley2010LateCenozoic,
   title={Late Cenozoic deposits at Reedy Glacier, Transantarctic Mountains: implications for former thickness of the WAIS},
   authors={Bromley, GRM and Hall, BL and Stone, JO and Conway, H and Todd, CE},
   journal={Quaternary Science Reviews 29: 384-398 Fig.8},
@@ -451,7 +451,7 @@
 **Bibtex citation**
 
 ```
-@article{Bromley2012Late,
+@article{Bromley2012LatePleistocene,
   title={Late Pleistocene evolution of Scott Glacier, southern Transantarctic Mountains: implications for the Antarctic contribution to deglacial sea level},
   authors={Bromley and G.R.M and Hall and B.L and Stone and J.O and Conway, H},
   journal={Quaternary Science Reviews 50 (2012): 1-12, Fig.7},
@@ -490,7 +490,7 @@
 **Bibtex citation**
 
 ```
-@article{Burgess1981The,
+@article{Burgess1981Thegeology,
   title={The geology of the Fry Glacier area, South Victoria Land, Antarctica, with particular reference to the Taylor Group},
   authors={Burgess, CJ and Palmer, A and Anderson, JM},
   journal={NZJGG 24:373-388 Fig.1},
@@ -542,7 +542,7 @@
 **Bibtex citation**
 
 ```
-@article{Capponi1997Mount,
+@article{Capponi1997MountMurchison,
   title={Mount Murchison Quadrangle (Victoria Land)},
   authors={Capponi, G and Meccheri, M and Pertusati, PC and Castelli, D and Crispini, L and Kleinschmidt, G and Lombardo, B and Montrasio, A and Musumeci, G and Oggiano, G and Ricci, CA and Roland, NW and Salvini, F and Skinner, DNB and Tessensohn, F},
   journal={German-Italian Geological Antarctic 1:250000 Map Series},
@@ -555,7 +555,7 @@
 **Bibtex citation**
 
 ```
-@article{Capponi1999Mount,
+@article{Capponi1999MountJoyce,
   title={Mount Joyce Quadrangle (Victoria Land)},
   authors={Capponi, G and Crispini, L and Meccheri, M and Musumeci, G and Pertusati, PC and Baroni, C and Delisle, G and Orsi, G},
   journal={German-Italian Geological Antarctic 1:250000 Map Series},
@@ -568,7 +568,7 @@
 **Bibtex citation**
 
 ```
-@article{Capponi1999Relief,
+@article{Capponi1999ReliefInlet,
   title={Relief Inlet Quadrangle (Victoria Land)},
   authors={Capponi, G and Crispini, L and Meccheri, M and Musumeci, G and Pertusati, PC},
   journal={German-Italian Geological Antarctic 1:250000 Map Series},
@@ -633,7 +633,7 @@
 **Bibtex citation**
 
 ```
-@article{Casnedi2012Reeves,
+@article{Casnedi2012ReevesNévé,
   title={Reeves Névé Quadrangle (Victoria Land)},
   authors={Casnedi, R and Pertusati, PC and Salvini, F and Carosi, R and Meccheri, M and Musumeci, G and Oggiano, G and Ricci, CA},
   journal={German-Italian Geological Antarctic 1:250000 Map Series},
@@ -685,7 +685,7 @@
 **Bibtex citation**
 
 ```
-@article{Cochran2015Abbot,
+@article{Cochran2015AbbotIce,
   title={Abbot Ice Shelf, structure of the Amundsen Sea continental margin and the southern boundary of the Bellingshausen Plate seaward of West Antarctica},
   authors={Cochran, JRTintoKJ and Bell, RE},
   journal={Geochemistry Geophysics Geosystems, doi:10.1002/2014GC005570},
@@ -750,7 +750,7 @@
 **Bibtex citation**
 
 ```
-@article{Cottle2006The,
+@article{Cottle2006TheFontaine,
   title={The Fontaine Pluton: an early Ross Orogeny calc-alkaline gabbro from southern Victoria Land, Antarctica},
   authors={Cottle, JM and Cooper, AF},
   journal={NZJGG 49: 177–189},
@@ -880,7 +880,7 @@
 **Bibtex citation**
 
 ```
-@article{Dahl1981Field,
+@article{Dahl1981Fieldstudy,
   title={Field study of orbicular rocks in Taylor Valley, southern Victoria Land},
   authors={Dahl, PS and Palmer, DF},
   journal={Antarctic Journal of US 1981 Review: 41-47},
@@ -908,7 +908,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Denton2000The,
+@article{Denton2000Thegeologic,
   title={The geologic basis for a reconstruction of a grounded ice sheet in McMurdo Sound, Antarctica, at the Last Glacial Maximum},
   authors={Denton, GH and Marchant, DR},
   journal={Geografiska Annaler 82A: 167-211},
@@ -921,7 +921,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Denton1989Late,
+@article{Denton1989LateQuaternary,
   title={Late Quaternary Ice-surface Fluctuations of Beardmore Glacier, Transantarctic Mountains},
   authors={Denton, GH and Bockheim, JG and Wilson, SC and Leide, JE and Andersen, B},
   journal={Quaternary Research 31: 183-209 Fig.12},
@@ -947,7 +947,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Denton1993East,
+@article{Denton1993EastAntarctic,
   title={East Antarctic Ice sheet sensitivity to Pliocene climatic change from a Dry Valleys Perspective},
   authors={Denton, GR and Sugden, DE and Marchant, DR and Hall, BL and Wilch, TI},
   journal={Geographiska Annaler 75A:155-204},
@@ -986,7 +986,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Elburg2015Early,
+@article{Elburg2015EarlyNeoproterozoic,
   title={Early Neoproterozoic metagabbro-tonalite-trondhjemite of Sør Rondane (East Antarctica): Implications for supercontinent assembly},
   authors={Elburg and M and Jacobs and J and Andersen and T and Clark and C and Läufer and A and Ruppel and A and Krohne and N and Damaske and D},
   journal={Precambrian Research 259: 189-206},
@@ -1012,7 +1012,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Elliot2001Origin,
+@article{Elliot2001Originof,
   title={Origin of widespread, exceptionally thick basaltic phreatomagmatic tuff breccia in the Middle Jurassic Prebble and Mawson Format},
   authors={Elliot, DH and Hanson, RE},
   journal={Journal of Volcanology and Geothermal Research 111:183-201},
@@ -1038,7 +1038,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Elvevold2010Nature,
+@article{Elvevold2010Natureenvironment,
   title={Nature environment map - H.U. Sverdrupfjella, Dronning Maud Land, Antarctica - 1:150 000},
   authors={Elvevold and S and Ohta and Y},
   journal={TEMAKART NR. 28, Norwegian Polar Institute},
@@ -1051,7 +1051,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{England1975Mawson,
+@article{England1975MawsonEscapment,
   title={Mawson Escapment South Sheet SS 40-42/8 Preliminary Edition},
   authors={England, RN},
   journal={BMR Map},
@@ -1064,7 +1064,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Ferrar1907Map,
+@article{Ferrar1907Mapofthe,
   title={Map of the district near the Discovery Winter Quarters},
   authors={Ferrar, HT},
   journal={Natural History Reports 1:1-100},
@@ -1337,7 +1337,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Grindley1967The,
+@article{Grindley1967Thegeomorphology,
   title={The geomorphology of the Miller Range, Transantarctic Mountains with notes on the glacial history and neotectonics of East Antarctica},
   authors={Grindley, GW},
   journal={NZJGG 10(2): 557-598},
@@ -1376,7 +1376,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Grindley1980A,
+@article{Grindley1980AMid-Late,
   title={A Mid-Late Devonian Flora from the Rupert Coast, Marie Byrd Land, West Antarctica},
   authors={Grindley and G.W and Mildenhall and D.C and Schopf and J.M},
   journal={Jour Roy Soc NZ 10(3):271-285},
@@ -1389,7 +1389,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Gunn1962The,
+@article{Gunn1962Thegeology,
   title={The geology of the Mt Markham region, Ross dependency, Antarctica},
   authors={Gunn, BM and Walcott, RI},
   journal={NZJGG 5(3): 407-426},
@@ -1415,7 +1415,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hall2000Extent,
+@article{Hall2000Extentand,
   title={Extent and chronology of the Ross Sea Ice Sheet and the Wilson Piedmont Glacier along the Scott Coast at and since the LGM},
   authors={Hall, BL and Denton, GH},
   journal={Geografiska Annaler 82A},
@@ -1441,7 +1441,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hall1993Late,
+@article{Hall1993LateTertiary,
   title={Late Tertiary Antarctic paleoclimate and ice-sheet dynamics inferred from surficial deposits in Wright Valley},
   authors={Hall, BL and Denton, GR and Lux, DR and Bockheim, JG},
   journal={Geographiska Annaler 75A:239-267},
@@ -1454,7 +1454,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hall1995Early,
+@article{Hall1995EarlyCambrian,
   title={Early Cambrian carbonatite in Antarctica},
   authors={Hall, CE and Cooper, AF and Parkinson, DL},
   journal={Jour.Geol.Soc.London 152:721-728},
@@ -1480,7 +1480,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hamilton1972The,
+@article{Hamilton1972TheHallett,
   title={The Hallett Volcanic Province, Antarctica},
   authors={Hamilton and W, B},
   journal={Contribs to the Geology of Antarctica, GS Prof Paper 456-C p.C14},
@@ -1545,7 +1545,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hart1997Hobbs,
+@article{Hart1997HobbsCoast,
   title={Hobbs Coast Cenozoic volcanism.- Implications for the West Antarctic rift system},
   authors={Hart, SRBlusztajnJLeMasurierWE and Rex, DC},
   journal={Chemical Geology, Fig 1C, doi:10.1016/S0009-2541(97)00037-5.},
@@ -1558,7 +1558,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Harwood2000The,
+@article{Harwood2000TheMcMurdo,
   title={The McMurdo Erratics: Introduction and overview},
   authors={Harwood, DM and Levy, RH},
   journal={Antarctic Research Series Vol 76 1-18},
@@ -1571,7 +1571,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Haskell1965The,
+@article{Haskell1965Thegeology,
   title={The geology of the middle and lower Taylor Valley of South Victoria Land, Antarctica},
   authors={Haskell, TR and Kennett, JP and Prebble, MW and Smith, G and Willis, IAG},
   journal={Trans Roy Soc NZ 2:169-186},
@@ -1597,7 +1597,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Hendy1969Recent,
+@article{Hendy1969Recentmarine,
   title={Recent marine deposits from Cape Barne, McMurdo Sound, Antarctica},
   authors={Hendy, CH and Neall, VE and Wilson, AT},
   journal={NZJGG 12:707-712},
@@ -1935,7 +1935,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Jacobs2015Two,
+@article{Jacobs2015Twodistinct,
   title={Two distinct Late Mesoproterozoic/Early Neoproterozoic basement provinces in central/eastern Dronning Maud Land, East Antarctica: The missing link, 15-21o E},
   authors={Jacobs and J and Elburg and M and Läufer and A and Kleinhanns and I and Henjes-Kunst and F and Estrada and S and Ruppel and A and Damaske and D and Montero and P and Bea and F},
   journal={Precambrian Research 265: 249-272},
@@ -1987,7 +1987,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Joy2014A,
+@article{Joy2014A2million,
   title={A 2 million year glacial chronology of the Hatherton Glacier, Antarctica and implications for the size of the East Antarctic Ice Sheet at the Last Glacial Maximum},
   authors={Joy, K and Fink, D and Story, B and Atkins, C},
   journal={Quaternary Science Reviews},
@@ -2000,7 +2000,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Kamei2013Late,
+@article{Kamei2013LateProterozoic,
   title={Late Proterozoic juvenile arc metatonaliteand adakitic intrusions in the Sor Rondane Mountains, eastern Dronning MaudLand, Antarctica.},
   authors={Kamei and A and Horie and K and Owada and M and Yuhara and M and Nakano and N and Osanai and Y and Adachi and T and Hara and Y and Terao and M and Teuchi and S and Shimura and T and Tsukada and K and Hokada and T and Iwata and C and Shiraishi and K and Ishizuka and H and Takahashi and Y},
   journal={Precambrian Research 234: 47-62},
@@ -2119,7 +2119,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Kyle1990A.18.,
+@article{Kyle1990A.18.Hut,
   title={A.18. Hut Point Peninsula},
   authors={Kyle, PR},
   journal={Volcanoes of the Ant. Plate and Sthn Oceans: AGU 48 FigA.18.1},
@@ -2132,7 +2132,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Kyle1973Review,
+@article{Kyle1973Reviewof,
   title={Review of the geology of Hut Point Peninsula Ross Island Antarctica},
   authors={Kyle, PR and Treves, SB},
   journal={DVDP Bulletin 2:1-10},
@@ -2210,7 +2210,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{LeMasurier1984Mount,
+@article{LeMasurier1984MountSiple,
   title={Mount Siple volcano, Marie Byrd Land},
   authors={LeMasurier and W.E},
   journal={Antarctic Journal: 33-35, Fig 1},
@@ -2223,7 +2223,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{LeMasurier2013Shield,
+@article{LeMasurier2013Shieldvolcanoes,
   title={Shield volcanoes of Marie Byrd Land, West Antarctic rift: oceanic island similarities, continental signature, and tectonic controls},
   authors={LeMasurier and W.E},
   journal={Bulletin of Volcanology, Fig 8B, DOI: 10.1007/s00445-013-0726-1},
@@ -2275,7 +2275,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Leat2006Sills,
+@article{Leat2006Sillsof,
   title={Sills of the Theron Mountains, Antarctica: Evidence for long distance transport of mafic magmas during Gondwana break-up.},
   authors={Leat, PT and Luttinen, AV and Storey, BC and Millar, IL},
   journal={In Dyke Swarms - Markers of Crustal Evolution p183-199 Fig.4},
@@ -2288,7 +2288,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Lee2012The,
+@article{Lee2012TheA-type,
   title={The A-type Pirrit Hills Granite, West Antarctica: an example of magmatism associated with Mesozoic break-up of the Gondwana supercontinent},
   authors={Lee, HM and Lee, JI and Lee, MJ and Kim, J and Choi, SW},
   journal={Geosciences Journal 16(4): 421-433},
@@ -2301,7 +2301,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Lewis2007Major,
+@article{Lewis2007Majormiddle,
   title={Major middle Miocene global climate change: Evidence from East Antarctica and the Transantarctic Mountains},
   authors={Lewis, AR and Marchant, DR and Ashworth, AC and  and et, al},
   journal={GSA Bulletin 119(11/12): 1449-1461},
@@ -2327,7 +2327,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Linkletter1973Soils,
+@article{Linkletter1973Soilsand,
   title={Soils and glacial deposits in the Beacon Valley, Southern Victoria Land, Antarctica},
   authors={Linkletter, G and Bockheim, J and Ugolini, FC},
   journal={NZJGG 16(1):90-108},
@@ -2418,7 +2418,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Marschall2010The,
+@article{Marschall2010TheAnnandagstoppane,
   title={The Annandagstoppane granite, East Antarctica: evidence for Archaean intracrustal recycling in the Kaapvaal-Grunehogna craton from zircon O and Hf isotopes},
   authors={Marschall and H and Hawkesworth and C and Storey and C and Dhuime and B and Leat and P and Meyer, H-P and Tamm-Buckle and S},
   journal={Journal of Petrology 51: 2277-2301},
@@ -2613,7 +2613,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Meneghal1999A,
+@article{Meneghal1999Amodel,
   title={A model of the glacial retreat of upper Rennick Glacier, Victoria Land, Antarctica},
   authors={Meneghal, M and Bondesan, A and Salvatore, MC and Orombelli, G},
   journal={Annals of Glaciology 29: 225-230},
@@ -2639,7 +2639,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Mieth2014New,
+@article{Mieth2014Newdetailed,
   title={New detailed aeromagnetic and geological data of eastern Dronning Maud Land: Implications for refining the tectonic and structural framework of Sør Rondane, East Antarctica},
   authors={Mieth, M and Jacobs, J and Ruppel, A and Damaske, D and Läufer, A and Jokat, W},
   journal={Precambrian Research 245: 174-185},
@@ -2678,7 +2678,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Millar1987Rb-Sr,
+@article{Millar1987Rb-Srgeochronology,
   title={Rb-Sr geochronology of the region between the Antarctic Peninsula and the Transantarctic Mountains: Haag Nunataks and Mesozoic Granitoids},
   authors={Millar, IL and Pankhurst, RJ},
   journal={AGU Geophysical Monograph 40:151-160},
@@ -2717,7 +2717,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Moore1990A.17.,
+@article{Moore1990A.17.Mount,
   title={A.17. Mount Erebus},
   authors={Moore, JA and Kyle, PR},
   journal={Volcanoes of the Ant. Plate and Sthn Oceans: AGU 48 FigA.17.1},
@@ -2938,7 +2938,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Ohta1993Nature,
+@article{Ohta1993Natureenvironment,
   title={Nature environment map - Gjelsvikfjella & Western Mühlig-Hofmannfjella, Dronning Maud Land, Antarctica - 1:100 000 (Sheet 1)},
   authors={Ohta and Y},
   journal={TEMAKART NR. 24, Norwegian Polar Institute},
@@ -2951,7 +2951,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Ohta1993Nature,
+@article{Ohta1993Natureenvironment,
   title={Nature environment map - Gjelsvikfjella & Western Mühlig-Hofmannfjella, Dronning Maud Land, Antarctica - 1:100 000 (Sheet 2)},
   authors={Ohta and Y},
   journal={TEMAKART NR. 24, Norwegian Polar Institute},
@@ -2964,7 +2964,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Orombelli1990Late,
+@article{Orombelli1990LateCenozoic,
   title={Late Cenozoic glacial history of the Terra Nova Bay region, Northern Victoria Land, Antarctica},
   authors={Orombelli, G and Baroni, C and Denton, GH},
   journal={Geogr. Fis. Dinam. Quat. 13:139-163},
@@ -3068,7 +3068,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Pankhurst1993The,
+@article{Pankhurst1993ThePre-Cenozoic,
   title={The Pre-Cenozoic Magmatic History of the Thurston Island Crustal Block, West Antarctica},
   authors={Pankhurst, RJ and Millar, IL and Grunow, AM and Storey, BC},
   journal={Journal of Geophysical Research 98:11835-11849, Fig.2a},
@@ -3094,7 +3094,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Pertusati2012Mount,
+@article{Pertusati2012MountMelbourne,
   title={Mount Melbourne Quadrangle (Victoria Land)},
   authors={Pertusati, PC and Musumeci, G and Carosi, R and Meccheri, M and Baroni, C and Capponi, G and Carmignani, L and Castelli, D and Colombo, F and Crispini, L and Di, VincenzoG and Ghezzo, C and Gosso, G and Lomardo, B and Montomoli, C and Montrasio, A and Oggiano, G and  and et, al},
   journal={German-Italian Geological Antarctic 1:250000 Map Series},
@@ -3172,7 +3172,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Rees1989The,
+@article{Rees1989TheSkelton,
   title={The Skelton Group, southern Victoria Land.},
   authors={Rees, MN and Duebendorfer, EM and Rowell, AJ},
   journal={1989 Review 24(5): 21-24},
@@ -3185,7 +3185,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Ribecai2007Early,
+@article{Ribecai2007EarlyJurassic,
   title={Early Jurassic miospores from Ferrar Group of Carapace Nunatak, South Victoria Land, Antarctica},
   authors={Ribecai, C},
   journal={Review of Paleobotany and Palynology 144: 3-12},
@@ -3250,7 +3250,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Riley2017A,
+@article{Riley2017Arevised,
   title={A revised geochronology of Thurston Island, West Antarctica, and correlations along the proto-Pacific margin of Gondwana},
   authors={Riley, TR and Flowerdew, MJ and Pankhurst, RJ and Leat, PJ and Millar, IL and Fanning, CM and Whitehouse, MJ},
   journal={Antarctic Science 29(1): 47-60},
@@ -3315,7 +3315,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 **Bibtex citation**
 
 ```
-@article{Rowell1993An,
+@article{Rowell1993Anactive,
   title={An active Neoproterozoic margin: evidence from the Skelton Glacier area, Transantarctic Mountains},
   authors={Rowell, AJ and Rees, M and et, al},
   journal={Jour Geol Soc London 150: 677-682},
@@ -3408,7 +3408,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Scarrow2014Three,
+@article{Scarrow2014Threesoil,
   title={Three soil chronosequences in recessional glacial deposits near the polar plateau, in the Central Transantarctic Mountains},
   authors={Scarrow, JW and Balks, M and Almond, PC},
   journal={Antarctic Science doi:10.1017/S0954102014000078 Fig.3},
@@ -3473,7 +3473,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Sheraton1975Mawson,
+@article{Sheraton1975MawsonEscapment,
   title={Mawson Escapment North Sheet SS 40-42/4 Preliminary Edition},
   authors={Sheraton, JW},
   journal={BMR Map},
@@ -3655,7 +3655,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Skinner1976NZ,
+@article{Skinner1976NZGeological,
   title={NZ Geological Survey Antarctic Expedition 1975-76, Skelton-Koettlitz Glaciers, Report DS58},
   authors={Skinner, DNB and Waterhouse, BC and Brehaut, G and Sullivan, K},
   journal={Antarctic Division DSIR Report DS58. Figs 3-9},
@@ -3681,7 +3681,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Smith1924The,
+@article{Smith1924Theplutonic,
   title={The plutonic and hypabyssal rocks of South Victoria Land},
   authors={Smith, WC},
   journal={Nat.Hist.Rep.Brit.Ant.(Terra Nova) Exp. 1(6):167-227},
@@ -3785,7 +3785,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Stephenson1966Theron,
+@article{Stephenson1966TheronMountains;,
   title={Theron Mountains; Shackleton Range and Whichaway Nunataks, Map 2},
   authors={Stephenson and P.J},
   journal={Trans-Antarctic Expedition 1955-1958 Scientific Reports; No. 8},
@@ -3837,7 +3837,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Stroeven1999A,
+@article{Stroeven1999Acasefor,
   title={A case for Sirius Group alpine glaciation at Mount Fleming, SVL: A case against Pliocene East Antarctic Ice Sheet reduction},
   authors={Stroeven, AP and Prentice, ML},
   journal={GSA Bulletin 109: 825–840},
@@ -3967,7 +3967,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Sugden2017The,
+@article{Sugden2017Themillion-year,
   title={The million-year evolution of the glacial trimline in the southernmost Ellsworth Mountains, Antarctica.},
   authors={Sugden, DE and Hein, AS and Woodward, J and Marrero, SM and Rodes, A and Dunning, SA and Stuart, FM and et, al},
   journal={EPSL 469: 42-52, Fig.6},
@@ -4344,7 +4344,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Wellman1964Later,
+@article{Wellman1964Latergeological,
   title={Later geological history of Hut Point Peninsula, Antarctica},
   authors={Wellman, HW},
   journal={Trans Roy Soc NZ 2: 147-154},
@@ -4383,7 +4383,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Wilch1999Late,
+@article{Wilch1999LateQuaternary,
   title={Late Quaternary volcanic activity in Marie Byrd Land: Potential 40Ar/39Ar-dated time horizons in West Antarctic ice and marine cores},
   authors={Wilch, TI and McIntosh, WC and Dunbar, WC},
   journal={GSA Bulletin 111(10): 1563-1580.},
@@ -4396,7 +4396,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Wilson2002The,
+@article{Wilson2002TheMount,
   title={The Mount Feather Diamicton of the Sirius Group: an accumulation of indicators of Neogene Antarctic glacial and climatic history},
   authors={Wilson, GS and 22, others},
   journal={Palaeo 182: 117-181},
@@ -4435,7 +4435,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Wörner1989The,
+@article{Wörner1989TheMt.,
   title={The Mt. Melbourne Volcanic Field (Victoria Land, Antarctica) I. Field Observations},
   authors={Wörner, G and Viereck, L},
   journal={Geologisches Jahrbuch E 38, 369-393 Fig.14},
@@ -4448,7 +4448,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Wörner1989The,
+@article{Wörner1989TheMt.,
   title={The Mt. Melbourne Volcanic Field (Victoria Land, Antarctica) II. Geochemistry and magma genesis},
   authors={Wörner, G and Viereck, L and Hertogen, J and Niephaus and H},
   journal={Geologisches Jahrbuch E 38, 395-433 Fig.1},
@@ -4591,7 +4591,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 **Bibtex citation**
 
 ```
-@article{Young1968The,
+@article{Young1968Thegeology,
   title={The geology of the Buckley and Darwin Nunataks, Beardmore Glacier, Ross Dependency, Antarctica},
   authors={Young, DJ and Ryburn, RJ},
   journal={NZJGG 11(4): 922-939},
