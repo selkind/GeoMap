@@ -50,8 +50,9 @@ def format_output(descr_header, value, field_name):
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif descr_header == "Field Values":
         value = mdutils.tools.Link.Inline.new_link(
-                                                link=value,
-                                                text="List of Values")
+            link=value,
+            text="List of Values"
+        )
     return value
 
 
@@ -75,7 +76,7 @@ def main():
 
     mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="SCAR GeoMAP Project")
 
-    mdfile.new_header(1, title="Fields")
+    mdfile.new_header(1, title="Field Glossary")
     for i in geomap.columns:
         if i in fields.OMITTED_FIELDS:
             continue
