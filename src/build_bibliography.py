@@ -66,7 +66,11 @@ def split_authors(authors):
     # list is ordered so that entries with multiple delimiters will have the more likely delimiter chosen. ','
     # can be a delimiter for
     # first and last name, whereas ampersand and semi-colon will not be and thus have higher 'priority'
-    delimiters = ("&", ";", ",")
+    in_string = " in "
+    if in_string in authors:
+        authors = authors[:authors.find(in_string)]
+
+    delimiters = (' and ', '&', ';', ',')
     delimiter = None
     for i in delimiters:
         if i in authors:
@@ -77,16 +81,9 @@ def split_authors(authors):
     # authors field.
     # Same goes for references of references that are characterized by 'identifier in other identifier' format
     etal = " et al."
-    in_string = " in "
     if delimiter is None:
-        if in_string in authors:
-            single_work = authors[:authors.find(in_string)]
-            # should maybe recursively call split_authors on single work here.
-            if etal in single_work:
-                single_work = split_authors(single_work[:single_work.find(etal)])
-                single_work.append('et al.')
-                return single_work
-            return [single_work]
+        if etal in authors:
+            return [authors[:authors.find(etal)], 'et al.']
         return [authors]
     else:
         individual_authors = authors.split(delimiter)
@@ -95,7 +92,7 @@ def split_authors(authors):
             if etal in author:
                 author = author.replace(etal, "")
                 individual_authors.append("et al.")
-            author = author.replace(",", ".")
+            # author = author.replace(",", ".")
             individual_authors[i] = author.strip()
         return individual_authors
 
