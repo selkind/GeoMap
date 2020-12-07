@@ -11,7 +11,7 @@ The `SCAR GeoMAP project <https://www.scar.org/science/geomap/home/>`_
 Unofficial Documentation
 #########################################################
 
-.. image:: ../docs/assets/geomap.jpg
+.. image:: assets/geomap.jpg
    :width: 700px
    :align: center
    :alt: Image could not load
