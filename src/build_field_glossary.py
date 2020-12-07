@@ -1,11 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
-# Globals
-import file_paths as fp
-import fields
-
-import os
 import mdutils
+# Globals
+import src.file_paths as fp
+import src.fields
 
 
 def create_output(record, field_name):
@@ -74,11 +75,11 @@ def main():
     geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units")
     field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
 
-    mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="SCAR GeoMAP Project")
+    mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="Samuel Elkind")
 
     mdfile.new_header(1, title="Field Glossary")
     for i in geomap.columns:
-        if i in fields.OMITTED_FIELDS:
+        if i in src.fields.OMITTED_FIELDS:
             continue
         try:
             value_counts = geomap[i].value_counts()
