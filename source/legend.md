@@ -1,3 +1,5 @@
+# Chronostratigraphic Legend
+
 ## Ages and Age codes
 
 ### ARCHEAN (A)
@@ -32,18 +34,40 @@
 ## Lithologies and Lith codes
 
 ### SEDIMENTARY ROCKS: 
-- mudstone, siltstone, sandstone, conglomerate (s), limestone (l), volcanogenic sediments (j), mixed sediments and volcanic rocks (w), chemical sediments (c).
+- mudstone, siltstone, sandstone, conglomerate (s)
+- limestone (l)
+- volcanogenic sediments (j)
+- mixed sediments and volcanic rocks (w)
+-  chemical sediments (c)
 
 ### VOLCANIC ROCKS: 
-- felsic (f), metamorphosed felsic volcanics (r), intermediate (a), mafic to ultramafic (b), metamorphosed mafic to ultramafic extrusive rocks (t), undifferentiated felsic to mafic (v).
+- felsic (f)
+- metamorphosed felsic volcanics (r)
+- intermediate (a)
+- mafic to ultramafic (b)
+- metamorphosed mafic to ultramafic extrusive rocks (t)
+- undifferentiated felsic to mafic (v)
 
 ### INTRUSIVE ROCKS: 
-- felsic (g), mixed intrusives (i), intermediate (h), mafic (d) metamorphosed mafic intrusive (t), metamorphosed mafic to ultramafic intrusive (e), alkaline ultrabasic (k).
+- felsic (g)
+- mixed intrusives (i)
+- intermediate (h)
+- mafic (d)
+- metamorphosed mafic intrusive (t)
+- metamorphosed mafic to ultramafic intrusive (e)
+- alkaline ultrabasic (k)
 
 ### METAMORPHIC ROCKS: 
-- Low-medium grade (p), metacarbonate (m), siliciclastic (y), hornfels (o); High-grade metamorphics (n), quartzite (q), complexes (x).
+- Low-medium grade (p)
+- metacarbonate (m)
+- siliciclastic (y)
+- hornfels (o)
+- High-grade metamorphics (n)
+- quartzite (q)
+- complexes (x)
 
 ### OTHER: 
-- Faults/shear rocks tectonic (z). Unknown (?)
+- Faults/shear rocks tectonic (z)
+- Unknown (?)
 
 ![](assets/legend_201907.png)
