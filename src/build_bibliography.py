@@ -2,28 +2,29 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
-# import mdutils
-from src.file_paths import GEOL_PATH
+import mdutils
+import urllib
+import src.file_paths as fp
 
 REMOVED_CHARS = " .,;"
 
 
-def make_citations():
-    geomap = gpd.read_file(GEOL_PATH, layer="ATA_sources_poly")
-    published = geomap[geomap["PUBTYPE"].isin(["Published paper", "Published map"])]
-    # print(published.columns)
+def make_citations(records):
     citations = {}
-    # for i in range(published.shape[0]):
-    for i in range(4):
-        citations[published.iloc[i]['IDENTIFIER']] = build_bibtex(published.iloc[i])
+    for i in range(records.shape[0]):
+        citation = {}
+        citation['bibtex'] = build_bibtex(records.iloc[i])
+        citation['scholar_link'] = build_scholar_link(records.iloc[i])
+
+        citations[records.iloc[i]['IDENTIFIER']] = citation
 
     return citations
 
 
-def make_mla_markdown_citation(record):
-    separated_authors = split_authors(record['AUTHORS'])
-    authors = format_mla_authors(separated_authors)
-    return authors
+def build_scholar_link(record):
+    query = f'{record["TITLE"]} {record["AUTHORS"]} {int(record["YEAR"])}'.replace(" ", "%20")
+    components = ('https', 'scholar.google.com', '/scholar', '', f'q={query}', '')
+    return urllib.parse.urlunparse(components)
 
 
 def split_name(author):
@@ -77,7 +78,7 @@ def split_authors(authors):
             delimiter = i
             break
 
-    # Nothing can be done about the entries with a list of authors and et al. until better data is added to the 
+    # Nothing can be done about the entries with a list of authors and et al. until better data is added to the
     # authors field.
     # Same goes for references of references that are characterized by 'identifier in other identifier' format
     etal = " et al."
@@ -92,24 +93,29 @@ def split_authors(authors):
             if etal in author:
                 author = author.replace(etal, "")
                 individual_authors.append("et al.")
-            # author = author.replace(",", ".")
             individual_authors[i] = author.strip()
         return individual_authors
 
 
-def format_mla_authors(split_authors):
-    author_count = len(split_authors)
-    if author_count > 2:
-        return f'{split_authors[0].split(" ")[0]} et al.'
-    elif author_count == 2:
-        return f'{split_authors[0].split(" ")[0]} and {split_authors[1].split(" ")[0]}'
-        print("meow")
-    else:
-        return split_authors
-
-
 def main():
-    print(make_citations())
+    geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
+    published = geomap[geomap["PUBTYPE"].isin(["Published paper", "Published map"])]
+    published_output = make_citations(published)
+
+    mdfile = mdutils.MdUtils(file_name=fp.WORKS_REF_PATH, author="Samuel Elkind")
+
+    mdfile.new_header(1, title='Works Referenced')
+
+    for i in published_output:
+        mdfile.new_header(2, title=i)
+
+        mdfile.new_line("Bibtex citation", bold_italics_code='b')
+        mdfile.insert_code(published_output[i]['bibtex'])
+
+        mdfile.new_line(mdutils.tools.Link.Inline.new_link(link=published_output[i]['scholar_link'],
+                                                           text='Google Scholar Link'), bold_italics_code='b')
+
+    mdfile.create_md_file()
 
 
 if __name__ == "__main__":
