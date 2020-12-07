@@ -46,7 +46,7 @@ Documentation Pages
 #############################
 
 * ATA_geological_units: :doc:`Geology attributes glossary <field_glossary>`
-* ATA_sources_poly: **Coming soon**
+* ATA_sources_poly: :doc:`Test of Sources <works_referenced>`
 * ATA_faults: **Coming soon**
 * ATA_GeoMAP_qualityinformation: **Coming soon**
 
@@ -58,6 +58,14 @@ Documentation Pages
 
    field_glossary
    legend
+
+.. toctree::
+   :maxdepth: 2
+   :name: :ref:
+   :caption: ATA_sources_poly
+   :hidden:
+
+   works_referenced 
 
 Source Code
 #############################
