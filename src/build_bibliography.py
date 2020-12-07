@@ -97,6 +97,13 @@ def split_authors(authors):
         return individual_authors
 
 
+def find_first_digit(identifier):
+    for i, j in enumerate(identifier):
+        if j.isdigit():
+            return i
+    return i
+
+
 def main():
     geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
     published = geomap[geomap["PUBTYPE"].isin(["Published paper", "Published map"])]
@@ -106,7 +113,7 @@ def main():
 
     mdfile.new_header(1, title='Works Referenced')
 
-    for i in published_output:
+    for i in sorted(published_output, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
         mdfile.new_header(2, title=i)
 
         mdfile.new_line("Bibtex citation", bold_italics_code='b')
