@@ -4,3 +4,4 @@ metadata/**
 **/.ipynb_checkpoints/**
 **/__pycache__/**
 **/site/**
+build/**
