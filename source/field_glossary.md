@@ -2,7 +2,7 @@
 
 
 
-# Fields
+# Field Glossary
 
 ## SOURCECODE
   
@@ -797,7 +797,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_045973
+- Most frequently occurring value: ATA_geological_units_087964
 - Number of values with a single occurrence: 95161
 
 ## SPEC_URI

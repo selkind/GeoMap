@@ -19,7 +19,7 @@ Unofficial Documentation
 .. toctree::
    :maxdepth: 2
    :name: main
-   :caption: Table of Contents:
+   :caption: Table of Contents
    :hidden:
    
    index
@@ -51,9 +51,9 @@ Documentation Pages
 * ATA_GeoMAP_qualityinformation: **Coming soon**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :name: geol
-   :caption: ATA_geological_units:
+   :caption: ATA_geological_units
    :hidden:
 
    field_glossary
