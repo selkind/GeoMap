@@ -75,7 +75,7 @@ def main():
     geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units")
     field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
 
-    mdfile = mdutils.MdUtils(file_name=fp.GLOSSARY_PATH, author="Samuel Elkind")
+    mdfile = mdutils.MdUtils(file_name=fp.GEOL_GLOSSARY_PATH, author="Samuel Elkind")
 
     mdfile.new_header(1, title="Field Glossary")
     for i in geomap.columns:
@@ -96,6 +96,7 @@ def main():
                 continue
             output[j] = format_output(j, output[j], i)
             mdfile.new_line(f"{j}:", bold_italics_code='b')
+            mdfile.newline()
             mdfile.new_line(text=output[j])
             mdfile.new_line("")
 

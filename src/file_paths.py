@@ -6,6 +6,7 @@ BASE_DIR = os.path.dirname(BUILD_DIR)
 SITE_DIR = os.path.join(BASE_DIR, "source")
 
 FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "field_descr_data.csv")
+SOURCE_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "source_descr_data.csv")
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
@@ -13,7 +14,8 @@ CULTURE_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_culture.gdb")
 
 FIELD_VALS_DIR = os.path.join(SITE_DIR, "field_values")
 
-GLOSSARY_PATH = os.path.join(SITE_DIR, "field_glossary.md")
+GEOL_GLOSSARY_PATH = os.path.join(SITE_DIR, "field_glossary.md")
+SOURCE_GLOSSARY_PATH = os.path.join(SITE_DIR, "source_glossary.md")
 WORKS_REF_PATH = os.path.join(SITE_DIR, "works_referenced.md")
 
 for i in [FIELD_DESCR_PATH, GEOL_PATH, CULTURE_PATH]:
