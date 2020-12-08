@@ -106,21 +106,25 @@ def find_first_digit(identifier):
 
 def main():
     geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
-    published = geomap[geomap["PUBTYPE"].isin(["Published paper", "Published map"])]
-    published_output = make_citations(published)
 
     mdfile = mdutils.MdUtils(file_name=fp.WORKS_REF_PATH, author="Samuel Elkind")
 
-    mdfile.new_header(1, title='Works Referenced')
+    for i in ["Published paper", "Published map", "GIS dataset", "Thesis", "Unpublished", "Unknown"]:
+        works = geomap[geomap["PUBTYPE"] == i].fillna(0)
+        works_citations = make_citations(works)
 
-    for i in sorted(published_output, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
-        mdfile.new_header(2, title=i)
+        mdfile.new_header(1, title=f'{i} Works Referenced')
+        for j in sorted(works_citations, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
+            mdfile.new_header(2, title=j)
 
-        mdfile.new_line("Bibtex citation", bold_italics_code='b')
-        mdfile.insert_code(published_output[i]['bibtex'])
+            mdfile.new_line("Bibtex citation", bold_italics_code='b')
+            mdfile.insert_code(works_citations[j]['bibtex'])
 
-        mdfile.new_line(mdutils.tools.Link.Inline.new_link(link=published_output[i]['scholar_link'],
-                                                           text='Google Scholar Link'), bold_italics_code='b')
+            if i not in ['Unpublished', 'Unknown']:
+
+                mdfile.new_line(mdutils.tools.Link.Inline.new_link(
+                    link=works_citations[j]['scholar_link'],
+                    text='Google Scholar Link'), bold_italics_code='b')
 
     mdfile.create_md_file()
 
