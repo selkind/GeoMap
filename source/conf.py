@@ -22,6 +22,11 @@ copyright = '2020, Samuel Elkind'
 author = 'Samuel Elkind'
 
 
+latex_engine = 'xelatex'
+latex_elements = {
+    'babel': '\\usepackage{babel}',
+    'extraclassoptions': 'openany,oneside'
+}
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -87,4 +92,3 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-latex_engine = 'xelatex'
