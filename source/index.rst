@@ -65,6 +65,7 @@ Documentation Pages
    :caption: ATA_sources_poly
    :hidden:
 
+   source_glossary
    works_referenced 
 
 Source Code
