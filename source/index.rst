@@ -66,7 +66,13 @@ Documentation Pages
    :hidden:
 
    source_glossary
-   works_referenced 
+   works_referenced/published_paper
+   works_referenced/published_map
+   works_referenced/gis
+   works_referenced/thesis
+   works_referenced/unpublished
+   works_referenced/unknown
+
 
 Source Code
 #############################

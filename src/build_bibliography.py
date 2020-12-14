@@ -107,26 +107,37 @@ def find_first_digit(identifier):
 def main():
     geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
 
-    mdfile = mdutils.MdUtils(file_name=fp.WORKS_REF_PATH, author="Samuel Elkind")
+    pub_paper_file = mdutils.MdUtils(file_name=fp.PUB_PAPER_REF_PATH, author="Samuel Elkind")
+    pub_map_file = mdutils.MdUtils(file_name=fp.PUB_MAP_REF_PATH, author="Samuel Elkind")
+    gis_file = mdutils.MdUtils(file_name=fp.GIS_REF_PATH, author="Samuel Elkind")
+    thesis_file = mdutils.MdUtils(file_name=fp.THESIS_REF_PATH, author="Samuel Elkind")
+    unpub_file = mdutils.MdUtils(file_name=fp.UNPUB_REF_PATH, author="Samuel Elkind")
+    unk_file = mdutils.MdUtils(file_name=fp.UNK_REF_PATH, author="Samuel Elkind")
 
-    for i in ["Published paper", "Published map", "GIS dataset", "Thesis", "Unpublished", "Unknown"]:
-        works = geomap[geomap["PUBTYPE"] == i].fillna(0)
+    for i in [("Published paper", pub_paper_file),
+              ("Published map", pub_map_file),
+              ("GIS dataset", gis_file),
+              ("Thesis", thesis_file),
+              ("Unpublished", unpub_file),
+              ("Unknown", unk_file)]:
+
+        works = geomap[geomap["PUBTYPE"] == i[0]].fillna(0)
         works_citations = make_citations(works)
 
-        mdfile.new_header(1, title=f'{i} Works Referenced')
+        i[1].new_header(1, title=f'{i[0]} Works Referenced')
         for j in sorted(works_citations, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
-            mdfile.new_header(2, title=j)
+            i[1].new_header(2, title=j)
 
-            mdfile.new_line("Bibtex citation", bold_italics_code='b')
-            mdfile.insert_code(works_citations[j]['bibtex'])
+            i[1].new_line("Bibtex citation", bold_italics_code='b')
+            i[1].insert_code(works_citations[j]['bibtex'])
 
-            if i not in ['Unpublished', 'Unknown']:
+            if i[0] not in ['Unpublished', 'Unknown']:
 
-                mdfile.new_line(mdutils.tools.Link.Inline.new_link(
+                i[1].new_line(mdutils.tools.Link.Inline.new_link(
                     link=works_citations[j]['scholar_link'],
                     text='Google Scholar Link'), bold_italics_code='b')
 
-    mdfile.create_md_file()
+        i[1].create_md_file()
 
 
 if __name__ == "__main__":
