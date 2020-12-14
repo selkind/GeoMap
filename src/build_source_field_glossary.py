@@ -11,6 +11,8 @@ import src.fields
 def main():
     sources = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly").fillna("")
     print(sources.columns)
+    print(sources['RESSCALE'].value_counts())
+    
     # field_descr = pd.read_csv(fp.SOURCE_FIELD_DESCR_PATH).fillna("")
 
 
