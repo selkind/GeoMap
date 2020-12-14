@@ -17,5 +17,5 @@ python:
   install:
     - requirements: source/requirements.txt
     
-# formats:
-#   - pdf
+formats:
+  - pdf
