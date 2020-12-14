@@ -1,5 +1,5 @@
 # Welcome to the source code for the Unofficial Documentation of the [SCAR GeoMAP project](https://www.scar.org/science/geomap/about/)
-![geomap_img](docs/assets/geomap.jpg)
+![geomap_img](source/assets/geomap.jpg)
 ## Helpful links:
 ### If you are looking for the actual documentation, [here is the homepage](https://geomap.readthedocs.io/en/latest/).
 ### **Data:** If you are looking to download the data, click [here](https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/Download.html)
