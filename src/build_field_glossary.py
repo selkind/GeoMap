@@ -77,7 +77,7 @@ def main():
 
     mdfile = mdutils.MdUtils(file_name=fp.GEOL_GLOSSARY_PATH, author="Samuel Elkind")
 
-    mdfile.new_header(1, title="Field Glossary")
+    mdfile.new_header(1, title="Geological Units Field Glossary")
     for i in geomap.columns:
         if i in src.fields.OMITTED_FIELDS:
             continue
@@ -86,8 +86,7 @@ def main():
         except AttributeError:
             continue
 
-        condition = field_descr['field_name'] == i
-        record = field_descr.loc[condition]
+        record = field_descr.loc[field_descr['field_name'] == i]
         output = create_output(record, i)
 
         mdfile.new_header(2, i)
@@ -95,12 +94,12 @@ def main():
             if not output[j]:
                 continue
             output[j] = format_output(j, output[j], i)
-            mdfile.new_line(f"{j}:", bold_italics_code='b')
-            mdfile.newline()
+            mdfile.new_line(f'{j}:', bold_italics_code='b')
+            mdfile.new_line('')
             mdfile.new_line(text=output[j])
-            mdfile.new_line("")
+            mdfile.new_line('')
 
-        mdfile.new_line("More Information:", bold_italics_code='b')
+        mdfile.new_line('More Information:', bold_italics_code='b')
         mdfile.new_line()
 
         stats = create_stats(value_counts)
