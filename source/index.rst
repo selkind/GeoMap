@@ -45,10 +45,27 @@ Links to GeoMAP resources
 Documentation Pages
 #############################
 
-* ATA_geological_units: :doc:`Geology attributes glossary <field_glossary>`
-* ATA_sources_poly: :doc:`Test of Sources <works_referenced>`
-* ATA_faults: **Coming soon**
-* ATA_GeoMAP_qualityinformation: **Coming soon**
+**ATA_geological_units:**
+
+* :doc:`Geology Attributes Glossary <field_glossary>`
+
+**ATA_sources_poly:** 
+
+* :doc:`Source Attibutes Glossary <source_glossary>`
+* :doc:`Published Papers <works_referenced/published_paper>`
+* :doc:`Published Maps <works_referenced/published_map>`
+* :doc:`GIS Datasets <works_referenced/gis>`
+* :doc:`Theses <works_referenced/thesis>`
+* :doc:`Unpublished Works <works_referenced/unpublished>`
+* :doc:`Unknown Works <works_referenced/unknown>`
+
+**ATA_faults:**
+
+* :doc:`Fault Attributes Glossary <faults_glossary>`
+
+**ATA_GeoMAP_qualityinformation:**
+
+* **Coming soon**
 
 .. toctree::
    :maxdepth: 3
