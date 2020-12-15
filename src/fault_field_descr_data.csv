@@ -1,0 +1,37 @@
+field_name,field_description,source_of_vals,value_formatting,field_metadata_link,field_value_restrictions
+ACCURACY,The accuracy of mapped features,Value from GeoMAP contributers,String,https://www.gns.cri.nz/static/datadict/htm/accuracy.htm,"accurate, approximate, concealed, inferred, unknown"
+NAME,The name of the feature.,Value from GeoMAP contributers based on SOURCE publication,String,,Unrestricted
+DESCR,"A short textual description of the feature. Includes type, activity, and optionally the accuracy",Value from GeoMAP contributers,String,,"type (activity), feature inferred"
+EXPOSURE,Whether or not the fault is exposed at the surface,Value from GeoMAP contributers,String,,"{unknown, exposed, concealed, uncertain}"
+ACTIVITY,Whether or not the fault is active,Value from GeoMAP contributers,String,,"inactive, probably inactive, possibly active, active"
+TYPENAME,The type of feature. Includes information about the sense of movement and dip angle,GeosciML,String,http://resource.geosciml.org/classifierscheme/cgi/2016.01/faulttype,http://resource.geosciml.org/classifier/cgi/faulttype 
+TYPE_URI,The link to the definition of the TYPENAME based upon GeosciML definitions,GeosciML,Link,http://resource.geosciml.org/classifier/cgi/faulttype ,
+DOMSENSE,The dominant sense of movement,Qmap,String,https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm,https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm
+SUBSENSE,The subordinate sense of movement,Qmap,String,https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm,https://www.gns.cri.nz/static/datadict/htm/faults_type.htm
+TYPE,The type of feature.,Qmap,String,https://www.gns.cri.nz/static/datadict/htm/faults_type.htm,https://www.gns.cri.nz/static/datadict/htm/faults_type.htm
+DEFRMSTYLE,The deformation style of the feature,GeosciML,String,http://resource.geosciml.org/classifierscheme/cgi/2016.01/deformationstyle ,http://resource.geosciml.org/classifier/cgi/deformationstyle 
+DEFRM_URI,The link to the definition of the deformation style based upon GeosciML definitions,GeosciML,Link,http://resource.geosciml.org/classifier/cgi/deformationstyle,
+MVTTYPE,The term used to define the type of movement,GeosciML,String,http://resource.geosciml.org/classifierscheme/cgi/2016.01/faultmovementtype ,http://resource.geosciml.org/classifier/cgi/faultmovementtype 
+MVTTYP_URI,The link to the definition of the movement type based upon GeosciML definitions,GeosciML,Link,http://resource.geosciml.org/classifier/cgi/faultmovementtype ,http://resource.geosciml.org/classifier/cgi/faultmovementtype 
+DISPLCMNT,The total displacement,Value from GeoMAP contributers,String,,"total slip unknown, total slip less than 0.1 km, total slip in the range 0.1-1 km, total slip in the range 1-10 km, total slip in the range 10-100 km "
+TOTSLIP_KM,The total displacement in kilometers,Value from GeoMAP contributers,String,,"Unkown, <0.1, 0.1-1, 1-10, 10-100"
+DOWNQUAD,The cardinal direction of the down thrown side of the fault,Qmap,String,,https://www.gns.cri.nz/static/datadict/htm/faults_down_quad.htm
+DIP_DEG,The angle in degrees of the dip slope,Value from GeoMAP contributers,Integer,,"0-90, 99 indicates DIP_DEG is unknown"
+DIPDIR_DEG,The compass heading in degrees of the direction of the dip slope,Value from GeoMAP contributers,Integer,,"0-360, 999 indicates DIPDIR_DEG is unknown"
+GEOLHIST,A textual representation of the range of time associated with the activity of the feature,GeoSciML,see GeoSciML link,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection
+REPAGE_URI,The link to the geologic period or era that is representative of the activity of the feature,GeoSciML,see GeoSciML link,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection
+YNGAGE_URI,The link to the youngest geologic period or era that is associated with the activity of the feature.,GeoSciML,see GeoSciML link,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection
+OLDAGE_URI,The link to the oldest geologic period or era that is associated with the activity of the feature.,GeoSciML,see GeoSciML link,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection
+AGE,The age of movement,Qmap,String,https://www.gns.cri.nz/static/datadict/htm/strat_age.htm,https://www.gns.cri.nz/static/datadict/htm/strat_age.htm
+FLTSYS,The name of the fault system associated with the feature,Value from GeoMAP contributers based on SOURCE publication,String,,
+OBSMETHOD,The manner in which the feature’s attributes were assigned. Values are loosely guided by GeoSciML’s list of Geologic Feature Observation Methods,GeoSciML,see GeoSciML link,http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod,
+CONFIDENCE,An explanation of the manner by which the age of the feature was determined. Free text that provides a statement concerning the accuracy of the data provided in associated fields.,Value from GeoMAP contributers based on SOURCE publication,String,,
+POSACC_M,The estimated positional accuracy of the feature margins. Units: meters,Value from GeoMAP contributers,,,
+SOURCE,The primary published or unpublished source referenced to assign attributes to the feature.  A unique identifier that links to the GeoMAP spatial bibliography of geological maps and the geodatabase feature feature class (or shapefile) ATA_sources_poly.,Value from GeoMAP contributers,String,,
+METADATA,The link to the metadata for this dataset,https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7,Link,https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7,
+RESSCALE,The resolution scale at which the feature was designed to be used or viewed at.,Value from GeoMAP contributers,,,
+CAPTSCALE,The scale at which the feature was digitized,Value from GeoMAP contributers,Date,,
+CAPTDATE,The date the feature was added to the dataset,Value from GeoMAP contributers,Datetime: YYYY-MM-DDThh:mm:ss,,
+MODDATE,The most recent date when the feature was modified.,Value from GeoMAP contributers,Datetime: YYYY-MM-DDThh:mm:ss,,
+PLOTRANK,The smallest scale appropriate for plotting,Qmap,Integer,https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm,https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm
+FEATUREID,Globally unique identifer for the feature and conforming to the GeoSciML usage of identifier. (e.g. ATA_SVL_250k_geological_units_001607),Geomap naming scheme,Geomap naming scheme,,

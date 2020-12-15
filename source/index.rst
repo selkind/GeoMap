@@ -52,7 +52,6 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 3
-   :name: geol
    :caption: ATA_geological_units
    :hidden:
 
@@ -61,7 +60,6 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 2
-   :name: :ref:
    :caption: ATA_sources_poly
    :hidden:
 
@@ -72,6 +70,13 @@ Documentation Pages
    works_referenced/thesis
    works_referenced/unpublished
    works_referenced/unknown
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ATA_faults
+   :hidden:
+
+   faults_glossary
 
 
 Source Code
