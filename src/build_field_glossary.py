@@ -22,7 +22,7 @@ def create_output(record, field_name):
     source = record['source_of_vals'].iloc[0]
     formatting = record['value_formatting'].iloc[0]
     metadata_link = record['field_metadata_link'].iloc[0]
-    restrictions = record['Field value restrictions'].iloc[0]
+    restrictions = record['field_value_restrictions'].iloc[0]
     return {"Description": descr,
             "Source of Values": source,
             "Value Format": formatting,

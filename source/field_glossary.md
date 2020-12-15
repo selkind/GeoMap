@@ -952,7 +952,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
   
 **Description:**  
   
-The unique identifier of the polygon  
+Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_SVL_250k_geological_units_001607)  
   
 **Source of Values:**  
   
@@ -969,7 +969,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_017279
+- Most frequently occurring value: ATA_geological_units_034036
 - Number of values with a single occurrence: 95161
 
 ## DATASET
