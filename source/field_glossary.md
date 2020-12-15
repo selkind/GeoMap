@@ -44,7 +44,7 @@ The first one or two UPPERCASE characters represent the geological time period. 
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/MAPSYMBOL_values.md)  
+[List of Values](field_values/MAPSYMBOL_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -72,7 +72,7 @@ Determined by GeoMAP dataset compilers
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/PLOTSYMBOL_values.md)  
+[List of Values](field_values/PLOTSYMBOL_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -148,7 +148,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/POLYGTYPE_values.md)  
+[List of Values](field_values/POLYGTYPE_values.md)  
   
 **More Information:**  
 
@@ -172,7 +172,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/MBREQUIV_values.md)  
+[List of Values](field_values/MBREQUIV_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -224,7 +224,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/SBGRPEQUIV_values.md)  
+[List of Values](field_values/SBGRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -252,7 +252,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/GRPEQUIV_values.md)  
+[List of Values](field_values/GRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -280,7 +280,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/SPGRPEQUIV_values.md)  
+[List of Values](field_values/SPGRPEQUIV_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -308,7 +308,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/TERREQUIV_values.md)  
+[List of Values](field_values/TERREQUIV_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -340,7 +340,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/STRATRANK_values.md)  
+[List of Values](field_values/STRATRANK_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -372,7 +372,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/TYPENAME_values.md)  
+[List of Values](field_values/TYPENAME_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -404,7 +404,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/TYPE_URI_values.md)  
+[List of Values](field_values/TYPE_URI_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -436,7 +436,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/GEOLHIST_values.md)  
+[List of Values](field_values/GEOLHIST_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -468,7 +468,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/REPAGE_URI_values.md)  
+[List of Values](field_values/REPAGE_URI_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -500,7 +500,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/YNGAGE_URI_values.md)  
+[List of Values](field_values/YNGAGE_URI_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -532,7 +532,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/OLDAGE_URI_values.md)  
+[List of Values](field_values/OLDAGE_URI_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -560,7 +560,7 @@ Float
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/ABSMIN_MA_values.md)  
+[List of Values](field_values/ABSMIN_MA_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -588,7 +588,7 @@ Float
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/ABSMAX_MA_values.md)  
+[List of Values](field_values/ABSMAX_MA_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -616,7 +616,7 @@ Defined for GeoMAP (following convention used for digital geological map of Aust
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/AGECODE_values.md)  
+[List of Values](field_values/AGECODE_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -636,7 +636,7 @@ A one character symbol for the representative lithology of the MAPSYMBOL rock-ty
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/LITHCODE_values.md)  
+[List of Values](field_values/LITHCODE_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -696,7 +696,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/REPLITH_URI_values.md)  
+[List of Values](field_values/REPLITH_URI_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -728,7 +728,7 @@ see GeoSciML link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/OBSMETHOD_values.md)  
+[List of Values](field_values/OBSMETHOD_values.md)  
   
 **Field Value Restrictions:**  
   
@@ -756,7 +756,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/CONFIDENCE_values.md)  
+[List of Values](field_values/CONFIDENCE_values.md)  
   
 **More Information:**  
 
@@ -776,7 +776,7 @@ Value from GeoMap contributers
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/POSACC_M_values.md)  
+[List of Values](field_values/POSACC_M_values.md)  
   
 **More Information:**  
 
@@ -800,7 +800,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/SOURCE_values.md)  
+[List of Values](field_values/SOURCE_values.md)  
   
 **More Information:**  
 
@@ -828,7 +828,7 @@ Link
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/METADATA_values.md)  
+[List of Values](field_values/METADATA_values.md)  
   
 **More Information:**  
 
@@ -848,7 +848,7 @@ Value from GeoMap contributers
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/RESSCALE_values.md)  
+[List of Values](field_values/RESSCALE_values.md)  
   
 **More Information:**  
 
@@ -872,7 +872,7 @@ Date
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/CAPTSCALE_values.md)  
+[List of Values](field_values/CAPTSCALE_values.md)  
   
 **More Information:**  
 
@@ -896,7 +896,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/CAPTDATE_values.md)  
+[List of Values](field_values/CAPTDATE_values.md)  
   
 **More Information:**  
 
@@ -920,7 +920,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/MODDATE_values.md)  
+[List of Values](field_values/MODDATE_values.md)  
   
 **More Information:**  
 
@@ -945,7 +945,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_072997
+- Most frequently occurring value: ATA_geological_units_053875
 - Number of values with a single occurrence: 95161
 
 ## DATASET
@@ -964,7 +964,7 @@ Geomap naming scheme
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/DATASET_values.md)  
+[List of Values](field_values/DATASET_values.md)  
   
 **More Information:**  
 
@@ -988,7 +988,7 @@ String
   
 **Field Values:**  
   
-[List of Values](/mnt/c/Users/samue/Documents/geomap_docs/source/field_values/REGION_values.md)  
+[List of Values](field_values/REGION_values.md)  
   
 **More Information:**  
 

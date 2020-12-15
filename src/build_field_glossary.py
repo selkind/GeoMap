@@ -25,7 +25,7 @@ def create_output(record, field_name):
     restrictions = record['field_value_restrictions'].iloc[0]
     field_value = None
     if os.path.exists(f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"):
-        field_value = f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"
+        field_value = f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md"
 
     return {"Description": descr,
             "Source of Values": source,
