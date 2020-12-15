@@ -31,8 +31,8 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/monzonite|672|
 |http://resource.geosciml.org/classifier/cgi/lithology/gabbro|645|
 |http://resource.geosciml.org/classifier/cgi/lithology/migmatite|612|
-|http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock|432|
 |http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock|432|
+|http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock|432|
 |http://resource.geosciml.org/classifier/cgi/lithology/ultramafic_igneous_rock|355|
 |http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_rock|346|
 |http://resource.geosciml.org/classifier/cgi/lithology/dioritic_rock|273|
@@ -78,8 +78,8 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/pegmatite|4|
 |http://resource.geosciml.org/classifier/cgi/lithology/tuffite|3|
 |http://resource.geosciml.org/classifier/cgi/lithology/rhyolite|3|
-|http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock|2|
+|http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro|1|
 |http://resource.geosciml.org/classifier/cgi/lithology/syenitoid|1|

@@ -45,10 +45,10 @@ Unique values of YNGAGE_URI
 |http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian|72|
 |http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic|63|
 |http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian|58|
+|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |
 
 http://resource.geosciml.org/classifier/ics/ischart/Permian|49|
-|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |http://resource.geosciml.org/classifier/ics/ischart/Pliocene|47|
 |http://resource.geosciml.org/classifier/ics/ischart/EarlyCretaceous|28|
 |http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene|24|

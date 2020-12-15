@@ -14,6 +14,8 @@ def main():
             continue
         test = geomap[i].value_counts()
         values = test.index.tolist()
+        if len(values) > 200:
+            continue
 
         mdfile = mdutils.MdUtils(file_name=os.path.join(fp.FIELD_VALS_DIR, f"{i}_values.md"),
                                  title=f"Unique values of {i}")
