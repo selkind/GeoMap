@@ -5,3 +5,4 @@ metadata/**
 **/__pycache__/**
 **/site/**
 build/**
+.~lock**
