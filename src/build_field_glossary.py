@@ -23,11 +23,15 @@ def create_output(record, field_name):
     formatting = record['value_formatting'].iloc[0]
     metadata_link = record['field_metadata_link'].iloc[0]
     restrictions = record['field_value_restrictions'].iloc[0]
+    field_value = None
+    if os.path.exists(f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"):
+        field_value = f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"
+
     return {"Description": descr,
             "Source of Values": source,
             "Value Format": formatting,
             "Metadata Link": metadata_link,
-            "Field Values": f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md",
+            "Field Values": field_value,
             "Field Value Restrictions": restrictions}
 
 

@@ -114,17 +114,17 @@ def main():
     unpub_file = mdutils.MdUtils(file_name=fp.UNPUB_REF_PATH, author="Samuel Elkind")
     unk_file = mdutils.MdUtils(file_name=fp.UNK_REF_PATH, author="Samuel Elkind")
 
-    for i in [("Published paper", pub_paper_file),
-              ("Published map", pub_map_file),
-              ("GIS dataset", gis_file),
-              ("Thesis", thesis_file),
-              ("Unpublished", unpub_file),
-              ("Unknown", unk_file)]:
+    for i in [("Published paper", pub_paper_file, "Published Paper"),
+              ("Published map", pub_map_file, "Published Map"),
+              ("GIS dataset", gis_file, "GIS Dataset"),
+              ("Thesis", thesis_file, "Thesis"),
+              ("Unpublished", unpub_file, "Unpublished"),
+              ("Unknown", unk_file, "Unknown")]:
 
         works = geomap[geomap["PUBTYPE"] == i[0]].fillna(0)
         works_citations = make_citations(works)
 
-        i[1].new_header(1, title=f'{i[0]} Works Referenced')
+        i[1].new_header(1, title=f'{i[2]} Works Referenced')
         for j in sorted(works_citations, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
             i[1].new_header(2, title=j)
 
