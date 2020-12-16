@@ -56,11 +56,11 @@ Value from GeoMAP contributers
   
 **Value Format:**  
   
-String  
+<type> <(activity)>, <feature inferred>  
   
 **Field Value Restrictions:**  
   
-type (activity), feature inferred  
+<type> <(activity)>, <feature inferred>  
 
 ## EXPOSURE
   
@@ -96,7 +96,7 @@ String
   
 **Field Value Restrictions:**  
   
-inactive, probably inactive, possibly active, active  
+{inactive, probably inactive, possibly active, active}  
 
 ## TYPENAME
   
@@ -135,6 +135,10 @@ GeosciML
 Link  
   
 **Metadata Link:**  
+  
+[http://resource.geosciml.org/classifier/cgi/faulttype ](http://resource.geosciml.org/classifier/cgi/faulttype )  
+  
+**Field Value Restrictions:**  
   
 [http://resource.geosciml.org/classifier/cgi/faulttype ](http://resource.geosciml.org/classifier/cgi/faulttype )  
 
@@ -304,7 +308,7 @@ String
   
 **Field Value Restrictions:**  
   
-total slip unknown, total slip less than 0.1 km, total slip in the range 0.1-1 km, total slip in the range 1-10 km, total slip in the range 10-100 km   
+{total slip unknown, total slip less than 0.1 km, total slip in the range 0.1-1 km, total slip in the range 1-10 km, total slip in the range 10-100 km}  
 
 ## TOTSLIP_KM
   
@@ -322,7 +326,7 @@ String
   
 **Field Value Restrictions:**  
   
-Unkown, <0.1, 0.1-1, 1-10, 10-100  
+{Unknown, <0.1, 0.1-1, 1-10, 10-100}  
 
 ## DOWNQUAD
   
@@ -358,7 +362,7 @@ Integer
   
 **Field Value Restrictions:**  
   
-0-90, 99 indicates DIP_DEG is unknown  
+(0-90), 99 indicates DIP_DEG is unknown  
 
 ## DIPDIR_DEG
   
@@ -376,7 +380,7 @@ Integer
   
 **Field Value Restrictions:**  
   
-0-360, 999 indicates DIPDIR_DEG is unknown  
+(0-360), 999 indicates DIPDIR_DEG is unknown  
 
 ## GEOLHIST
   

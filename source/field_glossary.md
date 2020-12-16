@@ -150,6 +150,10 @@ String
   
 [List of Values](field_values/POLYGTYPE_values.md)  
   
+**Field Value Restrictions:**  
+  
+{rock, moraine, ice}  
+  
 **More Information:**  
 
 - Unique Values: 3
@@ -344,7 +348,7 @@ see GeoSciML link
   
 **Field Value Restrictions:**  
   
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
+[http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
   
 **More Information:**  
 
@@ -376,7 +380,7 @@ see GeoSciML link
   
 **Field Value Restrictions:**  
   
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
+[http://resource.geosciml.org/classifier/cgi/geologicunittype](http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
 **More Information:**  
 
@@ -408,7 +412,7 @@ see GeoSciML link
   
 **Field Value Restrictions:**  
   
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/geologicunittype)  
+[http://resource.geosciml.org/classifier/cgi/geologicunittype](http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
 **More Information:**  
 
@@ -668,7 +672,7 @@ see GeoSciML link
   
 **Field Value Restrictions:**  
   
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
+[http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
   
 **More Information:**  
 
@@ -700,7 +704,7 @@ see GeoSciML link
   
 **Field Value Restrictions:**  
   
-[http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology](http://cgi.vocabs.ga.gov.au/object?uri=http://resource.geosciml.org/classifier/cgi/lithology)  
+[http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
   
 **More Information:**  
 
@@ -945,7 +949,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_053875
+- Most frequently occurring value: ATA_geological_units_042761
 - Number of values with a single occurrence: 95161
 
 ## DATASET
