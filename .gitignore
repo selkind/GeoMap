@@ -3,9 +3,9 @@ data/**
 metadata/**
 **/.ipynb_checkpoints/**
 **/__pycache__/**
-**/site/**
 build/**
 .~lock**
+source/_build
 # sphinx specific files
 Makefile
 make.bat
