@@ -36,8 +36,8 @@ Unique values of GRPEQUIV
 |Ahlmannryggen Group|195|
 |Nimrod Group|177|
 |Larson Harbour Complex|151|
-|Dry Valleys 2 suite?|147|
 |Pioneers Group|147|
+|Dry Valleys 2 suite?|147|
 |Dry Valleys 1b suite|144|
 |Fosdick granite-migmatite complex|142|
 |Stratton Group|100|

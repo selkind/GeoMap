@@ -56,10 +56,10 @@ Unique values of GEOLHIST
 |Mesozoic to Cenozoic|217|
 |Carboniferous to Permian|216|
 |Precambrian|206|
-|Middle Cambrian|186|
 |Middle to Late Jurassic|186|
-|Middle Devonian|185|
+|Middle Cambrian|186|
 |late Jurassic|185|
+|Middle Devonian|185|
 |Paleozoic to Triassic|182|
 |Late Cambrian to Early Ordovician|180|
 |lower Cambrian|145|
@@ -69,29 +69,29 @@ Unique values of GEOLHIST
 |Archean-Ordovician|85|
 |Paleozoic|82|
 |Proterozoic to Cambrian|76|
-|Archaean|75|
 |Late Cambrian|75|
+|Archaean|75|
 |Early Devonian|72|
 |middle Cambrian|70|
-|Paleoproterozoic to Mesoproterozoic|69|
 |Triassic to Jurassic |69|
+|Paleoproterozoic to Mesoproterozoic|69|
 |Archean to Paleoproterozoic|64|
 |Middle to Late Triassic|63|
 |Cambrian-?Early Ordovician|61|
 |late Cretaceous|58|
 |Neoproterozoic-Early Cambrian|54|
 |Late Archaean to Palaeoproterozoic |49|
-|Permiam|49|
 |Early Triassic|49|
+|Permiam|49|
 |upper Cambrian|48|
-|Cambrian to Early Ordovician|47|
 |Neoproterozoic to Early Cambrian|47|
+|Cambrian to Early Ordovician|47|
 |Middle to Late Miocene|43|
 |Proterzoic-Cambrian|40|
 |Early Miocene(?) to Middle Miocene|39|
 |Late Proterozoic to Early Ordovician|34|
-|Triassic to Jurassic|32|
 |Oligocene(?) to Quaternary(?)|32|
+|Triassic to Jurassic|32|
 |Mesoproteozoic|26|
 |Neogene to Quaternary|24|
 |Silurian|21|

@@ -1,0 +1,16 @@
+list,uri,columns
+stratigraphic rank,http://resource.geosciml.org/classifier/cgi/stratigraphicrank,STRATRANK
+geologicunittype,http://resource.geosciml.org/classifier/cgi/geologicunittype,"TYPENAME, TYPE_URI"
+Geologic-time-scale,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection,"GEOLHIST,REPAGE_URI,YNGAGE_URI,OLDAGE_URI"
+lithology,http://resource.geosciml.org/classifier/cgi/lithology,"LITHOLOGY,REPLIT_URI"
+featureobservationmenthod,http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod,"OBSMETHOD_GEO, OBSMETHOD_FAULT"
+accuracy,https://www.gns.cri.nz/static/datadict/htm/accuracy.htm,ACCURACY
+fault type,http://resource.geosciml.org/classifier/cgi/faulttype ,"TYPENAME, TYPE_URI"
+qmap fault type,https://www.gns.cri.nz/static/datadict/htm/faults_type.htm,TYPE
+fault sense,https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm,"DOMSENSE,SUBSENSE"
+deformation style,http://resource.geosciml.org/classifierscheme/cgi/2016.01/deformationstyle ,"DEFRMSTYLE,DEFRM_URI"
+fault movement type,http://resource.geosciml.org/classifier/cgi/faultmovementtype ,"MVTTYPE,MVTTYP_URI"
+downthrown side,https://www.gns.cri.nz/static/datadict/htm/faults_down_quad.htm,DOWNQUAD
+Geologic-time-scale,https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection,"GEOLHIST,REPAGE_URI,YNGAGE_URI,OLDAGE_URI"
+strat_age,https://www.gns.cri.nz/static/datadict/htm/strat_age.htm,AGE
+plot rank,https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm,
