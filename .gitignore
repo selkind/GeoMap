@@ -5,7 +5,7 @@ metadata/**
 **/__pycache__/**
 build/**
 .~lock**
-source/_build
+source/_build/**
 # sphinx specific files
 Makefile
 make.bat
