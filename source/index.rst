@@ -65,7 +65,7 @@ Documentation Pages
 
 **ATA_GeoMAP_qualityinformation:**
 
-* **Coming soon**
+* :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
 
 .. toctree::
    :maxdepth: 3
@@ -94,6 +94,15 @@ Documentation Pages
    :hidden:
 
    faults_glossary
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ATA_GeoMAP_qualityinformation
+   :hidden:
+
+   qualinfo_glossary 
+
+
 
 
 Source Code
