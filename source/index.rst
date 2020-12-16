@@ -103,8 +103,6 @@ Documentation Pages
    qualinfo_glossary 
 
 
-
-
 Source Code
 #############################
 * These pages open source. You can find the content source and build scripts `in this Github repository <https://github.com/selkind/GeoMap>`_

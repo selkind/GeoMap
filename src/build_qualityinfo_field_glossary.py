@@ -3,7 +3,6 @@ import os
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
-import fiona
 import mdutils
 # Globals
 import src.file_paths as fp
