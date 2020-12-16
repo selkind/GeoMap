@@ -1,10 +1,9 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
 import mdutils
-# Globals
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import src.file_paths as fp
 import src.fields
 

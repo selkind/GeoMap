@@ -6,3 +6,6 @@ metadata/**
 **/site/**
 build/**
 .~lock**
+# sphinx specific files
+Makefile
+make.bat
