@@ -4,16 +4,17 @@
 
 # Fault Type Restricted Values
   
-Relevant Fields: TYPE
+Relevant Fields: TYPE  
+
 |Value|Value Present in Dataset|
 | :---: | :---: |
-|brittle-ductile|[  ]|
-|broken formation|[  ]|
-|cataclasite|[  ]|
-|crush zone|[ x ]|
-|ductile shear|[ x ]|
-|fault|[ x ]|
-|melange|[  ]|
-|mylonite|[  ]|
-|suture|[  ]|
-|unknown|[  ]|
+|brittle-ductile||
+|broken formation||
+|cataclasite||
+|crush zone|![yes](../assets/checkbox.png)|
+|ductile shear|![yes](../assets/checkbox.png)|
+|fault|![yes](../assets/checkbox.png)|
+|melange||
+|mylonite||
+|suture||
+|unknown||

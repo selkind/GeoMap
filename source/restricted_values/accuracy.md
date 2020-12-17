@@ -4,11 +4,12 @@
 
 # Accuracy Restricted Values
   
-Relevant Fields: ACCURACY
+Relevant Fields: ACCURACY  
+
 |Value|Value Present in Dataset|
 | :---: | :---: |
-|accurate|[ x ]|
-|approximate|[ x ]|
-|concealed|[  ]|
-|inferred|[  ]|
-|unknown|[  ]|
+|accurate|![yes](../assets/checkbox.png)|
+|approximate|![yes](../assets/checkbox.png)|
+|concealed||
+|inferred||
+|unknown|![yes](../assets/checkbox.png)|

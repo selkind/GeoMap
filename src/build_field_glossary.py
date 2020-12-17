@@ -53,6 +53,8 @@ def format_output(descr_header, value, field_name):
         value = value[:start] + legend_link + value[end:]
     elif descr_header in ["Metadata Link", "Field Value Restrictions"] and "http" in value:
         value = mdutils.tools.Link.Inline.new_link(value, value)
+    elif descr_header == "Field Value Restrictions" and '.md' in value:
+        value = mdutils.tools.Link.Inline.new_link(value, "Restricted List")
     elif descr_header == "Field Values":
         value = mdutils.tools.Link.Inline.new_link(
             link=value,

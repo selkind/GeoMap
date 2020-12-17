@@ -29,6 +29,7 @@ def main():
         rel_fields = rel_fields[:-2]
 
         mdfile.new_line(rel_fields)
+        mdfile.new_line("")
 
         qmap_vals = [i for i in field_values[i] if i != ""]
         used_vals = []
@@ -41,11 +42,10 @@ def main():
             if str(item).strip() in restricted_list:
                 continue
             restricted_list.append(str(item).strip())
-            if item in used_vals:
-                restricted_list.append("[ x ]")
+            if item in used_vals or item == "unknown":
+                restricted_list.append("![yes](../assets/checkbox.png)")
             else:
-                restricted_list.append("[  ]")
-        
+                restricted_list.append("")
 
         mdfile.new_table(2, int(len(restricted_list) / 2), restricted_list, 'center')
 

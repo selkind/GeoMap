@@ -50,14 +50,14 @@ Unique values of GRPEQUIV
 |Marambio Group|58|
 |Fuglefjellet Complex|54|
 |Mariners Group|36|
-|Urfjell Group|34|
 |Sirius Group|34|
+|Urfjell Group|34|
 |Jultulstraumen Group|32|
 |Blaiklock Glacier Group|29|
 |Wilson Polymetamorphic Complex|24|
 |Rayner Complex|23|
-|Straumsvola-Tvora alkaline complex|18|
 |Pioneers Group, Stratton Group|18|
+|Straumsvola-Tvora alkaline complex|18|
 |Berg Group|17|
 |Koettlitz Glacier Alkaline Province|13|
 |Victoria Group, Taylor Group|12|
