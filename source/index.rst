@@ -67,6 +67,14 @@ Documentation Pages
 
 * :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
 
+**Restricted Value Lists:**
+
+* :doc:`Accuracy <restricted_values/accuracy>`
+* :doc:`Down-thrown Side <restricted_values/down_thrown>`
+* :doc:`Fault Sense <restricted_values/fault_sense>`
+* :doc:`Fault Type <restricted_values/fault_type>`
+* :doc:`Plot Rank <restricted_values/plotrank>`
+
 
 .. toctree::
    :maxdepth: 3
@@ -113,9 +121,6 @@ Documentation Pages
    restricted_values/fault_sense
    restricted_values/fault_type
    restricted_values/plotrank
-
-* :doc:`TEST <restricted_values/accuracy>`
-
 
 Source Code
 #############################
