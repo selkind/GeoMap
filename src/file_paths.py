@@ -9,6 +9,7 @@ FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "field_descr_data.csv")
 SOURCE_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "sources_field_descr_data.csv")
 FAULTS_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "fault_field_descr_data.csv")
 QUALINFO_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "qualityinfo_field_descr_data.csv")
+RESTRICTED_VALS_PATH = os.path.join(BUILD_DIR, "restricted_values.csv")
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
@@ -28,6 +29,13 @@ GIS_REF_PATH = os.path.join(WORKS_REF_DIR, "gis.md")
 THESIS_REF_PATH = os.path.join(WORKS_REF_DIR, "thesis.md")
 UNPUB_REF_PATH = os.path.join(WORKS_REF_DIR, "unpublished.md")
 UNK_REF_PATH = os.path.join(WORKS_REF_DIR, "unknown.md")
+
+RESTRICTED_VALS_DIR = os.path.join(SITE_DIR, "restricted_values")
+ACCURACY_PATH = os.path.join(RESTRICTED_VALS_DIR, "accuracy.md")
+FAULT_TYPE_PATH = os.path.join(RESTRICTED_VALS_DIR, "fault_type.md")
+FAULT_SENSE_PATH = os.path.join(RESTRICTED_VALS_DIR, "fault_sense.md")
+DOWN_THROWN_PATH = os.path.join(RESTRICTED_VALS_DIR, "down_thrown.md")
+PLOTRANK_PATH = os.path.join(RESTRICTED_VALS_DIR, "plotrank.md")
 
 for i in [FIELD_DESCR_PATH, GEOL_PATH, CULTURE_PATH]:
     if not os.path.exists(i) and not os.path.isfile(i):
