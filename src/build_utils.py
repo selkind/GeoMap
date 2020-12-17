@@ -1,8 +1,22 @@
 import sys
 import os
 import mdutils
+import requests
+import zipfile
+import io
+import logging
+import logging.config
+import yaml
 sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
 import src.file_paths as fp
+
+
+def configure_logger():
+    with open(os.path.join(fp.BUILD_DIR, 'logging.yml')) as f:
+        log_config = yaml.load(f, Loader=yaml.FullLoader)
+
+    logging.config.dictConfig(log_config)
+    return logging.getLogger('basic')
 
 
 def create_output(record, field_name):
@@ -57,3 +71,25 @@ def format_output(descr_header, value, field_name):
             text="List of Values"
         )
     return value
+
+
+def download_data():
+    logger = configure_logger()
+    if os.path.exists(fp.GEOL_PATH):
+        logger.info(f"Geodatabase already exists in {fp.GEOL_PATH}")
+        return
+    if not os.path.exists(fp.DATA_DIR):
+        logger.info(f"Data directory does not exist. Creating it at {fp.DATA_DIR}")
+        os.mkdir(fp.DATA_DIR)
+
+    logger.info("sending request to download data")
+    response = requests.get('https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip',
+                            stream=True)
+    logger.info("response received")
+
+    if response.status_code != 200:
+        logger.error(f"Data Download request status code: {response.status_code}")
+        return
+    logger.info(f"Extracting data to {fp.DATA_DIR}")
+    z = zipfile.ZipFile(io.BytesIO(response.content))
+    z.extractall(fp.DATA_DIR)

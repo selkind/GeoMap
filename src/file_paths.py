@@ -36,7 +36,3 @@ FAULT_TYPE_PATH = os.path.join(RESTRICTED_VALS_DIR, "fault_type.md")
 FAULT_SENSE_PATH = os.path.join(RESTRICTED_VALS_DIR, "fault_sense.md")
 DOWN_THROWN_PATH = os.path.join(RESTRICTED_VALS_DIR, "down_thrown.md")
 PLOTRANK_PATH = os.path.join(RESTRICTED_VALS_DIR, "plotrank.md")
-
-for i in [FIELD_DESCR_PATH, GEOL_PATH, CULTURE_PATH]:
-    if not os.path.exists(i) and not os.path.isfile(i):
-        raise FileNotFoundError(f"{i} does not exist")
