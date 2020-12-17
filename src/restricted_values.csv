@@ -1,0 +1,11 @@
+Accuracy,Fault Type,Fault Sense,Down-thrown Side,Plot Rank
+accurate,brittle-ductile,dextral,N,250000
+approximate,broken formation,dipslip,NE,100000
+concealed,cataclasite,none,E,50000
+inferred,crush zone,normal,SE,25000
+,ductile shear,reverse,S,10000
+,fault,sinistral,SW,5000
+,melange,strikeslip,W,2500
+,mylonite,thrust,NW,1000
+,suture,unknown ,? - indicates null entry ,
+,unknown ,,,

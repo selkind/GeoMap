@@ -18,13 +18,9 @@ Value from GeoMAP contributers
   
 String  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/accuracy.htm](https://www.gns.cri.nz/static/datadict/htm/accuracy.htm)  
-  
 **Field Value Restrictions:**  
   
-accurate, approximate, concealed, inferred, unknown  
+[Restricted List](restricted_values/accuracy.md)  
 
 ## NAME
   
@@ -150,19 +146,15 @@ The dominant sense of movement
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
 String  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm](https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm)  
-  
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm](https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm)  
+[Restricted List](restricted_values/fault_sense.md)  
 
 ## SUBSENSE
   
@@ -172,19 +164,15 @@ The subordinate sense of movement
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
 String  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm](https://www.gns.cri.nz/static/datadict/htm/faults_sense.htm)  
-  
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/faults_type.htm](https://www.gns.cri.nz/static/datadict/htm/faults_type.htm)  
+[Restricted List](restricted_values/fault_sense.md)  
 
 ## TYPE
   
@@ -194,19 +182,15 @@ The type of feature.
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
 String  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/faults_type.htm](https://www.gns.cri.nz/static/datadict/htm/faults_type.htm)  
-  
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/faults_type.htm](https://www.gns.cri.nz/static/datadict/htm/faults_type.htm)  
+[Restricted List](restricted_values/fault_type.md)  
 
 ## DEFRMSTYLE
   
@@ -245,6 +229,10 @@ GeosciML
 Link  
   
 **Metadata Link:**  
+  
+[http://resource.geosciml.org/classifier/cgi/deformationstyle](http://resource.geosciml.org/classifier/cgi/deformationstyle)  
+  
+**Field Value Restrictions:**  
   
 [http://resource.geosciml.org/classifier/cgi/deformationstyle](http://resource.geosciml.org/classifier/cgi/deformationstyle)  
 
@@ -336,7 +324,7 @@ The cardinal direction of the down thrown side of the fault
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
@@ -344,7 +332,7 @@ String
   
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/faults_down_quad.htm](https://www.gns.cri.nz/static/datadict/htm/faults_down_quad.htm)  
+[Restricted List](restricted_values/down_thrown.md)  
 
 ## DIP_DEG
   
@@ -478,19 +466,15 @@ The age of movement
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
 String  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)  
-  
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/strat_age.htm](https://www.gns.cri.nz/static/datadict/htm/strat_age.htm)  
+see [legend](legend.md)  
 
 ## FLTSYS
   
@@ -640,19 +624,15 @@ The smallest scale appropriate for plotting
   
 **Source of Values:**  
   
-Qmap  
+Value from GeoMAP contributors  
   
 **Value Format:**  
   
 Integer  
   
-**Metadata Link:**  
-  
-[https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm](https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm)  
-  
 **Field Value Restrictions:**  
   
-[https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm](https://www.gns.cri.nz/static/datadict/htm/plot_rank.htm)  
+[Restricted List](restricted_values/plotrank.md)  
 
 ## FEATUREID
   

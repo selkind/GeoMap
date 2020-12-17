@@ -36,8 +36,8 @@ Unique values of GRPEQUIV
 |Ahlmannryggen Group|195|
 |Nimrod Group|177|
 |Larson Harbour Complex|151|
-|Dry Valleys 2 suite?|147|
 |Pioneers Group|147|
+|Dry Valleys 2 suite?|147|
 |Dry Valleys 1b suite|144|
 |Fosdick granite-migmatite complex|142|
 |Stratton Group|100|
@@ -50,14 +50,14 @@ Unique values of GRPEQUIV
 |Marambio Group|58|
 |Fuglefjellet Complex|54|
 |Mariners Group|36|
-|Urfjell Group|34|
 |Sirius Group|34|
+|Urfjell Group|34|
 |Jultulstraumen Group|32|
 |Blaiklock Glacier Group|29|
 |Wilson Polymetamorphic Complex|24|
 |Rayner Complex|23|
-|Straumsvola-Tvora alkaline complex|18|
 |Pioneers Group, Stratton Group|18|
+|Straumsvola-Tvora alkaline complex|18|
 |Berg Group|17|
 |Koettlitz Glacier Alkaline Province|13|
 |Victoria Group, Taylor Group|12|

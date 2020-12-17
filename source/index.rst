@@ -67,6 +67,7 @@ Documentation Pages
 
 * :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
 
+
 .. toctree::
    :maxdepth: 3
    :caption: ATA_geological_units
@@ -101,6 +102,19 @@ Documentation Pages
    :hidden:
 
    qualinfo_glossary 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Restricted Value Lists
+   :hidden:
+
+   restricted_values/accuracy
+   restricted_values/down_thrown
+   restricted_values/fault_sense
+   restricted_values/fault_type
+   restricted_values/plotrank
+
+* :doc:`TEST <restricted_values/accuracy>`
 
 
 Source Code

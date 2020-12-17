@@ -76,11 +76,11 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/monzodioritic_rock|6|
 |http://resource.geosciml.org/classifier/cgi/lithology/dioritoid|5|
 |http://resource.geosciml.org/classifier/cgi/lithology/pegmatite|4|
-|http://resource.geosciml.org/classifier/cgi/lithology/tuffite|3|
 |http://resource.geosciml.org/classifier/cgi/lithology/rhyolite|3|
+|http://resource.geosciml.org/classifier/cgi/lithology/tuffite|3|
 |http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite|2|
-|http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro|1|
 |http://resource.geosciml.org/classifier/cgi/lithology/syenitoid|1|
 |http://resource.geosciml.org/classifier/cgi/lithology/phonolilte|1|
+|http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro|1|
