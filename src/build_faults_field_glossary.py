@@ -7,7 +7,7 @@ import mdutils
 # Globals
 import src.file_paths as fp
 import src.fields
-from src.build_field_glossary import create_output, format_output
+from src.build_utils import create_output, format_output
 
 
 def main():
