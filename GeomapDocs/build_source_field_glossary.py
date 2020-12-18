@@ -1,12 +1,11 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
 import mdutils
-# Globals
-import src.file_paths as fp
-import src.fields
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
+import GeomapDocs.file_paths as fp
+import GeomapDocs.fields
 
 
 def main():
@@ -18,7 +17,7 @@ def main():
     mdfile.new_header(1, title='Sources Field Glossary')
 
     for i in sources.columns:
-        if i in src.fields.OMITTED_FIELDS:
+        if i in GeomapDocs.fields.OMITTED_FIELDS:
             continue
 
         record = field_descr.loc[field_descr['field_name'] == i]

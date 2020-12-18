@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 print(sys.path)
 import pytest
-from src.build_bibliography import split_authors, split_name
+from GeomapDocs.build_bibliography import split_authors, split_name
 
 
 @pytest.mark.parametrize("test_input,expected", [

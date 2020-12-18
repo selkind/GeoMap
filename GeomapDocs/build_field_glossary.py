@@ -5,9 +5,9 @@ import geopandas as gpd
 import pandas as pd
 import mdutils
 # Globals
-import src.file_paths as fp
-import src.fields
-from src.build_utils import create_output, format_output
+import GeomapDocs.file_paths as fp
+import GeomapDocs.fields
+from GeomapDocs.build_utils import create_output, format_output
 
 
 def create_stats(value_counts):
@@ -32,7 +32,7 @@ def main():
 
     mdfile.new_header(1, title="Geological Units Field Glossary")
     for i in geomap.columns:
-        if i in src.fields.OMITTED_FIELDS:
+        if i in GeomapDocs.fields.OMITTED_FIELDS:
             continue
         try:
             value_counts = geomap[i].value_counts()

@@ -1,9 +1,9 @@
 import sys
 import os
 import pytest
-sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
-from src.build_utils import create_output, format_output
 import pandas as pd
+sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
+from GeomapDocs.build_utils import create_output, format_output
 
 
 @pytest.mark.parametrize('test_input,expected', [

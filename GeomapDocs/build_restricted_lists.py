@@ -4,7 +4,7 @@ import geopandas as gpd
 import pandas as pd
 import mdutils
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
-import src.file_paths as fp
+import GeomapDocs.file_paths as fp
 
 
 def main():

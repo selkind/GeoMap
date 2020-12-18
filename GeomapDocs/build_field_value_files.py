@@ -1,7 +1,9 @@
+import sys
 import os
 import geopandas as gpd
-import file_paths as fp
-import fields
+sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
+import GeomapDocs.file_paths as fp
+import GeomapDocs.fields as fields
 
 import mdutils
 

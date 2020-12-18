@@ -10,3 +10,7 @@ source/_build/**
 Makefile
 make.bat
 output.log
+source/build/**
+.eggs/**
+GeomapDocs.egg-info/**
+dist/**

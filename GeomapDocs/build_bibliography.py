@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import mdutils
 import urllib
-import src.file_paths as fp
+import GeomapDocs.file_paths as fp
 
 REMOVED_CHARS = " .,;"
 
