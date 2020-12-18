@@ -1,0 +1,6 @@
+pytest
+geopandas
+pandas
+mdutils
+sphinx
+PyYAML
