@@ -56,6 +56,8 @@ def format_output(descr_header, value, field_name):
     Creates inline links for particular metadata fields
     """
     replace_string = "legend"
+    # This link will only work for documentation pages in the base /source directory, otherwise the path to legend
+    # won't work
     legend_link = mdutils.tools.Link.Inline.new_link(link="legend.md", text=replace_string)
     if replace_string in value:
         start = value.index(replace_string)

@@ -28,7 +28,12 @@ def test_create_output(test_input, expected):
 
 
 @pytest.mark.parametrize('test_input,expected', [
-    (('Description', '', 'TEST'), '')
+    (('Description', '', 'TEST'), ''),
+    (('Description', 'legend', 'TEST'), '[legend](legend.md)'),
+    (('Description', 'test legend test', 'TEST'), 'test [legend](legend.md) test'),
+    (('Metadata Link', 'https', 'TEST'), '[https](https)'),
+    (('Field Value Restrictions', 'test.md', 'TEST'), '[Restricted List](test.md)'),
+    (('Field Values', 'test.md', 'TEST'), '[List of Values](test.md)'),
 ])
 def test_format_output(test_input, expected):
     assert format_output(test_input[0], test_input[1], test_input[2]) == expected
