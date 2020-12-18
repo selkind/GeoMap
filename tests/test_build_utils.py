@@ -22,6 +22,21 @@ import pandas as pd
       "Field Values": None,
       "Field Value Restrictions": ''
       }),
+    ((pd.DataFrame([{
+      'field_description': 'test',
+      'source_of_vals': 'test',
+      'value_formatting': 'test',
+      'field_metadata_link': 'test',
+      'field_value_restrictions': 'test',
+      }]),
+     'REGION'),
+     {"Description": 'test',
+      "Source of Values": 'test',
+      "Value Format": 'test',
+      "Metadata Link": 'test',
+      "Field Values": 'field_values/REGION_values.md',
+      "Field Value Restrictions": 'test'
+      }),
 ])
 def test_create_output(test_input, expected):
     assert create_output(test_input[0], test_input[1]) == expected
