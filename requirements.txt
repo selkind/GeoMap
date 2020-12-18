@@ -3,4 +3,4 @@ geopandas
 pandas
 mdutils
 sphinx
-yaml
+PyYAML
