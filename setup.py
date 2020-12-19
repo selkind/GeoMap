@@ -32,8 +32,6 @@ setup(
     license='LICENSE.md',
     description='The unofficial end-user documentation for the GeoMAP project\n'
                 'a continent-scale digital geological dataset of Antarctica',
-    long_description=open('README.md').read(),
-    use_scm_version=True,
     setup_requires=['setuptools_scm'],
     install_requires=[
                 'pytest',

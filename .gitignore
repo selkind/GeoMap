@@ -9,8 +9,9 @@ source/_build/**
 # sphinx specific files
 Makefile
 make.bat
-output.log
+GeomapDocs/output.log
 source/build/**
 .eggs/**
 GeomapDocs.egg-info/**
 dist/**
+venv/**
