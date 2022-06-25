@@ -7,7 +7,7 @@ import mdutils
 
 
 def main():
-    geomap = gpd.read_file(fp.GEOL_PATH)
+    geomap = gpd.read_file(fp.GEOL_PATH, errors="coerce")
 
     for i in geomap.columns:
         if i in fields.OMITTED_FIELDS:
