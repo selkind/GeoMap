@@ -7,16 +7,17 @@ import io
 import logging
 import logging.config
 import yaml
-sys.path.append(os.path.abspath(os.path.join(__file__, '..', '..')))
+
+sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import src.file_paths as fp
 
 
 def configure_logger():
-    with open(os.path.join(fp.BUILD_DIR, 'logging.yml')) as f:
+    with open(os.path.join(fp.BUILD_DIR, "logging.yml")) as f:
         log_config = yaml.load(f, Loader=yaml.FullLoader)
 
     logging.config.dictConfig(log_config)
-    return logging.getLogger('basic')
+    return logging.getLogger("basic")
 
 
 def create_output(record, field_name):
@@ -28,21 +29,23 @@ def create_output(record, field_name):
 
     extract fields from each field metadata record and format special cases (e.g. field values links)
     """
-    descr = record['field_description'].iloc[0]
-    source = record['source_of_vals'].iloc[0]
-    formatting = record['value_formatting'].iloc[0]
-    metadata_link = record['field_metadata_link'].iloc[0]
-    restrictions = record['field_value_restrictions'].iloc[0]
+    descr = record["field_description"].iloc[0]
+    source = record["source_of_vals"].iloc[0]
+    formatting = record["value_formatting"].iloc[0]
+    metadata_link = record["field_metadata_link"].iloc[0]
+    restrictions = record["field_value_restrictions"].iloc[0]
     field_value = None
     if os.path.exists(f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"):
         field_value = f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md"
 
-    return {"Description": descr,
-            "Source of Values": source,
-            "Value Format": formatting,
-            "Metadata Link": metadata_link,
-            "Field Values": field_value,
-            "Field Value Restrictions": restrictions}
+    return {
+        "Description": descr,
+        "Source of Values": source,
+        "Value Format": formatting,
+        "Metadata Link": metadata_link,
+        "Field Values": field_value,
+        "Field Value Restrictions": restrictions,
+    }
 
 
 def format_output(descr_header, value, field_name):
@@ -65,13 +68,10 @@ def format_output(descr_header, value, field_name):
         value = value[:start] + legend_link + value[end:]
     elif descr_header in ["Metadata Link", "Field Value Restrictions"] and "http" in value:
         value = mdutils.tools.Link.Inline.new_link(value, value)
-    elif descr_header == "Field Value Restrictions" and '.md' in value:
+    elif descr_header == "Field Value Restrictions" and ".md" in value:
         value = mdutils.tools.Link.Inline.new_link(value, "Restricted List")
     elif descr_header == "Field Values":
-        value = mdutils.tools.Link.Inline.new_link(
-            link=value,
-            text="List of Values"
-        )
+        value = mdutils.tools.Link.Inline.new_link(link=value, text="List of Values")
     return value
 
 
@@ -85,8 +85,9 @@ def download_data():
         os.mkdir(fp.DATA_DIR)
 
     logger.info("sending request to download data")
-    response = requests.get('https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip',
-                            stream=True)
+    response = requests.get(
+        "https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip", stream=True
+    )
     logger.info("response received")
 
     if response.status_code != 200:

@@ -7,7 +7,7 @@ import mdutils
 
 
 def main():
-    geomap = gpd.read_file(fp.GEOL_PATH, errors="coerce")
+    geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"])
 
     for i in geomap.columns:
         if i in fields.OMITTED_FIELDS:
@@ -17,8 +17,9 @@ def main():
         if len(values) > 200:
             continue
 
-        mdfile = mdutils.MdUtils(file_name=os.path.join(fp.FIELD_VALS_DIR, f"{i}_values.md"),
-                                 title=f"Unique values of {i}")
+        mdfile = mdutils.MdUtils(
+            file_name=os.path.join(fp.FIELD_VALS_DIR, f"{i}_values.md"), title=f"Unique values of {i}"
+        )
         table_header = ["Value", "Number of Occurrences"]
         for j in values:
             table_header.extend([str(j), str(test[j])])

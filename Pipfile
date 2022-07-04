@@ -11,6 +11,8 @@ mdutils = "*"
 sphinx = "*"
 pyyaml = "*"
 requests = "*"
+types-requests = "*"
+types-pyyaml = "*"
 
 [dev-packages]
 mypy = "*"

@@ -1,5 +1,6 @@
 import sys
 import os
+
 sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import mdutils
@@ -13,17 +14,17 @@ def make_citations(records):
     citations = {}
     for i in range(records.shape[0]):
         citation = {}
-        citation['bibtex'] = build_bibtex(records.iloc[i])
-        citation['scholar_link'] = build_scholar_link(records.iloc[i])
+        citation["bibtex"] = build_bibtex(records.iloc[i])
+        citation["scholar_link"] = build_scholar_link(records.iloc[i])
 
-        citations[records.iloc[i]['IDENTIFIER']] = citation
+        citations[records.iloc[i]["IDENTIFIER"]] = citation
 
     return citations
 
 
 def build_scholar_link(record):
     query = f'{record["TITLE"]} {record["AUTHORS"]} {int(record["YEAR"])}'.replace(" ", "%20")
-    components = ('https', 'scholar.google.com', '/scholar', '', f'q={query}', '')
+    components = ("https", "scholar.google.com", "/scholar", "", f"q={query}", "")
     return urllib.parse.urlunparse(components)
 
 
@@ -42,7 +43,7 @@ def split_name(author):
 
 
 def build_bibtex(record):
-    author_list = split_authors(record['AUTHORS'])
+    author_list = split_authors(record["AUTHORS"])
 
     authors = ""
     for i in author_list[:-1]:
@@ -52,15 +53,17 @@ def build_bibtex(record):
     authors += f"{last_author[0]}, {last_author[1]}" if last_author[1] else last_author[0]
 
     identifier = split_name(author_list[0])[0]
-    identifier += str(int(record['YEAR']))
-    identifier += (record['TITLE'][:7] + record['TITLE'][7:].split(" ")[0]).replace(" ", "")
+    identifier += str(int(record["YEAR"]))
+    identifier += (record["TITLE"][:7] + record["TITLE"][7:].split(" ")[0]).replace(" ", "")
 
-    return f"@article{{{identifier},\n" \
-           f"  title={{{record['TITLE']}}},\n"\
-           f"  authors={{{authors}}},\n"\
-           f"  journal={{{record['PUBLICATION']}}},\n"\
-           f"  year={{{int(record['YEAR'])}}}\n"\
-           f"}}"
+    return (
+        f"@article{{{identifier},\n"
+        f"  title={{{record['TITLE']}}},\n"
+        f"  authors={{{authors}}},\n"
+        f"  journal={{{record['PUBLICATION']}}},\n"
+        f"  year={{{int(record['YEAR'])}}}\n"
+        f"}}"
+    )
 
 
 def split_authors(authors):
@@ -69,9 +72,9 @@ def split_authors(authors):
     # first and last name, whereas ampersand and semi-colon will not be and thus have higher 'priority'
     in_string = " in "
     if in_string in authors:
-        authors = authors[:authors.find(in_string)]
+        authors = authors[: authors.find(in_string)]
 
-    delimiters = (' and ', '&', ';', ',')
+    delimiters = (" and ", "&", ";", ",")
     delimiter = None
     for i in delimiters:
         if i in authors:
@@ -84,7 +87,7 @@ def split_authors(authors):
     etal = " et al."
     if delimiter is None:
         if etal in authors:
-            return [authors[:authors.find(etal)], 'et al.']
+            return [authors[: authors.find(etal)], "et al."]
         return [authors]
     else:
         individual_authors = authors.split(delimiter)
@@ -114,28 +117,33 @@ def main():
     unpub_file = mdutils.MdUtils(file_name=fp.UNPUB_REF_PATH, author="Samuel Elkind")
     unk_file = mdutils.MdUtils(file_name=fp.UNK_REF_PATH, author="Samuel Elkind")
 
-    for i in [("Published paper", pub_paper_file, "Published Paper"),
-              ("Published map", pub_map_file, "Published Map"),
-              ("GIS dataset", gis_file, "GIS Dataset"),
-              ("Thesis", thesis_file, "Thesis"),
-              ("Unpublished", unpub_file, "Unpublished"),
-              ("Unknown", unk_file, "Unknown")]:
+    for i in [
+        ("Published paper", pub_paper_file, "Published Paper"),
+        ("Published map", pub_map_file, "Published Map"),
+        ("GIS dataset", gis_file, "GIS Dataset"),
+        ("Thesis", thesis_file, "Thesis"),
+        ("Unpublished", unpub_file, "Unpublished"),
+        ("Unknown", unk_file, "Unknown"),
+    ]:
 
         works = geomap[geomap["PUBTYPE"] == i[0]].fillna(0)
         works_citations = make_citations(works)
 
-        i[1].new_header(1, title=f'{i[2]} Works Referenced')
-        for j in sorted(works_citations, key=lambda x: (x[:find_first_digit(x)], x[find_first_digit(x):])):
+        i[1].new_header(1, title=f"{i[2]} Works Referenced")
+        for j in sorted(works_citations, key=lambda x: (x[: find_first_digit(x)], x[find_first_digit(x) :])):
             i[1].new_header(2, title=j)
 
-            i[1].new_line("Bibtex citation", bold_italics_code='b')
-            i[1].insert_code(works_citations[j]['bibtex'])
+            i[1].new_line("Bibtex citation", bold_italics_code="b")
+            i[1].insert_code(works_citations[j]["bibtex"])
 
-            if i[0] not in ['Unpublished', 'Unknown']:
+            if i[0] not in ["Unpublished", "Unknown"]:
 
-                i[1].new_line(mdutils.tools.Link.Inline.new_link(
-                    link=works_citations[j]['scholar_link'],
-                    text='Google Scholar Link'), bold_italics_code='b')
+                i[1].new_line(
+                    mdutils.tools.Link.Inline.new_link(
+                        link=works_citations[j]["scholar_link"], text="Google Scholar Link"
+                    ),
+                    bold_italics_code="b",
+                )
 
         i[1].create_md_file()
 
