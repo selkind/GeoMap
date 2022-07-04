@@ -1,4 +1,3 @@
-
 CCAttribution
 Attribution 4.0 International
 Official translations of this license are available in other languages.
