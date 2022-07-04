@@ -4,6 +4,7 @@ Unique values of SPGRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
+||78912|
 | |5617|
 |Ferrar Supergroup|2951|
 |Beacon Supergroup|2557|

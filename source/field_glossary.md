@@ -104,8 +104,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 666
-- Most frequently occurring value: marine sedimentary and metasedimentary rocks (Carboniferous to Triassic)
+- Unique Values: 667
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 36
 
 ## DESCR
@@ -128,7 +128,7 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 757
+- Unique Values: 758
 - Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas
 - Number of values with a single occurrence: 41
 
@@ -184,8 +184,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 19
-- Most frequently occurring value:  
+- Unique Values: 20
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 5
 
 ## FMNEQUIV
@@ -208,8 +208,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 246
-- Most frequently occurring value: LeMay Formation; Trinity Penninsula Formation
+- Unique Values: 247
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 15
 
 ## SBGRPEQUIV
@@ -236,8 +236,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 1
-- Most frequently occurring value: Ross Sea Drift
+- Unique Values: 2
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## GRPEQUIV
@@ -264,8 +264,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 59
-- Most frequently occurring value:  
+- Unique Values: 60
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## SPGRPEQUIV
@@ -292,8 +292,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 14
-- Most frequently occurring value:  
+- Unique Values: 15
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## TERREQUIV
@@ -320,8 +320,8 @@ Unrestricted
   
 **More Information:**  
 
-- Unique Values: 11
-- Most frequently occurring value: Wilson Terrane
+- Unique Values: 12
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## STRATRANK
@@ -572,7 +572,7 @@ Positive Integer
   
 **More Information:**  
 
-- Unique Values: 121
+- Unique Values: 122
 - Most frequently occurring value: 100.5
 - Number of values with a single occurrence: 2
 
@@ -600,7 +600,7 @@ Positive Integer
   
 **More Information:**  
 
-- Unique Values: 130
+- Unique Values: 131
 - Most frequently occurring value: 541.0
 - Number of values with a single occurrence: 2
 
@@ -628,7 +628,7 @@ See [legend](legend.md)
   
 **More Information:**  
 
-- Unique Values: 46
+- Unique Values: 47
 - Most frequently occurring value: JK
 - Number of values with a single occurrence: 0
 
@@ -648,7 +648,7 @@ See [legend](legend.md)
   
 **More Information:**  
 
-- Unique Values: 25
+- Unique Values: 26
 - Most frequently occurring value: s
 - Number of values with a single occurrence: 0
 
@@ -765,7 +765,7 @@ String
 **More Information:**  
 
 - Unique Values: 162
-- Most frequently occurring value: GEOLHIST uncertain
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 12
 
 ## POSACC_M
@@ -784,7 +784,7 @@ Value from GeoMap contributers
   
 **More Information:**  
 
-- Unique Values: 1
+- Unique Values: 2
 - Most frequently occurring value: 250.0
 - Number of values with a single occurrence: 0
 
@@ -884,30 +884,6 @@ Date
 - Most frequently occurring value: 50000
 - Number of values with a single occurrence: 0
 
-## CAPTDATE
-  
-**Description:**  
-  
-The date the polygon was added to the dataset  
-  
-**Source of Values:**  
-  
-Value from GeoMap contributers  
-  
-**Value Format:**  
-  
-Datetime: YYYY-MM-DDThh:mm:ss  
-  
-**Field Values:**  
-  
-[List of Values](field_values/CAPTDATE_values.md)  
-  
-**More Information:**  
-
-- Unique Values: 14
-- Most frequently occurring value: 2017-07-26T00:00:00
-- Number of values with a single occurrence: 0
-
 ## MODDATE
   
 **Description:**  
@@ -929,7 +905,7 @@ Datetime: YYYY-MM-DDThh:mm:ss
 **More Information:**  
 
 - Unique Values: 15
-- Most frequently occurring value: 2018-06-06T00:00:00
+- Most frequently occurring value: 2018-06-06 00:00:00+00:00
 - Number of values with a single occurrence: 0
 
 ## FEATUREID
@@ -949,7 +925,7 @@ Geomap naming scheme
 **More Information:**  
 
 - Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_017416
+- Most frequently occurring value: ATA_geological_units_000001
 - Number of values with a single occurrence: 95161
 
 ## DATASET

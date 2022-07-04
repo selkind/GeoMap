@@ -4,6 +4,7 @@ Unique values of GRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
+||54893|
 | |5927|
 |Antartic Peninsula and Joinville Island group |4479|
 |Antarctic Peninsula Volcanic Group |3629|
@@ -36,8 +37,8 @@ Unique values of GRPEQUIV
 |Ahlmannryggen Group|195|
 |Nimrod Group|177|
 |Larson Harbour Complex|151|
-|Pioneers Group|147|
 |Dry Valleys 2 suite?|147|
+|Pioneers Group|147|
 |Dry Valleys 1b suite|144|
 |Fosdick granite-migmatite complex|142|
 |Stratton Group|100|

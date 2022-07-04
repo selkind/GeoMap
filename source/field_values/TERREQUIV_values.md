@@ -4,6 +4,7 @@ Unique values of TERREQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
+||80957|
 |Wilson Terrane|4602|
 | |4462|
 |Bowers Terrane|1135|

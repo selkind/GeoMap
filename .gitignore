@@ -4,9 +4,8 @@ metadata/**
 **/.ipynb_checkpoints/**
 **/__pycache__/**
 build/**
-.~lock**
 source/_build/**
+.mypy_cache/**
+.pytest_cache/**
 # sphinx specific files
-Makefile
-make.bat
 output.log
