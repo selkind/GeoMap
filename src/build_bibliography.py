@@ -23,7 +23,9 @@ def make_citations(records):
 
 
 def build_scholar_link(record):
-    query = f'{record["TITLE"]} {record["AUTHORS"]} {int(record["YEAR"])}'.replace(" ", "%20")
+    query = f'{record["TITLE"]} {record["AUTHORS"]} {int(record["YEAR"])}'.replace(
+        " ", "%20"
+    )
     components = ("https", "scholar.google.com", "/scholar", "", f"q={query}", "")
     return urllib.parse.urlunparse(components)
 
@@ -48,13 +50,19 @@ def build_bibtex(record):
     authors = ""
     for i in author_list[:-1]:
         author = split_name(i)
-        authors += f"{author[0]}, {author[1]} and " if author[1] else f"{author[0]} and "
+        authors += (
+            f"{author[0]}, {author[1]} and " if author[1] else f"{author[0]} and "
+        )
     last_author = split_name(author_list[-1])
-    authors += f"{last_author[0]}, {last_author[1]}" if last_author[1] else last_author[0]
+    authors += (
+        f"{last_author[0]}, {last_author[1]}" if last_author[1] else last_author[0]
+    )
 
     identifier = split_name(author_list[0])[0]
     identifier += str(int(record["YEAR"]))
-    identifier += (record["TITLE"][:7] + record["TITLE"][7:].split(" ")[0]).replace(" ", "")
+    identifier += (record["TITLE"][:7] + record["TITLE"][7:].split(" ")[0]).replace(
+        " ", ""
+    )
 
     return (
         f"@article{{{identifier},\n"
@@ -107,11 +115,13 @@ def find_first_digit(identifier):
     return i
 
 
-def main():
-    geomap = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
-
-    pub_paper_file = mdutils.MdUtils(file_name=fp.PUB_PAPER_REF_PATH, author="Samuel Elkind")
-    pub_map_file = mdutils.MdUtils(file_name=fp.PUB_MAP_REF_PATH, author="Samuel Elkind")
+def build_bibliography(sources: gpd.GeoDataFrame):
+    pub_paper_file = mdutils.MdUtils(
+        file_name=fp.PUB_PAPER_REF_PATH, author="Samuel Elkind"
+    )
+    pub_map_file = mdutils.MdUtils(
+        file_name=fp.PUB_MAP_REF_PATH, author="Samuel Elkind"
+    )
     gis_file = mdutils.MdUtils(file_name=fp.GIS_REF_PATH, author="Samuel Elkind")
     thesis_file = mdutils.MdUtils(file_name=fp.THESIS_REF_PATH, author="Samuel Elkind")
     unpub_file = mdutils.MdUtils(file_name=fp.UNPUB_REF_PATH, author="Samuel Elkind")
@@ -126,11 +136,17 @@ def main():
         ("Unknown", unk_file, "Unknown"),
     ]:
 
-        works = geomap[geomap["PUBTYPE"] == i[0]].fillna(0)
+        works = sources[sources["PUBTYPE"] == i[0]].fillna(0)
         works_citations = make_citations(works)
 
         i[1].new_header(1, title=f"{i[2]} Works Referenced")
-        for j in sorted(works_citations, key=lambda x: (x[: find_first_digit(x)], x[find_first_digit(x) :])):
+        for j in sorted(
+            works_citations,
+            key=lambda x: (
+                x[: find_first_digit(x)],
+                x[find_first_digit(x) :],  # noqa: E203
+            ),
+        ):
             i[1].new_header(2, title=j)
 
             i[1].new_line("Bibtex citation", bold_italics_code="b")
@@ -140,12 +156,18 @@ def main():
 
                 i[1].new_line(
                     mdutils.tools.Link.Inline.new_link(
-                        link=works_citations[j]["scholar_link"], text="Google Scholar Link"
+                        link=works_citations[j]["scholar_link"],
+                        text="Google Scholar Link",
                     ),
                     bold_italics_code="b",
                 )
 
         i[1].create_md_file()
+
+
+def main():
+    sources = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
+    build_bibliography(sources)
 
 
 if __name__ == "__main__":
