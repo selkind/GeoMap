@@ -47,10 +47,10 @@ Unique values of OLDAGE_URI
 |http://resource.geosciml.org/classifier/ics/ischart/Terreneuvian|145|
 |http://resource.geosciml.org/classifier/ics/ischart/Ordovician|109|
 |http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic|63|
-|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |
 
 http://resource.geosciml.org/classifier/ics/ischart/Permian|49|
+|http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic|49|
 |http://resource.geosciml.org/classifier/ics/ischart/Pliocene|45|
 |http://resource.geosciml.org/classifier/ics/ischart/Oligocene|38|
 |http://resource.geosciml.org/classifier/ics/ischart/Messinian|24|

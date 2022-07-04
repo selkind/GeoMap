@@ -13,6 +13,8 @@ pyyaml = "*"
 requests = "*"
 types-requests = "*"
 types-pyyaml = "*"
+recommonmark = "*"
+sphinx-markdown-tables = "*"
 
 [dev-packages]
 mypy = "*"

@@ -39,8 +39,8 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/monzonitic_rock|270|
 |http://resource.geosciml.org/classifier/cgi/lithology/porphyry|208|
 |http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone|207|
-|http://resource.geosciml.org/classifier/cgi/lithology/tonalite|203|
 |http://resource.geosciml.org/classifier/cgi/lithology/amphibolite|203|
+|http://resource.geosciml.org/classifier/cgi/lithology/tonalite|203|
 |http://resource.geosciml.org/classifier/cgi/lithology/schist|160|
 |http://resource.geosciml.org/classifier/cgi/lithology/basanite|159|
 |http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt|151|
@@ -66,9 +66,9 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/compound_material|35|
 |http://resource.geosciml.org/classifier/cgi/lithology/phonolitoid|33|
 |http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate|30|
+|http://resource.geosciml.org/classifier/cgi/lithology/hornfels|18|
 |http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock|18|
 |http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite|18|
-|http://resource.geosciml.org/classifier/cgi/lithology/hornfels|18|
 |http://resource.geosciml.org/classifier/cgi/lithology/syenogranite|13|
 |http://vocabs.ga.gov.au/cgi/sissvoc/simple-lithology/resource?uri=http://resource.geosciml.org/classifier/cgi/lithology/tephritoid|10|
 |http://resource.geosciml.org/classifier/cgi/lithology/granofels|9|
@@ -78,9 +78,9 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/pegmatite|4|
 |http://resource.geosciml.org/classifier/cgi/lithology/rhyolite|3|
 |http://resource.geosciml.org/classifier/cgi/lithology/tuffite|3|
-|http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock|2|
-|http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite|2|
-|http://resource.geosciml.org/classifier/cgi/lithology/syenitoid|1|
-|http://resource.geosciml.org/classifier/cgi/lithology/phonolilte|1|
+|http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock|2|
+|http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock|2|
 |http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro|1|
+|http://resource.geosciml.org/classifier/cgi/lithology/phonolilte|1|
+|http://resource.geosciml.org/classifier/cgi/lithology/syenitoid|1|

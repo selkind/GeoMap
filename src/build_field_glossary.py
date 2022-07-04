@@ -22,11 +22,15 @@ def create_stats(value_counts):
     stats["Unique Values"] = len(value_counts)
     if len(value_counts) > 0:
         stats["Most frequently occurring value"] = value_counts.index[0]
-        stats["Number of values with a single occurrence"] = len([k for k in value_counts if k == 1])
+        stats["Number of values with a single occurrence"] = len(
+            [k for k in value_counts if k == 1]
+        )
     return stats
 
 
-def build_field_glossary(feature_class: gpd.GeoDataFrame, field_descr: pd.DataFrame, mdfile: mdutils.MdUtils):
+def build_field_glossary(feature_class: gpd.GeoDataFrame):
+    field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
+    mdfile = mdutils.MdUtils(file_name=fp.GEOL_GLOSSARY_PATH, author="Samuel Elkind")
     mdfile.new_header(1, title="Geological Units Field Glossary")
     for i in feature_class.columns:
         if i in src.fields.OMITTED_FIELDS:
@@ -59,10 +63,10 @@ def build_field_glossary(feature_class: gpd.GeoDataFrame, field_descr: pd.DataFr
 
 
 def main():
-    geol_units = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"]).fillna("")
-    field_descr = pd.read_csv(fp.FIELD_DESCR_PATH).fillna("")
-    mdfile = mdutils.MdUtils(file_name=fp.GEOL_GLOSSARY_PATH, author="Samuel Elkind")
-    build_field_glossary(geol_units, field_descr, mdfile)
+    geol_units = gpd.read_file(
+        fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"]
+    ).fillna("")
+    build_field_glossary(geol_units)
 
 
 if __name__ == "__main__":

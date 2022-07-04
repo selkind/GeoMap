@@ -12,8 +12,7 @@ import src.fields
 from src.build_utils import create_output, format_output
 
 
-def main():
-    faults = gpd.read_file(fp.GEOL_PATH, layer="ATA_faults", ignore_fields=["CAPTDATE"]).fillna("")
+def build_faults_field_glossary(faults: gpd.GeoDataFrame):
     field_descr = pd.read_csv(fp.FAULTS_FIELD_DESCR_PATH).fillna("")
 
     mdfile = mdutils.MdUtils(file_name=fp.FAULTS_GLOSSARY_PATH, author="Samuel Elkind")
@@ -39,6 +38,13 @@ def main():
             mdfile.new_line("")
 
     mdfile.create_md_file()
+
+
+def main():
+    faults = gpd.read_file(
+        fp.GEOL_PATH, layer="ATA_faults", ignore_fields=["CAPTDATE"]
+    ).fillna("")
+    build_faults_field_glossary(faults)
 
 
 if __name__ == "__main__":
