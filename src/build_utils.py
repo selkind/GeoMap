@@ -8,7 +8,7 @@ import logging.config
 import yaml
 import pandas as pd
 
-import src.file_paths as fp
+import file_paths as fp
 
 
 def configure_logger(logger_name: str):

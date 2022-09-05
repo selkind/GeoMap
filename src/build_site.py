@@ -11,8 +11,10 @@ from build_utils import configure_logger, download_data
 import file_paths as fp
 import fiona
 
-layer_name_modifier = "GeoMAP_"
 logger = configure_logger(__name__)
+
+
+layer_name_modifier = "GeoMAP_"
 
 
 def main():

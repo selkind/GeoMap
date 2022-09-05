@@ -1,60 +1,53 @@
-import sys
 import os
-import geopandas as gpd
-import pandas as pd
 import mdutils
+import csv
+import itertools
 
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
-import src.file_paths as fp
+import file_paths as fp
+from build_utils import configure_logger
+
+logger = configure_logger(__name__)
+
+
+def build_restricted_lists() -> None:
+    restricted_value_files = [
+        i
+        for i in os.listdir(fp.RESTRICTED_VALS_SOURCE_DIR)
+        if os.path.isfile(os.path.join(fp.RESTRICTED_VALS_SOURCE_DIR, i))
+        and os.path.splitext(os.path.join(fp.RESTRICTED_VALS_SOURCE_DIR, i))[1]
+        == ".csv"
+    ]
+
+    logger.info(f"restricted value files found: {len(restricted_value_files)}")
+
+    mdfile = mdutils.MdUtils(file_name=fp.RESTRICTED_VALS_PATH, author="Samuel Elkind")
+    mdfile.new_header(1, title="Restricted Values")
+
+    for file_name in restricted_value_files:
+        mdfile.new_line("")
+        with open(os.path.join(fp.RESTRICTED_VALS_SOURCE_DIR, file_name), "r") as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            field_name = header[0]
+
+            mdfile.new_header(2, title=field_name)
+
+            col_count = len(header)
+            fields = header
+            fields.extend(itertools.chain.from_iterable(reader))
+
+            mdfile.new_table(
+                columns=col_count,
+                rows=int(len(fields) / col_count),
+                text=fields,
+                text_align="left",
+            )
+
+    mdfile.create_md_file()
 
 
 def main():
-    faults = gpd.read_file(fp.GEOL_PATH, layer="ATA_faults").fillna("")
-
-    field_values = pd.read_csv(fp.RESTRICTED_VALS_PATH).fillna("")
-
-    field_map = {
-        "Accuracy": {"fields": ["ACCURACY"], "fp": fp.ACCURACY_PATH},
-        "Fault Type": {"fields": ["TYPE"], "fp": fp.FAULT_TYPE_PATH},
-        "Fault Sense": {"fields": ["DOMSENSE", "SUBSENSE"], "fp": fp.FAULT_SENSE_PATH},
-        "Down-thrown Side": {"fields": ["DOWNQUAD"], "fp": fp.DOWN_THROWN_PATH},
-        "Plot Rank": {"fields": ["PLOTRANK"], "fp": fp.PLOTRANK_PATH},
-    }
-
-    for i in field_values.columns:
-        mdfile = mdutils.MdUtils(file_name=field_map[i]["fp"], author="Samuel Elkind")
-        mdfile.new_header(1, title=f"{i} Restricted Values")
-
-        rel_fields = "Relevant Fields: "
-        rel_fields += ", ".join(field_map[i]["fields"])
-
-        mdfile.new_line(rel_fields)
-        mdfile.new_line("")
-
-        qmap_vals = [i for i in field_values[i] if i != ""]
-        used_vals = []
-        for j in field_map[i]["fields"]:
-            used_vals = list(
-                set(
-                    used_vals
-                    + list(field_values[field_values[i].isin(faults[j])][i].unique())
-                )
-            )
-            geomap_specific = list(faults[~faults[j].isin(qmap_vals)][j].unique())
-
-        restricted_list = ["Value", "Value Present in Dataset"]
-        for item in qmap_vals + geomap_specific:
-            if str(item).strip() in restricted_list:
-                continue
-            restricted_list.append(str(item).strip())
-            if item in used_vals or item == "unknown":
-                restricted_list.append("![yes](../assets/checkbox.png)")
-            else:
-                restricted_list.append("")
-
-        mdfile.new_table(2, int(len(restricted_list) / 2), restricted_list, "center")
-
-        mdfile.create_md_file()
+    build_restricted_lists()
 
 
 if __name__ == "__main__":
