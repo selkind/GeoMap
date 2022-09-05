@@ -1,12 +1,12 @@
-import sys
-import os
 import geopandas as gpd
 import pandas as pd
 import mdutils
+from src.build_utils import configure_logger
 
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import src.file_paths as fp
 import src.fields
+
+logger = configure_logger(__name__)
 
 
 def build_quality_info_field_glossary(quality_info: gpd.GeoDataFrame):
@@ -23,6 +23,11 @@ def build_quality_info_field_glossary(quality_info: gpd.GeoDataFrame):
             continue
 
         record = field_descr.loc[field_descr["field_name"] == i]
+        if record.shape[0] == 0:
+            logger.info(
+                f"field {i} has no metadata. Add an entry to {fp.QUALINFO_FIELD_DESCR_PATH}"
+            )
+            continue
 
         mdfile.new_header(2, i)
 

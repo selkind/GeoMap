@@ -1,7 +1,3 @@
-import sys
-import os
-
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
 import mdutils
@@ -9,7 +5,10 @@ import mdutils
 # Globals
 import src.file_paths as fp
 import src.fields
-from src.build_utils import create_output, format_output
+from src.build_utils import configure_logger, create_output, format_output
+
+
+logger = configure_logger(__name__)
 
 
 def create_stats(value_counts):
@@ -41,8 +40,13 @@ def build_field_glossary(feature_class: gpd.GeoDataFrame):
             continue
 
         record = field_descr.loc[field_descr["field_name"] == i]
-        output = create_output(record, i)
 
+        if record.shape[0] == 0:
+            logger.info(
+                f"field {i} has no metadata. Add an entry to {fp.GEOL_GLOSSARY_PATH}"
+            )
+            continue
+        output = create_output(record, i)
         mdfile.new_header(2, i)
         for j in output:
             if not output[j]:

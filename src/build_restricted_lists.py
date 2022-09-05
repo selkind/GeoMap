@@ -26,9 +26,7 @@ def main():
         mdfile.new_header(1, title=f"{i} Restricted Values")
 
         rel_fields = "Relevant Fields: "
-        for k in field_map[i]["fields"]:
-            rel_fields += f"{k}, "
-        rel_fields = rel_fields[:-2]
+        rel_fields += ", ".join(field_map[i]["fields"])
 
         mdfile.new_line(rel_fields)
         mdfile.new_line("")
@@ -36,7 +34,12 @@ def main():
         qmap_vals = [i for i in field_values[i] if i != ""]
         used_vals = []
         for j in field_map[i]["fields"]:
-            used_vals = list(set(used_vals + list(field_values[field_values[i].isin(faults[j])][i].unique())))
+            used_vals = list(
+                set(
+                    used_vals
+                    + list(field_values[field_values[i].isin(faults[j])][i].unique())
+                )
+            )
             geomap_specific = list(faults[~faults[j].isin(qmap_vals)][j].unique())
 
         restricted_list = ["Value", "Value Present in Dataset"]

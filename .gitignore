@@ -7,5 +7,6 @@ build/**
 source/_build/**
 .mypy_cache/**
 .pytest_cache/**
+venv/
 # sphinx specific files
 output.log

@@ -1,4 +1,3 @@
-import sys
 import os
 import mdutils
 import requests
@@ -7,20 +6,24 @@ import io
 import logging
 import logging.config
 import yaml
+import pandas as pd
 
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import src.file_paths as fp
 
 
-def configure_logger():
+def configure_logger(logger_name: str):
+    logger = logging.getLogger(logger_name)
     with open(os.path.join(fp.BUILD_DIR, "logging.yml")) as f:
         log_config = yaml.load(f, Loader=yaml.FullLoader)
 
     logging.config.dictConfig(log_config)
-    return logging.getLogger("basic")
+    return logger
 
 
-def create_output(record, field_name):
+logger = configure_logger(__name__)
+
+
+def create_output(record: pd.DataFrame, field_name: str):
     """
     @param DataFrame Row record: Single row from a pandas DataFrame corresponding to the metadata category
     @param String field_name: the name of the field. Used in generating field values links
@@ -36,7 +39,9 @@ def create_output(record, field_name):
     restrictions = record["field_value_restrictions"].iloc[0]
     field_value = None
     if os.path.exists(f"{os.path.join(fp.FIELD_VALS_DIR, field_name)}_values.md"):
-        field_value = f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md"
+        field_value = (
+            f"{os.path.join(os.path.basename(fp.FIELD_VALS_DIR), field_name)}_values.md"
+        )
 
     return {
         "Description": descr,
@@ -61,12 +66,17 @@ def format_output(descr_header, value, field_name):
     replace_string = "legend"
     # This link will only work for documentation pages in the base /source directory, otherwise the path to legend
     # won't work
-    legend_link = mdutils.tools.Link.Inline.new_link(link="legend.md", text=replace_string)
+    legend_link = mdutils.tools.Link.Inline.new_link(
+        link="legend.md", text=replace_string
+    )
     if replace_string in value:
         start = value.index(replace_string)
         end = start + len(replace_string)
         value = value[:start] + legend_link + value[end:]
-    elif descr_header in ["Metadata Link", "Field Value Restrictions"] and "http" in value:
+    elif (
+        descr_header in ["Metadata Link", "Field Value Restrictions"]
+        and "http" in value
+    ):
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif descr_header == "Field Value Restrictions" and ".md" in value:
         value = mdutils.tools.Link.Inline.new_link(value, "Restricted List")
@@ -76,7 +86,6 @@ def format_output(descr_header, value, field_name):
 
 
 def download_data():
-    logger = configure_logger()
     if os.path.exists(fp.GEOL_PATH):
         logger.info(f"Geodatabase already exists in {fp.GEOL_PATH}")
         return
@@ -86,7 +95,8 @@ def download_data():
 
     logger.info("sending request to download data")
     response = requests.get(
-        "https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip", stream=True
+        "https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip",
+        stream=True,
     )
     logger.info("response received")
 

@@ -15,8 +15,8 @@ handlers:
     filename: output.log
     mode: w+
 loggers:
-  basic:
-    level: DEBUG
+  root:
+    level: INFO
     handlers: [console, logfile]
     propagate: no
 disable_existing_loggers: False

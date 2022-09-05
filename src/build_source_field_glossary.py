@@ -1,14 +1,14 @@
-import sys
-import os
-
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
 import mdutils
+from src.build_utils import configure_logger
 
 # Globals
 import src.file_paths as fp
 import src.fields
+
+
+logger = configure_logger(__name__)
 
 
 def build_source_field_glossary(sources: gpd.GeoDataFrame):

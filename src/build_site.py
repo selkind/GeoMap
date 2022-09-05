@@ -1,30 +1,41 @@
-import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
-from src.build_bibliography import build_bibliography
-from src.build_faults_field_glossary import build_faults_field_glossary
-from src.build_field_value_files import build_field_values
-from src.build_field_glossary import build_field_glossary
-from src.build_qualityinfo_field_glossary import build_quality_info_field_glossary
-from src.build_source_field_glossary import build_source_field_glossary
-from src.build_utils import download_data
-import src.file_paths as fp
+from build_bibliography import build_bibliography
+from build_faults_field_glossary import build_faults_field_glossary
+from build_field_value_files import build_field_values
+from build_field_glossary import build_field_glossary
+from build_qualityinfo_field_glossary import build_quality_info_field_glossary
+from build_source_field_glossary import build_source_field_glossary
+from build_utils import configure_logger, download_data
+import file_paths as fp
+import fiona
+
+layer_name_modifier = "GeoMAP_"
+logger = configure_logger(__name__)
 
 
 def main():
     os.system("make clean")
     download_data()
 
+    if any([layer_name_modifier in i for i in fiona.listlayers(fp.GEOL_PATH)]):
+        geol_layer = "ATA_GeoMAP_geological_units"
+        sources_layer = "ATA_GeoMAP_sources"
+        faults_layer = "ATA_GeoMAP_faults"
+        quality_info_layer = "ATA_GeoMAP_quality"
+    else:
+        geol_layer = "ATA_geological_units"
+        sources_layer = "ATA_sources_poly"
+        faults_layer = "ATA_faults"
+        quality_info_layer = "ATA_GeoMAP_qualityinformation"
+
     geol_units = gpd.read_file(
-        fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"]
+        fp.GEOL_PATH, layer=geol_layer, ignore_fields=["CAPTDATE"]
     ).fillna("")
-    sources = gpd.read_file(fp.GEOL_PATH, layer="ATA_sources_poly")
-    faults = gpd.read_file(fp.GEOL_PATH, layer="ATA_faults").fillna("")
-    quality_info = gpd.read_file(
-        fp.GEOL_PATH, layer="ATA_GeoMAP_qualityinformation"
-    ).fillna("")
+    sources = gpd.read_file(fp.GEOL_PATH, layer=sources_layer)
+    faults = gpd.read_file(fp.GEOL_PATH, layer=faults_layer).fillna("")
+    quality_info = gpd.read_file(fp.GEOL_PATH, layer=quality_info_layer).fillna("")
 
     build_bibliography(sources)
     build_faults_field_glossary(faults)

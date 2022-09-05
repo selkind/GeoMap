@@ -1,7 +1,3 @@
-import sys
-import os
-
-sys.path.append(os.path.abspath(os.path.join(__file__, "..", "..")))
 import geopandas as gpd
 import pandas as pd
 import mdutils
@@ -9,7 +5,9 @@ import mdutils
 # Globals
 import src.file_paths as fp
 import src.fields
-from src.build_utils import create_output, format_output
+from src.build_utils import configure_logger, create_output, format_output
+
+logger = configure_logger(__name__)
 
 
 def build_faults_field_glossary(faults: gpd.GeoDataFrame):
@@ -24,6 +22,11 @@ def build_faults_field_glossary(faults: gpd.GeoDataFrame):
             continue
 
         record = field_descr.loc[field_descr["field_name"] == i]
+        if record.shape[0] == 0:
+            logger.info(
+                f"field {i} has no metadata. Add an entry to {fp.FAULTS_FIELD_DESCR_PATH}"
+            )
+            continue
         output = create_output(record, i)
 
         mdfile.new_header(2, i)

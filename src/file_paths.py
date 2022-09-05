@@ -9,7 +9,7 @@ FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "field_descr_data.csv")
 SOURCE_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "sources_field_descr_data.csv")
 FAULTS_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "fault_field_descr_data.csv")
 QUALINFO_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "qualityinfo_field_descr_data.csv")
-RESTRICTED_VALS_PATH = os.path.join(BUILD_DIR, "restricted_values.csv")
+RESTRICTED_VALS_PATH = os.path.join(BUILD_DIR, "restricted_values")
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
