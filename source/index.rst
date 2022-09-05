@@ -43,9 +43,11 @@ Documentation Pages
 #############################
 
 **ATA_geological_units:**
+
 * :doc:`Geology Attributes Glossary <field_glossary>`
 
 **ATA_sources_poly:** 
+
 * :doc:`Source Attibutes Glossary <source_glossary>`
 * :doc:`Published Papers <works_referenced/published_paper>`
 * :doc:`Published Maps <works_referenced/published_map>`
@@ -55,18 +57,21 @@ Documentation Pages
 * :doc:`Unknown Works <works_referenced/unknown>`
 
 **ATA_faults:**
+
 * :doc:`Fault Attributes Glossary <faults_glossary>`
 
 **ATA_GeoMAP_qualityinformation:**
+
 * :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
 
 **Restricted Value Lists:**
+
 * :doc:`restricted values <restricted_values>`
 
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_geological_units
+   :caption: ATA_Geological_Units
    :hidden:
 
    field_glossary
@@ -74,7 +79,7 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 2
-   :caption: ATA_sources_poly
+   :caption: ATA_Sources
    :hidden:
 
    source_glossary
@@ -94,14 +99,14 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 2
-   :caption: ATA_GeoMAP_qualityinformation
+   :caption: ATA_GeoMAP_Quality
    :hidden:
 
    qualinfo_glossary 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Restricted Values
+   :maxdepth: 2
+   :caption: Restricted_Values
    :hidden:
 
     restricted_values

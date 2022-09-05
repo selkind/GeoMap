@@ -4,646 +4,542 @@
 
 # Faults Field Glossary
 
-## ACCURACY
-  
-**Description:**  
-  
-The accuracy of mapped features  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-[Restricted List](restricted_values/accuracy.md)  
-
 ## NAME
   
-**Description:**  
++ **Reference:** Free text containing name of the fault and conforming to the GeoSciML usage of name.  
   
-The name of the feature.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-Value from GeoMAP contributers based on SOURCE publication  
++ **GeoSciML Name:** name  
   
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
+**More Information:**  
+
+- Unique Values: 66
+- Most frequently occurring value: 
+- Number of values with a single occurrence: 35
 
 ## DESCR
   
-**Description:**  
++ **Reference:** Restricted text that describes the fault and conforming to the GeoSciML usage of description.  
   
-A short textual description of the feature. Includes type, activity, and optionally the accuracy  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-Value from GeoMAP contributers  
++ **Source:**  See faultDescription.list tab  
   
-**Value Format:**  
++ **GeoSciML Name:** description  
   
-<type> <(activity)>, <feature inferred>  
-  
-**Field Value Restrictions:**  
-  
-<type> <(activity)>, <feature inferred>  
+**More Information:**  
 
-## EXPOSURE
-  
-**Description:**  
-  
-Whether or not the fault is exposed at the surface  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-{unknown, exposed, concealed, uncertain}  
-
-## ACTIVITY
-  
-**Description:**  
-  
-Whether or not the fault is active  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-{inactive, probably inactive, possibly active, active}  
+- Unique Values: 10
+- Most frequently occurring value: fault (inactive)
+- Number of values with a single occurrence: 3
 
 ## TYPENAME
   
-**Description:**  
++ **Reference:** Restricted text that describes the type of fault and conforming to the GeoSciML usage of faultType. Must match entryname of TYPE_URI.  
   
-The type of feature. Includes information about the sense of movement and dip angle  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeosciML  
++ **Field Values:** [List of Values](field_values/TYPENAME_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** faultType  
   
-String  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifierscheme/cgi/2016.01/faulttype](http://resource.geosciml.org/classifierscheme/cgi/2016.01/faulttype)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faulttype ](http://resource.geosciml.org/classifier/cgi/faulttype )  
+**More Information:**  
+
+- Unique Values: 12
+- Most frequently occurring value: fault
+- Number of values with a single occurrence: 1
 
 ## TYPE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the faultType. Must be a valid URI from:  
   
-The link to the definition of the TYPENAME based upon GeosciML definitions  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeosciML  
++ **Field Values:** [List of Values](field_values/TYPE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/faulttype](http://resource.geosciml.org/classifier/cgi/faulttype)  
   
-Link  
++ **GeoSciML Name:** faultType_uri  
   
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faulttype ](http://resource.geosciml.org/classifier/cgi/faulttype )  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faulttype ](http://resource.geosciml.org/classifier/cgi/faulttype )  
+**More Information:**  
 
-## DOMSENSE
-  
-**Description:**  
-  
-The dominant sense of movement  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributors  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-[Restricted List](restricted_values/fault_sense.md)  
+- Unique Values: 12
+- Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/faulttype/fault
+- Number of values with a single occurrence: 1
 
-## SUBSENSE
+## ACCURACY
   
-**Description:**  
++ **Reference:** Restricted text describing the accuracy with which the feature is located.   
   
-The subordinate sense of movement  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 20.0  
   
-Value from GeoMAP contributors  
++ **Source:** [Restricted List](restricted_values.md#locationAccuracy)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-[Restricted List](restricted_values/fault_sense.md)  
+**More Information:**  
 
-## TYPE
+- Unique Values: 3
+- Most frequently occurring value: uncertain
+- Number of values with a single occurrence: 0
+
+## EXPOSURE
   
-**Description:**  
++ **Reference:** Restricted text that describes the exposure of the fault.   
   
-The type of feature.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-Value from GeoMAP contributors  
++ **Source:** [Restricted List](restricted_values.md#exposure)  
   
-**Value Format:**  
+**More Information:**  
+
+- Unique Values: 3
+- Most frequently occurring value: unknown
+- Number of values with a single occurrence: 0
+
+## ACTIVITY
   
-String  
++ **Reference:** Restricted text that describes if the fault is considered active.   
   
-**Field Value Restrictions:**  
++ **Type:** Text  
   
-[Restricted List](restricted_values/fault_type.md)  
++ **Length:** 20.0  
+  
++ **Source:** [Restricted List](restricted_values.md#activity)  
+  
+**More Information:**  
+
+- Unique Values: 4
+- Most frequently occurring value: inactive
+- Number of values with a single occurrence: 0
 
 ## DEFRMSTYLE
   
-**Description:**  
++ **Reference:** Restricted text that describes the style of deformation associated with fault and conforming to the GeoSciML usage of deformationStyle. Must match entryname of DEFRM_URI.  
   
-The deformation style of the feature  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeosciML  
++ **GeoSciML Name:** deformationStyle  
   
-**Value Format:**  
-  
-String  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifierscheme/cgi/2016.01/deformationstyle ](http://resource.geosciml.org/classifierscheme/cgi/2016.01/deformationstyle )  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/deformationstyle ](http://resource.geosciml.org/classifier/cgi/deformationstyle )  
+**More Information:**  
+
+- Unique Values: 4
+- Most frequently occurring value: unknown
+- Number of values with a single occurrence: 0
 
 ## DEFRM_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the deformationStyle. Must be a valid URI from:  
   
-The link to the definition of the deformation style based upon GeosciML definitions  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeosciML  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/faultmovementsense](http://resource.geosciml.org/classifier/cgi/faultmovementsense)  
   
-**Value Format:**  
++ **GeoSciML Name:** deformationStyle_uri  
   
-Link  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/cgi/deformationstyle](http://resource.geosciml.org/classifier/cgi/deformationstyle)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/deformationstyle](http://resource.geosciml.org/classifier/cgi/deformationstyle)  
+**More Information:**  
+
+- Unique Values: 4
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/unknown
+- Number of values with a single occurrence: 0
 
 ## MVTTYPE
   
-**Description:**  
++ **Reference:** Restricted text that describes the type of movement associated with fault and conforming to the GeoSciML usage of movementType. Must match entryname of MVTTYP_URI.  
   
-The term used to define the type of movement  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeosciML  
++ **GeoSciML Name:** movementType  
   
-**Value Format:**  
-  
-String  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifierscheme/cgi/2016.01/faultmovementtype ](http://resource.geosciml.org/classifierscheme/cgi/2016.01/faultmovementtype )  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faultmovementtype ](http://resource.geosciml.org/classifier/cgi/faultmovementtype )  
+**More Information:**  
+
+- Unique Values: 5
+- Most frequently occurring value: unknown
+- Number of values with a single occurrence: 0
 
 ## MVTTYP_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the movementType. Must be a valid URI from:  
   
-The link to the definition of the movement type based upon GeosciML definitions  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeosciML  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/faultmovementtype](http://resource.geosciml.org/classifier/cgi/faultmovementtype)  
   
-**Value Format:**  
++ **GeoSciML Name:** movementType_uri  
   
-Link  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faultmovementtype ](http://resource.geosciml.org/classifier/cgi/faultmovementtype )  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/faultmovementtype ](http://resource.geosciml.org/classifier/cgi/faultmovementtype )  
+**More Information:**  
+
+- Unique Values: 5
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/unknown
+- Number of values with a single occurrence: 0
 
 ## DISPLCMNT
   
-**Description:**  
++ **Reference:** Free text that summarises the displacement across the fault and conforming to the GeoSciML usage of displacement.  
   
-The total displacement  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-Value from GeoMAP contributers  
++ **GeoSciML Name:** displacement  
   
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-{total slip unknown, total slip less than 0.1 km, total slip in the range 0.1-1 km, total slip in the range 1-10 km, total slip in the range 10-100 km}  
+**More Information:**  
 
-## TOTSLIP_KM
-  
-**Description:**  
-  
-The total displacement in kilometers  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-{Unknown, <0.1, 0.1-1, 1-10, 10-100}  
+- Unique Values: 5
+- Most frequently occurring value: total slip unknown
+- Number of values with a single occurrence: 0
 
 ## DOWNQUAD
   
-**Description:**  
++ **Reference:**  Restricted text defining the down thrown side of the fault.  
   
-The cardinal direction of the down thrown side of the fault  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 4.0  
   
-Value from GeoMAP contributors  
++ **Source:** [Restricted List](restricted_values.md#downQuadrant)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-[Restricted List](restricted_values/down_thrown.md)  
+**More Information:**  
+
+- Unique Values: 9
+- Most frequently occurring value: unknown
+- Number of values with a single occurrence: 0
 
 ## DIP_DEG
   
-**Description:**  
++ **Reference:** Restricted value that defines the mean dip of the fault plane.  
   
-The angle in degrees of the dip slope  
++ **Type:** Short  
   
-**Source of Values:**  
++ **Source:** Any integer value between 0 and 90.  99 indicates a missing value.  
   
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-Integer  
-  
-**Field Value Restrictions:**  
-  
-(0-90), 99 indicates DIP_DEG is unknown  
+**More Information:**  
+
+- Unique Values: 14
+- Most frequently occurring value: 99
+- Number of values with a single occurrence: 3
 
 ## DIPDIR_DEG
   
-**Description:**  
++ **Reference:** Restricted value that defines the mean dip direction of the fault plane  
   
-The compass heading in degrees of the direction of the dip slope  
++ **Type:** Short  
   
-**Source of Values:**  
++ **Source:** Any integer value between 0 and 360.  999 indicates a missing value.  
   
-Value from GeoMAP contributers  
-  
-**Value Format:**  
-  
-Integer  
-  
-**Field Value Restrictions:**  
-  
-(0-360), 999 indicates DIPDIR_DEG is unknown  
+**More Information:**  
+
+- Unique Values: 36
+- Most frequently occurring value: 999
+- Number of values with a single occurrence: 8
 
 ## GEOLHIST
   
-**Description:**  
++ **Reference:** Free text that describes the age of faulting events and conforming to the GeoSciML usage of geologicHistory.  
   
-A textual representation of the range of time associated with the activity of the feature  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/GEOLHIST_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** geologicHistory  
   
-see GeoSciML link  
-  
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
+**More Information:**  
+
+- Unique Values: 16
+- Most frequently occurring value: Activity unknown
+- Number of values with a single occurrence: 3
 
 ## REPAGE_URI
   
-**Description:**  
++ **Reference:**  Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the activity on the fault. Must be a URI from:  
   
-The link to the geologic period or era that is representative of the activity of the feature  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/REPAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeAge_uri  
   
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
+**More Information:**  
+
+- Unique Values: 9
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/unknown
+- Number of values with a single occurrence: 0
 
 ## YNGAGE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the youngest activity on the fault. Must be a URI from:  
   
-The link to the youngest geologic period or era that is associated with the activity of the feature.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/YNGAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeOlderAge_uri  
   
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
+**More Information:**  
+
+- Unique Values: 10
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/unknown
+- Number of values with a single occurrence: 0
 
 ## OLDAGE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the oldest activity on the fault. Must be a URI from:  
   
-The link to the oldest geologic period or era that is associated with the activity of the feature.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/OLDAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeYoungerAge_uri  
   
-**Metadata Link:**  
-  
-[http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
+**More Information:**  
 
-## AGE
-  
-**Description:**  
-  
-The age of movement  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributors  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-see [legend](legend.md)  
-
-## FLTSYS
-  
-**Description:**  
-  
-The name of the fault system associated with the feature  
-  
-**Source of Values:**  
-  
-Value from GeoMAP contributers based on SOURCE publication  
-  
-**Value Format:**  
-  
-String  
+- Unique Values: 11
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/unknown
+- Number of values with a single occurrence: 0
 
 ## OBSMETHOD
   
-**Description:**  
++ **Reference:** Restricted text that describes the method of observation used to capture the fault and conforming to the GeoSciML usage of observationMethod. Must match entryname of URI from:  
   
-The manner in which the feature’s attributes were assigned. Values are loosely guided by GeoSciML’s list of Geologic Feature Observation Methods  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/OBSMETHOD_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/featureobservationmethod](http://resource.geosciml.org/classifier/cgi/featureobservationmethod)  
   
-see GeoSciML link  
++ **GeoSciML Name:** observationMethod  
   
-**Metadata Link:**  
-  
-[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
+**More Information:**  
+
+- Unique Values: 4
+- Most frequently occurring value: digital conversion from published source
+- Number of values with a single occurrence: 1
 
 ## CONFIDENCE
   
-**Description:**  
++ **Reference:** Free text that provides a statement concerning the accuracy of the data provided in associated fields. Fields which contain data about which there is uncertainty are listed.  
   
-An explanation of the manner by which the age of the feature was determined. Free text that provides a statement concerning the accuracy of the data provided in associated fields.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-Value from GeoMAP contributers based on SOURCE publication  
++ **Field Values:** [List of Values](field_values/CONFIDENCE_values.md)  
   
-**Value Format:**  
-  
-String  
+**More Information:**  
+
+- Unique Values: 36
+- Most frequently occurring value: feature inferred; TYPENAME from SOURCE map
+- Number of values with a single occurrence: 5
 
 ## POSACC_M
   
-**Description:**  
++ **Reference:** An estimate of the accuracy (in metres) within which the fault has been located and conforming to the GeoSciML usage of positionalAccuracy.  
   
-The estimated positional accuracy of the feature margins. Units: meters  
++ **Type:** Long  
   
-**Source of Values:**  
++ **Field Values:** [List of Values](field_values/POSACC_M_values.md)  
   
-Value from GeoMAP contributers  
++ **GeoSciML Name:** positionalAccuracy  
+  
+**More Information:**  
+
+- Unique Values: 6
+- Most frequently occurring value: 1000
+- Number of values with a single occurrence: 0
 
 ## SOURCE
   
-**Description:**  
++ **Reference:** Free text that contains information on the source of the fault and conforming to the GeoSciML usage of source.  
   
-The primary published or unpublished source referenced to assign attributes to the feature.  A unique identifier that links to the GeoMAP spatial bibliography of geological maps and the geodatabase feature feature class (or shapefile) ATA_sources_poly.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-Value from GeoMAP contributers  
++ **Field Values:** [List of Values](field_values/SOURCE_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** source  
   
-String  
+**More Information:**  
+
+- Unique Values: 72
+- Most frequently occurring value: Cox et al. 2012
+- Number of values with a single occurrence: 5
 
 ## METADATA
   
-**Description:**  
++ **Reference:** Free text that contains a link to metadata describing the dataset and conforming to the GeoSciML usage of metadata.  
   
-The link to the metadata for this dataset  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7  
++ **Field Values:** [List of Values](field_values/METADATA_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** metadata_uri  
   
-Link  
-  
-**Metadata Link:**  
-  
-[https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7)  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/04A23A8E-DF36-4C06-9EF4-4DB4AC9A9E19
+- Number of values with a single occurrence: 0
 
 ## RESSCALE
   
-**Description:**  
++ **Reference:** Resolution at which the fault is intended to be used.  
   
-The resolution scale at which the feature was designed to be used or viewed at.  
++ **Type:** Long  
   
-**Source of Values:**  
++ **Length:** 4.0  
   
-Value from GeoMAP contributers  
++ **Field Values:** [List of Values](field_values/RESSCALE_values.md)  
+  
+**More Information:**  
+
+- Unique Values: 8
+- Most frequently occurring value: 250000
+- Number of values with a single occurrence: 0
 
 ## CAPTSCALE
   
-**Description:**  
++ **Reference:** Resolution at which the fault was captured.  
   
-The scale at which the feature was digitized  
++ **Type:** Long  
   
-**Source of Values:**  
++ **Length:** 4.0  
   
-Value from GeoMAP contributers  
++ **Field Values:** [List of Values](field_values/CAPTSCALE_values.md)  
   
-**Value Format:**  
-  
-Date  
+**More Information:**  
+
+- Unique Values: 8
+- Most frequently occurring value: 50000
+- Number of values with a single occurrence: 1
 
 ## CAPTDATE
   
-**Description:**  
++ **Reference:** Date when the fault was added to this dataset.  
   
-The date the feature was added to the dataset  
++ **Type:** Date  
   
-**Source of Values:**  
++ **Length:** 8.0  
   
-Value from GeoMAP contributers  
++ **Field Values:** [List of Values](field_values/CAPTDATE_values.md)  
   
-**Value Format:**  
-  
-Datetime: YYYY-MM-DDThh:mm:ss  
+**More Information:**  
+
+- Unique Values: 22
+- Most frequently occurring value: 2015-11-24 00:00:00+00:00
+- Number of values with a single occurrence: 2
 
 ## MODDATE
   
-**Description:**  
++ **Reference:** Date when the fault was last modified.  
   
-The most recent date when the feature was modified.  
++ **Type:** Date  
   
-**Source of Values:**  
++ **Length:** 8.0  
   
-Value from GeoMAP contributers  
++ **Field Values:** [List of Values](field_values/MODDATE_values.md)  
   
-**Value Format:**  
-  
-Datetime: YYYY-MM-DDThh:mm:ss  
+**More Information:**  
+
+- Unique Values: 29
+- Most frequently occurring value: 2019-03-29 00:00:00+00:00
+- Number of values with a single occurrence: 3
 
 ## PLOTRANK
   
-**Description:**  
++ **Reference:** Free integer controling plotting of the fault for a specific use.  
   
-The smallest scale appropriate for plotting  
++ **Type:** Long  
   
-**Source of Values:**  
-  
-Value from GeoMAP contributors  
-  
-**Value Format:**  
-  
-Integer  
-  
-**Field Value Restrictions:**  
-  
-[Restricted List](restricted_values/plotrank.md)  
+**More Information:**  
+
+- Unique Values: 3
+- Most frequently occurring value: 250000
+- Number of values with a single occurrence: 0
 
 ## FEATUREID
   
-**Description:**  
++ **Reference:** Globally unique identifer for the fault and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_faults_00066)  
   
-Globally unique identifer for the feature and conforming to the GeoSciML usage of identifier. (e.g. ATA_SVL_250k_geological_units_001607)  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-Geomap naming scheme  
++ **GeoSciML Name:** identifier  
   
-**Value Format:**  
+**More Information:**  
+
+- Unique Values: 1784
+- Most frequently occurring value: ATA_GeoMAP_faults_00001
+- Number of values with a single occurrence: 1784
+
+## SPEC_URI
   
-Geomap naming scheme  
++ **Reference:** Restricted text that contains a link referring to the GeoSciML ShearDisplacementStructure feature that describes the instance in detail.  
+  
++ **Type:** Text  
+  
++ **Length:** 150.0  
+  
++ **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
+  
++ **GeoSciML Name:** specification_uri  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
+- Number of values with a single occurrence: 0
+
+## SYMBOL
+  
++ **Reference:** Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.  
+  
++ **Type:** Text  
+  
++ **Length:** 50.0  
+  
++ **GeoSciML Name:** genericSymbolizer  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: 
+- Number of values with a single occurrence: 0

@@ -4,155 +4,99 @@
 
 # Geological Units Field Glossary
 
-## SOURCECODE
-  
-**Description:**  
-  
-A value indicating the geologic identity of the polygon. This is the code or classification initially assigned by a map author (source) pulled directly from the SOURCE publication, following whatever convention was used by the author in their original publication. Values generally follow conventional geological labels (1-2 characters indicating age followed by 1-2 characters indicating lithology) or they can be a number or character-number combination like a sample Identifier. Question marks in the symbol indicate uncertainty in the original author’s identification.    
-  
-**Source of Values:**  
-  
-Derived from publication listed in SOURCE    
-  
-**Value Format:**  
-  
-Determined by original publication authors    
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
-  
-**More Information:**  
-
-- Unique Values: 801
-- Most frequently occurring value: C-Tr
-- Number of values with a single occurrence: 54
-
 ## MAPSYMBOL
   
-**Description:**  
++ **Reference:** Restricted text that contains the unique code for this geologic unit. For GeoMAP the first letters will be Chronostratigraphic subdivision (AGECODE), then a Lithostratigraphic based on dominant types of rock  then subordinate rocks (LITHCODE).  
   
-A value indicating the principal geological identity of the polygon. Values are restricted by the formatting convention defined by the GeoMAP [legend](legend.md), using CAPITAL letters representing AGE (Chronostratigraphic subdivision) and small letters representing lithology (rock-type as a lithostratigraphic classification). MAPSYMBOL is used to unify original SOURCECODE and classify polygons consistently across the entire GeoMAP dataset.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 20.0  
   
-Value based on the compiler's interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
++ **Field Values:** [List of Values](field_values/MAPSYMBOL_values.md)  
   
-**Value Format:**  
++ **GSA Alias:** mapSymbol  
   
-The first one or two UPPERCASE characters represent the geological time period. The last lowercase character is a code corresponding to the type of geologic unit as defined in the [legend](legend.md). NOTE: Geological units which span multiple time periods have symbols showing the oldest and youngest time periods. e.g. Cambrian to Ordovician sedimentary rocks = EOs; Paleoproterozoic to Mesoproterozoic high grade metamorphics = LMn     
-  
-**Field Values:**  
-  
-[List of Values](field_values/MAPSYMBOL_values.md)  
-  
-**Field Value Restrictions:**  
-  
-See [legend](legend.md)  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 173
-- Most frequently occurring value: JKg
-- Number of values with a single occurrence: 3
+- Unique Values: 186
+- Most frequently occurring value: KCzv
+- Number of values with a single occurrence: 5
 
 ## PLOTSYMBOL
   
-**Description:**  
++ **Reference:** Restricted text that contains the code based on MAPSYMBOL that can be used to aggregate similar geological units to assign cartographic colour  
   
-A value that is generally the same as MAPSYMBOL.  PLOTSYMBOL is used for cartographic purposes to generate colour, or symbols on hard-copy maps. Enables greater user-control. Hs, Qs, Jd are examples where Holocene and Quaternary sediments, or Jurassic dolerites, are differentiated with different PLOTSYMBOL from MAPSYMBOL.   
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 20.0  
   
-Value based on the compiler's interpretation of publication listed in SOURCE that conforms to the GeoMap Legend included in download zip  
++ **Field Values:** [List of Values](field_values/PLOTSYMBOL_values.md)  
   
-**Value Format:**  
++ **GSA Alias:** plotSymbol  
   
-Determined by GeoMAP dataset compilers  
-  
-**Field Values:**  
-  
-[List of Values](field_values/PLOTSYMBOL_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 183
-- Most frequently occurring value: JKg
-- Number of values with a single occurrence: 3
+- Unique Values: 198
+- Most frequently occurring value: KCzv
+- Number of values with a single occurrence: 6
 
 ## NAME
   
-**Description:**  
++ **Reference:** Free text containing name of the geologic unit and conforming to the GeoSciML usage of name.  
   
-A textual name of the rock unit or simplified type of rock. Where possible the formally defined and published stratigraphic name is adopted, however many units have been named informally or only classified by lithology.  NAME is generally pulled from the SOURCE publication and follows whatever convention is established by the authors.    
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-Copied from publication listed in SOURCE  
++ **GeoSciML Name:** name  
   
-**Value Format:**  
++ **GSA Alias:** name  
   
-Determined by original publication authors    
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 667
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 36
+- Unique Values: 791
+- Most frequently occurring value: Robertson Bay Group
+- Number of values with a single occurrence: 44
 
 ## DESCR
   
-**Description:**  
++ **Reference:** Free  text that describes the geologic unit and conforming to the GeoSciML usage of description.  
   
-A description of the geological mapping unit that the polygon is identified as. Geological maps can be based on lithostratigraphy, biostratigraphy, age, and rock types, or combinations of these. A lithostratigraphic approach has generally been adopted for GeoMAP. Mapping units are based on age and/or rock type. DESCR provides a text description of the range and/or most common rock-types encountered, typically taken from an entry on a geological map [legend](legend.md).    
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-Copied from publication listed in SOURCE  
++ **GeoSciML Name:** description  
   
-**Value Format:**  
++ **GSA Alias:** description  
   
-Determined by dataset compilers, summarized from SOURCE author descriptions  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 758
-- Most frequently occurring value: unfossiliferous low grade regional metamorphic clastic sedimentary rocks; some basaltic to andesitic lavas
-- Number of values with a single occurrence: 41
+- Unique Values: 885
+- Most frequently occurring value: Thick sequence of quartzose turbidite greywacke with silty rnudstone intercalations, locally quite similar to the Molar Formation sandstone.
+- Number of values with a single occurrence: 50
 
 ## POLYGTYPE
   
-**Description:**  
++ **Reference:** Restricted text describing basic division of material (rock, moraine, ice).  
   
-A restricted value. One of either rock, moraine, or ice. A simplistic description of dominant material within the polygon.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 20.0  
   
-Based on an interpretation of SOURCECODE or MAPSYMBOL  
++ **Field Values:** [List of Values](field_values/POLYGTYPE_values.md)  
   
-**Value Format:**  
++ **Source:**  See polygType.list tab  
   
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/POLYGTYPE_values.md)  
-  
-**Field Value Restrictions:**  
-  
-{rock, moraine, ice}  
++ **fieldSource:** GeoMAP  
   
 **More Information:**  
 
@@ -162,257 +106,231 @@ String
 
 ## MBREQUIV
   
-**Description:**  
++ **Reference:** Free text containing the stratigraphic name of the group member or member equivalent of which this member is part.  Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “member”, this is the lithologic member associated with the SOURCECODE. Otherwise value will be “None”  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
++ **Field Values:** [List of Values](field_values/MBREQUIV_values.md)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/MBREQUIV_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 20
+- Unique Values: 37
 - Most frequently occurring value: 
-- Number of values with a single occurrence: 5
+- Number of values with a single occurrence: 6
 
 ## FMNEQUIV
   
-**Description:**  
++ **Reference:** Free text containing the stratigraphic name of the formation or formation equivalent of which this member is part.  Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “formation” or narrower, this is the lithologic formation associated with the SOURCECODE. Otherwise value will be “None”  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 247
+- Unique Values: 414
 - Most frequently occurring value: 
-- Number of values with a single occurrence: 15
+- Number of values with a single occurrence: 24
 
 ## SBGRPEQUIV
   
-**Description:**  
++ **Reference:** Free text containing the stratigraphic name of the subgroup or subgroup equivalent of which this member is part.  Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “subgroup” or narrower, this is the lithologic subgroup associated with the SOURCECODE. Otherwise value will be “None”. Currently, the only named subgroup is “Ross Sea Drift” which has a strat rank of “rank not specified”  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
++ **Field Values:** [List of Values](field_values/SBGRPEQUIV_values.md)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/SBGRPEQUIV_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 2
+- Unique Values: 25
 - Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## GRPEQUIV
   
-**Description:**  
++ **Reference:**  Free text containing the stratigraphic name of the group or groups or equivalents of which this unit is a part. Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “group” or narrower, this is the lithologic group associated with the SOURCECODE.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
++ **Field Values:** [List of Values](field_values/GRPEQUIV_values.md)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/GRPEQUIV_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 60
+- Unique Values: 81
 - Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## SPGRPEQUIV
   
-**Description:**  
++ **Reference:** Free text containing the stratigraphic name of the supergroup or supergroups or equivalents of which this unit is a part. Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “supergroup” or narrower, this is the lithologic supergroup associated with the SOURCECODE. Otherwise value will be “None”. Currently most supergroups   
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
++ **Field Values:** [List of Values](field_values/SPGRPEQUIV_values.md)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/SPGRPEQUIV_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 15
+- Unique Values: 26
 - Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
 ## TERREQUIV
   
-**Description:**  
++ **Reference:** Free text containing the terrane name or equivalent of which this unit is a part.  Leave this field blank if not applicable.  
   
-When the STRATRANK of the polygon is “terrane”, this is the lithologic terrane associated with the SOURCECODE. Otherwise value will be “None”  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 100.0  
   
-Interpretation based upon multiple sources  
++ **Field Values:** [List of Values](field_values/TERREQUIV_values.md)  
   
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/TERREQUIV_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Unrestricted  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 12
+- Unique Values: 30
 - Most frequently occurring value: 
-- Number of values with a single occurrence: 0
+- Number of values with a single occurrence: 1
 
 ## STRATRANK
   
-**Description:**  
++ **Reference:** Restricted text describing the stratigraphic rank of the geologic unit and conforming to the GeoSciML usage of rank.   
   
-The level of lithologic classification associated with the SOURCECODE  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/STRATRANK_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
   
-see GeoSciML link  
++ **GeoSciML Name:** rank  
   
-**Metadata Link:**  
-  
-[http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank](http://cgi.vocabs.ga.gov.au/vocab/stratigraphicrank)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/STRATRANK_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/stratigraphicrank](http://resource.geosciml.org/classifier/cgi/stratigraphicrank)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 12
-- Most frequently occurring value: rank not specified
+- Unique Values: 10
+- Most frequently occurring value: not specified
+- Number of values with a single occurrence: 0
+
+## SIMPCODE
+  
++ **Reference:** Restricted number encoding SIMPCLASS and DIMPDESC.   
+  
++ **Type:** Short  
+  
++ **Field Values:** [List of Values](field_values/SIMPCODE_values.md)  
+  
++ **Source:** [Restricted List](restricted_values.md#simpleCode)  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 21
+- Most frequently occurring value: 63
+- Number of values with a single occurrence: 0
+
+## SIMPCLASS
+  
++ **Reference:** Restricted text. Simplified, generally age related, subdivision of units.    
+  
++ **Type:** Text  
+  
++ **Length:** 120.0  
+  
++ **Field Values:** [List of Values](field_values/SIMPCLASS_values.md)  
+  
++ **Source:** Governed by SIMPCODE  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 7
+- Most frequently occurring value: Proterozoic-Paleozoic
+- Number of values with a single occurrence: 0
+
+## SIMPDESC
+  
++ **Reference:** Restricted text. Simplified, generalised description of units.    
+  
++ **Type:** Text  
+  
++ **Length:** 120.0  
+  
++ **Field Values:** [List of Values](field_values/SIMPDESC_values.md)  
+  
++ **Source:** Governed by SIMPCODE  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 21
+- Most frequently occurring value: High-grade metamorphic rock - orthogneiss, paragneiss, schist and amphibolite
 - Number of values with a single occurrence: 0
 
 ## TYPENAME
   
-**Description:**  
++ **Reference:** Restricted text that describes the type of geologic unit and conforming to GeoSciML usage of geologicUnitType.    
   
-The geologic unit type as defined by GeoSciML following the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Unit types are differentiated based on their defining lithological, stratigraphic, or other physical properties.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/TYPENAME_values.md)  
   
-**Value Format:**  
++ **Source:** Must match entryname of TYPE_URI  
   
-see GeoSciML link  
++ **GeoSciML Name:** geologicUnitType  
   
-**Metadata Link:**  
++ **GSA Alias:** geologicUnitType  
   
-[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/TYPENAME_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/geologicunittype](http://resource.geosciml.org/classifier/cgi/geologicunittype)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 6
+- Unique Values: 5
 - Most frequently occurring value: lithostratigraphic unit
 - Number of values with a single occurrence: 0
 
 ## TYPE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the geologicUnitType.  Must be a valid URI from:  
   
-The link to the geologic unit type.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/TYPE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/geologicunittype](http://resource.geosciml.org/classifier/cgi/geologicunittype)  
   
-see GeoSciML link  
++ **GeoSciML Name:** geologicUnitType_uri  
   
-**Metadata Link:**  
++ **GSA Alias:** geologicUnitType_uri  
   
-[http://cgi.vocabs.ga.gov.au/vocab/geologicunittype](http://cgi.vocabs.ga.gov.au/vocab/geologicunittype)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/TYPE_URI_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/geologicunittype](http://resource.geosciml.org/classifier/cgi/geologicunittype)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
@@ -420,558 +338,496 @@ see GeoSciML link
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit
 - Number of values with a single occurrence: 0
 
-## GEOLHIST
+## LITHOLOGY
   
-**Description:**  
++ **Reference:** Restricted text that describes the lithologies present and conforming to the GeoSciML usage of lithology.     
   
-A textual representation of the range of time associated with the genesis of the SOURCECODE’s geology.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-GeoSciML  
++ **Source:** Must match entryname of REPLITH_URI  
   
-**Value Format:**  
++ **GeoSciML Name:** lithology  
   
-see GeoSciML link  
++ **GSA Alias:** lithology  
   
-**Metadata Link:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/GEOLHIST_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 113
-- Most frequently occurring value: early Jurassic to early Cretaceous
-- Number of values with a single occurrence: 2
+- Unique Values: 441
+- Most frequently occurring value: siltstone, sandstone
+- Number of values with a single occurrence: 14
+
+## REPLITH_URI
+  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  Must be a valid URI from:  
+  
++ **Type:** Text  
+  
++ **Length:** 255.0  
+  
++ **Field Values:** [List of Values](field_values/REPLITH_URI_values.md)  
+  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
+  
++ **GeoSciML Name:** representativeLithology_uri  
+  
++ **GSA Alias:** representativeLithology_uri  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 87
+- Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
+- Number of values with a single occurrence: 3
+
+## GEOLHIST
+  
++ **Reference:** Free text that describes the stratigraphic age range of the geologic unit and conforming to the GeoSciML usage of geologicHistory.   
+  
++ **Type:** Text  
+  
++ **Length:** 255.0  
+  
++ **Field Values:** [List of Values](field_values/GEOLHIST_values.md)  
+  
++ **GeoSciML Name:** geologicHistory  
+  
++ **GSA Alias:** geologicHistory  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 136
+- Most frequently occurring value: Cambrian to Ordovician
+- Number of values with a single occurrence: 1
 
 ## REPAGE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents this unit.  Must be a URI from:  
   
-The link to the geologic period or era that is representative of the formation of the SOURCECODE’s geological unit.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/REPAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeAge_uri  
   
-**Metadata Link:**  
++ **GSA Alias:** representativeAge_uri  
   
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/REPAGE_URI_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 41
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Paleozoic
+- Unique Values: 43
+- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Mesozoic
 - Number of values with a single occurrence: 0
 
 ## YNGAGE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the youngest part of this unit.  Must be a URI from:  
   
-The link to the youngest geologic period or era that is associated with the genesis of the SOURCECODE’s geology  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/YNGAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeYoungerAge_uri  
   
-**Metadata Link:**  
++ **GSA Alias:** representativeYoungerAge_uri  
   
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/YNGAGE_URI_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 51
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Albian
-- Number of values with a single occurrence: 0
+- Unique Values: 54
+- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Miocene
+- Number of values with a single occurrence: 1
 
 ## OLDAGE_URI
   
-**Description:**  
++ **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the oldest part of this unit.  Must be a URI from:  
   
-The link to the oldest geologic period or era that is associated with the genesis of the SOURCECODE’s geology  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/OLDAGE_URI_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
   
-see GeoSciML link  
++ **GeoSciML Name:** representativeOlderAge_uri  
   
-**Metadata Link:**  
++ **GSA Alias:** representativeOlderAge_uri  
   
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource?uri=http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/OLDAGE_URI_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection](https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/collection)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 52
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Cambrian
-- Number of values with a single occurrence: 0
+- Unique Values: 57
+- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Jurassic
+- Number of values with a single occurrence: 1
 
 ## ABSMIN_MA
   
-**Description:**  
++ **Reference:** Number that gives the absolute minimum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.  
   
-A floating point value associated with the age in million years when the young-age geologic period or era ended.  
++ **Type:** Double  
   
-**Source of Values:**  
++ **Field Values:** [List of Values](field_values/ABSMIN_MA_values.md)  
   
-GeoSciML  
-  
-**Value Format:**  
-  
-Float  
-  
-**Field Values:**  
-  
-[List of Values](field_values/ABSMIN_MA_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Positive Integer  
-  
-**More Information:**  
-
-- Unique Values: 122
-- Most frequently occurring value: 100.5
-- Number of values with a single occurrence: 2
-
-## ABSMAX_MA
-  
-**Description:**  
-  
-A floating point value associated with the age in million years when the old-age geologic period or era began.  
-  
-**Source of Values:**  
-  
-GeoSciML  
-  
-**Value Format:**  
-  
-Float  
-  
-**Field Values:**  
-  
-[List of Values](field_values/ABSMAX_MA_values.md)  
-  
-**Field Value Restrictions:**  
-  
-Positive Integer  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
 - Unique Values: 131
-- Most frequently occurring value: 541.0
-- Number of values with a single occurrence: 2
+- Most frequently occurring value: 0.0
+- Number of values with a single occurrence: 4
 
-## AGECODE
+## ABSMAX_MA
   
-**Description:**  
++ **Reference:** Number that gives the absolute maximum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.  
   
-A one to three character symbol for the representative age geologic period or era used in the MAPSYMBOL value. These values are defined in the [legend](legend.md).  
++ **Type:** Double  
   
-**Source of Values:**  
++ **Field Values:** [List of Values](field_values/ABSMAX_MA_values.md)  
   
-Defined for GeoMAP (following convention used for digital geological map of Australia)  
-  
-**Value Format:**  
-  
-2-3 Characters  
-  
-**Field Values:**  
-  
-[List of Values](field_values/AGECODE_values.md)  
-  
-**Field Value Restrictions:**  
-  
-See [legend](legend.md)  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 47
+- Unique Values: 146
+- Most frequently occurring value: 201.3
+- Number of values with a single occurrence: 3
+
+## AGECODE
+  
++ **Reference:** Restricted text identifying Chronographic subdivision of unit.  Used in conjunction with LITHCODE to encode MAPSYMBOL.    
+  
++ **Type:** Text  
+  
++ **Length:** 10.0  
+  
++ **Field Values:** [List of Values](field_values/AGECODE_values.md)  
+  
++ **Source:** [Restricted List](restricted_values.md#ageCode)  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 50
 - Most frequently occurring value: JK
-- Number of values with a single occurrence: 0
+- Number of values with a single occurrence: 1
 
 ## LITHCODE
   
-**Description:**  
++ **Reference:** Restricted text identifying dominant lithology of unit.  Used in conjunction with AGECODE to encode MAPSYMBOL.    
   
-A one character symbol for the representative lithology of the MAPSYMBOL rock-type letter. Defined and restricted by the values in the [legend](legend.md).  
++ **Type:** Text  
   
-**Field Values:**  
++ **Length:** 10.0  
   
-[List of Values](field_values/LITHCODE_values.md)  
++ **Field Values:** [List of Values](field_values/LITHCODE_values.md)  
   
-**Field Value Restrictions:**  
++ **Source:** [Restricted List](restricted_values.md#lithCode)  
   
-See [legend](legend.md)  
++ **fieldSource:** GeoMAP  
   
 **More Information:**  
 
 - Unique Values: 26
-- Most frequently occurring value: s
+- Most frequently occurring value: n
 - Number of values with a single occurrence: 0
 
-## LITHOLOGY
+## SOURCECODE
   
-**Description:**  
++ **Reference:** The code used on original published maps and datasets, or originators source material.  
   
-A textual description of the lithology restricted to values appearing on GeoSciML’s Simple Lithology list.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 20.0  
   
-GeoSciML  
-  
-**Value Format:**  
-  
-see GeoSciML link  
-  
-**Metadata Link:**  
-  
-[http://cgi.vocabs.ga.gov.au/vocab/simplelithology](http://cgi.vocabs.ga.gov.au/vocab/simplelithology)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
++ **fieldSource:** GeoMAP  
   
 **More Information:**  
 
-- Unique Values: 410
-- Most frequently occurring value: unknown
-- Number of values with a single occurrence: 11
+- Unique Values: 993
+- Most frequently occurring value: Rb
+- Number of values with a single occurrence: 65
 
-## REPLITH_URI
+## SOURCE
   
-**Description:**  
++ **Reference:** Free text that contains information on the source of the geologic unit and conforming to the GeoSciML usage of source.  
   
-Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 300.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/SOURCE_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** source  
   
-see GeoSciML link  
++ **GSA Alias:** source  
   
-**Metadata Link:**  
-  
-[http://cgi.vocabs.ga.gov.au/vocab/simplelithology](http://cgi.vocabs.ga.gov.au/vocab/simplelithology)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/REPLITH_URI_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 80
-- Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
-- Number of values with a single occurrence: 3
+- Unique Values: 234
+- Most frequently occurring value: Smellie 2021
+- Number of values with a single occurrence: 4
 
 ## OBSMETHOD
   
-**Description:**  
++ **Reference:** Restricted text that describes the method of observation used to capture the geologic unit and conforming to the GeoSciML usage of observationMethod. Must match entryname of URI at:     
   
-The manner in which the polygon’s attributes were assigned. Values are loosely guided by GeoSciML’s list of Geologic Feature Observation Methods  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-GeoSciML  
++ **Field Values:** [List of Values](field_values/OBSMETHOD_values.md)  
   
-**Value Format:**  
++ **Source:** [http://resource.geosciml.org/classifier/cgi/featureobservationmethod](http://resource.geosciml.org/classifier/cgi/featureobservationmethod)  
   
-see GeoSciML link  
++ **GeoSciML Name:** observationMethod  
   
-**Metadata Link:**  
++ **GSA Alias:** observationMethod  
   
-[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/OBSMETHOD_values.md)  
-  
-**Field Value Restrictions:**  
-  
-[http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod](http://cgi.vocabs.ga.gov.au/vocab/featureobservationmethod)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 5
+- Unique Values: 8
 - Most frequently occurring value: synthesis from multiple sources
 - Number of values with a single occurrence: 0
 
 ## CONFIDENCE
   
-**Description:**  
++ **Reference:** Free text that provides a statement concerning the accuracy of the data provided in associated fields. Fields which contain data about which there is uncertainty are listed.  
   
-An explanation of the manner by which the age of the geology was determined. Free text that provides a statement concerning the accuracy of the data provided in associated fields.  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 150.0  
   
-Value from GeoMap contributers based on SOURCE publication  
++ **Field Values:** [List of Values](field_values/CONFIDENCE_values.md)  
   
-**Value Format:**  
++ **GSA Alias:** identityConfidence  
   
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/CONFIDENCE_values.md)  
++ **fieldSource:** GMNZ  
   
 **More Information:**  
 
-- Unique Values: 162
+- Unique Values: 269
 - Most frequently occurring value: 
-- Number of values with a single occurrence: 12
+- Number of values with a single occurrence: 18
 
 ## POSACC_M
   
-**Description:**  
++ **Reference:** An estimate of the accuracy (in metres) within which the geologic unit has been located and conforming to the GeoSciML usage of positionalAccuracy.  
   
-The estimated positional accuracy of the polygon margins. Units: meters  
++ **Type:** Long  
   
-**Source of Values:**  
++ **Field Values:** [List of Values](field_values/POSACC_M_values.md)  
   
-Value from GeoMap contributers  
++ **GeoSciML Name:** positionalAccuracy  
   
-**Field Values:**  
-  
-[List of Values](field_values/POSACC_M_values.md)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 2
-- Most frequently occurring value: 250.0
+- Unique Values: 1
+- Most frequently occurring value: 250
 - Number of values with a single occurrence: 0
-
-## SOURCE
-  
-**Description:**  
-  
-The primary published or unpublished source referenced to assign attributes to the polygon.  A unique identifier that links to the GeoMAP spatial bibliography of geological maps and the geodatabase polygon feature class (or shapefile) ATA_sources_poly.  
-  
-**Source of Values:**  
-  
-Value from GeoMap contributers  
-  
-**Value Format:**  
-  
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/SOURCE_values.md)  
-  
-**More Information:**  
-
-- Unique Values: 158
-- Most frequently occurring value: Burton-Johnson & Riley 2015
-- Number of values with a single occurrence: 8
 
 ## METADATA
   
-**Description:**  
++ **Reference:** Free text that contains a link to metadata for this feature class and conforming to the GeoSciML usage of metadata.  
   
-The link to the metadata for this dataset  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7  
++ **Field Values:** [List of Values](field_values/METADATA_values.md)  
   
-**Value Format:**  
++ **GeoSciML Name:** metadata_uri  
   
-Link  
++ **GSA Alias:** metadata_uri  
   
-**Metadata Link:**  
-  
-[https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7)  
-  
-**Field Values:**  
-  
-[List of Values](field_values/METADATA_values.md)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
 - Unique Values: 1
-- Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/1482B48B-3E70-41AE-9BD0-672722A81EC7
-- Number of values with a single occurrence: 0
-
-## RESSCALE
-  
-**Description:**  
-  
-The resolution scale at which the polygon was designed to be used or viewed at.  
-  
-**Source of Values:**  
-  
-Value from GeoMap contributers  
-  
-**Field Values:**  
-  
-[List of Values](field_values/RESSCALE_values.md)  
-  
-**More Information:**  
-
-- Unique Values: 3
-- Most frequently occurring value: 250000
-- Number of values with a single occurrence: 0
-
-## CAPTSCALE
-  
-**Description:**  
-  
-The scale at which the polygon was digitized  
-  
-**Source of Values:**  
-  
-Value from GeoMap contributers  
-  
-**Value Format:**  
-  
-Date  
-  
-**Field Values:**  
-  
-[List of Values](field_values/CAPTSCALE_values.md)  
-  
-**More Information:**  
-
-- Unique Values: 1
-- Most frequently occurring value: 50000
-- Number of values with a single occurrence: 0
-
-## MODDATE
-  
-**Description:**  
-  
-The most recent date when the polygon was modified.  
-  
-**Source of Values:**  
-  
-Value from GeoMap contributers  
-  
-**Value Format:**  
-  
-Datetime: YYYY-MM-DDThh:mm:ss  
-  
-**Field Values:**  
-  
-[List of Values](field_values/MODDATE_values.md)  
-  
-**More Information:**  
-
-- Unique Values: 15
-- Most frequently occurring value: 2018-06-06 00:00:00+00:00
+- Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/600C1153-7C74-447A-98AC-DEE65C130170
 - Number of values with a single occurrence: 0
 
 ## FEATUREID
   
-**Description:**  
++ **Reference:** Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_geological_units_00071)  
   
-Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_SVL_250k_geological_units_001607)  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 255.0  
   
-Geomap naming scheme  
++ **GeoSciML Name:** identifier  
   
-**Value Format:**  
++ **GSA Alias:** mappedFeatureID  
   
-Geomap naming scheme  
-  
-**More Information:**  
-
-- Unique Values: 95161
-- Most frequently occurring value: ATA_geological_units_000001
-- Number of values with a single occurrence: 95161
-
-## DATASET
-  
-**Description:**  
-  
-The dataset from which the polygon came from. Alludes to the region of Antarctica where the polygon is located (Peninsula, North Victoria Land, etc).  
-  
-**Source of Values:**  
-  
-Geomap naming scheme  
-  
-**Value Format:**  
-  
-Geomap naming scheme  
-  
-**Field Values:**  
-  
-[List of Values](field_values/DATASET_values.md)  
++ **fieldSource:** GeoSciML  
   
 **More Information:**  
 
-- Unique Values: 9
-- Most frequently occurring value: ATA_PEN_geological_units
-- Number of values with a single occurrence: 0
+- Unique Values: 99080
+- Most frequently occurring value: ATA_GeoMAP_geological_units_00001
+- Number of values with a single occurrence: 99080
 
 ## REGION
   
-**Description:**  
++ **Reference:** Restricted text. Very broad differentiation of geographical area.    
   
-The region in which the polygon is located {East Antarctica, West Antarctica}  
++ **Type:** Text  
   
-**Source of Values:**  
++ **Length:** 50.0  
   
-Value from GeoMap contributers  
++ **Field Values:** [List of Values](field_values/REGION_values.md)  
   
-**Value Format:**  
++ **Source:** Choose from: East Antarctica or West Antarctica  
   
-String  
-  
-**Field Values:**  
-  
-[List of Values](field_values/REGION_values.md)  
++ **fieldSource:** GeoMAP  
   
 **More Information:**  
 
 - Unique Values: 2
 - Most frequently occurring value: East Antarctica
+- Number of values with a single occurrence: 0
+
+## TECTPROV
+  
++ **Reference:** Restricted text. Differentiation of geographical area based on "tectonic provinces and boundaries" from Siddoway, 2020 (Encyclopedia of Geology, 2nd edition, Ch 3).    
+  
++ **Type:** Text  
+  
++ **Length:** 50.0  
+  
++ **Field Values:** [List of Values](field_values/TECTPROV_values.md)  
+  
++ **Source:** [Restricted List](restricted_values.md#tectonicProvince)  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 14
+- Most frequently occurring value: Antarctic Peninsula
+- Number of values with a single occurrence: 0
+
+## RESSCALE
+  
++ **Reference:** Resolution at which the geologic unit is intended to be used.  
+  
++ **Type:** Long  
+  
++ **Length:** 4.0  
+  
++ **Field Values:** [List of Values](field_values/RESSCALE_values.md)  
+  
++ **GSA Alias:** resolutionScale  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 5
+- Most frequently occurring value: 250000
+- Number of values with a single occurrence: 0
+
+## CAPTSCALE
+  
++ **Reference:** Resolution at which the geologic unit was captured.  
+  
++ **Type:** Long  
+  
++ **Length:** 4.0  
+  
++ **Field Values:** [List of Values](field_values/CAPTSCALE_values.md)  
+  
++ **GSA Alias:** captureScale  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 3
+- Most frequently occurring value: 50000
+- Number of values with a single occurrence: 0
+
+## MODDATE
+  
++ **Reference:** Date when the geologic unit was last modified.  
+  
++ **Type:** Date  
+  
++ **Length:** 8.0  
+  
++ **Field Values:** [List of Values](field_values/MODDATE_values.md)  
+  
++ **GSA Alias:** modifiedDate  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 40
+- Most frequently occurring value: 2022-04-11 00:00:00+00:00
+- Number of values with a single occurrence: 3
+
+## SPEC_URI
+  
++ **Reference:** Text that contains a link referring to the GeoSciML GeologicalUnit feature that describes the instance in detail.  If missing shall be:    
+  
++ **Type:** Text  
+  
++ **Length:** 150.0  
+  
++ **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
+  
++ **GeoSciML Name:** specification_uri  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
+- Number of values with a single occurrence: 0
+
+## SYMBOL
+  
++ **Reference:** Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.  
+  
++ **Type:** Text  
+  
++ **Length:** 12.0  
+  
++ **Source:** Governed by MAPSYMBOL  
+  
++ **GeoSciML Name:** genericSymbolizer  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: 
 - Number of values with a single occurrence: 0

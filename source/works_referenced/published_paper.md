@@ -134,6 +134,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Ricker%20Hills%20Tillite%20provides%20evidence%20of%20Oligocene%20warm-based%20glaciation%20in%20Victoria%20Land,%20Antarctica%20Baroni%20C.,%20Fasano%20F.,%20Giorgetti%20G.,%20Salvatore%20M.C.,%20Ribeccai%20C.%202008)**
+## Barrett 1965
+  
+**Bibtex citation**
+
+```
+@article{Barrett1965Geology,
+  title={Geology of the area between the Axel Heiberg and Shackleton Glaciers, Queen Maud Range, Antarctica. Part 2 Beacon Group},
+  authors={Barrett, PJ},
+  journal={NZJGG 8: 344-370},
+  year={1965}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20area%20between%20the%20Axel%20Heiberg%20and%20Shackleton%20Glaciers,%20Queen%20Maud%20Range,%20Antarctica.%20Part%202%20Beacon%20Group%20Barrett%20P.%20J.%201965)**
 ## Barrett et al. 1984
   
 **Bibtex citation**
@@ -212,6 +225,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Koettlitz%20and%20Blue%20Glacier%20region,%20Southern%20Victoria%20Land,%20Antarctica%20Blank%20H.R.,%20Cooper%20R.A.,%20Willis%20I.A.G.%201963)**
+## Blight & Oliver 1977
+  
+**Bibtex citation**
+
+```
+@article{Blight1979Themetamorphic,
+  title={The metamorphic geology of the Windmill Islands, Antarctica: A preliminary account},
+  authors={Blight, DF and Oliver, RL},
+  journal={Australian Journal of Earth Sciences 42(5): 453-469 Fig.1},
+  year={1979}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20metamorphic%20geology%20of%20the%20Windmill%20Islands,%20Antarctica:%20A%20preliminary%20account%20Blight%20D.F.,%20Oliver%20R.L.%201979)**
 ## Bockheim et al. 1989
   
 **Bibtex citation**
@@ -355,6 +381,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Autochthonous%20v.%20accreted%20terrane%20development%20of%20continental%20margins:%20a%20revised%20in%20situ%20tectonic%20history%20of%20the%20Antarctic%20Peninsula%20Burton-Johnson,%20A.,%20Tiley,%20T.R.%202015)**
+## Clapperton 1990
+  
+**Bibtex citation**
+
+```
+@article{Clapperton1990Quaternary,
+  title={Quaternary glaciations in the Southern Ocean and Antarctic Peninsula area},
+  authors={Clapperton, CM},
+  journal={Quaternary Science Reviews},
+  year={1990}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Quaternary%20glaciations%20in%20the%20Southern%20Ocean%20and%20Antarctic%20Peninsula%20area%20Clapperton%20C.M.%201990)**
 ## Clarkson 1982
   
 **Bibtex citation**
@@ -420,6 +459,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Contributions%20to%20Quaternary%20Geology%20of%20Cape%20Crozier,%20White%20Island%20and%20Hut%20Point%20Peninsula,%20McMurdo%20Sound%20Region,%20Antarctica%20Cole%20J.W.,%20Kyle%20P.R.,%20Neall%20V.E.%201971)**
+## Colhoun & Adamson 1992
+  
+**Bibtex citation**
+
+```
+@article{Coulhoun1992Raisedbeaches,
+  title={Raised beaches of the Bunger Hills, Antarctica},
+  authors={Coulhoun and E.A and Adamson and D.A},
+  journal={ANARE Reports 136 Figs. 3,8,15,16,19},
+  year={1992}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Raised%20beaches%20of%20the%20Bunger%20Hills,%20Antarctica%20Coulhoun,%20E.A.,%20Adamson,%20D.A.%201992)**
 ## Cook 1991
   
 **Bibtex citation**
@@ -498,6 +550,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Field%20study%20of%20orbicular%20rocks%20in%20Taylor%20Valley,%20southern%20Victoria%20Land%20Dahl%20P.S.,%20Palmer%20D.F.%201981)**
+## Davies et al. 2013
+  
+**Bibtex citation**
+
+```
+@article{Davies2013Landscape,
+  title={Landscape evolution and ice-sheet behaviour in a semi-arid polar environment: James Ross Island, NE Antarctic Peninsula},
+  authors={Davies, BJ and Glassere, NF and Carrivick, JL and Hambrey, MJ and Smellie, JL and Nyvlt, D},
+  journal={Geological Soc of London Special Publication 381: 353-395, Fig.2},
+  year={2013}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Landscape%20evolution%20and%20ice-sheet%20behaviour%20in%20a%20semi-arid%20polar%20environment:%20James%20Ross%20Island,%20NE%20Antarctic%20Peninsula%20Davies%20B.J.,%20Glassere%20N.F.,%20Carrivick%20J.L.,%20Hambrey%20M.J.,%20Smellie%20J.L.,%20Nyvlt%20D.%202013)**
 ## Denton & Marchant 2000
   
 **Bibtex citation**
@@ -537,6 +602,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=East%20Antarctic%20Ice%20sheet%20sensitivity%20to%20Pliocene%20climatic%20change%20from%20a%20Dry%20Valleys%20Perspective%20Denton%20G.R.,%20Sugden%20D.E.,%20Marchant%20D.R.,%20Hall%20B.L.,%20Wilch%20T.I.%201993)**
+## Dharwadkar et al. 2018
+  
+**Bibtex citation**
+
+```
+@article{Dharwadkar2018Geological,
+  title={Geological evolution of Schirmacher Oasis, central Dronning Maud Land, East Antarctica},
+  authors={Dharwadkar, A and Shukla, SP and Verma, A and Gajbhiye, D},
+  journal={Polar Science 18: 57-62},
+  year={2018}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20evolution%20of%20Schirmacher%20Oasis,%20central%20Dronning%20Maud%20Land,%20East%20Antarctica%20Dharwadkar%20A.,%20Shukla%20S.P.,%20Verma%20A.,%20Gajbhiye%20D.%202018)**
 ## Di Nicola et al. 2012
   
 **Bibtex citation**
@@ -571,7 +649,7 @@
 @article{Elburg2015EarlyNeoproterozoic,
   title={Early Neoproterozoic metagabbro-tonalite-trondhjemite of Sør Rondane (East Antarctica): Implications for supercontinent assembly},
   authors={Elburg and M and Jacobs and J and Andersen and T and Clark and C and Läufer and A and Ruppel and A and Krohne and N and Damaske and D},
-  journal={Precambrian Research 259: 189-206},
+  journal={Precambrian Research 259: 189-206 Fig.1B},
   year={2015}
 }
 ```  
@@ -602,6 +680,45 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Origin%20of%20widespread,%20exceptionally%20thick%20basaltic%20phreatomagmatic%20tuff%20breccia%20in%20the%20Middle%20Jurassic%20Prebble%20and%20Mawson%20Format%20Elliot%20D.%20H.,%20Hanson%20R.%20E.%202001)**
+## Elliot et al. 2017
+  
+**Bibtex citation**
+
+```
+@article{Elliot2017TheLower,
+  title={The Lower Jurassic Hanson Formation of the Transantarctic Mountains: implications for the Antarctic sector of the Gondwana plate margin},
+  authors={Elliot, DH and Larsen, D and Fanning, CM and Fleming, TH and Vervoort, JD},
+  journal={Geological Magazine 154(4):777-803, Fig.3},
+  year={2017}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Lower%20Jurassic%20Hanson%20Formation%20of%20the%20Transantarctic%20Mountains:%20implications%20for%20the%20Antarctic%20sector%20of%20the%20Gondwana%20plate%20margin%20Elliot%20D.H.,%20Larsen%20D.,%20Fanning%20C.M.,%20Fleming%20T.H.,%20Vervoort%20J.D.%202017)**
+## Evans et al. 2018
+  
+**Bibtex citation**
+
+```
+@article{Evans2018Geology,
+  title={Geology of the Nelson Limestone, Postel Nunatak, Patuxent Range, Antarctica},
+  authors={Evans, KR and McKenna, LW and Lieberman, BS and Weichert, WD and Macleod, KG},
+  journal={Antarctic Science 30(1): 29-43},
+  year={2018}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Nelson%20Limestone,%20Postel%20Nunatak,%20Patuxent%20Range,%20Antarctica%20Evans%20K.R.,%20McKenna%20L.W.,%20Lieberman%20B.S.,%20Weichert%20W.D.,%20Macleod%20K.G.%202018)**
+## Ferraccioli et al. 2002
+  
+**Bibtex citation**
+
+```
+@article{Ferraccioli2002Aeromagnetic,
+  title={Aeromagnetic signatures over western MBL provide insight into magmatic arc basement, mafic magmatism and structure of the Eastern Ross Sea Rift flank},
+  authors={Ferraccioli, F and Bozzo, E and Damaske, D},
+  journal={Tectonophysics 347: 139-165},
+  year={2002}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Aeromagnetic%20signatures%20over%20western%20MBL%20provide%20insight%20into%20magmatic%20arc%20basement,%20mafic%20magmatism%20and%20structure%20of%20the%20Eastern%20Ross%20Sea%20Rift%20flank%20Ferraccioli%20F.,%20Bozzo%20E.,%20Damaske%20D.%202002)**
 ## Ferrar 1907
   
 **Bibtex citation**
@@ -615,19 +732,6 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Map%20of%20the%20district%20near%20the%20Discovery%20Winter%20Quarters%20Ferrar%20H.T.%201907)**
-## Ferriaccioli et al. 2002
-  
-**Bibtex citation**
-
-```
-@article{Ferraccioli2002Aeromagnetic,
-  title={Aeromagnetic signatures over western MBL provide insight into magmatic arc basement, mafic magmatism and structure of the Eastern Ross Sea Rift flank},
-  authors={Ferraccioli, F and Bozzo, E and Damaske, D},
-  journal={Tectonophysics 347: 139-165},
-  year={2002}
-}
-```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Aeromagnetic%20signatures%20over%20western%20MBL%20provide%20insight%20into%20magmatic%20arc%20basement,%20mafic%20magmatism%20and%20structure%20of%20the%20Eastern%20Ross%20Sea%20Rift%20flank%20Ferraccioli%20F.,%20Bozzo%20E.,%20Damaske%20D.%202002)**
 ## Findlay 1978
   
 **Bibtex citation**
@@ -693,6 +797,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Mt%20Falconer%20pluton,%20lower%20Taylor%20Valley,%20South%20Victoria%20Land,%20Antarctica%20Ghent%20E.D.,%20Henderson%20R.A.%201968)**
+## Goodge 2020
+  
+**Bibtex citation**
+
+```
+@article{Goodge2020Geological,
+  title={Geological and tectonic evolution of the Transantarctic Mountains, from ancient craton to recent enigma},
+  authors={Goodge and J.W},
+  journal={Gondwana Research 80: 50-122, Fig.13},
+  year={2020}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20and%20tectonic%20evolution%20of%20the%20Transantarctic%20Mountains,%20from%20ancient%20craton%20to%20recent%20enigma%20Goodge,%20J.W.%202020)**
 ## Goodge et al. 1990
   
 **Bibtex citation**
@@ -803,13 +920,13 @@
 
 ```
 @article{Grindley1980AMid-Late,
-  title={A Mid-Late Devonian Flora from the Rupert Coast, Marie Byrd Land, West Antarctica},
+  title={A Mid-Late Devonian Flora from the Ruppert Coast, Marie Byrd Land, West Antarctica},
   authors={Grindley and G.W and Mildenhall and D.C and Schopf and J.M},
   journal={Jour Roy Soc NZ 10(3):271-285},
   year={1980}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=A%20Mid-Late%20Devonian%20Flora%20from%20the%20Rupert%20Coast,%20Marie%20Byrd%20Land,%20West%20Antarctica%20Grindley,%20G.W.,%20Mildenhall,%20D.C.,%20Schopf,%20J.M.%201980)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=A%20Mid-Late%20Devonian%20Flora%20from%20the%20Ruppert%20Coast,%20Marie%20Byrd%20Land,%20West%20Antarctica%20Grindley,%20G.W.,%20Mildenhall,%20D.C.,%20Schopf,%20J.M.%201980)**
 ## Gunn & Walcott 1962
   
 **Bibtex citation**
@@ -1005,19 +1122,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20geomorphology%20of%20Bonney%20Drift,%20Taylor%20Valley,%20Antarctica%20Higgins%20S.M.,%20Denton%20G.H.,%20Hendy%20C.%202000)**
-## Holfe & Buggisch 1993
+## Hjort et al. 1997
   
 **Bibtex citation**
 
 ```
-@article{Holfe1993Glacial,
-  title={Glacial geology and petrography of erratics in the Shackleton Range, Antarctica},
-  authors={Holfe, H-C and Buggisch, W},
-  journal={Polarforschung 63(213): 183-201 Fig. 22},
-  year={1993}
+@article{Hjort1997Holocene,
+  title={Holocene glacial history and sea level changes on James Ross Island, Antarctic Peninsula},
+  authors={Hjort, C and Ingolfsson, O and Lirio, JM},
+  journal={Journal of Quaternary Science 12(4): 259-273 Fig.2},
+  year={1997}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20geology%20and%20petrography%20of%20erratics%20in%20the%20Shackleton%20Range,%20Antarctica%20Holfe%20H-.C.,%20Buggisch%20W.%201993)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Holocene%20glacial%20history%20and%20sea%20level%20changes%20on%20James%20Ross%20Island,%20Antarctic%20Peninsula%20Hjort%20C.,%20Ingolfsson%20O.,%20Lirio%20J.M.%201997)**
 ## Holfe & Buggisch 1993a
   
 **Bibtex citation**
@@ -1027,6 +1144,32 @@
   title={Glacial geology and petrography of erratics in the Shackleton Range, Antarctica},
   authors={Holfe, H-C and Buggisch, W},
   journal={Polarforschung 63(213): 183-201 Fig. 13},
+  year={1993}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20geology%20and%20petrography%20of%20erratics%20in%20the%20Shackleton%20Range,%20Antarctica%20Holfe%20H-.C.,%20Buggisch%20W.%201993)**
+## Holfe & Buggisch 1993b
+  
+**Bibtex citation**
+
+```
+@article{Holfe1993Glacial,
+  title={Glacial geology and petrography of erratics in the Shackleton Range, Antarctica},
+  authors={Holfe, H-C and Buggisch, W},
+  journal={Polarforschung 63(213): 183-201 Fig. 14},
+  year={1993}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20geology%20and%20petrography%20of%20erratics%20in%20the%20Shackleton%20Range,%20Antarctica%20Holfe%20H-.C.,%20Buggisch%20W.%201993)**
+## Holfe & Buggisch 1993c
+  
+**Bibtex citation**
+
+```
+@article{Holfe1993Glacial,
+  title={Glacial geology and petrography of erratics in the Shackleton Range, Antarctica},
+  authors={Holfe, H-C and Buggisch, W},
+  journal={Polarforschung 63(213): 183-201 Fig. 22},
   year={1993}
 }
 ```  
@@ -1044,19 +1187,58 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Cenozoic%20Volcanics%20from%20Coulman%20island,%20Mandible%20Cirque,%20Malta%20Plateau%20and%20Navigator%20Nunatak,%20Antarctica%20Hornig%20I.,%20Wörner%20G.%202003)**
+## Hunter et al. 2006
+  
+**Bibtex citation**
+
+```
+@article{Hunter2006Anewstratigraphy,
+  title={A new stratigraphy for the Latardy Basin, Antarctic Peninsula: Part 1, Ellsworth Land Volcanic Group},
+  authors={Hunter, MA and Tiley, TA and Cantrill, DJ and Flowerdew, MJ and Millar and I.L},
+  journal={Geological Magazine 143(6): 777-796 Fig.2},
+  year={2006}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=A%20new%20stratigraphy%20for%20the%20Latardy%20Basin,%20Antarctic%20Peninsula:%20Part%201,%20Ellsworth%20Land%20Volcanic%20Group%20Hunter%20M.A.,%20Tiley%20T.A.,%20Cantrill%20D.J.,%20Flowerdew%20M.J.,%20Millar,%20I.L.%202006)**
+## Igarashi et al. 1995
+  
+**Bibtex citation**
+
+```
+@article{Igarashi1995Marinefossils,
+  title={Marine fossils of 30-40ka in raised beach deposits, and late Pleistocence Glacial History around Lutzow-Holm Bay, East Antarctica},
+  authors={Igarashi, A and Harada, N and Moriwaki, K},
+  journal={Proceedings of the NIPR Symposium on Antarctic Geoscience},
+  year={1995}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Marine%20fossils%20of%2030-40ka%20in%20raised%20beach%20deposits,%20and%20late%20Pleistocence%20Glacial%20History%20around%20Lutzow-Holm%20Bay,%20East%20Antarctica%20Igarashi%20A.,%20Harada%20N.,%20Moriwaki%20K.%201995)**
 ## Jacobs et al. 2015
   
 **Bibtex citation**
 
 ```
 @article{Jacobs2015Twodistinct,
-  title={Two distinct Late Mesoproterozoic/Early Neoproterozoic basement provinces in central/eastern Dronning Maud Land, East Antarctica: The missing link, 15-21o E},
-  authors={Jacobs and J and Elburg and M and Läufer and A and Kleinhanns and I and Henjes-Kunst and F and Estrada and S and Ruppel and A and Damaske and D and Montero and P and Bea and F},
-  journal={Precambrian Research 265: 249-272},
+  title={Two distinct Late Mesoproterozoic/Early Neoproterozoic basement provinces in central/eastern Dronning Maud Land, East Antarctica: The missing ling, 15-21E},
+  authors={Jacobs, J and Elburg, M and Laufer, A and Kleinhanns, IC and Henjes-Kunst, F and Estrada, S and Ruppel, AS and Damaske, D and Montero, P and Bea and F},
+  journal={Precambrian Research 265: 249-272 Fig.2},
   year={2015}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Two%20distinct%20Late%20Mesoproterozoic/Early%20Neoproterozoic%20basement%20provinces%20in%20central/eastern%20Dronning%20Maud%20Land,%20East%20Antarctica:%20The%20missing%20link,%2015-21o%20E%20Jacobs,%20J.,%20Elburg,%20M.,%20Läufer,%20A.,%20Kleinhanns,%20I.,%20Henjes-Kunst,%20F.,%20Estrada,%20S.,%20Ruppel,%20A.,%20Damaske,%20D.,%20Montero,%20P.,%20Bea,%20F.%202015)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Two%20distinct%20Late%20Mesoproterozoic/Early%20Neoproterozoic%20basement%20provinces%20in%20central/eastern%20Dronning%20Maud%20Land,%20East%20Antarctica:%20The%20missing%20ling,%2015-21E%20Jacobs%20J.,%20Elburg%20M.,%20Laufer%20A.,%20Kleinhanns%20I.C.,%20Henjes-Kunst%20F.,%20Estrada%20S.,%20Ruppel%20A.S.,%20Damaske%20D.,%20Montero%20P.,%20Bea,%20F.%202015)**
+## John & Sugden 1971
+  
+**Bibtex citation**
+
+```
+@article{John1971Raisedmarine,
+  title={Raised marine features and phases of glaciation in the South Shetland Islands},
+  authors={John, BS and Sugden, DE},
+  journal={British Antarctic Survey Bulletin 24: 45-111 Fig.37},
+  year={1971}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Raised%20marine%20features%20and%20phases%20of%20glaciation%20in%20the%20South%20Shetland%20Islands%20John%20B.S.,%20Sugden%20D.E.%201971)**
 ## Johnson et al. 1982
   
 **Bibtex citation**
@@ -1109,6 +1291,32 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geologic%20situation%20at%20O'Brien%20Peak%20Queen%20Maud%20Range,%20Antarctica%20Katz%20H.R.,%20Waterhouse%20B.C.%201970)**
+## Kellogg & Rowley 1989
+  
+**Bibtex citation**
+
+```
+@article{Kellogg1989Structural,
+  title={Structural geology and tectonics of the Orville Coast Region, Southern Antarctica Peninsula, Antarctica},
+  authors={Kellogg and K.S and Rowley and P.D},
+  journal={USGS Professional Paper 1498},
+  year={1989}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Structural%20geology%20and%20tectonics%20of%20the%20Orville%20Coast%20Region,%20Southern%20Antarctica%20Peninsula,%20Antarctica%20Kellogg,%20K.S.,%20Rowley,%20P.D.%201989)**
+## Kelly et al. 2008
+  
+**Bibtex citation**
+
+```
+@article{Kelly2008Refinement,
+  title={Refinement of the late Quaternary geologic history of Erebus volcano, Antarctica using 40Ar/39Ar and 36Cl age determinations},
+  authors={Kelly, PJ and Dunbar, NW and Kyle, PR and McIntosh, C},
+  journal={Jour of Volcanology and Geothermal Research 177: 569-577 Fig.4},
+  year={2008}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Refinement%20of%20the%20late%20Quaternary%20geologic%20history%20of%20Erebus%20volcano,%20Antarctica%20using%2040Ar/39Ar%20and%2036Cl%20age%20determinations%20Kelly%20P.J.,%20Dunbar%20N.W.,%20Kyle%20P.R.,%20McIntosh%20C.%202008)**
 ## Kipf et al. 2012
   
 **Bibtex citation**
@@ -1137,6 +1345,19 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Seamounts%20off%20the%20West%20Antarctic%20margin:%20A%20case%20for%20non-hotspot%20driven%20intraplate%20volcanism%20Kipf,%20A.,%20Hauff,%20F.,%20Werner,%20R.,%20Gohl,%20K.,%20van%20den%20Bogaard,%20P.,%20Hoernle,%20K.,%20Maicher,%20D.,%20Klügel,%20A.%202014)**
+## Knoper et al. 1997
+  
+**Bibtex citation**
+
+```
+@article{Knoper1997Geological,
+  title={Geological maps of the Kirwanveggen, Western Dronning Maud Land, East Antarctica},
+  authors={Knoper, M and Jackson, C and Harris, P and Ferrar, G and Krynauw, J and Moyes, A and Harris, C},
+  journal={The Antarctic Region: Geological Evol. and Processes p1189-1190},
+  year={1997}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20maps%20of%20the%20Kirwanveggen,%20Western%20Dronning%20Maud%20Land,%20East%20Antarctica%20Knoper%20M.,%20Jackson%20C.,%20Harris%20P.,%20Ferrar%20G.,%20Krynauw%20J.,%20Moyes%20A.,%20Harris%20C.%201997)**
 ## Korhonen et al. 2010
   
 **Bibtex citation**
@@ -1384,6 +1605,19 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Outline%20of%20the%20Geology%20of%20Marie%20Byrd%20Land%20and%20the%20Eights%20Coast%20Lopatin%20B.G.,%20Orlenko%20E.M.%201972)**
+## Lundqvist et al. 1995
+  
+**Bibtex citation**
+
+```
+@article{Lundqvist1995Glacial,
+  title={Glacial and periglacial deposits of the Tumbledown Cliffs area, James Ross Island, West Antarctica},
+  authors={Lundqvist and J and Lillieskold and M and Ostmark and K},
+  journal={Geomoprhology 11: 205-214, Fig.2},
+  year={1995}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20and%20periglacial%20deposits%20of%20the%20Tumbledown%20Cliffs%20area,%20James%20Ross%20Island,%20West%20Antarctica%20Lundqvist,%20J.,%20Lillieskold,%20M.,%20Ostmark,%20K.%201995)**
 ## Marchant et al. 1993a
   
 **Bibtex citation**
@@ -1416,13 +1650,13 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 
 ```
 @article{Markl2004Pan-African,
-  title={Pan-African massif-type anorthosites from Central Dronning Maud Land, East Antarctica},
-  authors={Markl and G and Piazolo and A and Bauer and W and Paech and H-J and Mikhalsky and E and Krauss and U},
-  journal={Geologische Jahrbücher B 96: 77-137},
+  title={Pan-African Massif-Type Anorthosites from Central Dronning Maud Land, East Antarctica},
+  authors={Markl, G and Piazolo, S and Bauer, W and Paech, H-J and Mikhalsky, E and Krauss, U},
+  journal={Geologisches Jahrbuch Reihe B, Band B96: 77-137 Fig.4},
   year={2004}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Pan-African%20massif-type%20anorthosites%20from%20Central%20Dronning%20Maud%20Land,%20East%20Antarctica%20Markl,%20G.,%20Piazolo,%20A.,%20Bauer,%20W.,%20Paech,%20H-J.,%20Mikhalsky,%20E.,%20Krauss,%20U.%202004)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Pan-African%20Massif-Type%20Anorthosites%20from%20Central%20Dronning%20Maud%20Land,%20East%20Antarctica%20Markl%20G.,%20Piazolo%20S.,%20Bauer%20W.,%20Paech%20H-J.,%20Mikhalsky%20E.,%20Krauss%20U.%202004)**
 ## Marschall et al. 2010
   
 **Bibtex citation**
@@ -1520,13 +1754,13 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 
 ```
 @article{McGregor1965Geology,
-  title={Geology of the area between the Axel Heiberg and Shackleton Glaciers, Queen Maud Range, Antarctica},
+  title={Geology of the area between the Axel Heiberg and Shackleton Glaciers, Queen Maud Range, Antarctica. Part 1 - Basement complex, structure and glacial geology},
   authors={McGregor, VR},
   journal={NZJGG 8: 314-343},
   year={1965}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20area%20between%20the%20Axel%20Heiberg%20and%20Shackleton%20Glaciers,%20Queen%20Maud%20Range,%20Antarctica%20McGregor%20V.R.%201965)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20area%20between%20the%20Axel%20Heiberg%20and%20Shackleton%20Glaciers,%20Queen%20Maud%20Range,%20Antarctica.%20Part%201%20-%20Basement%20complex,%20structure%20and%20glacial%20geology%20McGregor%20V.R.%201965)**
 ## McKelvey & Webb 1962
   
 **Bibtex citation**
@@ -1592,6 +1826,32 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=A%20model%20of%20the%20glacial%20retreat%20of%20upper%20Rennick%20Glacier,%20Victoria%20Land,%20Antarctica%20Meneghal%20M.,%20Bondesan%20A.,%20Salvatore%20M.C.,%20Orombelli%20G.%201999)**
+## Menot 2021
+  
+**Bibtex citation**
+
+```
+@article{Menot2021TheGeology,
+  title={The Geology of East antarctica (between ~85E and ~145E)},
+  authors={Menot, RP},
+  journal={ In Kleinschmidt(ed) Geology of Antarctic Continent Ch 8 Fig.8-7},
+  year={2021}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Geology%20of%20East%20antarctica%20(between%20~85E%20and%20~145E)%20Menot%20R.P.%202021)**
+## Menot et al. 2007
+  
+**Bibtex citation**
+
+```
+@article{Menot2007Geology,
+  title={Geology of the Terre Adelie Craton (135-146E)},
+  authors={Menot, RP and Duclaux, G and Peucat, JJ and Rolland, Y and Guillot, S and Famming, M and Bascou, J and Gapais, D and Pecher, A},
+  journal={USGS Report 2007-1047 doi:10.3133/of2007-1047.srp048 Fig.2},
+  year={2007}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Terre%20Adelie%20Craton%20(135-146E)%20Menot%20R.P.,%20Duclaux%20G.,%20Peucat%20J.J.,%20Rolland%20Y.,%20Guillot%20S.,%20Famming%20M.,%20Bascou%20J.,%20Gapais%20D.,%20Pecher%20A.%202007)**
 ## Metcalfe et al. 1978
   
 **Bibtex citation**
@@ -1683,7 +1943,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Reassessment%20of%20faults%20in%20the%20Wilson%20Piedmont%20Glacier%20area:%20implications%20for%20age%20and%20style%20of%20Transantarctic%20Mountain%20uplift%20Mortimer%20N.,%20Forsyth%20P.J.,%20Turnbull%20I.M.,%20%202002)**
-## Murtaugh 1966
+## Murtaugh 1969
   
 **Bibtex citation**
 
@@ -1813,6 +2073,32 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Volcanic%20history%20of%20Mount%20Sidley,%20A%20major%20alkaline%20volcano%20in%20Marie%20Byrd%20Land,%20Antarctica%20Panter,%20K.S.,%20McIntosh,%20W.C.%20&%20Smellie,%20J.L.%20%201994)**
+## Paul et al. 1995
+  
+**Bibtex citation**
+
+```
+@article{Paul1995Structural,
+  title={Structural and metamorphic geology of the Windmill Islands, east Antarctica: Field evidence for repeated tectonothermal activity},
+  authors={Paul, E and Stuwe, K and Teasdale, J and Worley, B},
+  journal={Australian Journal of Earth Sciences 24(5-6): 239-262 Fig.1},
+  year={1995}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Structural%20and%20metamorphic%20geology%20of%20the%20Windmill%20Islands,%20east%20Antarctica:%20Field%20evidence%20for%20repeated%20tectonothermal%20activity%20Paul%20E.,%20Stuwe%20K.,%20Teasdale%20J.,%20Worley%20B.%201995)**
+## Phartiyal et al. 2011
+  
+**Bibtex citation**
+
+```
+@article{Phartiyal2011Glacial,
+  title={Glacial lakes and geomorphological evolution of Schirmacher Oasis, East Antarctica, during Late Quaternary},
+  authors={Phartiyal, B and Sharma, A and Bera, SK},
+  journal={Quaternary International 235: 128-136},
+  year={2011}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Glacial%20lakes%20and%20geomorphological%20evolution%20of%20Schirmacher%20Oasis,%20East%20Antarctica,%20during%20Late%20Quaternary%20Phartiyal%20B.,%20Sharma%20A.,%20Bera%20S.K.%202011)**
 ## Prestvik et al. 1990
   
 **Bibtex citation**
@@ -1839,6 +2125,19 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Mt%20Fleming%20area,%20South%20Victoria%20Land,%20Antarctica%20Pyne%20A.R.%201984)**
+## Quilty et al. 2000
+  
+**Bibtex citation**
+
+```
+@article{Quilty2000Stratigraphy,
+  title={Stratigraphy of the Pliocene Sorsdal Formation, Marine Plain, Vestfold Hills, East Antarctica},
+  authors={Quilty, P and Lirio, JM and Jillett, D},
+  journal={Antarctic Science 12(2): 205-216},
+  year={2000}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Stratigraphy%20of%20the%20Pliocene%20Sorsdal%20Formation,%20Marine%20Plain,%20Vestfold%20Hills,%20East%20Antarctica%20Quilty%20P.,%20Lirio%20J.M.,%20Jillett%20D.%202000)**
 ## Read et al. 2002
   
 **Bibtex citation**
@@ -1956,6 +2255,19 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=An%20active%20Neoproterozoic%20margin:%20evidence%20from%20the%20Skelton%20Glacier%20area,%20Transantarctic%20Mountains%20Rowell%20A.J.,%20Rees%20M%20et%20al.%201993)**
+## Rowell et al. 2001
+  
+**Bibtex citation**
+
+```
+@article{Rowell2001LatestNeoproterozoic,
+  title={Latest Neoproterozoic to Mid-Cambrian age for the main deformation phases of the Transantarctic Mountains: new stratigraphic and isotopic constraints from the Pensacola Mountains},
+  authors={Rowell, AJ and van, SchmusWR and Storey, BC and Fetter, AH and Evans, KR},
+  journal={Journal of Geological Society of London 158: 295-308},
+  year={2001}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Latest%20Neoproterozoic%20to%20Mid-Cambrian%20age%20for%20the%20main%20deformation%20phases%20of%20the%20Transantarctic%20Mountains:%20new%20stratigraphic%20and%20isotopic%20constraints%20from%20the%20Pensacola%20Mountains%20Rowell%20A.J.,%20van%20Schmus%20W.R.,%20Storey%20B.C.,%20Fetter%20A.H.,%20Evans%20K.R.%202001)**
 ## Saito et al. 2013
   
 **Bibtex citation**
@@ -2010,6 +2322,19 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Three%20soil%20chronosequences%20in%20recessional%20glacial%20deposits%20near%20the%20polar%20plateau,%20in%20the%20Central%20Transantarctic%20Mountains%20Scarrow%20J.W.,%20Balks%20M.,%20Almond%20P.C.%202014)**
+## Siddoway 2008
+  
+**Bibtex citation**
+
+```
+@article{Siddoway2008Tectonics,
+  title={Tectonics of the West Antarctic Rift System: New Light on the History and Dynamics of Distributed Intracontinental Extension},
+  authors={Siddoway, CS},
+  journal={Proceedings ISAES 10,  doi:10.3133/of2007-1047.kp09},
+  year={2008}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Tectonics%20of%20the%20West%20Antarctic%20Rift%20System:%20New%20Light%20on%20the%20History%20and%20Dynamics%20of%20Distributed%20Intracontinental%20Extension%20Siddoway%20C.S.%202008)**
 ## Siddoway & Fanning 2009
   
 **Bibtex citation**
@@ -2075,6 +2400,19 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=NZ%20Geological%20Survey%20Antarctic%20Expedition%201975-76,%20Skelton-Koettlitz%20Glaciers,%20Report%20DS58%20Skinner%20D.N.B.;%20Waterhouse%20B.C.;%20Brehaut%20G.;%20Sullivan%20K,%201976)**
+## Smellie 2001
+  
+**Bibtex citation**
+
+```
+@article{Smellie2001Lithostratigraphy,
+  title={Lithostratigraphy and evolution of Deception Island, South Shetland Islands},
+  authors={Smellie and J.L},
+  journal={Antarctic Science 13(2): 188-209},
+  year={2001}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Lithostratigraphy%20and%20evolution%20of%20Deception%20Island,%20South%20Shetland%20Islands%20Smellie,%20J.L.%202001)**
 ## Smith 1924
   
 **Bibtex citation**
@@ -2114,6 +2452,19 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Fossiliferous%20Quaternary%20marine%20deposits%20in%20the%20McMurdo%20Sound%20Region%20Antarctica%20Speden%20I.G.%201962)**
+## Spiegel et al. 2016
+  
+**Bibtex citation**
+
+```
+@article{Spiegel2016Tectonomorphic,
+  title={Tectonomorphic evolution of Marie Byrd Land - Implications for Cenozoic rifting activity and onset of West Antarctic Glaciation},
+  authors={Spiegel, C and Lindow, J and Kamp, PJJ and Meisel, O and Mukasa, S and Lisher, F and Kuhn, G and Gohl, K},
+  journal={Global and Planetary Change 145: 98-115 Fig.8},
+  year={2016}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Tectonomorphic%20evolution%20of%20Marie%20Byrd%20Land%20-%20Implications%20for%20Cenozoic%20rifting%20activity%20and%20onset%20of%20West%20Antarctic%20Glaciation%20Spiegel%20C.,%20Lindow%20J.,%20Kamp%20P.J.J.,%20Meisel%20O.,%20Mukasa%20S.,%20Lisher%20F.,%20Kuhn%20G.,%20Gohl%20K.%202016)**
 ## Sporli & Craddock 1992a
   
 **Bibtex citation**
@@ -2218,6 +2569,32 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Cosmogenic%20nuclide%20exposure%20age%20constraints%20on%20the%20glacial%20history%20of%20the%20Lake%20Wellman%20area,%20Darwin%20Mountains,%20Antarctica%20Storey%20B.C.,%20Fink%20D.,%20Hood%20D.,%20Joy%20K.,%20Shulmeister%20J.,%20Riger-Kusk%20M.,%20Stevens%20M.I.%202010)**
+## Strackebrandt 1995
+  
+**Bibtex citation**
+
+```
+@article{Strackebrant1995Moraines,
+  title={Moraines around lake Untersee - indicators of the Late Quaternary regional glacial history},
+  authors={Strackebrant and W},
+  journal={The Schirmaker Oasis, Queen Maud Land, East Antarctica p237-242},
+  year={1995}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Moraines%20around%20lake%20Untersee%20-%20indicators%20of%20the%20Late%20Quaternary%20regional%20glacial%20history%20Strackebrant,%20W.%201995)**
+## Strelin & Malagnino 1992
+  
+**Bibtex citation**
+
+```
+@article{Strelin1992Geomorfologia,
+  title={Geomorfologia de la isla James Ross},
+  authors={Strelin and J and Malagnino and E.C},
+  journal={Geologia de la isla James Ross (Ed. Rinaldi, C.A.) p7-36, Map},
+  year={1992}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geomorfologia%20de%20la%20isla%20James%20Ross%20Strelin,%20J.,%20Malagnino,%20E.C.%201992)**
 ## Stroeven & Prentice 1997
   
 **Bibtex citation**
@@ -2296,6 +2673,32 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20region%20between%20the%20Matusevich%20and%20Tucker%20Glaciers,%20North%20Victoria%20Land,%20Antarctica%20Sturm%20A.,%20Carryer%20S.J.%201970)**
+## Stuwe & Oliver 1989
+  
+**Bibtex citation**
+
+```
+@article{Stuwe1989Geological,
+  title={Geological History of Adelie Land and King George V Land, Antarctica: Evidence for Polycyclic Metamorphic Evolution},
+  authors={Stuwe, K and Oliver, R},
+  journal={Precambrian Research 43:317-334 Fig.2},
+  year={1989}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20History%20of%20Adelie%20Land%20and%20King%20George%20V%20Land,%20Antarctica:%20Evidence%20for%20Polycyclic%20Metamorphic%20Evolution%20Stuwe%20K.,%20Oliver%20R.%201989)**
+## Suganuma et al. 2014
+  
+**Bibtex citation**
+
+```
+@article{Suganuma2014EastAntarctic,
+  title={East Antarctic deglaciation and the link to global cooling during the Quaternary: evidence from the glacial geomorphology and 10Be surface exposure dating of the Sor Rondane Mountains, Dronning Maud Land},
+  authors={Suganuma, Y and Miura, H and Zondervan, A and Okuno, J},
+  journal={Quaternary Science Reviews 97 (2014): 102-120},
+  year={2014}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=East%20Antarctic%20deglaciation%20and%20the%20link%20to%20global%20cooling%20during%20the%20Quaternary:%20evidence%20from%20the%20glacial%20geomorphology%20and%2010Be%20surface%20exposure%20dating%20of%20the%20Sor%20Rondane%20Mountains,%20Dronning%20Maud%20Land%20Suganuma%20Y.,%20Miura%20H.,%20Zondervan%20A.,%20Okuno%20J.%202014)**
 ## Sugden & Denton 2004
   
 **Bibtex citation**
@@ -2348,6 +2751,32 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Viscous%20flow%20lobes%20in%20central%20Taylor%20Valley,%20Antarctica:%20Origin%20as%20remnant%20buried%20glacial%20ice%20Swanger%20K.M.,%20Marchant%20D.R.,%20Kowalewski%20D.E.,%20Head%20J.W.%202010)**
+## Tessensohn et al. 1990
+  
+**Bibtex citation**
+
+```
+@article{Tessensohn1990TheJohnnie,
+  title={The Johnnie Walker Formation: A pre-Granite Harbour Subvolcanic Unit in the Wilson Terrane, Lower Mawson Glacier, Victoria Land, Antarctica},
+  authors={Tessensohn and F and Worner and G and Kleinschmidt and G and Henjes-Kunst and F and Fenn and G and Matzer and S},
+  journal={Polarforschung 60(2): 91-95, Fig.1 sketch map},
+  year={1990}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Johnnie%20Walker%20Formation:%20A%20pre-Granite%20Harbour%20Subvolcanic%20Unit%20in%20the%20Wilson%20Terrane,%20Lower%20Mawson%20Glacier,%20Victoria%20Land,%20Antarctica%20Tessensohn,%20F.,%20Worner,%20G.,%20Kleinschmidt,%20G.,%20Henjes-Kunst,%20F.,%20Fenn,%20G.,%20Matzer,%20S.%201990)**
+## Vaughan & Storey 2000
+  
+**Bibtex citation**
+
+```
+@article{Vaughan2000Theeastern,
+  title={The eastern Palmer Land shear zone: a new terrane accretion model for the Mesozoic development of the Antarctic Peninsula.},
+  authors={Vaughan, APM and Storey, BC},
+  journal={Journal of the Geological Society London 157:1243-1256 Fig.3},
+  year={2000}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20eastern%20Palmer%20Land%20shear%20zone:%20a%20new%20terrane%20accretion%20model%20for%20the%20Mesozoic%20development%20of%20the%20Antarctic%20Peninsula.%20Vaughan%20A.P.M.,%20Storey%20B.C.%20%202000)**
 ## Vella 1969
   
 **Bibtex citation**
@@ -2543,3 +2972,16 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=The%20geology%20of%20the%20Buckley%20and%20Darwin%20Nunataks,%20Beardmore%20Glacier,%20Ross%20Dependency,%20Antarctica%20Young%20D.J.,%20Ryburn%20R.J.%201968)**
+## Zheng et al. 2018
+  
+**Bibtex citation**
+
+```
+@article{Zheng2018LateMesozoic-early,
+  title={Late Mesozoic-early Cenozoic intermediate-acid intrusive rocks from the Gerlache Strait area, Antarctic Peninsula: Zircon U-Pb geochronology, petrogenesis and tectonic implications},
+  authors={Zheng, G-G and Liu, X and Liu, S and Zhang, A-H and Zhao, Y},
+  journal={Lithos 312-313 (2018): 204-222, Fig.1B},
+  year={2018}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Late%20Mesozoic-early%20Cenozoic%20intermediate-acid%20intrusive%20rocks%20from%20the%20Gerlache%20Strait%20area,%20Antarctic%20Peninsula:%20Zircon%20U-Pb%20geochronology,%20petrogenesis%20and%20tectonic%20implications%20Zheng%20G-G.,%20Liu%20X.,%20Liu%20S.,%20Zhang%20A-H.,%20Zhao%20Y.%202018)**

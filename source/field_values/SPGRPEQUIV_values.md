@@ -4,18 +4,29 @@ Unique values of SPGRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||78912|
-| |5617|
-|Ferrar Supergroup|2951|
-|Beacon Supergroup|2557|
-|Granite Harbour Intrusive Complex|2292|
-|Brattstrand Paragneiss |1697|
-|Ritscherflya Supergroup|295|
-|Beaver Complex|225|
-|Pryde Complex|213|
+||67735|
+|Antarctic Peninsula Batholith|11528|
+|Granite Harbour Intrusive Complex|5988|
+|Ferrar Supergroup|4293|
+|Beacon Supergroup|3265|
+|inapplicable|2976|
+|Beacon Supergroup & Ferrar Dolerite|992|
+|Ritscherflya Supergroup|290|
+|Kirwanveggen complex|266|
+|Rootshorga Complex|243|
+|Beaver Complex|236|
+|Larsen Basin|216|
 |Nimrod Complex|177|
+|Fosdick granite-migmatite complex|142|
+|Brattstrand Paragneiss |125|
+| |112|
+|Pryde Complex|101|
 |Mather Complex|75|
-|Vestfold Complex|60|
+|Jutulrøra complex|73|
+|Vestfold Complex|56|
+|Fuglefjellet Complex|54|
 |Filla Complex|51|
-|Grove Complex|36|
+|Grove Complex|37|
+|Rayner Complex|23|
+|Straumsvola-Tvora alkaline complex|23|
 |Shaw-Clemence Complex|3|

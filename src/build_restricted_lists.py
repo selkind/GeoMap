@@ -33,15 +33,19 @@ def build_restricted_lists() -> None:
             mdfile.new_header(2, title=field_name)
 
             col_count = len(header)
-            fields = header
-            fields.extend(itertools.chain.from_iterable(reader))
+            if col_count == 1:
+                mdfile.new_list(items=[i[0] for i in reader])
 
-            mdfile.new_table(
-                columns=col_count,
-                rows=int(len(fields) / col_count),
-                text=fields,
-                text_align="left",
-            )
+            elif col_count > 1:
+                fields = header
+                fields.extend(itertools.chain.from_iterable(reader))
+
+                mdfile.new_table(
+                    columns=col_count,
+                    rows=int(len(fields) / col_count),
+                    text=fields,
+                    text_align="left",
+                )
 
     mdfile.create_md_file()
 

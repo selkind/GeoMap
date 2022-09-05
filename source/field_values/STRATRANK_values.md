@@ -4,15 +4,13 @@ Unique values of STRATRANK
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-|rank not specified|46951|
-|formation|22254|
-|group|15234|
-|inapplicable|2536|
-|not specified|2209|
-|complex|2130|
-|rank not specified |1758|
-|member|971|
-|subgroup|759|
-|supergroup|203|
-|suite|153|
-|formation |3|
+|not specified|39994|
+|group|29790|
+|formation|19816|
+|inapplicable|3383|
+|complex|2296|
+|rank not specified|1306|
+|member|1027|
+|subgroup|725|
+|suite|532|
+|supergroup|211|
