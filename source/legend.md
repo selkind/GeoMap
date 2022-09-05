@@ -28,46 +28,45 @@
 - Quaternary (Q)
 
 - Holocene (H)
-- Anthropocene ($)
 - Uncertain (?)
 
 ## Lithologies and Lith codes
 
 ### SEDIMENTARY ROCKS: 
+- unconsolidated sediments (c)
 - mudstone, siltstone, sandstone, conglomerate (s)
 - limestone (l)
 - volcanogenic sediments (j)
 - mixed sediments and volcanic rocks (w)
--  chemical sediments (c)
 
 ### VOLCANIC ROCKS: 
 - felsic (f)
-- metamorphosed felsic volcanics (r)
 - intermediate (a)
 - mafic to ultramafic (b)
-- metamorphosed mafic to ultramafic extrusive rocks (t)
-- undifferentiated felsic to mafic (v)
+- felsic to mafic (v)
 
 ### INTRUSIVE ROCKS: 
 - felsic (g)
 - mixed intrusives (i)
 - intermediate (h)
 - mafic (d)
-- metamorphosed mafic intrusive (t)
-- metamorphosed mafic to ultramafic intrusive (e)
-- alkaline ultrabasic (k)
+- mafic to ultramafic (u)
 
 ### METAMORPHIC ROCKS: 
 - Low-medium grade (p)
-- metacarbonate (m)
-- siliciclastic (y)
-- hornfels (o)
-- High-grade metamorphics (n)
-- quartzite (q)
-- complexes (x)
+    - metacarbonate (m)
+    - siliciclastic (y)
+    - hornfels (o)
+    - volcanic rocks (t)
+    - felsic to intermediate intrusive rocks (r)
+    - mafic to ultramafic (e)
+- High-grade (n)
+    - quartzite (q)
+    - complexes (x)
+- Fault/Shear rocks
+  - tectonics(z)
 
 ### OTHER: 
-- Faults/shear rocks tectonic (z)
 - Unknown (?)
 
-![](assets/legend_201907.png)
+![](assets/legend_202208.png)
