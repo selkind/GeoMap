@@ -1,0 +1,45 @@
+Field Name,GeoSciML Name,GSA Alias,fieldSource,Type,Length,Reference,Source
+MAPSYMBOL,,mapSymbol,GMNZ,Text,20,"Restricted text that contains the unique code for this geologic unit. For GeoMAP the first letters will be Chronostratigraphic subdivision (AGECODE), then a Lithostratigraphic based on dominant types of rock  then subordinate rocks (LITHCODE).",
+PLOTSYMBOL,,plotSymbol,GMNZ,Text,20,Restricted text that contains the code based on MAPSYMBOL that can be used to aggregate similar geological units to assign cartographic colour,
+NAME,name,name,GeoSciML,Text,255,Free text containing name of the geologic unit and conforming to the GeoSciML usage of name.,
+DESCR,description,description,GeoSciML,Text,255,Free  text that describes the geologic unit and conforming to the GeoSciML usage of description.,
+POLYGTYPE,,,GeoMAP,Text,20,"Restricted text describing basic division of material (rock, moraine, ice).", See polygType.list tab
+MBREQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the group member or member equivalent of which this member is part.  Leave this field blank if not applicable.,
+FMNEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the formation or formation equivalent of which this member is part.  Leave this field blank if not applicable.,
+SBGRPEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the subgroup or subgroup equivalent of which this member is part.  Leave this field blank if not applicable.,
+GRPEQUIV,,,GMNZ,Text,100, Free text containing the stratigraphic name of the group or groups or equivalents of which this unit is a part. Leave this field blank if not applicable.,
+SPGRPEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the supergroup or supergroups or equivalents of which this unit is a part. Leave this field blank if not applicable.,
+TERREQUIV,,,GMNZ,Text,100,Free text containing the terrane name or equivalent of which this unit is a part.  Leave this field blank if not applicable.,
+STRATRANK,rank,,GeoSciML,Text,50,Restricted text describing the stratigraphic rank of the geologic unit and conforming to the GeoSciML usage of rank. ,http://resource.geosciml.org/classifier/cgi/stratigraphicrank
+SIMPCODE,,,GeoMAP,Short,,Restricted number encoding SIMPCLASS and DIMPDESC. ,See simpleCode.list tab
+SIMPCLASS,,,GeoMAP,Text,120,"Restricted text. Simplified, generally age related, subdivision of units.  ",Governed by SIMPCODE
+SIMPDESC,,,GeoMAP,Text,120,"Restricted text. Simplified, generalised description of units.  ",Governed by SIMPCODE
+TYPENAME,geologicUnitType,geologicUnitType,GeoSciML,Text,50,Restricted text that describes the type of geologic unit and conforming to GeoSciML usage of geologicUnitType.  ,Must match entryname of TYPE_URI
+TYPE_URI,geologicUnitType_uri,geologicUnitType_uri,GeoSciML,Text,255,Restricted text that contains a link to the GeoSciML definition of the geologicUnitType.  Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/geologicunittype
+LITHOLOGY,lithology,lithology,GeoSciML,Text,150,Restricted text that describes the lithologies present and conforming to the GeoSciML usage of lithology.   ,Must match entryname of REPLITH_URI
+REPLITH_URI,representativeLithology_uri,representativeLithology_uri,GeoSciML,Text,255,Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/lithology
+GEOLHIST,geologicHistory,geologicHistory,GeoSciML,Text,255,Free text that describes the stratigraphic age range of the geologic unit and conforming to the GeoSciML usage of geologicHistory. ,
+REPAGE_URI,representativeAge_uri,representativeAge_uri,GeoSciML,Text,255,Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents this unit.  Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+YNGAGE_URI,representativeYoungerAge_uri,representativeYoungerAge_uri,GeoSciML,Text,255,Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the youngest part of this unit.  Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+OLDAGE_URI,representativeOlderAge_uri,representativeOlderAge_uri,GeoSciML,Text,255,Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the oldest part of this unit.  Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+ABSMIN_MA,,,GMNZ,Double,,Number that gives the absolute minimum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.,
+ABSMAX_MA,,,GMNZ,Double,,Number that gives the absolute maximum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.,
+AGECODE,,,GeoMAP,Text,10,Restricted text identifying Chronographic subdivision of unit.  Used in conjunction with LITHCODE to encode MAPSYMBOL.  ,See ageCode.list tab
+LITHCODE,,,GeoMAP,Text,10,Restricted text identifying dominant lithology of unit.  Used in conjunction with AGECODE to encode MAPSYMBOL.  ,See lithCode.list tab
+SOURCECODE,,,GeoMAP,Text,20,"The code used on original published maps and datasets, or originators source material.",
+SOURCE,source,source,GeoSciML,Text,300,Free text that contains information on the source of the geologic unit and conforming to the GeoSciML usage of source.,
+OBSMETHOD,observationMethod,observationMethod,GeoSciML,Text,50,Restricted text that describes the method of observation used to capture the geologic unit and conforming to the GeoSciML usage of observationMethod. Must match entryname of URI at:   ,http://resource.geosciml.org/classifier/cgi/featureobservationmethod
+CONFIDENCE,,identityConfidence,GMNZ,Text,150,Free text that provides a statement concerning the accuracy of the data provided in associated fields. Fields which contain data about which there is uncertainty are listed.,
+POSACC_M,positionalAccuracy,,GeoSciML,Long,,An estimate of the accuracy (in metres) within which the geologic unit has been located and conforming to the GeoSciML usage of positionalAccuracy.,
+METADATA,metadata_uri,metadata_uri,GeoSciML,Text,255,Free text that contains a link to metadata for this feature class and conforming to the GeoSciML usage of metadata.,
+FEATUREID,identifier,mappedFeatureID,GeoSciML,Text,255,Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_geological_units_00071),
+REGION,,,GeoMAP,Text,50,Restricted text. Very broad differentiation of geographical area.  ,Choose from: East Antarctica or West Antarctica
+TECTPROV,,,GeoMAP,Text,50,"Restricted text. Differentiation of geographical area based on ""tectonic provinces and boundaries"" from Siddoway, 2020 (Encyclopedia of Geology, 2nd edition, Ch 3).  ",See tectonicProvince.list tab
+RESSCALE,,resolutionScale,GMNZ,Long,4,Resolution at which the geologic unit is intended to be used.,
+CAPTSCALE,,captureScale,GMNZ,Long,4,Resolution at which the geologic unit was captured.,
+CAPTDATE,,captureDate,GMNZ,Date,8,Date when the geologic unit was added to this dataset.,
+MODDATE,,modifiedDate,GMNZ,Date,8,Date when the geologic unit was last modified.,
+SPEC_URI,specification_uri,,GeoSciML,Text,150,Text that contains a link referring to the GeoSciML GeologicalUnit feature that describes the instance in detail.  If missing shall be:  ,http://www.opengis.net/def/nil/OGC/0/missing
+SYMBOL,genericSymbolizer,,GeoSciML,Text,12,Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.,Governed by MAPSYMBOL
+SHAPE_LENGTH,,,ESRI,,,ESRI field,
+SHAPE_AREA,,,ESRI,,,ESRI field,

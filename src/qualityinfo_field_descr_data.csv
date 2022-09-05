@@ -1,9 +1,0 @@
-field_name,field_description,value_formatting
-Id,Unknown,
-STATUS,The status of the region in terms of outcrop digitization progress.,String
-OUTCROP,Whether or not the region contains outcrops,"String {yes, no}"
-DATASET,The data set to which the region belongs.,String
-FAULTS,The status of the region in terms of fault digitization progress,String
-QUALITY,"The overall quality rating of the information in the region. (Lowest = 1, Highest = 5)",Integer {1-5}
-COMMENTS,Miscellaneous comments about the progress of the region’s digitization. Mostly pertaining to geology and sources.,String
-STRUCTURE_DATA,The status of the region in terms of structure digitization progress,String

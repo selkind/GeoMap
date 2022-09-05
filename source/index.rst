@@ -7,10 +7,8 @@
 The `SCAR GeoMAP project <https://www.scar.org/science/geomap/home/>`_
 ====================================================================================================
 
-
 Unofficial Documentation
 #########################################################
-
 .. image:: assets/geomap.jpg
    :width: 700px
    :align: center
@@ -33,7 +31,6 @@ Documentation created by Sam Elkind
 
 Links to GeoMAP resources
 #############################
-
 * `SCAR GeoMAP Action Group homepage <https://www.scar.org/science/geomap/geomap/>`_
 * `Antarctic Explorer <https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/www/index.html>`_
 * `View a Map of the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic>`_
@@ -46,11 +43,9 @@ Documentation Pages
 #############################
 
 **ATA_geological_units:**
-
 * :doc:`Geology Attributes Glossary <field_glossary>`
 
 **ATA_sources_poly:** 
-
 * :doc:`Source Attibutes Glossary <source_glossary>`
 * :doc:`Published Papers <works_referenced/published_paper>`
 * :doc:`Published Maps <works_referenced/published_map>`
@@ -60,20 +55,13 @@ Documentation Pages
 * :doc:`Unknown Works <works_referenced/unknown>`
 
 **ATA_faults:**
-
 * :doc:`Fault Attributes Glossary <faults_glossary>`
 
 **ATA_GeoMAP_qualityinformation:**
-
 * :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
 
 **Restricted Value Lists:**
-
-* :doc:`Accuracy <restricted_values/accuracy>`
-* :doc:`Down-thrown Side <restricted_values/down_thrown>`
-* :doc:`Fault Sense <restricted_values/fault_sense>`
-* :doc:`Fault Type <restricted_values/fault_type>`
-* :doc:`Plot Rank <restricted_values/plotrank>`
+* :doc:`restricted values <restricted_values>`
 
 
 .. toctree::
@@ -113,14 +101,10 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 1
-   :caption: Restricted Value Lists
+   :caption: Restricted Values
    :hidden:
 
-   restricted_values/accuracy
-   restricted_values/down_thrown
-   restricted_values/fault_sense
-   restricted_values/fault_type
-   restricted_values/plotrank
+    restricted_values
 
 Source Code
 #############################

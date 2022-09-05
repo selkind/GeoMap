@@ -1,0 +1,8 @@
+Field Name,fieldSource,Type,Length,Reference,Source
+OUTCROP,GeoMAP,String,10,Restricted text indicating existence of rock outcrop in this area.,Choose from: yes or no
+QUALITY,GeoMAP,Integer,2,Restricted text signifying a quality assessment of the compiled data for SCAR GeoMAP v.2022-08 geological dataset of Antarctica,See quality.list tab
+COMMENTS,GeoMAP,String,250,Free text comprising commentary on information available for mapped features in this area.,
+DATASET,GeoMAP,String,50,Free text indicating broad geographical area containing mapped features in this area.,
+FEATUREID,GeoSciML,String,150,Globally unique identifer for the feature and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_quality_00015),
+Shape_Length,ESRI,Double,8,ESRI field,
+Shape_Area,ESRI,Double,8,ESRI field,
