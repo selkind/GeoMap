@@ -17,9 +17,9 @@
 # arbitrary comment
 # -- Project information -----------------------------------------------------
 
-project = 'GeoMAP'
-copyright = '2020, Samuel Elkind'
-author = 'Samuel Elkind'
+project = "GeoMAP"
+copyright = "2020, Samuel Elkind"
+author = "Samuel Elkind"
 
 
 # -- General configuration ---------------------------------------------------
@@ -28,36 +28,40 @@ author = 'Samuel Elkind'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
-    'sphinx_markdown_tables',
+    "recommonmark",
+    "sphinx_markdown_tables",
 ]
 
 
 # add AutoStructify functionality
 from recommonmark.parser import CommonMarkParser
-source_parsers = {
-    '.md': CommonMarkParser
-}
+
+source_parsers = {".md": CommonMarkParser}
 
 from recommonmark.transform import AutoStructify
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
+
+github_doc_root = "https://github.com/rtfd/recommonmark/tree/master/doc/"
 
 
 def setup(app):
-    app.add_config_value('recommonmark_config', {
-        'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Table of Contents',
-    }, True)
+    app.add_config_value(
+        "recommonmark_config",
+        {
+            "url_resolver": lambda url: github_doc_root + url,
+            "auto_toc_tree_section": "Table of Contents",
+        },
+        True,
+    )
     app.add_transform(AutoStructify)
 
 
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -69,28 +73,30 @@ templates_path = ['_templates']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+import sphinx_rtd_theme  # noqa F401
+
+html_theme = "sphinx_rtd_theme"
 
 html_theme_options = {
-    'logo_only': True,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': True,
-    'sticky_navigation': True,
-    'navigation_depth': 2,
-    'includehidden': True,
-    'titles_only': False,
-    'collapse_navigation': True,
+    "logo_only": True,
+    "display_version": True,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": True,
+    "sticky_navigation": True,
+    "navigation_depth": 2,
+    "includehidden": True,
+    "titles_only": False,
+    "collapse_navigation": True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 # Options for PDF output
-latex_engine = 'xelatex'
+latex_engine = "xelatex"
 latex_elements = {
-    'babel': '\\usepackage{babel}',
-    'extraclassoptions': 'openany,oneside'
+    "babel": "\\usepackage{babel}",
+    "extraclassoptions": "openany,oneside",
 }

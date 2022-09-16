@@ -64,7 +64,7 @@
   year={1990}
 }
 ```
-## Elliot unpublished
+## Elliot 2019 unpublished
   
 **Bibtex citation**
 
@@ -74,6 +74,90 @@
   authors={Elliot, DH},
   journal={Unpublished},
   year={2019}
+}
+```
+## Elliot 2021a unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Cape Roberts Massif and Schroeder Hill},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021b unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of the Cape Surprise area based on Barrett 1965},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021c unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Bush Mountains (Mt Cromie-Mt Butters)},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021d unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Bennett Platform-Mt Heekin area},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021e unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Red Raider-Banded Bluff area},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021f unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Cumulus Hills},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
+}
+```
+## Elliot 2021g unpublished
+  
+**Bibtex citation**
+
+```
+@article{Elliot2021Interpretation,
+  title={Interpretation of Beacon in the Mt Wade area},
+  authors={Elliot, DH},
+  journal={Unpublished},
+  year={2021}
 }
 ```
 ## Forsyth et al. 2002
@@ -100,7 +184,7 @@
   year={2002}
 }
 ```
-## Goodge unpublished
+## Goodge 2008 unpublished
   
 **Bibtex citation**
 

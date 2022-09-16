@@ -6,150 +6,316 @@
 
 ## IDENTIFIER
   
-**Field Description:**  
++ **Reference:** Free text consisting of authors and the year of publication that is unique to a published work.   
   
-A value including the authors and the year of publication that is unique to a published work. Duplicate entries here indicate that multiple figures were referenced by GeoMAP contributors. Information about the page and figure numbers specific to the polygon are found in PUBLICATION.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 64  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 497
+- Most frequently occurring value: LeMasurier & Thomson 1990
+- Number of values with a single occurrence: 459
 
 ## TITLE
   
-**Field Description:**  
++ **Reference:** Free text that contains title of a the source material, generally a geological or geophysical map, or a figure in a journal article.  
   
-The title of the source.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 256  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 502
+- Most frequently occurring value: Volcanoes of the Antarctic Plate and Southern Oceans
+- Number of values with a single occurrence: 468
 
 ## AUTHORS
   
-**Field Description:**  
++ **Reference:** Free text containing list of authors for the source material.  
   
-The authors of the source.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 256  
   
-A comma, semi-colon, or ampersand-separated list of author last names and initials.  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 440
+- Most frequently occurring value: LeMasurier W.E., Thomson J.W.
+- Number of values with a single occurrence: 379
 
 ## PUBLICATION
   
-**Field Description:**  
++ **Reference:** Free text noting the journal or publishing organization of the source. Includes specific page and figure numbers where applicable.  
   
-The journal or publishing organization of the source. Also includes specific page and figure numbers if multiple from the same source were referenced by GeoMAP.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 254  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 461
+- Most frequently occurring value: Unpublished M.Sc. thesis
+- Number of values with a single occurrence: 434
 
 ## INSTITUTION
   
-**Field Description:**  
++ **Reference:** Free text noting the institution affiliated with the publication or authors.  
   
-The institution affiliated with the publication or authors.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 64  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 114
+- Most frequently occurring value: USARP
+- Number of values with a single occurrence: 59
 
 ## SCALE
   
-**Field Description:**  
++ **Reference:** Denominator of scale of publication of source material  
   
-The scale of the figure or publication.  
++ **Type:** Integer  
   
-**Formatting of Values:**  
++ **Length:** 4  
   
-1:INT  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 110
+- Most frequently occurring value: 250000.0
+- Number of values with a single occurrence: 56
 
 ## YEAR
   
-**Field Description:**  
++ **Reference:** Year of publication of source material.  
   
-The year of publication.  
++ **Type:** Integer  
   
-**Formatting of Values:**  
++ **Length:** 2  
   
-YYYY  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 64
+- Most frequently occurring value: 1990
+- Number of values with a single occurrence: 5
 
 ## PUBTYPE
   
-**Field Description:**  
++ **Reference:** Free text noting type or format of source material.  
   
-The format of the publication. Additional information about whether or not the source is published is available in PUBLICATION.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 32  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 8
+- Most frequently occurring value: Published paper
+- Number of values with a single occurrence: 0
 
 ## NATPROG
   
-**Field Description:**  
++ **Reference:** Free text noting the country hosting the institution publishing the source material or country where source was published.  
   
-The country that published the source.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 150  
   
-Unstructured Text  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 21
+- Most frequently occurring value: USA
+- Number of values with a single occurrence: 4
 
 ## METADATA
   
-**Field Description:**  
++ **Reference:** Free text that contains a link to metadata for this feature class and conforming to the GeoSciML usage of metadata.  
   
-The link to the metadata for this dataset.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 254  
   
-Link  
++ **Field Values:** [List of Values](field_values/METADATA_values.md)  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/E93FE4EA-5B0D-4D99-8A01-864370931CAA
+- Number of values with a single occurrence: 0
 
 ## RESSCALE
   
-**Field Description:**  
++ **Reference:** Resolution at which the feature is intended to be used.  
   
-The resolution scale at which the polygon was designed to be used or viewed at.  
++ **Type:** Integer  
   
-**Formatting of Values:**  
++ **Length:** 4  
   
-1:INT  
++ **Field Values:** [List of Values](field_values/RESSCALE_values.md)  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 105
+- Most frequently occurring value: 250000.0
+- Number of values with a single occurrence: 54
 
 ## CAPTSCALE
   
-**Field Description:**  
++ **Reference:** Resolution at which the feature was captured.  
   
-The scale at which the polygon was digitized.  
++ **Type:** Integer  
   
-**Formatting of Values:**  
++ **Length:** 4  
   
-1:INT  
++ **Field Values:** [List of Values](field_values/CAPTSCALE_values.md)  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 22
+- Most frequently occurring value: 100000
+- Number of values with a single occurrence: 12
 
 ## CAPTDATE
   
-**Field Description:**  
++ **Reference:** Date when the feature was added to this dataset.  
   
-The date the polygon was added to the dataset.  
++ **Type:** Date  
   
-**Formatting of Values:**  
++ **Length:** 8  
   
-Datetime: YYYY-MM-DDThh:mm:ss  
++ **Field Values:** [List of Values](field_values/CAPTDATE_values.md)  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 36
+- Most frequently occurring value: 2015-06-01 00:00:00+00:00
+- Number of values with a single occurrence: 14
 
 ## MODDATE
   
-**Field Description:**  
++ **Reference:** Date when the feature was last modified.  
   
-The most recent date when the polygon was modified.  
++ **Type:** Date  
   
-**Formatting of Values:**  
++ **Length:** 8  
   
-Datetime: YYYY-MM-DDThh:mm:ss  
++ **Field Values:** [List of Values](field_values/MODDATE_values.md)  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+
+- Unique Values: 34
+- Most frequently occurring value: 2019-07-17 00:00:00+00:00
+- Number of values with a single occurrence: 14
 
 ## FEATUREID
   
-**Field Description:**  
++ **Reference:** Globally unique identifer for the feature and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_sources_00215)  
   
-Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_SVL_250k_geological_units_001607).  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 150  
   
-Geomap naming scheme  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 589
+- Most frequently occurring value: ATA_GeoMAP_sources_00001
+- Number of values with a single occurrence: 589
+
+## SPEC_URI
+  
++ **Reference:** Text that contains a link referring to the GeoSciML GeologicalUnit feature that describes the instance in detail.  If missing shall be:    
+  
++ **Type:** String  
+  
++ **Length:** 150  
+  
++ **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
+- Number of values with a single occurrence: 0
+
+## SYMBOL
+  
++ **Reference:** Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.  
+  
++ **Type:** String  
+  
++ **Length:** 12  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 1
+- Most frequently occurring value: 
+- Number of values with a single occurrence: 0
+
+## Shape_Length
+  
++ **Reference:** ESRI field  
+  
++ **Type:** Double  
+  
++ **Length:** 8  
+  
++ **fieldSource:** ESRI  
+  
+**More Information:**  
+
+- Unique Values: 589
+- Most frequently occurring value: 177246.72464861872
+- Number of values with a single occurrence: 589
+
+## Shape_Area
+  
++ **Reference:** ESRI field  
+  
++ **Type:** Double  
+  
++ **Length:** 8  
+  
++ **fieldSource:** ESRI  
+  
+**More Information:**  
+
+- Unique Values: 589
+- Most frequently occurring value: 1907264404.0964565
+- Number of values with a single occurrence: 589

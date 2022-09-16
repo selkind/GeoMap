@@ -342,6 +342,19 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology,%20mineralogy%20and%20geochemistry%20of%20the%20Late%20Cenozoic%20McMurdo%20Volcanic%20Group,%20Victoria%20Land,%20Antarctica%20Kyle%20P.R.%201976)**
+## La Prade 1969
+  
+**Bibtex citation**
+
+```
+@article{La1969Geology,
+  title={Geology of the Shackleton Glacier Area, Queen Maud Range, Transantarctic Mountains, Antarctica.},
+  authors={La, PradeKE},
+  journal={Unpublished Ph.D. thesis},
+  year={1969}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Shackleton%20Glacier%20Area,%20Queen%20Maud%20Range,%20Transantarctic%20Mountains,%20Antarctica.%20La%20Prade%20K.E.%201969)**
 ## Lockett 2003
   
 **Bibtex citation**
@@ -491,13 +504,13 @@
 
 ```
 @article{Simpson2002Felsicmagmatism,
-  title={Felsic magmatism in the darwin Glacier region, southern Victoria Land, Antarctica},
+  title={Felsic magmatism in the Darwin Glacier region, southern Victoria Land, Antarctica},
   authors={Simpson, AL},
   journal={Unpublished M.Sc. thesis},
   year={2002}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Felsic%20magmatism%20in%20the%20darwin%20Glacier%20region,%20southern%20Victoria%20Land,%20Antarctica%20Simpson%20A.L.%202002)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Felsic%20magmatism%20in%20the%20Darwin%20Glacier%20region,%20southern%20Victoria%20Land,%20Antarctica%20Simpson%20A.L.%202002)**
 ## Smillie 1989
   
 **Bibtex citation**

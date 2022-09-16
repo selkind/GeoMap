@@ -15,6 +15,7 @@ types-requests = "*"
 types-pyyaml = "*"
 recommonmark = "*"
 sphinx-markdown-tables = "*"
+sphinx-rtd-theme = "*"
 
 [dev-packages]
 mypy = "*"

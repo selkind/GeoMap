@@ -1,0 +1,34 @@
+Field Name,GeoSciML Name,Field Source,Type,Length,Reference,Source
+NAME,name,GeoSciML,Text,150,Free text containing name of the fault and conforming to the GeoSciML usage of name.,
+DESCR,description,GeoSciML,Text,255,Restricted text that describes the fault and conforming to the GeoSciML usage of description., See faultDescription.list tab
+TYPENAME,faultType,GeoSciML,Text,50,Restricted text that describes the type of fault and conforming to the GeoSciML usage of faultType. Must match entryname of TYPE_URI.,
+TYPE_URI,faultType_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the faultType. Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/faulttype
+ACCURACY,,GMNZ,Text,20,Restricted text describing the accuracy with which the feature is located. ,See locationAccuracy.list tab
+EXPOSURE,,GMNZ,Text,50,Restricted text that describes the exposure of the fault. ,See exposure.list tab
+ACTIVITY,,GMNZ,Text,20,Restricted text that describes if the fault is considered active. ,See activity.list tab
+DEFRMSTYLE,deformationStyle,GeoSciML,Text,50,Restricted text that describes the style of deformation associated with fault and conforming to the GeoSciML usage of deformationStyle. Must match entryname of DEFRM_URI.,
+DEFRM_URI,deformationStyle_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the deformationStyle. Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/faultmovementsense
+MVTTYPE,movementType,GeoSciML,Text,50,Restricted text that describes the type of movement associated with fault and conforming to the GeoSciML usage of movementType. Must match entryname of MVTTYP_URI.,
+MVTTYP_URI,movementType_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the movementType. Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/faultmovementtype
+DISPLCMNT,displacement,GeoSciML,Text,50,Free text that summarises the displacement across the fault and conforming to the GeoSciML usage of displacement.,
+DOWNQUAD,,GMNZ,Text,4, Restricted text defining the down thrown side of the fault.,See downQuadrant.list tab
+DIP_DEG,,GMNZ,Short,,Restricted value that defines the mean dip of the fault plane.,Any integer value between 0 and 90.  99 indicates a missing value.
+DIPDIR_DEG,,GMNZ,Short,,Restricted value that defines the mean dip direction of the fault plane,Any integer value between 0 and 360.  999 indicates a missing value.
+GEOLHIST,geologicHistory,GeoSciML,Text,150,Free text that describes the age of faulting events and conforming to the GeoSciML usage of geologicHistory.,
+REPAGE_URI,representativeAge_uri,GeoSciML,Text,150, Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the activity on the fault. Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+YNGAGE_URI,representativeOlderAge_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the youngest activity on the fault. Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+OLDAGE_URI,representativeYoungerAge_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the oldest activity on the fault. Must be a URI from:,http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras
+OBSMETHOD,observationMethod,GeoSciML,Text,50,Restricted text that describes the method of observation used to capture the fault and conforming to the GeoSciML usage of observationMethod. Must match entryname of URI from:,http://resource.geosciml.org/classifier/cgi/featureobservationmethod
+CONFIDENCE,,GMNZ,Text,150,Free text that provides a statement concerning the accuracy of the data provided in associated fields. Fields which contain data about which there is uncertainty are listed.,
+POSACC_M,positionalAccuracy,GeoSciML,Long,,An estimate of the accuracy (in metres) within which the fault has been located and conforming to the GeoSciML usage of positionalAccuracy.,
+SOURCE,source,GeoSciML,Text,150,Free text that contains information on the source of the fault and conforming to the GeoSciML usage of source.,
+METADATA,metadata_uri,GeoSciML,Text,150,Free text that contains a link to metadata describing the dataset and conforming to the GeoSciML usage of metadata.,
+RESSCALE,,GMNZ,Long,4,Resolution at which the fault is intended to be used.,
+CAPTSCALE,,GMNZ,Long,4,Resolution at which the fault was captured.,
+CAPTDATE,,GMNZ,Date,8,Date when the fault was added to this dataset.,
+MODDATE,,GMNZ,Date,8,Date when the fault was last modified.,
+PLOTRANK,,GMNZ,Long,,Free integer controling plotting of the fault for a specific use.,
+FEATUREID,identifier,GeoSciML,Text,150,Globally unique identifer for the fault and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_faults_00066),
+SPEC_URI,specification_uri,GeoSciML,Text,150,Restricted text that contains a link referring to the GeoSciML ShearDisplacementStructure feature that describes the instance in detail.,http://www.opengis.net/def/nil/OGC/0/missing
+SYMBOL,genericSymbolizer,GeoSciML,Text,50,Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.,
+SHAPE_LENGTH,,ESRI,Double,,ESRI field,

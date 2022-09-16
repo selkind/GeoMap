@@ -4,78 +4,120 @@
 
 # Quality Information Field Glossary
 
-## Id
-  
-**Field Description:**  
-  
-Unknown  
-
-## STATUS
-  
-**Field Description:**  
-  
-The status of the region in terms of outcrop digitization progress.  
-  
-**Formatting of Values:**  
-  
-String  
-
 ## OUTCROP
   
-**Field Description:**  
++ **Reference:** Restricted text indicating existence of rock outcrop in this area.  
   
-Whether or not the region contains outcrops  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 10  
   
-String {yes, no}  
++ **Source:** Choose from: yes or no  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
 
-## DATASET
-  
-**Field Description:**  
-  
-The data set to which the region belongs.  
-  
-**Formatting of Values:**  
-  
-String  
-
-## FAULTS
-  
-**Field Description:**  
-  
-The status of the region in terms of fault digitization progress  
-  
-**Formatting of Values:**  
-  
-String  
+- Unique Values: 2
+- Most frequently occurring value: no
+- Number of values with a single occurrence: 0
 
 ## QUALITY
   
-**Field Description:**  
++ **Reference:** Restricted text signifying a quality assessment of the compiled data for SCAR GeoMAP v.2022-08 geological dataset of Antarctica  
   
-The overall quality rating of the information in the region. (Lowest = 1, Highest = 5)  
++ **Type:** Integer  
   
-**Formatting of Values:**  
++ **Length:** 2  
   
-Integer {1-5}  
++ **Source:** [Restricted List](restricted_values.md)  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 5
+- Most frequently occurring value: 0
+- Number of values with a single occurrence: 0
 
 ## COMMENTS
   
-**Field Description:**  
++ **Reference:** Free text comprising commentary on information available for mapped features in this area.  
   
-Miscellaneous comments about the progress of the region’s digitization. Mostly pertaining to geology and sources.  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 250  
   
-String  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
 
-## STRUCTURE_DATA
+- Unique Values: 22
+- Most frequently occurring value: 
+- Number of values with a single occurrence: 0
+
+## DATASET
   
-**Field Description:**  
++ **Reference:** Free text indicating broad geographical area containing mapped features in this area.  
   
-The status of the region in terms of structure digitization progress  
++ **Type:** String  
   
-**Formatting of Values:**  
++ **Length:** 50  
   
-String  
++ **Field Values:** [List of Values](field_values/DATASET_values.md)  
+  
++ **fieldSource:** GeoMAP  
+  
+**More Information:**  
+
+- Unique Values: 16
+- Most frequently occurring value: WAAT
+- Number of values with a single occurrence: 1
+
+## FEATUREID
+  
++ **Reference:** Globally unique identifer for the feature and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_quality_00015)  
+  
++ **Type:** String  
+  
++ **Length:** 150  
+  
++ **fieldSource:** GeoSciML  
+  
+**More Information:**  
+
+- Unique Values: 43201
+- Most frequently occurring value: ATA_GeoMAP_quality_00001
+- Number of values with a single occurrence: 43201
+
+## Shape_Length
+  
++ **Reference:** ESRI field  
+  
++ **Type:** Double  
+  
++ **Length:** 8  
+  
++ **fieldSource:** ESRI  
+  
+**More Information:**  
+
+- Unique Values: 6567
+- Most frequently occurring value: 54800.38423188626
+- Number of values with a single occurrence: 1
+
+## Shape_Area
+  
++ **Reference:** ESRI field  
+  
++ **Type:** Double  
+  
++ **Length:** 8  
+  
++ **fieldSource:** ESRI  
+  
+**More Information:**  
+
+- Unique Values: 9448
+- Most frequently occurring value: 6438514.490616496
+- Number of values with a single occurrence: 235

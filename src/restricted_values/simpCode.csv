@@ -1,0 +1,22 @@
+SIMPCODE,SIMPCLASS,SIMPDESC
+10,Other,Seasonal water and ice
+11,Other,Unknown or unclassified rock
+20,Quaternary-Neogene,"Unconsolidated colluvium, talus, alluvium and undifferentiated till"
+21,Quaternary-Neogene,"Youngest glacial gravel, till and supraglacial material  (Holocene) "
+22,Quaternary-Neogene,"Unconsolidated coastal ice-shelf till, beach or lake deposits"
+23,Quaternary-Neogene,Older glacial gravel and till (Miocene-Quaternary)
+30,Cenozoic,Sedimentary rock with interbedded volcanic or volcaniclastic rock
+31,Cenozoic,Volcanic rock - basalt to rhyolite lava flows and pyroclastic material
+32,Cenozoic,"Intrusive rock - granite, granodiorite, gabbro, or syenite (Eocene-Oligocene)"
+40,Mesozoic-Cenozoic,"Sedimentary and volcanic rocks, pyroclastic material (Jurassic to Paleogene)"
+41,Mesozoic-Cenozoic,Volcanic rock (Jurassic-Paleogene)
+42,Mesozoic-Cenozoic,Ferrar Igneous Province and related volcanic and sedimentary rock (Jurassic)
+43,Mesozoic-Cenozoic,Silicic volcanic and continental sedimentary rock (Jurassic)
+44,Mesozoic-Cenozoic,"Unmetamorphosed granitoid, gabbro and other intrusive rock"
+45,Mesozoic-Cenozoic,"Metamorphosed gneiss and migmatite (Triassic, Cretaceous)"
+50,Paleozoic-Mesozoic,Beacon Supergroup and other sandstone-rich sedimentary rock (Devonian-Triassic)
+60,Proterozoic-Paleozoic,"Intrusive rock - granitoid, diorite, gabbro and orthogneiss"
+61,Proterozoic-Paleozoic,Folded low-grade metasedimentary and metavolcanic rock
+62,Proterozoic-Paleozoic,"Low to medium-grade metamorphic rock - schist, marble, metavolcanic, metasandstone"
+63,Proterozoic-Paleozoic,"High-grade metamorphic rock - orthogneiss, paragneiss, schist and amphibolite"
+70,Archean,"Metamorphic and intrusive rock - schist, gneiss, granulite, migmatite and anatectite"

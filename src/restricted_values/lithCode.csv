@@ -1,0 +1,27 @@
+LITHCODE,Description,Heading
+c,cover sediments,Sedimentary rocks
+s,"mudstone, siltstone, sandstone, conglomerate",Sedimentary rocks
+l,limestone,Sedimentary rocks
+j,volcanogenic sediments,Sedimentary rocks
+w,mixed sediments and volcanic rocks,Sedimentary rocks
+f,felsic,Volcanic rocks
+a,intermediate,Volcanic rocks
+b,mafic to ultramafic,Volcanic rocks
+v,felsic to mafic,Volcanic rocks
+g,felsic,Intrusive rocks
+i,mixed intrusives,Intrusive rocks
+h,intermediate,Intrusive rocks
+d,mafic,Intrusive rocks
+u,mafic to ultramafic,Intrusive rocks
+p,low-medium grade,Metamorphic rocks
+m,metacarbonates,Metamorphic rocks
+y,siliclastic,Metamorphic rocks
+o,hornfels,Metamorphic rocks
+t,volcanic rocks,Metamorphic rocks
+r,felsic to intermediate intrusive rocks,Metamorphic rocks
+e,mafic to ultramafic intrusive rocks,Metamorphic rocks
+n,metamorphics,Metamorphic rocks
+q,quartzite,Metamorphic rocks
+x,complexes,Metamorphic rocks
+z,tectonics,Metamorphic rocks
+?,rocks of unknown rock type,

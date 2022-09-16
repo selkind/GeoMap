@@ -12,7 +12,7 @@
 @article{Adie1969Geology,
   title={Geology of the Northern Antarctic Peninsula},
   authors={Adie, RJ},
-  journal={AGS Folio Series 12 Plate 1},
+  journal={AGS Folio Series 12 Plate 1 (Sheet 1)},
   year={1969}
 }
 ```  
@@ -25,7 +25,7 @@
 @article{Adie1969Geology,
   title={Geology of the Southern Antarctic Peninsula},
   authors={Adie, RJ},
-  journal={AGS Folio Series 12 Plate 2},
+  journal={AGS Folio Series 12 Plate 2 (Sheet 2)},
   year={1969}
 }
 ```  
@@ -69,19 +69,6 @@
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Balchenfjella%20Asami,%20M.,%20Makimoto,%20H.,%20Grew,%20E.S.,%20Osanai,%20Y.,%20Takahashi,%20Y.,%20Tsuchiya,%20N.,%20Tainosho,%20Y.,%20Shiraishi,%20K.%201991)**
-## Autenboer 1969
-  
-**Bibtex citation**
-
-```
-@article{Autenboer1969Geology,
-  title={Geology of the Sor Rondane Mountains},
-  authors={Autenboer, TV},
-  journal={AGS Folio Series 12 Plate 8},
-  year={1969}
-}
-```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Sor%20Rondane%20Mountains%20Autenboer%20T.V.%201969)**
 ## Baroni 1989
   
 **Bibtex citation**
@@ -107,7 +94,7 @@
   year={1973}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Buckley%20Island%20Quadrangle,%20Transantarctic%20Mountains,%20Antarctica%20Barrett%20P.J.,%20%20Elliot%20D.H.%201973)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Buckley%20Island%20Quadrangle,%20Transantarctic%20Mountains,%20Antarctica%20Barrett%20P.J.,%20Elliot%20D.H.%201973)**
 ## Barrett et al. 1970
   
 **Bibtex citation**
@@ -129,7 +116,7 @@
 @article{Bauer2004Geological,
   title={Geological map of BJORNNUTANE, Heimefrontfjella, Antarctica (Scale 1:25,000)},
   authors={Bauer and W and Spaeth and G and Jacobs and J and Weber and K and Siegesmund and S and Thomas and R.J},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138777},
   year={2004}
 }
 ```  
@@ -142,7 +129,7 @@
 @article{Bauer2004Geological,
   title={Geological map of VIKENEGGA, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Bauer and W and Spaeth and G and Jacobs and J and Weber and K and Siegesmund and S and Thomas and R.J},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138788},
   year={2004}
 }
 ```  
@@ -155,11 +142,24 @@
 @article{Bauer2008Geological,
   title={Geological map of HANSSONHORNA, Heimefrontfjella, Dronning Maud Land, Antarctica, 2nd revised Edition (Scale 1:25,000)},
   authors={Bauer and W and Jacobs and J and Schmidt and R},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.686061},
   year={2008}
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20HANSSONHORNA,%20Heimefrontfjella,%20Dronning%20Maud%20Land,%20Antarctica,%202nd%20revised%20Edition%20(Scale%201:25,000)%20Bauer,%20W.,%20Jacobs,%20J.,%20Schmidt,%20R.%202008)**
+## Beg et al. 2006
+  
+**Bibtex citation**
+
+```
+@article{Beg2006Geomorphology,
+  title={Geomorphology of the Schirmacher Oasis},
+  authors={Beg, MJ and Asthana, R and Gaur, MP},
+  journal={Geological Survey of India 1:25,000 Geological Map},
+  year={2006}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geomorphology%20of%20the%20Schirmacher%20Oasis%20Beg%20M.J.,%20Asthana%20R.,%20Gaur%20M.P.%202006)**
 ## Capponi et al. 1991
   
 **Bibtex citation**
@@ -324,7 +324,7 @@
 @article{Craddock1969Geology,
   title={Geology of the Ellsworth Mountains},
   authors={Craddock, C},
-  journal={AGS Folio Series 12 Plate 4},
+  journal={AGS Folio Series 12 Plate 4 (Sheet 4)},
   year={1969}
 }
 ```  
@@ -337,7 +337,7 @@
 @article{Craddock1972Geologic,
   title={Geologic map of Antarctica 1:5 000 000 scale},
   authors={Craddock and C},
-  journal={American Geographic Society},
+  journal={AGS Folio Series 12 Plate 20},
   year={1972}
 }
 ```  
@@ -417,7 +417,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Denton1992Selected,
   title={Selected glacial geologic features, Ellsworth Mountains},
   authors={Denton, GH and Brockheim, JG and Rutford, RH and Andersen, BG},
-  journal={Chapter 22, Figure 3, GSA Memoir 170},
+  journal={GSA Memoir 170, Chapter 22, Figure 3},
   year={1992}
 }
 ```  
@@ -435,32 +435,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Plunket%20Point%20Quadrangle,%20Transantarctic%20Mountains,%20Antarctica%20Elliot%20D.H.,%20Barrett%20P.J.,%20Mayewski%20P.A.%201974)**
-## Elvevold & Ohta 2010
-  
-**Bibtex citation**
-
-```
-@article{Elvevold2010Natureenvironment,
-  title={Nature environment map - H.U. Sverdrupfjella, Dronning Maud Land, Antarctica - 1:150 000},
-  authors={Elvevold and S and Ohta and Y},
-  journal={TEMAKART NR. 28, Norwegian Polar Institute},
-  year={2010}
-}
-```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Nature%20environment%20map%20-%20H.U.%20Sverdrupfjella,%20Dronning%20Maud%20Land,%20Antarctica%20-%201:150%20000%20Elvevold,%20S.,%20Ohta,%20Y.%202010)**
 ## England 1975
   
 **Bibtex citation**
 
 ```
-@article{England1975MawsonEscapment,
-  title={Mawson Escapment South Sheet SS 40-42/8 Preliminary Edition},
-  authors={England, RN},
-  journal={BMR Map},
+@article{England1975Geological,
+  title={Geological map of Mawson Escarpment South sheet S40-42/8 (Preliminary edition)},
+  authors={England, RN(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
   year={1975}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Mawson%20Escapment%20South%20Sheet%20SS%2040-42/8%20Preliminary%20Edition%20England%20R.N.%201975)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Mawson%20Escarpment%20South%20sheet%20S40-42/8%20(Preliminary%20edition)%20England%20R.N.%20(compiler)%201975)**
 ## Ferrigno et al. 2005
   
 **Bibtex citation**
@@ -560,7 +547,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Gair1969Geology,
   title={Geology of Northern Victoria Land},
   authors={Gair, HS and Sturm, A and Carryer, SJ and Grindley, GW},
-  journal={AGS Folio Series 12 Plate 13},
+  journal={AGS Folio Series 12 Plate 12 (Sheet 13)},
   year={1969}
 }
 ```  
@@ -573,7 +560,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Grindley1969Geology,
   title={Geology of the Shackleton Coast},
   authors={Grindley, GW and Laird, MG},
-  journal={AGS Folio Series 12 Plate 15},
+  journal={AGS Folio Series 12 Plate 14 (Sheet 15)},
   year={1969}
 }
 ```  
@@ -742,7 +729,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Ishikawa2000Geological,
   title={Geological map of Mount Riiser-Larsen},
   authors={Ishikawa and M and Hokado and T and Ishizuka and H and Miura and H and Suziki and S and Takada and M},
-  journal={Antarctic Geological Map Series, Sheet  37},
+  journal={Antarctic Geological Map Series, Sheet 37},
   year={2000}
 }
 ```  
@@ -760,6 +747,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Bergersenfjella%20Ishizuka,%20H.,%20Asami,%20M.,%20Grew,%20E.S.,%20Kojima,%20H.,%20Makimoto,%20H.,%20Moriwaki,%20K.,%20Osanai,%20Y.,%20Owada,%20M.,%20Sakiyma,%20T.,%20Shiraishi,%20K.,%20Tainosho,%20Y.,%20Takahashi,%20Y.,%20Toyoshima,%20T.,%20Tsuchiya,%20N.%201993)**
+## Jacobs & Weber 2009
+  
+**Bibtex citation**
+
+```
+@article{Jacobs2009Geological,
+  title={Geological map (Aerial Photo Map) of SCHARFFENBERGBOTNEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
+  authors={Jacobs and J and Weber and K},
+  journal={https://doi.org/10.1594/PANGAEA.727140},
+  year={2009}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20(Aerial%20Photo%20Map)%20of%20SCHARFFENBERGBOTNEN,%20Heimefrontfjella,%20Antarctica%20(Scale%201:25,000).%20Jacobs,%20J.,%20Weber,%20K.%202009)**
 ## Jacobs et al. 2004a
   
 **Bibtex citation**
@@ -768,7 +768,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of WORSFOLDFJELLET, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Siegesmund and S and Bauer and W and Spaeth and G and Thomas and R.J},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138789},
   year={2004}
 }
 ```  
@@ -781,7 +781,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of COTTONTOPPEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Siegesmund and S and Bauer and W and Spaeth and G and Thomas and R.J},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138778},
   year={2004}
 }
 ```  
@@ -794,7 +794,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of JUCKESKAMMEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G and Thomas and R.J},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138782},
   year={2004}
 }
 ```  
@@ -807,7 +807,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of KVITEBOTNEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138783},
   year={2004}
 }
 ```  
@@ -820,7 +820,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of RYGHNUTEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138786},
   year={2004}
 }
 ```  
@@ -833,7 +833,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of NORUMNUTEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138785},
   year={2004}
 }
 ```  
@@ -846,7 +846,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of MONSRUDNABBEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138784},
   year={2004}
 }
 ```  
@@ -859,7 +859,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of SIRINUTEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138787},
   year={2004}
 }
 ```  
@@ -872,7 +872,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of FURUBOTNABBEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138779},
   year={2004}
 }
 ```  
@@ -885,24 +885,50 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Jacobs2004Geological,
   title={Geological map of GRAMKROKEN, Heimefrontfjella, Antarctica (Scale 1:25,000).},
   authors={Jacobs and J and Weber and K and Zarske and G and Kreutzer and S and Spaeth and G},
-  journal={Alfred-Wegener-Institut für Polar- und Meeresforschung},
+  journal={https://doi.org/10.1594/PANGAEA.138780},
   year={2004}
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20GRAMKROKEN,%20Heimefrontfjella,%20Antarctica%20(Scale%201:25,000).%20Jacobs,%20J.,%20Weber,%20K.,%20Zarske,%20G.,%20Kreutzer,%20S.,%20Spaeth,%20G.%202004)**
+## Jacobs et al. 2009
+  
+**Bibtex citation**
+
+```
+@article{Jacobs2009Geological,
+  title={Geological Map Heimefronfjella, Dronning Maud Land, Antarctica - 1:250 000},
+  authors={Jacobs and J and Bauer and W and Kreutzer and S and Patzelt and G and Schmidt and R and Schulze and P and Siegesmund and S and Spaeth and G and Thomas and R.J and Weber and K and Zarske and G},
+  journal={https://doi.org/10.1594/PANGAEA.727130},
+  year={2009}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20Map%20Heimefronfjella,%20Dronning%20Maud%20Land,%20Antarctica%20-%201:250%20000%20Jacobs,%20J.,%20Bauer,%20W.,%20Kreutzer,%20S.,%20Patzelt,%20G.,%20Schmidt,%20R.,%20Schulze,%20P.,%20Siegesmund,%20S.,%20Spaeth,%20G.,Thomas,%20R.J.,%20Weber,%20K.,%20Zarske,%20G.%202009)**
 ## James & Black 1981
   
 **Bibtex citation**
 
 ```
-@article{James1985Structural,
+@article{James1981Structural,
   title={Structural interpretation of Northeast Face Mount McLennan (inset Fig 4 in Sheraton 1985)},
   authors={James, PR and Black, LP},
   journal={Geol. Soc. of Australia Spec Pub 7: 71-83},
-  year={1985}
+  year={1981}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Structural%20interpretation%20of%20Northeast%20Face%20Mount%20McLennan%20(inset%20Fig%204%20in%20Sheraton%201985)%20James%20P.R.,%20Black%20L.P.%201985)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Structural%20interpretation%20of%20Northeast%20Face%20Mount%20McLennan%20(inset%20Fig%204%20in%20Sheraton%201985)%20James%20P.R.,%20Black%20L.P.%201981)**
+## Jayram & Berjarniya 1991
+  
+**Bibtex citation**
+
+```
+@article{Jayaram1991Geology,
+  title={Geology of the Schirmacher-Wohlthat region, central Dronning Mauf Land},
+  authors={Jayaram, E and Bejarniya, BR},
+  journal={Geological Survey of India 1:250,000 map},
+  year={1991}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Schirmacher-Wohlthat%20region,%20central%20Dronning%20Mauf%20Land%20Jayaram%20E.,%20Bejarniya%20B.R.%201991)**
 ## Jordan et al. 1999
   
 **Bibtex citation**
@@ -950,7 +976,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Laudon1969Geology,
   title={Geology of Eastern Ellsworth Land},
   authors={Laudon, TS and Lackey, LL and Quilty, PG and Otway, PM},
-  journal={AGS Folio Series 12 Plate 3},
+  journal={AGS Folio Series 12 Plate 3 (Sheet 3)},
   year={1969}
 }
 ```  
@@ -987,13 +1013,13 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 
 ```
 @article{Lindsay1973Reconnaissance,
-  title={Reconnaissance geologic map of the Mount Eloizabeth and Mount Kathleen Quadrangles, Transantarctic Mountains, Antarctica},
+  title={Reconnaissance geologic map of the Mount Elizabeth and Mount Kathleen Quadrangles, Transantarctic Mountains, Antarctica},
   authors={Lindsay, JF and Gunner, J and Barrett, PJ},
   journal={USGS Reconnaissance Geologic Map},
   year={1973}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Mount%20Eloizabeth%20and%20Mount%20Kathleen%20Quadrangles,%20Transantarctic%20Mountains,%20Antarctica%20Lindsay%20J.F.,%20Gunner%20J.,%20Barrett%20P.J.%201973)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Mount%20Elizabeth%20and%20Mount%20Kathleen%20Quadrangles,%20Transantarctic%20Mountains,%20Antarctica%20Lindsay%20J.F.,%20Gunner%20J.,%20Barrett%20P.J.%201973)**
 ## McCartan et al. 1986
   
 **Bibtex citation**
@@ -1028,7 +1054,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{McGregor1969Geology,
   title={Geology of the Queen Maud Mountains},
   authors={McGregor, VR and Wade, FA},
-  journal={AGS Folio Series 12 Plate 16},
+  journal={AGS Folio Series 12 Plate 15 (Sheet 16)},
   year={1969}
 }
 ```  
@@ -1059,19 +1085,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Mac.Robertson%20Land%20and%20Princess%20Elizabeth%20Land%20and%20Prydz%20(East%20Antarctica)%20Mikhalsky,%20E.V.,%20Laiba,%20A.A.,%20Leitchenkov,%20G.L.,%20Guseva,%20I.B.%20and%20Vorobiev,%20D.M.%20(compiliers)%202018)**
-## Mirskey 1969
+## Mirsky 1969
   
 **Bibtex citation**
 
 ```
-@article{Misrkey1969Geology,
+@article{Mirsky1969Geology,
   title={Geology of the Ohio Range - Liv Glacier},
-  authors={Misrkey, A},
-  journal={AGS Folio Series 12 Plate 17},
+  authors={Mirsky, A},
+  journal={AGS Folio Series 12 Plate 16 (Sheet 17)},
   year={1969}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Ohio%20Range%20-%20Liv%20Glacier%20Misrkey%20A.%201969)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Ohio%20Range%20-%20Liv%20Glacier%20Mirsky%20A.%201969)**
 ## Motoyoshi et al. 1985
   
 **Bibtex citation**
@@ -1171,24 +1197,24 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Neething1969Geology,
   title={Geology of the Ahlmann Ridge, Western Queen Maud Land},
   authors={Neething, DC},
-  journal={AGS Folio Series 12 Plate 7},
+  journal={AGS Folio Series 12 Plate 7 (Sheet 7)},
   year={1969}
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Ahlmann%20Ridge,%20Western%20Queen%20Maud%20Land%20Neething%20D.C.%201969)**
-## Neethling1969
+## Newall et al. 2020
   
 **Bibtex citation**
 
 ```
-@article{Neethling1969Geological,
-  title={Geological map of Antarctica (Sheet 7), Ahlmann Ridge - 1:500000},
-  authors={Neethling, DC},
-  journal={American Geographical Society},
-  year={1969}
+@article{Newall2020Theglacial,
+  title={The glacial geomorphology of Western Dronning Maud Land, Antarctica},
+  authors={Newall, JCH and Dymova, T and Serra, E and Blomdin, R and Fredin, O and Glasser, NF and Suganuma, Y and Narbor, JMStroevenAP},
+  journal={Journal of Maps 16(2) 468-478},
+  year={2020}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Antarctica%20(Sheet%207),%20Ahlmann%20Ridge%20-%201:500000%20Neethling%20D.C.%201969)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20glacial%20geomorphology%20of%20Western%20Dronning%20Maud%20Land,%20Antarctica%20Newall%20J.C.H.,%20Dymova%20T.,%20Serra%20E.,%20Blomdin%20R.,%20Fredin%20O.,%20Glasser%20N.F.,%20Suganuma%20Y.,%20Narbor%20J.M.%20Stroeven%20A.P.%20%202020)**
 ## Nishida et al. 1984
   
 **Bibtex citation**
@@ -1241,6 +1267,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Nature%20environment%20map%20-%20Gjelsvikfjella%20&%20Western%20Mühlig-Hofmannfjella,%20Dronning%20Maud%20Land,%20Antarctica%20-%201:100%20000%20(Sheet%202)%20Ohta,%20Y.%201993)**
+## Ohta 1996
+  
+**Bibtex citation**
+
+```
+@article{Ohta1996Natureenvironment,
+  title={Nature environment map - H.U. Sverdrupfjella, Dronning Maud Land, Antarctica - 1:150 000},
+  authors={Ohta and Y},
+  journal={TEMAKART NR. 28, Norwegian Polar Institute},
+  year={1996}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Nature%20environment%20map%20-%20H.U.%20Sverdrupfjella,%20Dronning%20Maud%20Land,%20Antarctica%20-%201:150%20000%20Ohta,%20Y.%201996)**
 ## Osanai et al. 1996
   
 **Bibtex citation**
@@ -1306,6 +1345,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Convoy%20Range%20area,%20southern%20Victoria%20Land,%20Antarctica.%20Pocknall%20D.T.,%20Chinn%20T.J.,%20Sykes%20R.,%20Skinner%20D.N.B.%201994)**
+## Ravikant 1998
+  
+**Bibtex citation**
+
+```
+@article{Ravikant1998Geological,
+  title={Geological map of the Schirmacher oasis, central Dronning Maud Land, East Antarctica},
+  authors={Ravikant, V},
+  journal={Geological Survey of India 1:25,000 Geological Map},
+  year={1998}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20the%20Schirmacher%20oasis,%20central%20Dronning%20Maud%20Land,%20East%20Antarctica%20Ravikant%20V.%201998)**
 ## Riley et al. 2011a
   
 **Bibtex citation**
@@ -1363,14 +1415,14 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Roots1969Geological,
-  title={Geological map of Antarctica (Sheet 6), Western Queen Maud Land - 1:1000000},
+@article{Roots1969Geology,
+  title={Geology of Western Queen Maud Land},
   authors={Roots, EF},
-  journal={American Geographical Society},
+  journal={AGS Folio Series 12 Plate 6 (Sheet 6)},
   year={1969}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Antarctica%20(Sheet%206),%20Western%20Queen%20Maud%20Land%20-%201:1000000%20Roots%20E.F.%201969)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20Western%20Queen%20Maud%20Land%20Roots%20E.F.%201969)**
 ## Rowley et al. 1992
   
 **Bibtex citation**
@@ -1405,24 +1457,11 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Sanmyaku1969Geology,
   title={Geology of the Yamato Mountains},
   authors={Sanmyaku, Y},
-  journal={AGS Folio Series 12 Plate 9},
+  journal={AGS Folio Series 12 Plate 9 (Sheet 10)},
   year={1969}
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Yamato%20Mountains%20Sanmyaku%20Y.%201969)**
-## Schidt et al. 2008
-  
-**Bibtex citation**
-
-```
-@article{Schmidt2008Geological,
-  title={Geological map of northern XU-Fjella, Heimefrontfjella, Dronning Maud Land, Antarctica (Scale 1:25,000).},
-  authors={Schmidt and R and Jacobs and J and Bauer and W and },
-  journal={Department of Geosciences, Bremen University},
-  year={2008}
-}
-```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20northern%20XU-Fjella,%20Heimefrontfjella,%20Dronning%20Maud%20Land,%20Antarctica%20(Scale%201:25,000).%20Schmidt,%20R.,%20Jacobs,%20J.,%20Bauer,%20W.,%202008)**
 ## Schmidt & Ford 1969
   
 **Bibtex citation**
@@ -1431,7 +1470,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Schimdt1969Geology,
   title={Geology of the Pensacola and Thiel Mountains},
   authors={Schimdt, DL and Ford, AB},
-  journal={AGS Folio Series 12 Plate 5},
+  journal={AGS Folio Series 12 Plate 5 (Sheet 5)},
   year={1969}
 }
 ```  
@@ -1449,6 +1488,19 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geologic%20map%20of%20the%20Schmidt%20Hills%20Quadrangle%20and%20Part%20of%20the%20Gambacorta%20Peak%20Quadrangle,%20Pensacola%20Mountains,%20Antarctica%20Schmidt%20D.L.,%20Williams%20P.L.,%20Nelson%20W.H.%201978)**
+## Schmidt et al. 2008
+  
+**Bibtex citation**
+
+```
+@article{Schmidt2008Geological,
+  title={Geological map of northern XU-Fjella, Heimefrontfjella, Dronning Maud Land, Antarctica (Scale 1:25,000).},
+  authors={Schmidt and R and Jacobs and J and Bauer and W and },
+  journal={https://doi.org/10.1594/PANGAEA.686074},
+  year={2008}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20northern%20XU-Fjella,%20Heimefrontfjella,%20Dronning%20Maud%20Land,%20Antarctica%20(Scale%201:25,000).%20Schmidt,%20R.,%20Jacobs,%20J.,%20Bauer,%20W.,%202008)**
 ## Schussler et al. 1998
   
 **Bibtex citation**
@@ -1462,19 +1514,32 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20the%20Promerantz%20Tableland%20Quadrangle,%20Victoria%20Land,%20Antarctica%20Schussler%20U.,%20Fenn%20G.,%20Flotmann%20T.,%20Kleinschmidt%20G.,%20Olesch%20M.,%20Roland%20N.W.,%20Schubert%20W.,%20Skinner%20D.N.B.%201998)**
-## Sheraton 1975
+## Sheraton 1975a
   
 **Bibtex citation**
 
 ```
-@article{Sheraton1975MawsonEscapment,
-  title={Mawson Escapment North Sheet SS 40-42/4 Preliminary Edition},
-  authors={Sheraton, JW},
-  journal={BMR Map},
+@article{Sheraton1975Geological,
+  title={Geological map of Mawson Escarpment North sheet S40-42/4 (Preliminary edition)},
+  authors={Sheraton, JW(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
   year={1975}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Mawson%20Escapment%20North%20Sheet%20SS%2040-42/4%20Preliminary%20Edition%20Sheraton%20J.W.%201975)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Mawson%20Escarpment%20North%20sheet%20S40-42/4%20(Preliminary%20edition)%20Sheraton%20J.W.%20(compiler)%201975)**
+## Sheraton 1975b
+  
+**Bibtex citation**
+
+```
+@article{Sheraton1975Geological,
+  title={Geological map of Mt Cresswell sheet S40-42/3 (Preliminary edition)},
+  authors={Sheraton, JW(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
+  year={1975}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Mt%20Cresswell%20sheet%20S40-42/3%20(Preliminary%20edition)%20Sheraton%20J.W.%20(compiler)%201975)**
 ## Sheraton 1985
   
 **Bibtex citation**
@@ -1592,7 +1657,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Sør%20Rondane%20Mountains%20Shiraishi,%20K.,%20Osanai,%20Y.,%20Ishizuka,%20H.,%20Asami,%20M.%201997)**
-## Smellie et al. 2011
+## Smellie et al. 2013
   
 **Bibtex citation**
 
@@ -1678,7 +1743,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Tatsumi1969Geology,
   title={Geology of Lutzow-Holm Bay region},
   authors={Tatsumi, T and Kizaki, K},
-  journal={AGS Folio Series 12 Plate 9},
+  journal={AGS Folio Series 12 Plate 9 (Sheet 9)},
   year={1969}
 }
 ```  
@@ -1774,6 +1839,58 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Lambert%20Glacier-Prydz%20Bay%20Region,%20East%20Antarctica%20Thost%20D.E.,%20Leitchenkov%20G.,%20OBrien%20P.E.,%20Tingey%20R.J.,%20Wellman%20P.,%20Golynsky%20A.V.%201998)**
+## Tingey 1972a
+  
+**Bibtex citation**
+
+```
+@article{Tinger1972Geological,
+  title={Geological map of Crohn Massif sheet S41-42/10 (Preliminary edition)},
+  authors={Tinger, RJ(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
+  year={1972}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Crohn%20Massif%20sheet%20S41-42/10%20(Preliminary%20edition)%20Tinger%20R.J.%20(compiler)%201972)**
+## Tingey 1972b
+  
+**Bibtex citation**
+
+```
+@article{Tinger1972Geological,
+  title={Geological map of Fisher Massif - Mt Hicks sheet S41-42/15 & SR41-42/14 (Preliminary edition)},
+  authors={Tinger, RJ(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
+  year={1972}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Fisher%20Massif%20-%20Mt%20Hicks%20sheet%20S41-42/15%20&%20SR41-42/14%20(Preliminary%20edition)%20Tinger%20R.J.%20(compiler)%201972)**
+## Tingey 1975a
+  
+**Bibtex citation**
+
+```
+@article{Tinger1975Geological,
+  title={Geological map of Cumpston Massif sheet S40-42/7 (Preliminary edition)},
+  authors={Tinger, RJ(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
+  year={1975}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Cumpston%20Massif%20sheet%20S40-42/7%20(Preliminary%20edition)%20Tinger%20R.J.%20(compiler)%201975)**
+## Tingey 1975b
+  
+**Bibtex citation**
+
+```
+@article{Tinger1975Geological,
+  title={Geological map of Goodspeed Nunataks sheet S40-42/2 (Preliminary edition)},
+  authors={Tinger, RJ(compiler)},
+  journal={Bureau of Mineral Resources 1:250,000 Geological Map},
+  year={1975}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Goodspeed%20Nunataks%20sheet%20S40-42/2%20(Preliminary%20edition)%20Tinger%20R.J.%20(compiler)%201975)**
 ## Tingey 1991
   
 **Bibtex citation**
@@ -1821,7 +1938,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Trail1969Geology,
   title={Geology of Enderby Land},
   authors={Trail, DS and McLeod, IR},
-  journal={AGS Folio Series 12 Plate 10},
+  journal={AGS Folio Series 12 Plate 10 (Sheet 11)},
   year={1969}
 }
 ```  
@@ -1834,7 +1951,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Trail1969Geology,
   title={Geology of the Lambert Glacier Region},
   authors={Trail, DS and McLeod, IR},
-  journal={AGS Folio Series 12 Plate 11},
+  journal={AGS Folio Series 12 Plate 11 (Sheet 12)},
   year={1969}
 }
 ```  
@@ -1857,14 +1974,14 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 **Bibtex citation**
 
 ```
-@article{Van1969Geological,
-  title={Geological map of Antarctica (Sheet 8), Sør Rondane Mountains - 1:500000},
-  authors={Van, AutenboerT},
-  journal={Antarctic Map Foilo Series, Folio 12 - Geology, Plate VII},
+@article{Vam1969Geology,
+  title={Geology of the Sør Rondane Mountains},
+  authors={Vam, AutenboerT},
+  journal={AGS Folio Series 12 Plate 8 (Sheet 8)},
   year={1969}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Antarctica%20(Sheet%208),%20Sør%20Rondane%20Mountains%20-%201:500000%20Van%20Autenboer%20T.%201969)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Sør%20Rondane%20Mountains%20Vam%20Autenboer%20T.%201969)**
 ## Wade 1969
   
 **Bibtex citation**
@@ -1873,7 +1990,7 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Wade1969Geology,
   title={Geology of Marie Byrd Land},
   authors={Wade, FA},
-  journal={AGS Folio Series Plate 17},
+  journal={AGS Folio Series 12 Plate 17 (Sheet 18)},
   year={1969}
 }
 ```  
@@ -1938,11 +2055,50 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
 @article{Warren1969Geology,
   title={Geology of the Terra Nova Bay - McMurdo Sound Area},
   authors={Warren, G},
-  journal={AGS Folio Series 12 Plate 14},
+  journal={AGS Folio Series 12 Plate 13 (Sheet 14)},
   year={1969}
 }
 ```  
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Terra%20Nova%20Bay%20-%20McMurdo%20Sound%20Area%20Warren%20G.%201969)**
+## Wolmarans & Krynauw 1981a
+  
+**Bibtex citation**
+
+```
+@article{Wolmarans1981Reconnaissance,
+  title={Reconnaissance geological map of the Ahlmannryggen area, Western Dronning Maud Land, Antarctica},
+  authors={Wolmarans, LG and Krynauw, JR},
+  journal={Reconnaissance Geological Map},
+  year={1981}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geological%20map%20of%20the%20Ahlmannryggen%20area,%20Western%20Dronning%20Maud%20Land,%20Antarctica%20Wolmarans%20L.G.,%20Krynauw%20J.R.%201981)**
+## Wolmarans & Krynauw 1981b
+  
+**Bibtex citation**
+
+```
+@article{Wolmarans1981Reconnaissance,
+  title={Reconnaissance geological map of the Borgmassivet area, Western Dronning Maud Land, Antarctica},
+  authors={Wolmarans, LG and Krynauw, JR},
+  journal={Reconnaissance Geological Map},
+  year={1981}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geological%20map%20of%20the%20Borgmassivet%20area,%20Western%20Dronning%20Maud%20Land,%20Antarctica%20Wolmarans%20L.G.,%20Krynauw%20J.R.%201981)**
+## Wolmarans & Krynauw 1981c
+  
+**Bibtex citation**
+
+```
+@article{Wolmarans1981Reconnaissance,
+  title={Reconnaissance geological map of the Kirwanveggen area, Western Dronning Maud Land, Antarctica},
+  authors={Wolmarans, LG and Krynauw, JR},
+  journal={Reconnaissance Geological Map},
+  year={1981}
+}
+```  
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geological%20map%20of%20the%20Kirwanveggen%20area,%20Western%20Dronning%20Maud%20Land,%20Antarctica%20Wolmarans%20L.G.,%20Krynauw%20J.R.%201981)**
 ## Woolfe et al. 1989
   
 **Bibtex citation**
@@ -2059,4 +2215,4 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
   year={1976}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Skallen%20Yoshida,%20M.,%20%20Yoshida,%20Y.,%20Ando,%20H.,%20Ishikawa,%20T.,%20Tatsumi,%20T.%201976)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Skallen%20Yoshida,%20M.,%20Yoshida,%20Y.,%20Ando,%20H.,%20Ishikawa,%20T.,%20Tatsumi,%20T.%201976)**

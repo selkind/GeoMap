@@ -7,11 +7,9 @@
 The `SCAR GeoMAP project <https://www.scar.org/science/geomap/home/>`_
 ====================================================================================================
 
-
 Unofficial Documentation
 #########################################################
-
-.. image:: assets/geomap.jpg
+.. image:: assets/geomap.png
    :width: 700px
    :align: center
    :alt: Image could not load
@@ -24,7 +22,7 @@ Unofficial Documentation
    
    index
 
-Cox S.C., Smith Lyttle B. and the GeoMAP team (2019). Lower Hutt, New Zealand. GNS Science. Release v.201907.
+Cox S.C., Smith Lyttle B. and the GeoMAP team (2022). Lower Hutt, New Zealand. GNS Science. Release v.2022-08.
 **************************************************************************************************************
 `doi:10.21420/7SH7-6K05 <https://doi.org/10.21420/7SH7-6K05>`_
 
@@ -33,14 +31,12 @@ Documentation created by Sam Elkind
 
 Links to GeoMAP resources
 #############################
-
 * `SCAR GeoMAP Action Group homepage <https://www.scar.org/science/geomap/geomap/>`_
 * `Antarctic Explorer <https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/www/index.html>`_
-* `View a Map of the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic>`_
+* `View a Map of the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic_v2022>`_
 * `Download the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/Download.html>`_
-* `GeoMAP Metadata <https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/8F618105-672A-4B89-A505-F6B195EB1858>`_
+* `GeoMAP Metadata <https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/333C1D5A-1F80-4ED2-B6A6-52AB2B03A52F>`_
 * `GeoSciML <http://geosciml.org/>`_
-* `QMAP GIS Specifications <https://www.gns.cri.nz/static/datadict/>`_
 
 Documentation Pages
 #############################
@@ -69,24 +65,20 @@ Documentation Pages
 
 **Restricted Value Lists:**
 
-* :doc:`Accuracy <restricted_values/accuracy>`
-* :doc:`Down-thrown Side <restricted_values/down_thrown>`
-* :doc:`Fault Sense <restricted_values/fault_sense>`
-* :doc:`Fault Type <restricted_values/fault_type>`
-* :doc:`Plot Rank <restricted_values/plotrank>`
+* :doc:`Restricted Values <restricted_values>`
 
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_geological_units
+   :caption: ATA_Geological_Units
    :hidden:
 
    field_glossary
    legend
 
 .. toctree::
-   :maxdepth: 2
-   :caption: ATA_sources_poly
+   :maxdepth: 3
+   :caption: ATA_Sources
    :hidden:
 
    source_glossary
@@ -98,29 +90,26 @@ Documentation Pages
    works_referenced/unknown
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: ATA_faults
    :hidden:
 
    faults_glossary
 
 .. toctree::
-   :maxdepth: 2
-   :caption: ATA_GeoMAP_qualityinformation
+   :maxdepth: 3
+   :caption: ATA_GeoMAP_Quality
    :hidden:
 
    qualinfo_glossary 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Restricted Value Lists
+   :maxdepth: 3
+   :caption: Restricted_Values
    :hidden:
 
-   restricted_values/accuracy
-   restricted_values/down_thrown
-   restricted_values/fault_sense
-   restricted_values/fault_type
-   restricted_values/plotrank
+   restricted_values
+
 
 Source Code
 #############################
