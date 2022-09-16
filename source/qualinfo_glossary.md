@@ -30,7 +30,7 @@
   
 + **Length:** 2  
   
-+ **Source:** [Restricted List](restricted_values.md#quality)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   

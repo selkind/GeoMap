@@ -8,7 +8,7 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock|9037|
 |http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock|8490|
 |http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock|7548|
-|http://resource.geosciml.org/classifier/cgi/lithology/gneiss|6723|
+|http://resource.geosciml.org/classifier/cgi/lithology/gneiss|6708|
 |http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material|6057|
 |http://resource.geosciml.org/classifier/cgi/lithology/granitoid|5775|
 |http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock|4718|
@@ -54,8 +54,8 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/diamictite|109|
 |http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzonite|107|
 |http://resource.geosciml.org/classifier/cgi/lithology/trachytoid|102|
-|http://resource.geosciml.org/classifier/cgi/lithology/marble|95|
 |http://resource.geosciml.org/classifier/cgi/lithology/tephritoid|92|
+|http://resource.geosciml.org/classifier/cgi/lithology/marble|90|
 |https://cgi.vocabs.ga.gov.au/object?uri=http%3A//resource.geosciml.org/classifier/cgi/lithology/granitoid|89|
 |http://resource.geosciml.org/classifier/cgi/lithology/syenite|86|
 |http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate|84|
@@ -74,12 +74,14 @@ Unique values of REPLITH_URI
 |http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite|18|
 |http://resource.geosciml.org/classifier/cgi/lithology/paragmeiss|16|
 |http://resource.geosciml.org/classifier/cgi/lithology/syenogranite|16|
+|Http://resource.geosciml.org/classifier/cgi/lithology/gneiss|15|
 |http://resource.geosciml.org/classifier/cgi/lithology/rhyolite|13|
 |http://resource.geosciml.org/classifier/cgi/lithology/pegmatite |12|
 |http://resource.geosciml.org/classifier/cgi/lithology/granofels|11|
 |http://vocabs.ga.gov.au/cgi/sissvoc/simple-lithology/resource?uri=http://resource.geosciml.org/classifier/cgi/lithology/tephritoid|10|
 |http://resource.geosciml.org/classifier/cgi/lithology/monzodiorite|8|
 |http://resource.geosciml.org/classifier/cgi/lithology/monzodioritic_rock|6|
+|Http://resource.geosciml.org/classifier/cgi/lithology/marble|5|
 |http://resource.geosciml.org/classifier/cgi/lithology/dioritoid|5|
 |http://resource.geosciml.org/classifier/cgi/lithology/conglomerate|4|
 |http://resource.geosciml.org/classifier/cgi/lithology/tuffite|3|

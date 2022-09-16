@@ -10,7 +10,7 @@ Unique values of SIMPDESC
 |Intrusive rock - granitoid, diorite, gabbro and orthogneiss|9865|
 |Folded low-grade metasedimentary and metavolcanic rock|7979|
 |Volcanic rock (Jurassic-Paleogene)|5629|
-|Youngest glacial gravel, till and supraglacial material  (Holocene) |5097|
+|Youngest glacial gravel, till and supraglacial material (Holocene) |5097|
 |Low to medium-grade metamorphic rock - schist, marble, metavolcanic, metasandstone|4740|
 |Ferrar Igneous Province and related volcanic and sedimentary rock (Jurassic)|4492|
 |Beacon Supergroup and other sandstone-rich sedimentary rock (Devonian-Triassic)|4473|

@@ -84,7 +84,7 @@
   
 + **Length:** 20.0  
   
-+ **Source:** [Restricted List](restricted_values.md#locationAccuracy)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
 
@@ -100,7 +100,7 @@
   
 + **Length:** 50.0  
   
-+ **Source:** [Restricted List](restricted_values.md#exposure)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
 
@@ -116,7 +116,7 @@
   
 + **Length:** 20.0  
   
-+ **Source:** [Restricted List](restricted_values.md#activity)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
 
@@ -216,7 +216,7 @@
   
 + **Length:** 4.0  
   
-+ **Source:** [Restricted List](restricted_values.md#downQuadrant)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
 
@@ -362,9 +362,9 @@
   
 **More Information:**  
 
-- Unique Values: 36
-- Most frequently occurring value: feature inferred; TYPENAME from SOURCE map
-- Number of values with a single occurrence: 5
+- Unique Values: 30
+- Most frequently occurring value: TYPENAME from SOURCE map; DEFRMSTYLE, MVTTYPE, DISPLCMNT and GEOLHIST uncertain
+- Number of values with a single occurrence: 4
 
 ## POSACC_M
   

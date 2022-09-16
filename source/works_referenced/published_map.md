@@ -94,7 +94,7 @@
   year={1973}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Buckley%20Island%20Quadrangle,%20Transantarctic%20Mountains,%20Antarctica%20Barrett%20P.J.,%20%20Elliot%20D.H.%201973)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Reconnaissance%20geologic%20map%20of%20the%20Buckley%20Island%20Quadrangle,%20Transantarctic%20Mountains,%20Antarctica%20Barrett%20P.J.,%20Elliot%20D.H.%201973)**
 ## Barrett et al. 1970
   
 **Bibtex citation**
@@ -2215,4 +2215,4 @@ Transantarctic%20Mountains,%20Antarctica%20Davis%20M.B.,%20Blankenship%20D.D.%20
   year={1976}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Skallen%20Yoshida,%20M.,%20%20Yoshida,%20Y.,%20Ando,%20H.,%20Ishikawa,%20T.,%20Tatsumi,%20T.%201976)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20map%20of%20Skallen%20Yoshida,%20M.,%20Yoshida,%20Y.,%20Ando,%20H.,%20Ishikawa,%20T.,%20Tatsumi,%20T.%201976)**

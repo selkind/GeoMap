@@ -60,8 +60,8 @@
   
 **More Information:**  
 
-- Unique Values: 791
-- Most frequently occurring value: Robertson Bay Group
+- Unique Values: 789
+- Most frequently occurring value: outcrop of unknown rock type
 - Number of values with a single occurrence: 44
 
 ## DESCR
@@ -80,7 +80,7 @@
   
 **More Information:**  
 
-- Unique Values: 885
+- Unique Values: 882
 - Most frequently occurring value: Thick sequence of quartzose turbidite greywacke with silty rnudstone intercalations, locally quite similar to the Molar Formation sandstone.
 - Number of values with a single occurrence: 50
 
@@ -152,7 +152,7 @@
   
 **More Information:**  
 
-- Unique Values: 25
+- Unique Values: 7
 - Most frequently occurring value: 
 - Number of values with a single occurrence: 0
 
@@ -228,7 +228,7 @@
   
 **More Information:**  
 
-- Unique Values: 10
+- Unique Values: 13
 - Most frequently occurring value: not specified
 - Number of values with a single occurrence: 0
 
@@ -240,7 +240,7 @@
   
 + **Field Values:** [List of Values](field_values/SIMPCODE_values.md)  
   
-+ **Source:** [Restricted List](restricted_values.md#simpleCode)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   
@@ -356,7 +356,7 @@
   
 **More Information:**  
 
-- Unique Values: 441
+- Unique Values: 440
 - Most frequently occurring value: siltstone, sandstone
 - Number of values with a single occurrence: 14
 
@@ -380,7 +380,7 @@
   
 **More Information:**  
 
-- Unique Values: 87
+- Unique Values: 89
 - Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
 - Number of values with a single occurrence: 3
 
@@ -402,9 +402,9 @@
   
 **More Information:**  
 
-- Unique Values: 136
+- Unique Values: 112
 - Most frequently occurring value: Cambrian to Ordovician
-- Number of values with a single occurrence: 1
+- Number of values with a single occurrence: 0
 
 ## REPAGE_URI
   
@@ -520,7 +520,7 @@
   
 + **Field Values:** [List of Values](field_values/AGECODE_values.md)  
   
-+ **Source:** [Restricted List](restricted_values.md#ageCode)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   
@@ -540,7 +540,7 @@
   
 + **Field Values:** [List of Values](field_values/LITHCODE_values.md)  
   
-+ **Source:** [Restricted List](restricted_values.md#lithCode)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   
@@ -628,7 +628,7 @@
   
 **More Information:**  
 
-- Unique Values: 269
+- Unique Values: 268
 - Most frequently occurring value: 
 - Number of values with a single occurrence: 18
 
@@ -722,7 +722,7 @@
   
 + **Field Values:** [List of Values](field_values/TECTPROV_values.md)  
   
-+ **Source:** [Restricted List](restricted_values.md#tectonicProvince)  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   
@@ -808,7 +808,7 @@
   
 **More Information:**  
 
-- Unique Values: 1
+- Unique Values: 2
 - Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
 - Number of values with a single occurrence: 0
 
@@ -828,6 +828,6 @@
   
 **More Information:**  
 
-- Unique Values: 1
+- Unique Values: 184
 - Most frequently occurring value: 
-- Number of values with a single occurrence: 0
+- Number of values with a single occurrence: 5

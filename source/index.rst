@@ -9,7 +9,7 @@ The `SCAR GeoMAP project <https://www.scar.org/science/geomap/home/>`_
 
 Unofficial Documentation
 #########################################################
-.. image:: assets/geomap.jpg
+.. image:: assets/geomap.png
    :width: 700px
    :align: center
    :alt: Image could not load
@@ -22,7 +22,7 @@ Unofficial Documentation
    
    index
 
-Cox S.C., Smith Lyttle B. and the GeoMAP team (2019). Lower Hutt, New Zealand. GNS Science. Release v.201907.
+Cox S.C., Smith Lyttle B. and the GeoMAP team (2022). Lower Hutt, New Zealand. GNS Science. Release v.2022-08.
 **************************************************************************************************************
 `doi:10.21420/7SH7-6K05 <https://doi.org/10.21420/7SH7-6K05>`_
 
@@ -33,11 +33,10 @@ Links to GeoMAP resources
 #############################
 * `SCAR GeoMAP Action Group homepage <https://www.scar.org/science/geomap/geomap/>`_
 * `Antarctic Explorer <https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/www/index.html>`_
-* `View a Map of the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic>`_
+* `View a Map of the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?map=Antarctic_v2022>`_
 * `Download the Data Here <https://data.gns.cri.nz/ata_geomap/index.html?content=/mapservice/Content/antarctica/Download.html>`_
-* `GeoMAP Metadata <https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/8F618105-672A-4B89-A505-F6B195EB1858>`_
+* `GeoMAP Metadata <https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/333C1D5A-1F80-4ED2-B6A6-52AB2B03A52F>`_
 * `GeoSciML <http://geosciml.org/>`_
-* `QMAP GIS Specifications <https://www.gns.cri.nz/static/datadict/>`_
 
 Documentation Pages
 #############################
@@ -66,7 +65,7 @@ Documentation Pages
 
 **Restricted Value Lists:**
 
-* :doc:`restricted values <restricted_values>`
+* :doc:`Restricted Values <restricted_values>`
 
 
 .. toctree::
@@ -78,7 +77,7 @@ Documentation Pages
    legend
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: ATA_Sources
    :hidden:
 
@@ -91,25 +90,26 @@ Documentation Pages
    works_referenced/unknown
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: ATA_faults
    :hidden:
 
    faults_glossary
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: ATA_GeoMAP_Quality
    :hidden:
 
    qualinfo_glossary 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Restricted_Values
    :hidden:
 
-    restricted_values
+   restricted_values
+
 
 Source Code
 #############################

@@ -48,9 +48,9 @@
   
 **More Information:**  
 
-- Unique Values: 442
+- Unique Values: 440
 - Most frequently occurring value: LeMasurier W.E., Thomson J.W.
-- Number of values with a single occurrence: 382
+- Number of values with a single occurrence: 379
 
 ## PUBLICATION
   
@@ -284,7 +284,9 @@
   
 **More Information:**  
 
-- Unique Values: 0
+- Unique Values: 1
+- Most frequently occurring value: 
+- Number of values with a single occurrence: 0
 
 ## Shape_Length
   

@@ -131,7 +131,7 @@ def format_output(descr_header, value):
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif restricted_vals:
         value = mdutils.tools.Link.Inline.new_link(
-            f"restricted_values.md#{restricted_vals.group(1)}", "Restricted List"
+            "restricted_values.md", "Restricted List"
         )
     elif descr_header == "Field Values":
         value = mdutils.tools.Link.Inline.new_link(link=value, text="List of Values")

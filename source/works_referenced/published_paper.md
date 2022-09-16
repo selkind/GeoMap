@@ -257,13 +257,13 @@
 
 ```
 @article{Bockheim1973Distribution,
-  title={Distribution of glacial deposits soils and permafrost  in Taylor Valley Antarctica},
+  title={Distribution of glacial deposits soils and permafrost in Taylor Valley Antarctica},
   authors={Bockheim, JG and Prentice, ML and McLeod, M},
   journal={Arctic Antarctic and Alpine Research 40(2):279-286},
   year={1973}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Distribution%20of%20glacial%20deposits%20soils%20and%20permafrost%20%20in%20Taylor%20Valley%20Antarctica%20Bockheim%20J.G.,%20Prentice%20M.L.,%20McLeod%20M.%201973)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Distribution%20of%20glacial%20deposits%20soils%20and%20permafrost%20in%20Taylor%20Valley%20Antarctica%20Bockheim%20J.G.,%20Prentice%20M.L.,%20McLeod%20M.%201973)**
 ## Borg et al. 1990
   
 **Bibtex citation**
@@ -367,7 +367,7 @@
   year={1981}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20geology%20of%20the%20Fry%20Glacier%20area,%20South%20Victoria%20Land,%20Antarctica,%20with%20particular%20reference%20to%20the%20Taylor%20Group%20Burgess%20C.J.,%20Palmer%20A.,%20%20Anderson%20J.%20M.%201981)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20geology%20of%20the%20Fry%20Glacier%20area,%20South%20Victoria%20Land,%20Antarctica,%20with%20particular%20reference%20to%20the%20Taylor%20Group%20Burgess%20C.J.,%20Palmer%20A.,%20Anderson%20J.%20M.%201981)**
 ## Burton-Johnson & Riley 2015
   
 **Bibtex citation**
@@ -1030,7 +1030,7 @@
   year={1997}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Hobbs%20Coast%20Cenozoic%20volcanism.-%20Implications%20for%20the%20West%20Antarctic%20rift%20system%20Hart,%20S.%20R.,%20Blusztajn,%20J.,%20LeMasurier,%20W.%20E.%20and%20Rex,%20D.%20C.%20%20%201997)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Hobbs%20Coast%20Cenozoic%20volcanism.-%20Implications%20for%20the%20West%20Antarctic%20rift%20system%20Hart,%20S.%20R.,%20Blusztajn,%20J.,%20LeMasurier,%20W.%20E.%20and%20Rex,%20D.%20C.%20%201997)**
 ## Harwood & Levy 2000
   
 **Bibtex citation**
@@ -1392,7 +1392,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 @article{Kyle1982Volcanic,
   title={Volcanic geology of the Pleiades, northern Victoria Land, Antarctica},
   authors={Kyle, PR},
-  journal={Antarctic  Geoscience (Ed C. Craddock) pp 747-754  Fig 91.2.},
+  journal={Antarctic Geoscience (Ed C. Craddock) pp 747-754 Fig 91.2.},
   year={1982}
 }
 ```  
@@ -1409,7 +1409,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
   year={1990}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=A.18.%20Hut%20Point%20Peninsula%20Kyle%20%20P.R.%201990)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=A.18.%20Hut%20Point%20Peninsula%20Kyle%20P.R.%201990)**
 ## Kyle & Treves 1973
   
 **Bibtex citation**
@@ -1483,7 +1483,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 @article{LeMasurier1990Volcanoes,
   title={Volcanoes of the Antarctic Plate and Southern Oceans},
   authors={LeMasurier, WE and Thomson, JW},
-  journal={Antarctic Research Series, 48: 150-255;  Fig B.16.1a},
+  journal={Antarctic Research Series, 48: 150-255; Fig B.16.1a},
   year={1990}
 }
 ```  
@@ -1916,7 +1916,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
   year={1990}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=A.17.%20Mount%20Erebus%20Moore%20J.A.,%20Kyle%20%20P.R.%201990)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=A.17.%20Mount%20Erebus%20Moore%20J.A.,%20Kyle%20P.R.%201990)**
 ## Mortimer 1981
   
 **Bibtex citation**
@@ -2211,7 +2211,7 @@ West%20Antarctica%20Kipf,%20A.%20,%20Mortimer,%20N.%20,%20Werner,%20R.%20,%20Goh
 @article{Riedel2012Mapping,
   title={Mapping tectonic provinces with airborne gravity and radar data in Dronning Maud Land, East Antarctica},
   authors={Riedel, S and Jokat, W and Steinhage, D},
-  journal={Geophysical Journal International  189: 414-427},
+  journal={Geophysical Journal International 189: 414-427},
   year={2012}
 }
 ```  
@@ -2330,7 +2330,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
 @article{Siddoway2008Tectonics,
   title={Tectonics of the West Antarctic Rift System: New Light on the History and Dynamics of Distributed Intracontinental Extension},
   authors={Siddoway, CS},
-  journal={Proceedings ISAES 10,  doi:10.3133/of2007-1047.kp09},
+  journal={Proceedings ISAES 10, doi:10.3133/of2007-1047.kp09},
   year={2008}
 }
 ```  
@@ -2516,7 +2516,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
   year={2006}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=Plio-Pleistocene%20history%20of%20Ferrar%20Glacier,%20Antarctica:%20Implications%20for%20climate%20and%20ice%20sheet%20stability%20Staiger%20J.W.,%20Marchant%20D.R.,%20Schaefer%20%20J.M.,%20Oberholzer%20P.,%20John%202006)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=Plio-Pleistocene%20history%20of%20Ferrar%20Glacier,%20Antarctica:%20Implications%20for%20climate%20and%20ice%20sheet%20stability%20Staiger%20J.W.,%20Marchant%20D.R.,%20Schaefer%20J.M.,%20Oberholzer%20P.,%20John%202006)**
 ## Stephenson 1966
   
 **Bibtex citation**
@@ -2932,7 +2932,7 @@ Antarctica:%20Melting%20of%20the%20sub-continental%20arc%20mantle%20along%20the%
   year={1989}
 }
 ```  
-**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Mt.%20Melbourne%20Volcanic%20Field%20(Victoria%20Land,%20Antarctica)%20II.%20Geochemistry%20and%20magma%20genesis%20Wörner%20G.,%20Viereck%20%20L.,%20Hertogen%20J.,Niephaus,%20H.%20%201989)**
+**[Google Scholar Link](https://scholar.google.com/scholar?q=The%20Mt.%20Melbourne%20Volcanic%20Field%20(Victoria%20Land,%20Antarctica)%20II.%20Geochemistry%20and%20magma%20genesis%20Wörner%20G.,%20Viereck%20L.,%20Hertogen%20J.,Niephaus,%20H.%20%201989)**
 ## Yakymchuk et al. 2013
   
 **Bibtex citation**
