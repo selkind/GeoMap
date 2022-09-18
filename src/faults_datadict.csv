@@ -1,6 +1,6 @@
 Field Name,GeoSciML Name,Field Source,Type,Length,Reference,Source
 NAME,name,GeoSciML,Text,150,Free text containing name of the fault and conforming to the GeoSciML usage of name.,
-DESCR,description,GeoSciML,Text,255,Restricted text that describes the fault and conforming to the GeoSciML usage of description., See faultDescription.list tab
+DESCR,description,GeoSciML,Text,255,Restricted text that describes the fault and conforming to the GeoSciML usage of description.,See faultDescription.list tab
 TYPENAME,faultType,GeoSciML,Text,50,Restricted text that describes the type of fault and conforming to the GeoSciML usage of faultType. Must match entryname of TYPE_URI.,
 TYPE_URI,faultType_uri,GeoSciML,Text,150,Restricted text that contains a link to the GeoSciML definition of the faultType. Must be a valid URI from:,http://resource.geosciml.org/classifier/cgi/faulttype
 ACCURACY,,GMNZ,Text,20,Restricted text describing the accuracy with which the feature is located. ,See locationAccuracy.list tab

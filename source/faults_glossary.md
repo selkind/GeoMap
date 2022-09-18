@@ -28,7 +28,7 @@
   
 + **Length:** 255.0  
   
-+ **Source:**  See faultDescription.list tab  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **GeoSciML Name:** description  
   
