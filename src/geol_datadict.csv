@@ -3,7 +3,7 @@ MAPSYMBOL,,mapSymbol,GMNZ,Text,20,"Restricted text that contains the unique code
 PLOTSYMBOL,,plotSymbol,GMNZ,Text,20,Restricted text that contains the code based on MAPSYMBOL that can be used to aggregate similar geological units to assign cartographic colour,
 NAME,name,name,GeoSciML,Text,255,Free text containing name of the geologic unit and conforming to the GeoSciML usage of name.,
 DESCR,description,description,GeoSciML,Text,255,Free  text that describes the geologic unit and conforming to the GeoSciML usage of description.,
-POLYGTYPE,,,GeoMAP,Text,20,"Restricted text describing basic division of material (rock, moraine, ice).", See polygType.list tab
+POLYGTYPE,,,GeoMAP,Text,20,"Restricted text describing basic division of material (rock, moraine, ice).",See polygType.list tab
 MBREQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the group member or member equivalent of which this member is part.  Leave this field blank if not applicable.,
 FMNEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the formation or formation equivalent of which this member is part.  Leave this field blank if not applicable.,
 SBGRPEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the subgroup or subgroup equivalent of which this member is part.  Leave this field blank if not applicable.,

@@ -94,7 +94,7 @@
   
 + **Field Values:** [List of Values](field_values/POLYGTYPE_values.md)  
   
-+ **Source:**  See polygType.list tab  
++ **Source:** [Restricted List](restricted_values.md)  
   
 + **fieldSource:** GeoMAP  
   
