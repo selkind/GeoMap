@@ -1,5 +1,7 @@
 # Chronostratigraphic Legend
 
+![](assets/legend_202208.png)
+
 ## Ages and Age codes
 
 ### ARCHEAN (A)
@@ -68,5 +70,3 @@
 
 ### OTHER: 
 - Unknown (?)
-
-![](assets/legend_202208.png)

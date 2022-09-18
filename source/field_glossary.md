@@ -19,11 +19,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 186
-- Most frequently occurring value: KCzv
-- Number of values with a single occurrence: 5
-
+  
++ **Unique Values:** 186  
++ **Most frequently occurring value:** KCzv  
++ **Number of values with a single occurrence:** 5
 ## PLOTSYMBOL
   
 + **Reference:** Restricted text that contains the code based on MAPSYMBOL that can be used to aggregate similar geological units to assign cartographic colour  
@@ -39,11 +38,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 198
-- Most frequently occurring value: KCzv
-- Number of values with a single occurrence: 6
-
+  
++ **Unique Values:** 198  
++ **Most frequently occurring value:** KCzv  
++ **Number of values with a single occurrence:** 6
 ## NAME
   
 + **Reference:** Free text containing name of the geologic unit and conforming to the GeoSciML usage of name.  
@@ -59,11 +57,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 789
-- Most frequently occurring value: outcrop of unknown rock type
-- Number of values with a single occurrence: 44
-
+  
++ **Unique Values:** 789  
++ **Most frequently occurring value:** outcrop of unknown rock type  
++ **Number of values with a single occurrence:** 44
 ## DESCR
   
 + **Reference:** Free  text that describes the geologic unit and conforming to the GeoSciML usage of description.  
@@ -79,11 +76,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 882
-- Most frequently occurring value: Thick sequence of quartzose turbidite greywacke with silty rnudstone intercalations, locally quite similar to the Molar Formation sandstone.
-- Number of values with a single occurrence: 50
-
+  
++ **Unique Values:** 882  
++ **Most frequently occurring value:** Thick sequence of quartzose turbidite greywacke with silty rnudstone intercalations, locally quite similar to the Molar Formation sandstone.  
++ **Number of values with a single occurrence:** 50
 ## POLYGTYPE
   
 + **Reference:** Restricted text describing basic division of material (rock, moraine, ice).  
@@ -99,11 +95,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 3
-- Most frequently occurring value: rock
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 3  
++ **Most frequently occurring value:** rock  
++ **Number of values with a single occurrence:** 0
 ## MBREQUIV
   
 + **Reference:** Free text containing the stratigraphic name of the group member or member equivalent of which this member is part.  Leave this field blank if not applicable.  
@@ -117,11 +112,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 37
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 6
-
+  
++ **Unique Values:** 37  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 6
 ## FMNEQUIV
   
 + **Reference:** Free text containing the stratigraphic name of the formation or formation equivalent of which this member is part.  Leave this field blank if not applicable.  
@@ -133,11 +127,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 414
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 24
-
+  
++ **Unique Values:** 414  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 24
 ## SBGRPEQUIV
   
 + **Reference:** Free text containing the stratigraphic name of the subgroup or subgroup equivalent of which this member is part.  Leave this field blank if not applicable.  
@@ -151,11 +144,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 7
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 7  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 0
 ## GRPEQUIV
   
 + **Reference:**  Free text containing the stratigraphic name of the group or groups or equivalents of which this unit is a part. Leave this field blank if not applicable.  
@@ -169,11 +161,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 81
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 81  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 0
 ## SPGRPEQUIV
   
 + **Reference:** Free text containing the stratigraphic name of the supergroup or supergroups or equivalents of which this unit is a part. Leave this field blank if not applicable.  
@@ -187,11 +178,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 26
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 26  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 0
 ## TERREQUIV
   
 + **Reference:** Free text containing the terrane name or equivalent of which this unit is a part.  Leave this field blank if not applicable.  
@@ -205,11 +195,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 30
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 1
-
+  
++ **Unique Values:** 30  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 1
 ## STRATRANK
   
 + **Reference:** Restricted text describing the stratigraphic rank of the geologic unit and conforming to the GeoSciML usage of rank.   
@@ -227,11 +216,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 13
-- Most frequently occurring value: not specified
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 13  
++ **Most frequently occurring value:** not specified  
++ **Number of values with a single occurrence:** 0
 ## SIMPCODE
   
 + **Reference:** Restricted number encoding SIMPCLASS and DIMPDESC.   
@@ -245,11 +233,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 21
-- Most frequently occurring value: 63
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 21  
++ **Most frequently occurring value:** 63  
++ **Number of values with a single occurrence:** 0
 ## SIMPCLASS
   
 + **Reference:** Restricted text. Simplified, generally age related, subdivision of units.    
@@ -265,11 +252,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 7
-- Most frequently occurring value: Proterozoic-Paleozoic
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 7  
++ **Most frequently occurring value:** Proterozoic-Paleozoic  
++ **Number of values with a single occurrence:** 0
 ## SIMPDESC
   
 + **Reference:** Restricted text. Simplified, generalised description of units.    
@@ -285,11 +271,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 21
-- Most frequently occurring value: High-grade metamorphic rock - orthogneiss, paragneiss, schist and amphibolite
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 21  
++ **Most frequently occurring value:** High-grade metamorphic rock - orthogneiss, paragneiss, schist and amphibolite  
++ **Number of values with a single occurrence:** 0
 ## TYPENAME
   
 + **Reference:** Restricted text that describes the type of geologic unit and conforming to GeoSciML usage of geologicUnitType.    
@@ -309,11 +294,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 5
-- Most frequently occurring value: lithostratigraphic unit
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 5  
++ **Most frequently occurring value:** lithostratigraphic unit  
++ **Number of values with a single occurrence:** 0
 ## TYPE_URI
   
 + **Reference:** Restricted text that contains a link to the GeoSciML definition of the geologicUnitType.  Must be a valid URI from:  
@@ -333,11 +317,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 5
-- Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 5  
++ **Most frequently occurring value:** http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit  
++ **Number of values with a single occurrence:** 0
 ## LITHOLOGY
   
 + **Reference:** Restricted text that describes the lithologies present and conforming to the GeoSciML usage of lithology.     
@@ -355,11 +338,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 440
-- Most frequently occurring value: siltstone, sandstone
-- Number of values with a single occurrence: 14
-
+  
++ **Unique Values:** 440  
++ **Most frequently occurring value:** siltstone, sandstone  
++ **Number of values with a single occurrence:** 14
 ## REPLITH_URI
   
 + **Reference:** Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  Must be a valid URI from:  
@@ -379,11 +361,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 89
-- Most frequently occurring value: http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock
-- Number of values with a single occurrence: 3
-
+  
++ **Unique Values:** 89  
++ **Most frequently occurring value:** http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock  
++ **Number of values with a single occurrence:** 3
 ## GEOLHIST
   
 + **Reference:** Free text that describes the stratigraphic age range of the geologic unit and conforming to the GeoSciML usage of geologicHistory.   
@@ -401,11 +382,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 112
-- Most frequently occurring value: Cambrian to Ordovician
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 112  
++ **Most frequently occurring value:** Cambrian to Ordovician  
++ **Number of values with a single occurrence:** 0
 ## REPAGE_URI
   
 + **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents this unit.  Must be a URI from:  
@@ -425,11 +405,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 43
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Mesozoic
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 43  
++ **Most frequently occurring value:** http://resource.geosciml.org/classifier/ics/ischart/Mesozoic  
++ **Number of values with a single occurrence:** 0
 ## YNGAGE_URI
   
 + **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the youngest part of this unit.  Must be a URI from:  
@@ -449,11 +428,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 54
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Miocene
-- Number of values with a single occurrence: 1
-
+  
++ **Unique Values:** 54  
++ **Most frequently occurring value:** http://resource.geosciml.org/classifier/ics/ischart/Miocene  
++ **Number of values with a single occurrence:** 1
 ## OLDAGE_URI
   
 + **Reference:** Restricted text that contains a link to the GeoSciML definition of the stratigraphic age that best represents the oldest part of this unit.  Must be a URI from:  
@@ -473,11 +451,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 57
-- Most frequently occurring value: http://resource.geosciml.org/classifier/ics/ischart/Jurassic
-- Number of values with a single occurrence: 1
-
+  
++ **Unique Values:** 57  
++ **Most frequently occurring value:** http://resource.geosciml.org/classifier/ics/ischart/Jurassic  
++ **Number of values with a single occurrence:** 1
 ## ABSMIN_MA
   
 + **Reference:** Number that gives the absolute minimum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.  
@@ -489,11 +466,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 131
-- Most frequently occurring value: 0.0
-- Number of values with a single occurrence: 4
-
+  
++ **Unique Values:** 131  
++ **Most frequently occurring value:** 0.0  
++ **Number of values with a single occurrence:** 4
 ## ABSMAX_MA
   
 + **Reference:** Number that gives the absolute maximum age (in millions of years) of the geologic unit as determined by radiometric dating or assigned on the basis of stratigraphy.  
@@ -505,11 +481,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 146
-- Most frequently occurring value: 201.3
-- Number of values with a single occurrence: 3
-
+  
++ **Unique Values:** 146  
++ **Most frequently occurring value:** 201.3  
++ **Number of values with a single occurrence:** 3
 ## AGECODE
   
 + **Reference:** Restricted text identifying Chronographic subdivision of unit.  Used in conjunction with LITHCODE to encode MAPSYMBOL.    
@@ -525,11 +500,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 50
-- Most frequently occurring value: JK
-- Number of values with a single occurrence: 1
-
+  
++ **Unique Values:** 50  
++ **Most frequently occurring value:** JK  
++ **Number of values with a single occurrence:** 1
 ## LITHCODE
   
 + **Reference:** Restricted text identifying dominant lithology of unit.  Used in conjunction with AGECODE to encode MAPSYMBOL.    
@@ -545,11 +519,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 26
-- Most frequently occurring value: n
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 26  
++ **Most frequently occurring value:** n  
++ **Number of values with a single occurrence:** 0
 ## SOURCECODE
   
 + **Reference:** The code used on original published maps and datasets, or originators source material.  
@@ -561,11 +534,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 993
-- Most frequently occurring value: Rb
-- Number of values with a single occurrence: 65
-
+  
++ **Unique Values:** 993  
++ **Most frequently occurring value:** Rb  
++ **Number of values with a single occurrence:** 65
 ## SOURCE
   
 + **Reference:** Free text that contains information on the source of the geologic unit and conforming to the GeoSciML usage of source.  
@@ -583,11 +555,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 234
-- Most frequently occurring value: Smellie 2021
-- Number of values with a single occurrence: 4
-
+  
++ **Unique Values:** 234  
++ **Most frequently occurring value:** Smellie 2021  
++ **Number of values with a single occurrence:** 4
 ## OBSMETHOD
   
 + **Reference:** Restricted text that describes the method of observation used to capture the geologic unit and conforming to the GeoSciML usage of observationMethod. Must match entryname of URI at:     
@@ -607,11 +578,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 8
-- Most frequently occurring value: synthesis from multiple sources
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 8  
++ **Most frequently occurring value:** synthesis from multiple sources  
++ **Number of values with a single occurrence:** 0
 ## CONFIDENCE
   
 + **Reference:** Free text that provides a statement concerning the accuracy of the data provided in associated fields. Fields which contain data about which there is uncertainty are listed.  
@@ -627,11 +597,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 268
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 18
-
+  
++ **Unique Values:** 268  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 18
 ## POSACC_M
   
 + **Reference:** An estimate of the accuracy (in metres) within which the geologic unit has been located and conforming to the GeoSciML usage of positionalAccuracy.  
@@ -645,11 +614,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 1
-- Most frequently occurring value: 250
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 1  
++ **Most frequently occurring value:** 250  
++ **Number of values with a single occurrence:** 0
 ## METADATA
   
 + **Reference:** Free text that contains a link to metadata for this feature class and conforming to the GeoSciML usage of metadata.  
@@ -667,11 +635,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 1
-- Most frequently occurring value: https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/600C1153-7C74-447A-98AC-DEE65C130170
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 1  
++ **Most frequently occurring value:** https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/600C1153-7C74-447A-98AC-DEE65C130170  
++ **Number of values with a single occurrence:** 0
 ## FEATUREID
   
 + **Reference:** Globally unique identifer for the geologic unit and conforming to the GeoSciML usage of identifier. (e.g. ATA_GeoMAP_geological_units_00071)  
@@ -687,11 +654,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 99080
-- Most frequently occurring value: ATA_GeoMAP_geological_units_00001
-- Number of values with a single occurrence: 99080
-
+  
++ **Unique Values:** 99080  
++ **Most frequently occurring value:** ATA_GeoMAP_geological_units_00001  
++ **Number of values with a single occurrence:** 99080
 ## REGION
   
 + **Reference:** Restricted text. Very broad differentiation of geographical area.    
@@ -707,11 +673,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 2
-- Most frequently occurring value: East Antarctica
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 2  
++ **Most frequently occurring value:** East Antarctica  
++ **Number of values with a single occurrence:** 0
 ## TECTPROV
   
 + **Reference:** Restricted text. Differentiation of geographical area based on "tectonic provinces and boundaries" from Siddoway, 2020 (Encyclopedia of Geology, 2nd edition, Ch 3).    
@@ -727,11 +692,10 @@
 + **fieldSource:** GeoMAP  
   
 **More Information:**  
-
-- Unique Values: 14
-- Most frequently occurring value: Antarctic Peninsula
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 14  
++ **Most frequently occurring value:** Antarctic Peninsula  
++ **Number of values with a single occurrence:** 0
 ## RESSCALE
   
 + **Reference:** Resolution at which the geologic unit is intended to be used.  
@@ -747,11 +711,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 5
-- Most frequently occurring value: 250000
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 5  
++ **Most frequently occurring value:** 250000  
++ **Number of values with a single occurrence:** 0
 ## CAPTSCALE
   
 + **Reference:** Resolution at which the geologic unit was captured.  
@@ -767,11 +730,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 3
-- Most frequently occurring value: 50000
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 3  
++ **Most frequently occurring value:** 50000  
++ **Number of values with a single occurrence:** 0
 ## MODDATE
   
 + **Reference:** Date when the geologic unit was last modified.  
@@ -787,11 +749,10 @@
 + **fieldSource:** GMNZ  
   
 **More Information:**  
-
-- Unique Values: 40
-- Most frequently occurring value: 2022-04-11 00:00:00+00:00
-- Number of values with a single occurrence: 3
-
+  
++ **Unique Values:** 40  
++ **Most frequently occurring value:** 2022-04-11 00:00:00+00:00  
++ **Number of values with a single occurrence:** 3
 ## SPEC_URI
   
 + **Reference:** Text that contains a link referring to the GeoSciML GeologicalUnit feature that describes the instance in detail.  If missing shall be:    
@@ -807,11 +768,10 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 2
-- Most frequently occurring value: http://www.opengis.net/def/nil/OGC/0/missing
-- Number of values with a single occurrence: 0
-
+  
++ **Unique Values:** 2  
++ **Most frequently occurring value:** http://www.opengis.net/def/nil/OGC/0/missing  
++ **Number of values with a single occurrence:** 0
 ## SYMBOL
   
 + **Reference:** Restricted text containing an identifier for a symbol from standard symbolization scheme for use in GeoSciML portrayal.  
@@ -827,7 +787,7 @@
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
-
-- Unique Values: 184
-- Most frequently occurring value: 
-- Number of values with a single occurrence: 5
+  
++ **Unique Values:** 184  
++ **Most frequently occurring value:**   
++ **Number of values with a single occurrence:** 5
