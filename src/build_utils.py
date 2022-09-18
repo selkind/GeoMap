@@ -14,8 +14,8 @@ import mdutils
 import pandas as pd
 import fiona
 
-import file_paths as fp
-import fields
+import src.file_paths as fp
+import src.fields as fields
 
 
 def configure_logger(logger_name: str):
@@ -58,11 +58,11 @@ def build_field_glossary(
             mdfile.new_line("")
 
         value_counts = data[i].value_counts()
+
         mdfile.new_line("More Information:", bold_italics_code="b")
         mdfile.new_line()
-
         stats = create_stats(value_counts)
-        mdfile.new_list([f"{k}: {stats[k]}" for k in stats])
+        [mdfile.new_line(f"+ **{k}:** {stats[k]}") for k in stats]
 
     mdfile.create_md_file()
 
