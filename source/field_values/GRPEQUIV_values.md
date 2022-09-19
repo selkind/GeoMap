@@ -4,35 +4,31 @@ Unique values of GRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||44121|
-| |6028|
+|Antarctic Peninsula Volcanic Group|5206|
 |Latady Group|4733|
 |Granite Harbour Intrusives|4518|
 |Robertson Bay Group|3485|
 |LeMay Group|3428|
 |inapplicable|2976|
-|Antarctic Peninsula Volcanic Group |2882|
-|Antarctic Peninsula Volcanic Group|2324|
 |Victoria Group|1920|
 |Byrd Group|1792|
 |Trinity Peninsula Group|1741|
 |Wilson Metamorphic Complex|1598|
 |Crashsite Group|1569|
 |McMurdo Volcanic Group|1422|
-|Brattstrand Paragneiss |1055|
+|Brattstrand Paragneiss|1055|
+|Palmer Land Volcanic Group|1005|
 |Fossil Bluff Group|839|
 |Admiralty Igneous Complex|814|
 |Taylor Group|734|
 |Sledger Group|724|
 |Alexander Island Volcanic Group|647|
 |Graham Land Volcanic Group|647|
-|Palmer Land Volcanic Group|632|
 |James Ross Island Volcanic Group|579|
 |Skelton Group|479|
 |Heritage Group|464|
 |Scotia Metamorphic Complex (Terrane A)|432|
 |Adelaide Island Intrusive Suite|379|
-|Palmer Land Volcanic Group |373|
 |Dry Valleys 1a suite|369|
 |Brabant & Anvers Island Volcanism|356|
 |Leap Year Group|346|

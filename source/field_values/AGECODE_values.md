@@ -15,7 +15,6 @@ Unique values of AGECODE
 |M|3789|
 |NE|3778|
 |Q|3464|
-||3383|
 |N|3087|
 |Cz|3073|
 |Pz|2988|

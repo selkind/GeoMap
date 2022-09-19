@@ -85,33 +85,3 @@
 + **Unique Values:** 43201  
 + **Most frequently occurring value:** ATA_GeoMAP_quality_00001  
 + **Number of values with a single occurrence:** 43201
-## Shape_Length
-  
-+ **Reference:** ESRI field  
-  
-+ **Type:** Double  
-  
-+ **Length:** 8  
-  
-+ **fieldSource:** ESRI  
-  
-**More Information:**  
-  
-+ **Unique Values:** 6567  
-+ **Most frequently occurring value:** 54800.38423188626  
-+ **Number of values with a single occurrence:** 1
-## Shape_Area
-  
-+ **Reference:** ESRI field  
-  
-+ **Type:** Double  
-  
-+ **Length:** 8  
-  
-+ **fieldSource:** ESRI  
-  
-**More Information:**  
-  
-+ **Unique Values:** 9448  
-+ **Most frequently occurring value:** 6438514.490616496  
-+ **Number of values with a single occurrence:** 235

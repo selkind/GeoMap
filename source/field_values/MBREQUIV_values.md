@@ -4,12 +4,10 @@ Unique values of MBREQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||94863|
 |inapplicable|2976|
 |Mount Twiss Member|252|
 |Linder Peak Member|154|
 |Millen Schist lower|134|
-| |121|
 |Landmark Peak Member|121|
 |Lambert series (in part)|103|
 |unknown|83|
@@ -18,7 +16,7 @@ Unique values of MBREQUIV
 |Minaret Formation dark member|25|
 |Millen Schist upper|20|
 |Minaret Formation light member|19|
-|Glider Lake sub-Suite of Tryne Mafic gneiss. |18|
+|Glider Lake sub-Suite of Tryne Mafic gneiss.|18|
 |Schneider Hills Limestone|15|
 |Hawkes Rhyodacite Member|11|
 |Frost Pyroxenite Member|10|

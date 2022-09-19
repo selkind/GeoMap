@@ -50,6 +50,8 @@
   
 + **Length:** 255.0  
   
++ **Field Values:** [List of Values](field_values/NAME_values.md)  
+  
 + **GeoSciML Name:** name  
   
 + **GSA Alias:** name  
@@ -58,7 +60,7 @@
   
 **More Information:**  
   
-+ **Unique Values:** 789  
++ **Unique Values:** 787  
 + **Most frequently occurring value:** outcrop of unknown rock type  
 + **Number of values with a single occurrence:** 44
 ## DESCR
@@ -68,6 +70,8 @@
 + **Type:** Text  
   
 + **Length:** 255.0  
+  
++ **Field Values:** [List of Values](field_values/DESCR_values.md)  
   
 + **GeoSciML Name:** description  
   
@@ -113,8 +117,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 37  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 35  
++ **Most frequently occurring value:** inapplicable  
 + **Number of values with a single occurrence:** 6
 ## FMNEQUIV
   
@@ -128,8 +132,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 414  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 413  
++ **Most frequently occurring value:** Ferrar Dolerite  
 + **Number of values with a single occurrence:** 24
 ## SBGRPEQUIV
   
@@ -145,8 +149,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 7  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 6  
++ **Most frequently occurring value:** inapplicable  
 + **Number of values with a single occurrence:** 0
 ## GRPEQUIV
   
@@ -162,8 +166,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 81  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 77  
++ **Most frequently occurring value:** Antarctic Peninsula Volcanic Group  
 + **Number of values with a single occurrence:** 0
 ## SPGRPEQUIV
   
@@ -179,8 +183,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 26  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 24  
++ **Most frequently occurring value:** Antarctic Peninsula Batholith  
 + **Number of values with a single occurrence:** 0
 ## TERREQUIV
   
@@ -196,8 +200,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 30  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 29  
++ **Most frequently occurring value:** arc magmatism  
 + **Number of values with a single occurrence:** 1
 ## STRATRANK
   
@@ -339,32 +343,9 @@
   
 **More Information:**  
   
-+ **Unique Values:** 440  
++ **Unique Values:** 438  
 + **Most frequently occurring value:** siltstone, sandstone  
-+ **Number of values with a single occurrence:** 14
-## REPLITH_URI
-  
-+ **Reference:** Restricted text that contains a link to the GeoSciML definition of the lithology that best represents this unit.  Must be a valid URI from:  
-  
-+ **Type:** Text  
-  
-+ **Length:** 255.0  
-  
-+ **Field Values:** [List of Values](field_values/REPLITH_URI_values.md)  
-  
-+ **Source:** [http://resource.geosciml.org/classifier/cgi/lithology](http://resource.geosciml.org/classifier/cgi/lithology)  
-  
-+ **GeoSciML Name:** representativeLithology_uri  
-  
-+ **GSA Alias:** representativeLithology_uri  
-  
-+ **fieldSource:** GeoSciML  
-  
-**More Information:**  
-  
-+ **Unique Values:** 89  
-+ **Most frequently occurring value:** http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock  
-+ **Number of values with a single occurrence:** 3
++ **Number of values with a single occurrence:** 13
 ## GEOLHIST
   
 + **Reference:** Free text that describes the stratigraphic age range of the geologic unit and conforming to the GeoSciML usage of geologicHistory.   
@@ -482,7 +463,7 @@
   
 **More Information:**  
   
-+ **Unique Values:** 146  
++ **Unique Values:** 145  
 + **Most frequently occurring value:** 201.3  
 + **Number of values with a single occurrence:** 3
 ## AGECODE
@@ -501,7 +482,7 @@
   
 **More Information:**  
   
-+ **Unique Values:** 50  
++ **Unique Values:** 49  
 + **Most frequently occurring value:** JK  
 + **Number of values with a single occurrence:** 1
 ## LITHCODE
@@ -520,7 +501,7 @@
   
 **More Information:**  
   
-+ **Unique Values:** 26  
++ **Unique Values:** 25  
 + **Most frequently occurring value:** n  
 + **Number of values with a single occurrence:** 0
 ## SOURCECODE
@@ -598,8 +579,8 @@
   
 **More Information:**  
   
-+ **Unique Values:** 268  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 267  
++ **Most frequently occurring value:** Inferred from Smellie 2021, or Burton-Johnson & Riley 2015, based on regional mapping, structural position & nearby outcrops  
 + **Number of values with a single occurrence:** 18
 ## POSACC_M
   
@@ -734,6 +715,25 @@
 + **Unique Values:** 3  
 + **Most frequently occurring value:** 50000  
 + **Number of values with a single occurrence:** 0
+## CAPTDATE
+  
++ **Reference:** Date when the geologic unit was added to this dataset.  
+  
++ **Type:** Date  
+  
++ **Length:** 8.0  
+  
++ **Field Values:** [List of Values](field_values/CAPTDATE_values.md)  
+  
++ **GSA Alias:** captureDate  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+  
++ **Unique Values:** 24  
++ **Most frequently occurring value:** 2017/07/26 00:00:00.000  
++ **Number of values with a single occurrence:** 0
 ## MODDATE
   
 + **Reference:** Date when the geologic unit was last modified.  
@@ -751,7 +751,7 @@
 **More Information:**  
   
 + **Unique Values:** 40  
-+ **Most frequently occurring value:** 2022-04-11 00:00:00+00:00  
++ **Most frequently occurring value:** 2022/04/11 00:00:00.000  
 + **Number of values with a single occurrence:** 3
 ## SPEC_URI
   
@@ -760,6 +760,8 @@
 + **Type:** Text  
   
 + **Length:** 150.0  
+  
++ **Field Values:** [List of Values](field_values/SPEC_URI_values.md)  
   
 + **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
   
@@ -780,6 +782,8 @@
   
 + **Length:** 12.0  
   
++ **Field Values:** [List of Values](field_values/SYMBOL_values.md)  
+  
 + **Source:** Governed by MAPSYMBOL  
   
 + **GeoSciML Name:** genericSymbolizer  
@@ -788,6 +792,6 @@
   
 **More Information:**  
   
-+ **Unique Values:** 184  
-+ **Most frequently occurring value:**   
++ **Unique Values:** 183  
++ **Most frequently occurring value:** KCzv  
 + **Number of values with a single occurrence:** 5

@@ -12,6 +12,8 @@
   
 + **Length:** 150.0  
   
++ **Field Values:** [List of Values](field_values/NAME_values.md)  
+  
 + **GeoSciML Name:** name  
   
 **More Information:**  
@@ -26,6 +28,8 @@
 + **Type:** Text  
   
 + **Length:** 255.0  
+  
++ **Field Values:** [List of Values](field_values/DESCR_values.md)  
   
 + **Source:** [Restricted List](restricted_values.md)  
   
@@ -80,6 +84,8 @@
   
 + **Length:** 20.0  
   
++ **Field Values:** [List of Values](field_values/ACCURACY_values.md)  
+  
 + **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
@@ -94,6 +100,8 @@
 + **Type:** Text  
   
 + **Length:** 50.0  
+  
++ **Field Values:** [List of Values](field_values/EXPOSURE_values.md)  
   
 + **Source:** [Restricted List](restricted_values.md)  
   
@@ -110,6 +118,8 @@
   
 + **Length:** 20.0  
   
++ **Field Values:** [List of Values](field_values/ACTIVITY_values.md)  
+  
 + **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
@@ -125,6 +135,8 @@
   
 + **Length:** 50.0  
   
++ **Field Values:** [List of Values](field_values/DEFRMSTYLE_values.md)  
+  
 + **GeoSciML Name:** deformationStyle  
   
 **More Information:**  
@@ -139,6 +151,8 @@
 + **Type:** Text  
   
 + **Length:** 150.0  
+  
++ **Field Values:** [List of Values](field_values/DEFRM_URI_values.md)  
   
 + **Source:** [http://resource.geosciml.org/classifier/cgi/faultmovementsense](http://resource.geosciml.org/classifier/cgi/faultmovementsense)  
   
@@ -157,6 +171,8 @@
   
 + **Length:** 50.0  
   
++ **Field Values:** [List of Values](field_values/MVTTYPE_values.md)  
+  
 + **GeoSciML Name:** movementType  
   
 **More Information:**  
@@ -171,6 +187,8 @@
 + **Type:** Text  
   
 + **Length:** 150.0  
+  
++ **Field Values:** [List of Values](field_values/MVTTYP_URI_values.md)  
   
 + **Source:** [http://resource.geosciml.org/classifier/cgi/faultmovementtype](http://resource.geosciml.org/classifier/cgi/faultmovementtype)  
   
@@ -189,6 +207,8 @@
   
 + **Length:** 50.0  
   
++ **Field Values:** [List of Values](field_values/DISPLCMNT_values.md)  
+  
 + **GeoSciML Name:** displacement  
   
 **More Information:**  
@@ -204,6 +224,8 @@
   
 + **Length:** 4.0  
   
++ **Field Values:** [List of Values](field_values/DOWNQUAD_values.md)  
+  
 + **Source:** [Restricted List](restricted_values.md)  
   
 **More Information:**  
@@ -217,6 +239,8 @@
   
 + **Type:** Short  
   
++ **Field Values:** [List of Values](field_values/DIP_DEG_values.md)  
+  
 + **Source:** Any integer value between 0 and 90.  99 indicates a missing value.  
   
 **More Information:**  
@@ -229,6 +253,8 @@
 + **Reference:** Restricted value that defines the mean dip direction of the fault plane  
   
 + **Type:** Short  
+  
++ **Field Values:** [List of Values](field_values/DIPDIR_DEG_values.md)  
   
 + **Source:** Any integer value between 0 and 360.  999 indicates a missing value.  
   
@@ -459,6 +485,8 @@
 + **Reference:** Free integer controling plotting of the fault for a specific use.  
   
 + **Type:** Long  
+  
++ **Field Values:** [List of Values](field_values/PLOTRANK_values.md)  
   
 **More Information:**  
   

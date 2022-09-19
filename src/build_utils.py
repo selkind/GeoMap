@@ -30,9 +30,7 @@ def configure_logger(logger_name: str):
 logger = configure_logger(__name__)
 
 
-def build_field_glossary(
-    data: gpd.GeoDataFrame, layer: str, datadict_path: str, output_path: str
-) -> None:
+def build_field_glossary(data: gpd.GeoDataFrame, layer: str, datadict_path: str, output_path: str) -> None:
     field_descr = pd.read_csv(datadict_path).fillna("")
 
     mdfile = mdutils.MdUtils(file_name=output_path, author="Samuel Elkind")
@@ -40,11 +38,11 @@ def build_field_glossary(
     mdfile.new_header(1, title=f"{layer} Field Glossary")
 
     for i in data.columns:
+        if i in fields.OMITTED_FIELDS:
+            continue
         record = field_descr.loc[field_descr["Field Name"] == i]
         if record.shape[0] == 0:
-            logger.info(
-                f"field {i} has no metadata. Add an entry to {fp.FAULTS_FIELD_DESCR_PATH}"
-            )
+            logger.info(f"field {i} has no metadata. Add an entry to {fp.FAULTS_FIELD_DESCR_PATH}")
             continue
         output = create_output(record, i)
 
@@ -77,9 +75,7 @@ def create_stats(value_counts):
     stats["Unique Values"] = len(value_counts)
     if len(value_counts) > 0:
         stats["Most frequently occurring value"] = value_counts.index[0]
-        stats["Number of values with a single occurrence"] = len(
-            [k for k in value_counts if k == 1]
-        )
+        stats["Number of values with a single occurrence"] = len([k for k in value_counts if k == 1])
     return stats
 
 
@@ -117,9 +113,7 @@ def format_output(descr_header, value):
     replace_string = "legend"
     # This link will only work for documentation pages in the base /source directory, otherwise the path to legend
     # won't work
-    legend_link = mdutils.tools.Link.Inline.new_link(
-        link="legend.md", text=replace_string
-    )
+    legend_link = mdutils.tools.Link.Inline.new_link(link="legend.md", text=replace_string)
 
     restricted_vals = re.match(r"See (.+)\.list tab", value)
 
@@ -130,9 +124,7 @@ def format_output(descr_header, value):
     elif "http" in value:
         value = mdutils.tools.Link.Inline.new_link(value, value)
     elif restricted_vals:
-        value = mdutils.tools.Link.Inline.new_link(
-            "restricted_values.md", "Restricted List"
-        )
+        value = mdutils.tools.Link.Inline.new_link("restricted_values.md", "Restricted List")
     elif descr_header == "Field Values":
         value = mdutils.tools.Link.Inline.new_link(link=value, text="List of Values")
     return value

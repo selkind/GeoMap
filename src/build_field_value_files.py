@@ -31,17 +31,13 @@ def build_field_values(geol_units: gpd.GeoDataFrame):
         # chain.from_iterable flattens the tupled output of zip()
         table_header.extend(chain.from_iterable(zip(column.index, column[i])))
 
-        mdfile.new_table(
-            columns=2, rows=column.shape[0] + 1, text=table_header, text_align="center"
-        )
+        mdfile.new_table(columns=2, rows=column.shape[0] + 1, text=table_header, text_align="center")
 
         mdfile.create_md_file()
 
 
 def main():
-    geol_units = gpd.read_file(
-        fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"]
-    )
+    geol_units = gpd.read_file(fp.GEOL_PATH, layer="ATA_geological_units")
     build_field_values(geol_units)
 
 

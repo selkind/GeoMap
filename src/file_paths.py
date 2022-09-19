@@ -10,7 +10,7 @@ SOURCE_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "sources_datadict.csv")
 FAULTS_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "faults_datadict.csv")
 QUALINFO_FIELD_DESCR_PATH = os.path.join(BUILD_DIR, "quality_datadict.csv")
 
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = os.path.join(BASE_DIR, "data", "ATA SCAR GeoMAP v_2022_08_ESRI", "Data")
 GEOL_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_geology.gdb")
 CULTURE_PATH = os.path.join(DATA_DIR, "ATA_SCAR_GeoMAP_culture.gdb")
 

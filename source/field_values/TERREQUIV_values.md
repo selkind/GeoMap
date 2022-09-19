@@ -4,7 +4,6 @@ Unique values of TERREQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||53181|
 |arc magmatism|11528|
 |volcanic arc and interarc sediment|5206|
 |backarc sedimentary basin (Latady Basin)|4733|

@@ -1,4 +1,4 @@
-OMITTED_FIELDS = ["Shape_Length", "Shape_Area", "geometry", "SYMBOL", "SPEC_URI"]
+OMITTED_FIELDS = ["Shape_Length", "Shape_Area", "geometry"]
 
 OUTPUT_ORDERED_FIELDS = [
     "Reference",

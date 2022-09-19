@@ -4,7 +4,6 @@ Unique values of SPGRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||67735|
 |Antarctic Peninsula Batholith|11528|
 |Granite Harbour Intrusive Complex|5988|
 |Ferrar Supergroup|4293|
@@ -18,8 +17,7 @@ Unique values of SPGRPEQUIV
 |Larsen Basin|216|
 |Nimrod Complex|177|
 |Fosdick granite-migmatite complex|142|
-|Brattstrand Paragneiss |125|
-| |112|
+|Brattstrand Paragneiss|125|
 |Pryde Complex|101|
 |Mather Complex|75|
 |Jutulrøra complex|73|

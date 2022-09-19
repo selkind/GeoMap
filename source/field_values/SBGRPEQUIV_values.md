@@ -4,7 +4,6 @@ Unique values of SBGRPEQUIV
 
 |Value|Number of Occurrences|
 | :---: | :---: |
-||95239|
 |inapplicable|2976|
 |Melbourne Volcanics|378|
 |Hallett Volcanics|333|

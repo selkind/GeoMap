@@ -79,7 +79,7 @@ Unique values of GEOLHIST
 |Late Miocene to Pliocene or Pleistocene|73|
 |Early Devonian|72|
 |Paleoproterozoic to Mesoproterozoic|70|
-|Late Archaean to Palaeoproterozoic |65|
+|Late Archaean to Palaeoproterozoic|65|
 |Middle to Late Triassic|63|
 |Jurassic to Neogene|62|
 |Pliocene to Holocene|60|
