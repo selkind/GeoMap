@@ -516,6 +516,8 @@
   
 + **Length:** 150.0  
   
++ **Field Values:** [List of Values](field_values/SPEC_URI_values.md)  
+  
 + **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
   
 + **GeoSciML Name:** specification_uri  
@@ -532,6 +534,8 @@
 + **Type:** Text  
   
 + **Length:** 50.0  
+  
++ **Field Values:** [List of Values](field_values/SYMBOL_values.md)  
   
 + **GeoSciML Name:** genericSymbolizer  
   
