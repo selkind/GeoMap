@@ -30,16 +30,16 @@ possible to see the spatial context of different rock ages from a different pers
 EPSG:4978 (WGS 84) or EPSG:3031 (WGS 84/Antarctic Polar Stereographic) or EPSG:3832 (WGS 84/PDC Mercator)
 coordinate systems to gain an appreciation of the geological age variation around the continent.
 
-## Ages and Age codes
+# Ages and Age codes
 
-### ARCHEAN (A)
+## ARCHEAN (A)
 
-### PROTEROZOIC (Rz)
+## PROTEROZOIC (Rz)
 - Paleoproterozoic (L)
 - Mesoproterozoic (M)
 - Neoproterozoic (N)
 
-### PALEOZOIC (Pz)
+## PALEOZOIC (Pz)
 - Cambrian (E)
 - Ordovician (O)
 - Silurian (S)
@@ -47,12 +47,12 @@ coordinate systems to gain an appreciation of the geological age variation aroun
 - Carboniferous (C)
 - Permian (Y)
 
-### MESOZOIC (Mz)
+## MESOZOIC (Mz)
 - Triassic (T)
 - Jurassic (J)
 - Cretaceous (K)
 
-### CENOZOIC (Cz)
+## CENOZOIC (Cz)
 - Paleogene (P)
 - Neogene (G)
 - Quaternary (Q)
@@ -60,29 +60,29 @@ coordinate systems to gain an appreciation of the geological age variation aroun
 - Holocene (H)
 - Uncertain (?)
 
-## Lithologies and Lith codes
+# Lithologies and Lith codes
 
-### SEDIMENTARY ROCKS: 
+## SEDIMENTARY ROCKS: 
 - unconsolidated sediments (c)
 - mudstone, siltstone, sandstone, conglomerate (s)
 - limestone (l)
 - volcanogenic sediments (j)
 - mixed sediments and volcanic rocks (w)
 
-### VOLCANIC ROCKS: 
+## VOLCANIC ROCKS: 
 - felsic (f)
 - intermediate (a)
 - mafic to ultramafic (b)
 - felsic to mafic (v)
 
-### INTRUSIVE ROCKS: 
+## INTRUSIVE ROCKS: 
 - felsic (g)
 - mixed intrusives (i)
 - intermediate (h)
 - mafic (d)
 - mafic to ultramafic (u)
 
-### METAMORPHIC ROCKS: 
+## METAMORPHIC ROCKS: 
 - Low-medium grade (p)
     - metacarbonate (m)
     - siliciclastic (y)
@@ -96,5 +96,5 @@ coordinate systems to gain an appreciation of the geological age variation aroun
 - Fault/Shear rocks
   - tectonics(z)
 
-### OTHER: 
+## OTHER: 
 - Unknown (?)
