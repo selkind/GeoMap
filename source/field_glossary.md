@@ -222,7 +222,7 @@
 + **Number of values with a single occurrence:** 0
 ## SIMPCODE
   
-+ **Reference:** Restricted number encoding SIMPCLASS and DIMPDESC.   
++ **Reference:** Restricted number encoding SIMPCLASS and SIMPDESC.   
   
 + **Type:** Short  
   
