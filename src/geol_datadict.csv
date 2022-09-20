@@ -11,7 +11,7 @@ GRPEQUIV,,,GMNZ,Text,100, Free text containing the stratigraphic name of the gro
 SPGRPEQUIV,,,GMNZ,Text,100,Free text containing the stratigraphic name of the supergroup or supergroups or equivalents of which this unit is a part. Leave this field blank if not applicable.,
 TERREQUIV,,,GMNZ,Text,100,Free text containing the terrane name or equivalent of which this unit is a part.  Leave this field blank if not applicable.,
 STRATRANK,rank,,GeoSciML,Text,50,Restricted text describing the stratigraphic rank of the geologic unit and conforming to the GeoSciML usage of rank. ,http://resource.geosciml.org/classifier/cgi/stratigraphicrank
-SIMPCODE,,,GeoMAP,Short,,Restricted number encoding SIMPCLASS and DIMPDESC. ,See simpleCode.list tab
+SIMPCODE,,,GeoMAP,Short,,Restricted number encoding SIMPCLASS and SIMPDESC. ,See simpleCode.list tab
 SIMPCLASS,,,GeoMAP,Text,120,"Restricted text. Simplified, generally age related, subdivision of units.  ",Governed by SIMPCODE
 SIMPDESC,,,GeoMAP,Text,120,"Restricted text. Simplified, generalised description of units.  ",Governed by SIMPCODE
 TYPENAME,geologicUnitType,geologicUnitType,GeoSciML,Text,50,Restricted text that describes the type of geologic unit and conforming to GeoSciML usage of geologicUnitType.  ,Must match entryname of TYPE_URI
