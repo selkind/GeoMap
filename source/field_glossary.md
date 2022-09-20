@@ -734,6 +734,25 @@
 + **Unique Values:** 3  
 + **Most frequently occurring value:** 50000  
 + **Number of values with a single occurrence:** 0
+## CAPTDATE
+  
++ **Reference:** Date when the geologic unit was added to this dataset.  
+  
++ **Type:** Date  
+  
++ **Length:** 8.0  
+  
++ **Field Values:** [List of Values](field_values/CAPTDATE_values.md)  
+  
++ **GSA Alias:** captureDate  
+  
++ **fieldSource:** GMNZ  
+  
+**More Information:**  
+  
++ **Unique Values:** 24  
++ **Most frequently occurring value:** 2017-07-26T00:00:00+00:00  
++ **Number of values with a single occurrence:** 0
 ## MODDATE
   
 + **Reference:** Date when the geologic unit was last modified.  
@@ -761,6 +780,8 @@
   
 + **Length:** 150.0  
   
++ **Field Values:** [List of Values](field_values/SPEC_URI_values.md)  
+  
 + **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
   
 + **GeoSciML Name:** specification_uri  
@@ -779,6 +800,8 @@
 + **Type:** Text  
   
 + **Length:** 12.0  
+  
++ **Field Values:** [List of Values](field_values/SYMBOL_values.md)  
   
 + **Source:** Governed by MAPSYMBOL  
   

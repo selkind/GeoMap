@@ -22,12 +22,16 @@ def main():
     layers = get_layer_names()
 
     geol_units = gpd.read_file(
-        fp.GEOL_PATH, layer=layers["geol_layer"], ignore_fields=["CAPTDATE"]
+        fp.GEOL_PATH, layer=layers["geol_layer"], ignore_geometry=True
     ).fillna("")
-    sources = gpd.read_file(fp.GEOL_PATH, layer=layers["sources_layer"])
-    faults = gpd.read_file(fp.GEOL_PATH, layer=layers["faults_layer"]).fillna("")
+    sources = gpd.read_file(
+        fp.GEOL_PATH, layer=layers["sources_layer"], ignore_geometry=True
+    )
+    faults = gpd.read_file(
+        fp.GEOL_PATH, layer=layers["faults_layer"], ignore_geometry=True
+    ).fillna("")
     quality_info = gpd.read_file(
-        fp.GEOL_PATH, layer=layers["quality_info_layer"]
+        fp.GEOL_PATH, layer=layers["quality_info_layer"], ignore_geometry=True
     ).fillna("")
 
     build_restricted_lists()
