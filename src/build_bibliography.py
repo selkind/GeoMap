@@ -149,11 +149,7 @@ def build_bibliography(sources: gpd.GeoDataFrame):
         ):
             i[1].new_header(2, title=j)
 
-            i[1].new_line("Bibtex citation", bold_italics_code="b")
-            i[1].insert_code(works_citations[j]["bibtex"])
-
             if i[0] not in ["Unpublished", "Unknown"]:
-
                 i[1].new_line(
                     mdutils.tools.Link.Inline.new_link(
                         link=works_citations[j]["scholar_link"],
@@ -161,6 +157,9 @@ def build_bibliography(sources: gpd.GeoDataFrame):
                     ),
                     bold_italics_code="b",
                 )
+
+            i[1].new_line("Bibtex citation", bold_italics_code="b")
+            i[1].insert_code(works_citations[j]["bibtex"])
 
         i[1].create_md_file()
 
