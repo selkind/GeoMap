@@ -40,6 +40,8 @@ def build_field_glossary(
     mdfile.new_header(1, title=f"{layer} Field Glossary")
 
     for i in data.columns:
+        if i in fields.OMITTED_FIELDS:
+            continue
         record = field_descr.loc[field_descr["Field Name"] == i]
         if record.shape[0] == 0:
             logger.info(
@@ -148,7 +150,7 @@ def download_data():
 
     logger.info("sending request to download data")
     response = requests.get(
-        "https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/GeoMAP_v201907.zip",
+        "https://data.gns.cri.nz/mapservice/Content/antarctica/geomap/ATA_SCAR_GeoMAP_v2022_08_ESRI.zip",
         stream=True,
     )
     logger.info("response received")

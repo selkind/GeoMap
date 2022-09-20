@@ -247,6 +247,8 @@
   
 + **Length:** 150  
   
++ **Field Values:** [List of Values](field_values/SPEC_URI_values.md)  
+  
 + **Source:** [http://www.opengis.net/def/nil/OGC/0/missing](http://www.opengis.net/def/nil/OGC/0/missing)  
   
 + **fieldSource:** GeoSciML  
@@ -264,6 +266,8 @@
   
 + **Length:** 12  
   
++ **Field Values:** [List of Values](field_values/SYMBOL_values.md)  
+  
 + **fieldSource:** GeoSciML  
   
 **More Information:**  
@@ -271,33 +275,3 @@
 + **Unique Values:** 1  
 + **Most frequently occurring value:**   
 + **Number of values with a single occurrence:** 0
-## Shape_Length
-  
-+ **Reference:** ESRI field  
-  
-+ **Type:** Double  
-  
-+ **Length:** 8  
-  
-+ **fieldSource:** ESRI  
-  
-**More Information:**  
-  
-+ **Unique Values:** 589  
-+ **Most frequently occurring value:** 177246.72464861872  
-+ **Number of values with a single occurrence:** 589
-## Shape_Area
-  
-+ **Reference:** ESRI field  
-  
-+ **Type:** Double  
-  
-+ **Length:** 8  
-  
-+ **fieldSource:** ESRI  
-  
-**More Information:**  
-  
-+ **Unique Values:** 589  
-+ **Most frequently occurring value:** 1907264404.0964565  
-+ **Number of values with a single occurrence:** 589

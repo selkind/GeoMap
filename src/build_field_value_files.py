@@ -40,7 +40,7 @@ def build_field_values(geol_units: gpd.GeoDataFrame):
 
 def main():
     geol_units = gpd.read_file(
-        fp.GEOL_PATH, layer="ATA_geological_units", ignore_fields=["CAPTDATE"]
+        fp.GEOL_PATH, layer="ATA_geological_units", ignore_geometry=True
     )
     build_field_values(geol_units)
 
