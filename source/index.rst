@@ -41,13 +41,17 @@ Links to GeoMAP resources
 Documentation Pages
 #############################
 
-**ATA_geological_units:**
+**ATA_GeoMAP_geological_units:**
 
-* :doc:`Geology Attributes Glossary <field_glossary>`
+* :doc:`Geology Field Glossary <field_glossary>`
 
-**ATA_sources_poly:** 
+**ATA_GeoMAP_legends:**
 
-* :doc:`Source Attibutes Glossary <source_glossary>`
+* :doc:`Legends <legend>`
+
+**ATA_GeoMAP_sources:** 
+
+* :doc:`Source Field Glossary <source_glossary>`
 * :doc:`Published Papers <works_referenced/published_paper>`
 * :doc:`Published Maps <works_referenced/published_map>`
 * :doc:`GIS Datasets <works_referenced/gis>`
@@ -55,13 +59,13 @@ Documentation Pages
 * :doc:`Unpublished Works <works_referenced/unpublished>`
 * :doc:`Unknown Works <works_referenced/unknown>`
 
-**ATA_faults:**
+**ATA_GeoMAP_faults:**
 
-* :doc:`Fault Attributes Glossary <faults_glossary>`
+* :doc:`Faults Field Glossary <faults_glossary>`
 
-**ATA_GeoMAP_qualityinformation:**
+**ATA_GeoMAP_quality:**
 
-* :doc:`Quality Information Attributes Glossary <qualinfo_glossary>`
+* :doc:`Quality Field Glossary <qualinfo_glossary>`
 
 **Restricted Value Lists:**
 
@@ -70,15 +74,21 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_Geological_Units
+   :caption: ATA_GeoMAP_geological_units
    :hidden:
 
    field_glossary
+
+.. toctree::
+   :maxdepth: 3
+   :caption: ATA_GeoMAP_legends
+   :hidden:
+
    legend
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_Sources
+   :caption: ATA_GeoMAP_sources
    :hidden:
 
    source_glossary
@@ -91,14 +101,14 @@ Documentation Pages
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_faults
+   :caption: ATA_GeoMAP_faults
    :hidden:
 
    faults_glossary
 
 .. toctree::
    :maxdepth: 3
-   :caption: ATA_GeoMAP_Quality
+   :caption: ATA_GeoMAP_quality
    :hidden:
 
    qualinfo_glossary 
