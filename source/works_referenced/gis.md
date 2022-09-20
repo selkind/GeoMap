@@ -7,6 +7,7 @@
 ## Abu-Alam et al. 2018
   
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geological%20GIS%20dataset%20of%20Dronning%20Maud%20Land%20Abu-Alam%20T.S.,%20Jacobs%20J.,%20Myhre%20P.I.,%20Elvevold%20S.%202018)**  
+  
 **Bibtex citation**
 
 ```
@@ -20,6 +21,7 @@
 ## Halpin et al. 2012
   
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Solid%20geology%20of%20the%20Stillwell%20Hills%20Antarctica%20Halpin%20J.A.,%20Clarke%20G.L.,%20White%20R.W.,%20Gerakiteys%20C.L.,%20Kelly%20J.A.,%20Fitzherbert%20J.A.,%20Schroter%20F.C.,%20Bennett%20V.,%20Carson%20C.J.%202016)**  
+  
 **Bibtex citation**
 
 ```
@@ -33,6 +35,7 @@
 ## McLennan et al. 2021
   
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Surficial%20geology%20of%20the%20Vestfold%20Hills,%20East%20Antarctica%20(1st%20Edition)%201:65,000%20McLennan%20S.M.,%20Haiblen%20A.M.,%20Smith%20J.%20%202021)**  
+  
 **Bibtex citation**
 
 ```
@@ -46,6 +49,7 @@
 ## SANAP 2006
   
 **[Google Scholar Link](https://scholar.google.com/scholar?q=The%20SANAP%20Digital%20Geological%20Database%20Data%20compiled%20from%20geological%20mapping%20done%20under%20the%20auspices%20of%20the%20South%20African%20National%20Antarctic%20Program%202006)**  
+  
 **Bibtex citation**
 
 ```
@@ -59,6 +63,7 @@
 ## Siddoway et al. unpublished
   
 **[Google Scholar Link](https://scholar.google.com/scholar?q=Geology%20of%20the%20Ford%20Ranges%20and%20Marie%20Byrd%20Land%20Smith%20Siddoway%20C.,%20et%20al.%202015)**  
+  
 **Bibtex citation**
 
 ```

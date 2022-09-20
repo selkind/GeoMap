@@ -157,6 +157,7 @@ def build_bibliography(sources: gpd.GeoDataFrame):
                     ),
                     bold_italics_code="b",
                 )
+                i[1].new_line("")
 
             i[1].new_line("Bibtex citation", bold_italics_code="b")
             i[1].insert_code(works_citations[j]["bibtex"])
