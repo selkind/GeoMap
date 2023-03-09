@@ -25,7 +25,6 @@ Unofficial Documentation
 Citation and Metadata
 **************************************************************************************************************
 
-Citation:
 Cox, Simon Christopher; Smith Lyttle, Belinda; Elkind, Samuel; Smith Siddoway, Christine; Morin, Paul; Capponi, Giovanni; Abu-Alam, Tamer; Ballinger, Matilda; Bamber, Lauren; Kitchener, Brett; Lelli, Luigi; Mawson, Jasmine F; Millikin, Alexie; Dal Seno, Nicola; Whitburn, Louis; White, Tristan; Burton-Johnson, Alex; Crispini, Laura; Elliot, David; Elvevold, Synnove; Goodge, John W; Halpin, Jacqueline A; Jacobs, Joachim; Mikhalsky, Eugene; Martin, Adam P; Morgan, Fraser; Smellie, John; Scadden, Phil; Wilson, Gary (2023). Lower Hutt, New Zealand. GNS Science. Release v.2022-08.
 
 Metadata: `doi:10.21420/7SH7-6K05 <https://doi.org/10.21420/7SH7-6K05>`_
